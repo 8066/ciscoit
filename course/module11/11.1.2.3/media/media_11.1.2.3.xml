@@ -1,0 +1,52 @@
+﻿<textcomponents>
+	
+	<component id="ID_s1_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt01">
+		<text><![CDATA[1. 处理]]></text>
+	</component>
+	
+	<component id="ID_s1_txt02">
+		<text><![CDATA[2. 充电]]></text>
+	</component>
+	
+	<component id="ID_s1_txt03">
+		<text><![CDATA[3. 曝光]]></text>
+	</component>
+	
+	<component id="ID_s1_txt04">
+		<text><![CDATA[4. 显影]]></text>
+	</component>
+	
+	<component id="ID_s1_txt05">
+		<text><![CDATA[5. 转印]]></text>
+	</component>
+	
+	<component id="ID_s1_txt06">
+		<text><![CDATA[6. 熔结]]></text>
+	</component>
+	
+	<component id="ID_s1_txt07">
+		<text><![CDATA[7. 清洁]]></text>
+	</component>
+	
+	<component id="ID_s1_txt08">
+		<text><![CDATA[<font><b>打印机 RAM</b></font>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt09">
+		<text><![CDATA[<font><b>激光</b></font>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt10">
+		<text><![CDATA[<font><b>纸张</b></font>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt11">
+		<text><![CDATA[<font><b>静电消除器</b></font>]]></text>
+	</component>
+	
+
+</textcomponents>

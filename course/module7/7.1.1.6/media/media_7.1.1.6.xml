@@ -1,0 +1,18 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt01">
+		<text><![CDATA[带宽就像是通道的数量。]]></text>
+	</component>
+
+	<component id="ID_s1_txt02">
+		<text><![CDATA[网络设备就像是入口匝道、交通信号、标志和地图。]]></text>
+	</component>
+
+	<component id="ID_s1_txt03">
+		<text><![CDATA[数据传输就类似于车辆出行。]]></text>
+	</component>
+
+</textcomponents>

@@ -1,0 +1,68 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>在输错密码后 iPhone 被临时禁用</b>]]></text>
+	</component>	
+	
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>在输错密码后 iPhone 被临时禁用</b>]]></text>
+	</component>
+	
+	<component id='ID_s2_table01'>
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<tr class="mtable_title">
+				<td colspan="3" bgcolor='#FFFFFF'><font size="16">iOS 失败的密码尝试</font></td>
+			</tr>
+			<tr class="mtable_top">
+				<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>失败尝试</b></font></td>
+				<td bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>其他时间设备已禁用</b></font></td>
+				<td bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>总时间设备已禁用</b></font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8' width='110'>1 到 5</td>
+				<td bgcolor='#E9E7E8'>0</td>
+				<td bgcolor='#E9E7E8'>0</td>
+			</tr>
+			<tr>
+				<td bgcolor='#F2F2F2'>6</td>
+				<td bgcolor='#F2F2F2'>1 分钟</td>	
+				<td bgcolor='#F2F2F2'>1 分钟</td>		
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8'>7</td>
+				<td bgcolor='#E9E7E8'>5 分钟</td>
+				<td bgcolor='#E9E7E8'>6 分钟</td>
+			</tr>
+			<tr>
+				<td bgcolor='#F2F2F2'>8</td>
+				<td bgcolor='#F2F2F2'>15 分钟</td>	
+				<td bgcolor='#F2F2F2'>21 分钟</td>		
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8'>9</td>
+				<td bgcolor='#E9E7E8'>60 分钟</td>
+				<td bgcolor='#E9E7E8'>81 分钟</td>
+			</tr>
+			<tr>
+				<td bgcolor='#F2F2F2'>10</td>
+				<td bgcolor='#F2F2F2'>60 分钟</td>	
+				<td bgcolor='#F2F2F2'>141 分钟</td>		
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8'>11</td>
+				<td colspan='2' bgcolor='#E9E7E8'><i>设备数据已删除</i></td>
+			</tr>
+	</table>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>在 iOS 上输错 10 次密码后清除数据</b>]]></text>
+	</component>
+    
+    <component id="ID_s4_txt01">
+        <text><![CDATA[清除所有数据]]></text>
+	</component>
+   
+</textcomponents>

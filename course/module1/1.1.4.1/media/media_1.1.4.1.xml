@@ -1,0 +1,27 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>键盘、鼠标和触控板</b>]]></text>
+	</component>
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>触摸屏</b>]]></text>
+	</component>
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>摇杆和游戏手柄</b>]]></text>
+	</component>
+	<component id="ID_s4_title">
+		<text><![CDATA[<b>数码相机</b>]]></text>
+	</component>
+	<component id="ID_s5_title">
+		<text><![CDATA[<b>扫描仪</b>]]></text>
+	</component>
+	<component id="ID_s6_title">
+		<text><![CDATA[<b>数字转换器</b>]]></text>
+	</component>
+	<component id="ID_s7_title">
+		<text><![CDATA[<b>指纹阅读器</b>]]></text>
+	</component>
+	<component id="ID_s8_title">
+		<text><![CDATA[<b>KVM 切换器</b>]]></text>
+	</component>
+	
+</textcomponents>

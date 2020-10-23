@@ -1,0 +1,21 @@
+<textcomponents>
+    <component id='ID_title'>
+        <text><![CDATA[<b>打印机估计墨水高度</b>]]></text>
+    </component>
+
+    <component id='ID_txt01'>
+        <text><![CDATA[<b>估计墨水高度</b>]]></text>
+    </component>
+
+    <component id='ID_txt02'>
+        <text><![CDATA[<b>设备服务</b>]]></text>
+    </component>
+
+    <component id='ID_txt03'>
+        <text><![CDATA[<b>设备信息</b>]]></text>
+    </component>
+
+    <component id='ID_txt04'>
+        <text><![CDATA[估计墨水高度。 实际高度可能会有所差异。]]></text>
+    </component>
+</textcomponents>

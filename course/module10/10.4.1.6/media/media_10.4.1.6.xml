@@ -1,0 +1,11 @@
+﻿<textcomponents> 
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>Ubuntu 上的磁盘</b>]]></text>
+</component>
+<component id="ID_s2_title">
+	<text><![CDATA[<b>OS X 上的磁盘实用程序</b>]]></text>
+</component> 
+
+
+</textcomponents>

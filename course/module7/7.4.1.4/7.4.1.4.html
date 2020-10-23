@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.4.1.4 有类 IPv4 编址与无类 IPv4 编址</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.4.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>有类 IPv4 编址与无类 IPv4 编址</h1>
+        <div>
+          <p>当 1981 年首次指定 IPv4 时，人们将地址划分为三类，如图 1 所示。IPv4 地址中第一个八位字节的值表示该地址属于哪个类。每个类分配了一个默认子网掩码。 </p>
+          <p></p>
+          <p>子网掩码通常采用前缀表示法显示，如图 2 所示。“斜线”后面的数字表示子网掩码中有多少位是 1。例如，具有子网掩码 255.255.0.0 的 B 类网络 172.16.0.0 将写作 172.16.0.0/16。“/16”表示子网掩码中的前 16 位全部为 1。</p>
+          <p></p>
+          <p>在 20 世纪 90 年代早期，网络工程师很清楚有类 IPv4 编址系统最终会空间耗尽。很多企业的规模太大，无法使用只有 254 个主机地址的 C 类网络地址。但对于拥有 65,534 个主机地址的 B 类网络地址来说，这些企业的规模又太小。因此，Internet 工程任务组 (IETF) 提出了一种称为无类域间路由器（CIDR，读作“cider”）的地址分配策略。CIDR 是一种临时措施，允许企业使用已根据其具体情况自定义的寻址方案。一个企业可以获得四个具有自定义子网掩码的 C 类网络地址，如图 3 所示。所得到的网络地址称为超网，因为它包含了多个有类网络地址。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

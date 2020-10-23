@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.3.4 Windows 注册表</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.3.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Windows 注册表</h1>
+        <div>
+          <p>Windows 注册表键是 Windows 启动过程的一个重要部分。这些注册表键用特定名称标识，以 HKEY_ 开头，如图所示。HKEY_ 后面的单词和字母表示该注册表键控制的操作系统部分。Windows 中的所有设置都保存在注册表中，涵盖从桌面背景和屏幕按钮的颜色到应用许可。用户对控制面板设置、文件关联、系统策略或已安装的软件做出更改时，这些更改将保存在注册表中。</p>
+          <p></p>
+          <p>每个用户帐户都会占用注册表的唯一一个部分。Windows 登录过程从注册表中加载系统设置，以便为每个个人用户帐户重新配置系统。</p>
+          <p></p>
+          <p>注册表还负责记录动态链接库 (DLL) 文件的位置。DLL 文件包含不同程序用来执行常见功能的程序代码。DLL 文件对于用户安装的操作系统和所有应用的功能都非常重要。</p>
+          <p></p>
+          <p>为了确保操作系统或程序可以正确找到 DLL，必须注册 DLL。在安装过程中，通常会自动注册 DLL。遇到问题时，用户可能需要手动注册 DLL 文件。注册 DLL 可将路径映射到文件，便于程序查找必要的文件。</p>
+          <p></p>
+          <p>要使用命令行工具在 Windows 8.0 和 8.1 中注册 DLL 文件，请使用以下路径：</p>
+          <p></p>
+          <p>将鼠标移至屏幕右上角 > 显示超级按钮栏 > 搜索并键入“<b>命令</b>” > 单击“<b>命令提示符</b>” > 键入 <b>regsvr32</b><i>filename.dll</i></p>
+          <p></p>
+          <p>要使用命令行工具在 Windows 7 和 Vista 中注册 DLL 文件，请使用以下路径：</p>
+          <p></p>
+          <p>
+            <b>开始</b> > 在“<b>搜索程序和文件</b>”栏中键入“命令” > 键入 <b>regsvr32</b><i>filename.dll</i></p>
+          <p></p>
+          <p>
+            <b>注意</b>：dll 文件的文件名必须包含文件名的完整路径，例如 C:\Windows\System32\wuapi.dll。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

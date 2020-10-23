@@ -1,0 +1,5 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>禁用 Windows 防火墙</b>]]></text>
+	</component>
+</textcomponents>

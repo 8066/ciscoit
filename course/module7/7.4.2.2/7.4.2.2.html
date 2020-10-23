@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.4.2.2 传输层功能</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.4.2.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>传输层功能</h1>
+        <div>
+          <p>源应用和目的应用之间的数据流动称为会话。一台计算机可以同时维持多个应用之间的多个会话，如图所示。这一行为由于传输层的三个主要功能而得以实现：</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>跟踪应用之间的单个会话</b> - 一台设备上可以有多个应用同时使用网络。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>将数据分段并重组分段</b> - 发送设备会将应用数据划分成大小合适的多个数据块。接收设备将这些分段重组为应用数据。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>标识应用</b> - 为了将数据流传送到适当的应用，传输层必须要标识目的应用。因此，传输层为每一个应用分配一个标识符，称为端口号。</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

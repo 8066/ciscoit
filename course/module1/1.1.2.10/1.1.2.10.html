@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>1.1.2.10 存储设备接口和 RAID</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_1.1.2.10_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>存储设备接口和 RAID</h1>
+        <div>
+          <p>内部 HDD、SSD 和光驱通常使用串行 ATA（SATA）接头连接到主板。SATA 驱动器使用 SATA 7 引脚数据接头连接到主板。 </p>
+          <p></p>
+          <p>在电缆的一端，接头固定在驱动器上，另一端固定在驱动器控制器上。图 1 显示的是 SATA 电缆。 </p>
+          <p></p>
+          <p>SATA 共有 3 个主要版本：SATA 1、SATA2 和 SATA 3。这三个版本的电缆和接头相同，但是数据传输速度不同。SATA 1 可实现 1.5 Gb/s 的最大数据传输速率，而 SATA 2 可达到 3 Gb/s。SATA 3 的速度最快，可高达 6 Gb/s。</p>
+          <p></p>
+          <p>
+            <b>注意</b>：旧式内部驱动器连接方式包括电子集成驱动器 (IDE)、增强型电子集成驱动器 (EIDE) 和并行 ATA。</p>
+          <p></p>
+          <p>存储设备也可从外部连接到计算机。图 2 显示了便携式硬盘驱动器使用 USB 电缆连接到笔记本电脑。USB 已成为连接外部设备的最常用方式。外部 SATA (eSATA) 是连接外部存储设备的另一种方式。eSATA 电缆和接头的形状不同于 SATA 电缆和接头的形状。</p>
+          <p></p>
+          <p>USB 3.0 和 USB 3.1 为蓝色，由于其快速传输速率，已成为连接外部存储设备的普遍方式。USB 驱动器还支持热插拔，也就是说，当添加或删除驱动器时无需重新启动计算机。计算机上一个 USB 端口理论上可支持多达 127 个不同设备（借助 USB 集线器）。USB 集线器可连接多个 USB 设备。最后，许多设备可通过 USB 端口供电，而无需外部电源。</p>
+          <p></p>
+          <p>有多种类型的 USB 接头。图 3 显示最常见的终端 USB Type A。还显示了其他三种常见的 USB 接头。图 4 显示了最新的 USB 接头 USB-C（或 USB Type C）。</p>
+          <p></p>
+          <p>图 5 描述了连接外部存储设备的方法。图 6 显示了这些连接方法之间的带宽比较。</p>
+          <p></p>
+          <p>可对存储设备进行分组并设法创建更大的存储空间和冗余。为此，计算机可实施独立磁盘冗余阵列 (RAID) 技术。RAID 提供了一种跨多个硬盘存储数据从而实现冗余和/或性能提升的方式。对于操作系统而言，RAID 阵列看起来像一个磁盘。 </p>
+          <p></p>
+          <p>以下术语描述了 RAID 将数据存储到各种磁盘中的方式：</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>奇偶校验</b> - 检测数据错误。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>条带化</b> - 将数据写入多个驱动器。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>镜像</b> - 将重复数据存储在第二个驱动器上。</li>
+            </ul>
+          </p>
+          <p>有多个可用的 RAID 级别。图 7 比较了这些不同的 RAID 级别。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

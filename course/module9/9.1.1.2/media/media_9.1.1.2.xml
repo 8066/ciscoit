@@ -1,0 +1,125 @@
+﻿<textcomponents>
+
+<component id="ID_inst">
+  <text><![CDATA[<b>单击突出显示的区域可查看重要内容。 再次单击突出显示的区域可关闭该内容。 </b>]]></text> 
+</component><!-- slide 1 --><component id="ID_s01_title">
+<text><![CDATA[<b>打开笔记本电脑</b>]]></text>
+</component>
+
+<component id='ID_s01_titleTxt01'>
+	<text><![CDATA[键盘]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt01">
+<text><![CDATA[键盘是一个紧凑的输入设备并且有多功能按键。]]></text>
+</component>
+
+
+<component id='ID_s01_titleTxt02'>
+	<text><![CDATA[输入设备]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt02">
+<text><![CDATA[输入设备是触摸板（包括左右点击按钮）和指针控制器。 触摸板和指针控制器可代替笔记本电脑的鼠标。]]></text>
+</component>
+
+
+<component id='ID_s01_titleTxt03'>
+	<text><![CDATA[指纹识别器]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt03">
+<text><![CDATA[指纹识别器是进行安全身份验证的输入设备。]]></text>
+</component>
+
+
+<component id='ID_s01_titleTxt04'>
+	<text><![CDATA[音量控制]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt04">
+<text><![CDATA[音量控制是控制音频输出的按钮。]]></text>
+</component>
+
+
+<component id='ID_s01_titleTxt05'>
+	<text><![CDATA[电源按钮]]></text>
+
+</component>
+<component id="ID_s01_bodyTxt05">
+<text><![CDATA[电源按钮是打开和关闭笔记本电脑的控件。]]></text>
+</component><!-- end slide 1 --><!-- slide 2 --><component id="ID_s02_title">
+<text><![CDATA[<b>笔记本电脑图标</b>]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt01'>
+	<text><![CDATA[无线 LED]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt01">
+<text><![CDATA[无线 LED 指示无线网络连接的活动。]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt02'>
+	<text><![CDATA[蓝牙状态 LED]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt02">
+<text><![CDATA[蓝牙状态 LED 指示蓝牙无线收发器何时启用。]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt03'>
+	<text><![CDATA[数字锁定 LED]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt03">
+<text><![CDATA[数字锁定 LED 指示 10 键数字键盘的开/关状态。]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt04'>
+	<text><![CDATA[大写锁定 LED]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt04">
+<text><![CDATA[大写锁定 LED 指示大写锁定的开/关状态。]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt05'>
+	<text><![CDATA[硬盘驱动器活动 LED]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt05">
+<text><![CDATA[硬盘驱动器活动 LED 指示硬盘驱动器的活动。]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt06'>
+	<text><![CDATA[开机 LED]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt06">
+<text><![CDATA[开机 LED 指示笔记本电脑的开/关状态。]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt07'>
+	<text><![CDATA[电池状态 LED]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt07">
+<text><![CDATA[电池状态 LED 指示电池的状态。]]></text>
+</component>
+
+
+<component id='ID_s02_titleTxt08'>
+	<text><![CDATA[休眠或待机 LED]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt08">
+<text><![CDATA[休眠或待机 LED 指示计算机是否处于待机模式，或者是否正在进入或退出休眠模式。]]></text>
+</component><!-- end slide 2 --></textcomponents>

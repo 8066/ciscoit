@@ -1,0 +1,10 @@
+<textcomponents>
+	
+	<component id="ID_type">
+		<text><![CDATA[实验]]></text>
+	</component>
+	<component id="ID_title">
+		<text><![CDATA[搜索 NOC 认证和作业]]></text>
+	</component>
+	
+</textcomponents>

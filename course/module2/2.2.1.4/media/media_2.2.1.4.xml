@@ -1,0 +1,11 @@
+﻿<textcomponents><!--Slide 1--><component id='ID_s1_caption'>
+	<text><![CDATA[钢丝钳用于剪切电线]]></text>
+</component><!--Slide 2--><component id='ID_s2_caption'>
+	<text><![CDATA[剥线钳用于剥去电线的绝缘层，以便将其与其他电线缠绕在一起或压接到接头形成电缆。]]></text>
+</component><!--Slide 3--><component id='ID_s3_caption'>
+	<text><![CDATA[压线钳用于将接头与电线相连。]]></text>
+</component><!--Slide 4--><component id='ID_s4_caption'>
+	<text><![CDATA[压线工具用于将电线压接到接线端子中。]]></text>
+</component>
+
+</textcomponents>

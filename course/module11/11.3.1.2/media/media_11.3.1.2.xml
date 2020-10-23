@@ -1,0 +1,10 @@
+﻿<textcomponents> 
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>在 Windows 7 中添加一台网络打印机</b>]]></text>
+</component>
+<component id="ID_s2_title">
+	<text><![CDATA[<b>查找网络中的打印机</b>]]></text>
+</component> 
+
+</textcomponents>

@@ -1,0 +1,116 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b></b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>特洛伊木马类型</b>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>恶意软件变体</b>]]></text>
+	</component>
+
+	<component id="ID_s1_instr_title">
+        <text><![CDATA[病毒可以……]]></text>
+	</component>
+
+	<component id="ID_s1_instr_body">
+        <text><![CDATA[<ul><li>篡改、损坏、删除文件甚至清除计算机上整个硬盘驱动器的内容。</li><li>阻止计算机启动，导致应用无法正确加载或运行。</li><li>使用用户的电子邮件帐户将病毒扩散到其他计算机。</li><li>进入睡眠模式，直到攻击者将其唤醒。</li><li>通过记录按键来捕获敏感信息，例如密码和信用卡号码，并将数据发送给攻击者。</li></ul>]]></text>
+	</component>
+ 
+
+    <component id="ID_s2_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' width="200" valign="top"><font color='#FFFFFF' ><b>特洛伊木马类型</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>描述</b></font></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>远程访问</td>
+			<td bgcolor='#E9E7E8'>特洛伊木马可以未经授权进行远程访问。</td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>数据发送</td>
+			<td bgcolor='#F2F2F2'>特洛伊木马为攻击者提供敏感数据，例如密码。</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>破坏性</td>
+			<td bgcolor='#E9E7E8'>特洛伊木马会损坏或删除文件。</td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>代理</td>
+			<td bgcolor='#F2F2F2'>特洛伊木马将受害者的计算机用作源设备，用来发起攻击和执行其他非法活动。</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>FTP</td>
+			<td bgcolor='#E9E7E8'>特洛伊木马可以未经授权在终端设备上进行文件传输服务。</td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>安全软件禁用程序</td>
+			<td bgcolor='#F2F2F2'>特洛伊木马会阻止防病毒程序或防火墙运行。</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>拒绝服务 (DoS)</td>
+			<td bgcolor='#E9E7E8'>特洛伊木马会减缓或停止网络活动。</td>
+			
+		</tr>
+		
+	</table>]]></text> 
+</component>
+
+<component id="ID_s3_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+         <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' width="150" valign="top"><font color='#FFFFFF' ><b>安全模式</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>描述</b></font></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>蠕虫</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>蠕虫是一种对网络有害的自我复制程序，目的是减缓或中断网络运行。</li><li>蠕虫通常通过利用合法软件中的已知漏洞自动传播。</li></ul></textformat></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>广告软件</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>通常通过下载在线软件来实现分发。</li><li>它通常会以弹出窗口的形式在您的计算机上显示广告。</li><li>广告软件弹出窗口有时很难控制，用户可能未来得及关闭，就会打开新的窗口。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>间谍软件</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>类似于广告软件，但它会在未征得用户同意的情况下，收集用户的相关信息并将信息发送到另一个实体。</li><li>间谍软件可能威胁较低，比如收集浏览数据，也可能威胁较高，比如收集个人或财务信息。</li></ul></textformat></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>勒索软件</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>类似于广告软件，但会拒绝对受感染计算机系统的访问。</li><li>勒索软件随后会要求支付赎金才会解除限制。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Rootkit</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>黑客用来获取对计算机进行管理员帐户级访问的程序。</li><li>很难检测出来，因为它可以控制安全程序来掩盖自己。</li><li>可以使用特殊的 rootkit 删除软件，但有时为了确保 rootkit 完全删除，需要重新安装操作系统。</li></ul></textformat></td>
+			
+		</tr>
+		
+		
+	</table>]]></text> 
+</component>
+</textcomponents>

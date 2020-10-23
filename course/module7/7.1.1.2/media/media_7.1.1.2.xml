@@ -1,0 +1,47 @@
+<textcomponents><!--SLIDE 1--><component id="ID_s1_title">
+	<text><![CDATA[<b>主机设备图标</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[台式计算机]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+	<text><![CDATA[手提电脑]]></text>
+</component>
+
+<component id="ID_s1_txt03">
+	<text><![CDATA[服务器]]></text>
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[平板电脑]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+	<text><![CDATA[智能手机]]></text>
+</component>
+
+<component id="ID_s1_txt06">
+	<text><![CDATA[打印机]]></text>
+</component>
+
+<component id="ID_s1_txt07">
+	<text><![CDATA[摄像头]]></text>
+</component>
+
+<component id="ID_s1_txt08">
+	<text><![CDATA[IP 电话]]></text>
+</component>
+
+<component id="ID_s1_txt09">
+	<text><![CDATA[扫描仪]]></text>
+</component><!--SLIDE 2--><component id="ID_s2_title">
+	<text><![CDATA[<b>计算机网络上的共享资源示例</b>]]></text>
+</component>
+
+<component id="ID_bodyTxt01">
+	<text><![CDATA[<ul><li>服务，比如打印或扫描</li><li>设备上的存储空间，比如硬盘驱动器或光驱</li><li>应用，比如数据库</li><li>存储在其他计算机上的信息，比如文档和照片</li><li>日历，在计算机与智能手机之间同步</li></ul>]]></text>
+</component>
+
+</textcomponents>

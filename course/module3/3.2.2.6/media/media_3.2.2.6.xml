@@ -1,0 +1,52 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>ASUS UEFI 高级模式</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>高级模式“我的收藏夹”屏幕</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>收藏夹设置树形图屏幕</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s4_title">
+	<text><![CDATA[<b>高级模式主屏幕</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s5_title">
+	<text><![CDATA[<b>高级模式 Tweaker 屏幕</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s6_title">
+	<text><![CDATA[<b>高级模式“高级”屏幕</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s7_title">
+	<text><![CDATA[<b>高级模式“显示器”屏幕</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s8_title">
+	<text><![CDATA[<b>高级模式“启动”屏幕</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s9_title">
+	<text><![CDATA[<b>高级模式“工具”屏幕</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s10_title">
+	<text><![CDATA[<b>高级模式“退出”屏幕</b>]]></text>
+	</component>	
+	
+	
+</textcomponents>

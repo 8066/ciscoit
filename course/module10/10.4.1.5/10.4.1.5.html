@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.4.1.5 备份和恢复概述</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.4.1.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>备份和恢复概述</h1>
+        <div>
+          <p>备份数据是指为了安全起见创建数据的一个副本（或多个副本）。备份流程完成后，副本称为备份。其主要目的是在出现故障时能够恢复数据。访问数据的较早版本通常被视为备份流程的次要目标。</p>
+          <p></p>
+          <p>虽然可以通过简单的复制命令来实现备份，但是有许多工具和技术可使用户的这一流程实现自动化和透明化。</p>
+          <p></p>
+          <p>
+            <b>Linux</b>
+          </p>
+          <p></p>
+          <p>有多个适用于 Linux 的备份工具和解决方案。Déjà Dup（如图 1 所示）是一款简单、高效的数据备份工具。Déjà Dup 支持多种功能，包括本地、远程或云备份位置（图 2）、数据加密压缩、增量备份、定期备份（图 3）以及 GNOME 桌面集成。它还能够从任何特定备份中恢复数据（图 4）。</p>
+          <p>要在 Ubuntu Linux 上启用自动备份，请使用以下路径：</p>
+          <p></p>
+          <p>单击<b>“启动器”</b>顶部的“Ubuntu”按钮 > 键入<b>“deja dup”> </b>单击<b>“Déjà Dup”</b>图标<b> > </b>单击位于 Déjà Dup 窗口右上角的切换开关将备份设置为<b>“启动”</b>。</p>
+          <p></p>
+          <p>
+            <b>OS X</b>
+          </p>
+          <p></p>
+          <p>OS X 包括一种称为 Time Machine 的备份工具。借助 Time Machine，用户可选择外置驱动器作为备份目标设备，并通过 USB、FireWire 或 Thunderbolt 将其连接到 Mac。Time Machine 为磁盘接收备份做好准备，磁盘准备就绪时，它定期执行增量备份。Time Machine 保留过去 24 个小时的每小时备份，过去一个月的每日备份，以及每周备份。当备份驱动器已满时，将删除最旧的备份。</p>
+          <p></p>
+          <p>如果用户尚未指定 Time Machine 目标磁盘，Time Machine 将询问是否将最新连接的外部磁盘用作目标备份磁盘，如图 5 所示。</p>
+          <p></p>
+          <p>要调整 Time Machine 设置（如图 6 所示），请使用以下路径：</p>
+          <p></p>
+          <p>
+            <b>设置>Time Machine</b>
+          </p>
+          <p></p>
+          <p>如果 Time Machine 已配置但尚未连接目标磁盘，Time Machine 将根据其时间表执行自动备份。或者，用户可以随时通过单击 Time Machine 菜单栏菜单上的<b>“立即备份”</b>来启动备份，如图 7 所示。</p>
+          <p>要从 Time Machine 恢复数据，请确保目标备份磁盘已连接到 Mac，并单击 Time Machine 菜单上的<b>“进入 Time Machine”</b>。使用窗口右侧的时间轴，Time Machine 允许用户将数据恢复到目标备份磁盘中当前可用的任何以前版本，如图 8 所示。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

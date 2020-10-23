@@ -1,0 +1,59 @@
+<textcomponents><!-- text on page --><component id="ID_s1_txt01">
+<text><![CDATA[表皮]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+<text><![CDATA[强化材料]]></text>
+</component>
+
+<component id="ID_s1_txt03">
+<text><![CDATA[缓冲区]]></text>
+</component>
+
+<component id="ID_s1_txt04">
+<text><![CDATA[涂层]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+<text><![CDATA[核心]]></text>
+</component><!-- textboxes --><component id="ID_PopTitle01">
+<text><![CDATA[<b>表皮</b>]]></text>
+</component>
+
+<component id="ID_PopBody01">
+<text><![CDATA[PVC 表皮通常用于防止光纤受到磨损、侵蚀和其他污染。 该外部表皮的成分取决于电缆的用途。]]></text>
+</component>
+
+<component id="ID_PopTitle02">
+<text><![CDATA[<b>强化材料</b>]]></text>
+</component>
+
+<component id="ID_PopBody02">
+<text><![CDATA[包裹在缓冲区周围，以防牵动光纤时电缆变形。 其材质与制造防弹衣的材质相同。]]></text>
+</component>
+
+<component id="ID_PopTitle03">
+<text><![CDATA[<b>缓冲区</b>]]></text>
+</component>
+
+<component id="ID_PopBody03">
+<text><![CDATA[用于防止核心和涂层遭到损坏。]]></text>
+</component>
+
+<component id="ID_PopTitle04">
+<text><![CDATA[<b>涂层</b>]]></text>
+</component>
+
+<component id="ID_PopBody04">
+<text><![CDATA[其材质与制造核心所用的材质略有不同。 其作用是像镜子一样将光反射到光纤的核心内。 如此可确保光在光纤中传输时始终处于核心内。]]></text>
+</component>
+
+<component id="ID_PopTitle05">
+<text><![CDATA[<b>核心</b>]]></text>
+</component>
+
+<component id="ID_PopBody05">
+<text><![CDATA[核心位于光纤中心，是实际的光线传输部件。 核心通常由硅或玻璃制成。 光脉冲沿着光纤的核心传输。]]></text>
+</component>
+
+</textcomponents>

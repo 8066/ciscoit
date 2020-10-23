@@ -1,0 +1,21 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Android 屏幕自动旋转设置</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>iOS 屏幕自动旋转设置</b>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>Android“亮度”菜单</b>]]></text>
+	</component>
+    
+    <component id="ID_s4_title">
+        <text><![CDATA[<b>iOS“墙纸与亮度”菜单</b>]]></text>
+	</component>
+    
+    <component id="ID_txt01">
+        <text><![CDATA[自动旋转锁定]]></text>
+	</component>
+</textcomponents>

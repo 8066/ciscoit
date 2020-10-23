@@ -1,0 +1,169 @@
+﻿<textcomponents><!-- slide 1 --><component id='ID_s1_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>第 3 步： 测试自己的推测，确定问题原因</b></font></td>
+		</tr>
+	
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		 
+		<tr> 
+			<td width='150' bgcolor='#E9E7E8'>确定原因的常见步骤</td>	
+			<td bgcolor='#E9E7E8'><textformat blockindent='-18'><li>确保设备已通电。</li><li>确保插座的电源开关已打开。</li><li>确保浪涌保护器已启动。</li><li>确保外部电缆连接稳固。</li><li>确保指定的启动驱动器是可启动的。</li><li>验证 BIOS 设置中的启动顺序。</li></textformat></td>		 
+		</tr>
+	 
+	</table>]]></text>
+</component><!-- end slide 1 --><!-- slide 2 --><!-- black text --><component id="ID_s2_txt18">
+	<text><![CDATA[工作单]]></text>
+	</component>
+	
+	<component id="ID_s2_txt19">
+	<text><![CDATA[<font color='#FFFFFF' size='11'><b>生成新的申请单</b></font>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt20">
+	<text><![CDATA[公司名称：]]></text>
+	</component>
+	
+	<component id="ID_s2_txt21">
+	<text><![CDATA[联系方式：]]></text>
+	</component>
+	
+	<component id="ID_s2_txt22">
+	<text><![CDATA[公司地址：]]></text>
+	</component>
+	
+	<component id="ID_s2_txt23">
+	<text><![CDATA[公司电话：]]></text>
+	</component>
+	
+	<component id="ID_s2_txt24">
+	<text><![CDATA[类别]]></text>
+	</component>
+	
+	<component id="ID_s2_txt25">
+	<text><![CDATA[类型]]></text>
+	</component>
+	
+	<component id="ID_s2_txt26">
+	<text><![CDATA[项目]]></text>
+	</component>
+	
+	<component id="ID_s2_txt27">
+	<text><![CDATA[代码]]></text>
+	</component>
+	
+	<component id="ID_s2_txt28">
+	<text><![CDATA[升级]]></text>
+	</component>
+	
+	<component id="ID_s2_txt29">
+	<text><![CDATA[状态]]></text>
+	</component>
+	
+	<component id="ID_s2_txt30">
+	<text><![CDATA[待处理]]></text>
+	</component>
+	
+	<component id="ID_s2_txt31">
+	<text><![CDATA[在此日期前为待处理]]></text>
+	</component>
+	
+	<component id="ID_s2_txt32">
+	<text><![CDATA[业务影响：]]></text>
+	</component>
+	
+	<component id="ID_s2_txt33">
+	<text><![CDATA[是]]></text>
+	</component>
+	
+	<component id="ID_s2_txt34">
+	<text><![CDATA[否]]></text>
+	</component>
+	
+	<component id="ID_s2_txt35">
+	<text><![CDATA[摘要]]></text>
+	</component>
+	
+	<component id="ID_s2_txt36">
+	<text><![CDATA[案例 ID]]></text>
+	</component>
+	
+	<component id="ID_s2_txt37">
+	<text><![CDATA[优先级]]></text>
+	</component>
+	
+	<component id="ID_s2_txt38">
+	<text><![CDATA[用户平台]]></text>
+	</component>
+	
+	<component id="ID_s2_txt39">
+	<text><![CDATA[连接类型]]></text>
+	</component>
+	
+	<component id="ID_s2_txt40">
+	<text><![CDATA[环境]]></text>
+	</component><!-- end black text --><!-- grey text --><component id="ID_s2_txt01">
+	<text><![CDATA[Cisco Systems, Inc.]]></text>
+	</component>
+	
+	<component id="ID_s2_txt02">
+	<text><![CDATA[Office Manager]]></text> 
+	</component>
+	
+	<component id="ID_s2_txt03">
+	<text><![CDATA[170 West Tasman Drive, San Jose, CA 95134]]></text> 
+	</component>
+	
+	<component id="ID_s2_txt04">
+	<text><![CDATA[408-526-4000]]></text>
+	</component>
+	
+	<component id="ID_s2_txt05">
+	<text><![CDATA[硬件]]></text> 
+	</component>
+	
+	<component id="ID_s2_txt06">
+	<text><![CDATA[开放式]]></text> 
+	</component>
+	
+	<component id="ID_s2_txt07">
+	<text><![CDATA[笔记本电脑]]></text>
+	</component>
+	
+	<component id="ID_s2_txt08">
+	<text><![CDATA[N]]></text> 
+	</component>
+	
+	<component id="ID_s2_txt09">
+	<text><![CDATA[笔记本电脑]]></text> 
+	</component>
+	
+	<component id="ID_s2_txt10">
+	<text><![CDATA[无法启动]]></text>
+	</component>
+	
+	<component id="ID_s2_txt11">
+	<text><![CDATA[Cisco001]]></text> 
+	</component>
+	
+	<component id="ID_s2_txt12">
+	<text><![CDATA[无线网络连接]]></text> 
+	</component>
+	
+	<component id="ID_s2_txt13">
+	<text><![CDATA[中级]]></text>
+	</component>
+	
+	<component id="ID_s2_txt14">
+	<text><![CDATA[移动]]></text> 
+	</component>
+	
+	<component id="ID_s2_txt15">
+	<text><![CDATA[Windows 7]]></text> 
+	</component>
+	
+	<component id="ID_s2_txt16">
+	<text><![CDATA[<font color='#000000'>问题描述</font><br><textformat blockindent='15'><span class="indentText">用户抱怨笔记本电脑无法启动。</span><br><span class="indentText">最近没有添加软件。 没有更改操作系统。</span><br><span class="indentText">没有添加外围设备。</span></textformat><br><br><font color='#000000'>问题的解决方案</font><textformat blockindent='15'><br/><span class="indentText">已尝试的修复操作：</span><br/></textformat><textformat blockindent='30'><span class="indentTextMore">更换了交流电适配器</span><br/><span class="indentTextMore">重新固定了电池</span></textformat>]]></text>
+	</component><!-- end grey text --><!-- end slide 2 --></textcomponents>

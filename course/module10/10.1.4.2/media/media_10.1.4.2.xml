@@ -1,0 +1,60 @@
+﻿<textcomponents>
+
+		<component id="ID_s1_title">
+			<text><![CDATA[<b>Windows Phone 调整磁贴</b>]]></text>
+		</component>
+
+		<component id="ID_s2_title">
+			<text><![CDATA[<b>Windows Phone 创建文件夹</b>]]></text>
+		</component>
+
+		<component id="end">
+	      <text><![CDATA[结束]]></text>
+	    </component>
+
+		<component id="fforward">
+			<text><![CDATA[快进]]></text>
+		</component>
+
+		<component id="pause">
+			<text><![CDATA[暂停]]></text>
+		</component>
+
+		<component id="play">
+			<text><![CDATA[播放]]></text>
+		</component>
+
+		<component id="rewind">
+			<text><![CDATA[快退]]></text>
+		</component>
+
+		<component id="start">
+			<text><![CDATA[开始]]></text>
+		</component>
+
+			<component id="end1">
+      			<text><![CDATA[结束]]></text>
+    		</component>
+
+			<component id="fforward1">
+			<text><![CDATA[快进]]></text>
+			</component>
+
+			<component id="pause1">
+			<text><![CDATA[暂停]]></text>
+			</component>
+
+			<component id="play1">
+			<text><![CDATA[播放]]></text>
+			</component>
+
+			<component id="rewind1">
+			<text><![CDATA[快退]]></text>
+			</component>
+
+			<component id="start1">
+			<text><![CDATA[开始]]></text>
+			</component>
+
+
+</textcomponents>

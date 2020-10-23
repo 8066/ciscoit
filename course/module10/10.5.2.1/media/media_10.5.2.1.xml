@@ -1,0 +1,386 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>常见问题和解决方案</b>]]></text> 
+    </component>
+
+
+    <component id="ID_s1_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>移动设备操作系统的常见问题和解决方案</b></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="3" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='180'><font color='#FFFFFF'><b>识别问题</b></font></td>
+                <td bgcolor='#666263' width="210"><font color='#FFFFFF'><b>可能的原因</b></font></td>
+                <td bgcolor='#666263' ><font color='#FFFFFF'><b>可能的解决方案</b></font></td>
+            </tr>
+
+           
+           
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>移动设备无法连接到 Internet。</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>Wi-Fi 关闭。</li>
+                            <li>Wi-Fi 设置不正确。</li>
+                            <li>飞行模式打开。</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>打开 Wi-Fi。</li>
+                            <li>重新配置 Wi-Fi 设置。</li>
+                            <li>关闭飞行模式。</li></ul></textformat></font></td>
+            </tr>
+           
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>应用无法响应。</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>应用无法正常工作。</li>
+                            <li>应用无法关闭。</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>强制关闭应用。</li>
+                                <li>重新启动移动设备。</li>
+                                <li>重新安装应用。</li>
+                                <li>如果可能，取出并重新插入电池。</li>
+                                <li>重置移动设备。</li></ul></textformat></font></td>
+            </tr>
+           
+             <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>移动设备无法响应。</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>操作系统遇到错误。</li>
+                            <li>某个应用导致操作系统变得没有响应。</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>重新启动移动设备。</li>
+                                <li>如果可能，取出并重新插入电池。</li>
+                                <li>重置移动设备。</li></ul></textformat></font></td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>移动设备无法发送或接收电子邮件。</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>移动设备未连接到 Internet。</li>
+                            <li>电子邮件帐户设置不正确。</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>将设备连接到 Wi-Fi 或移动数据网络。</li>
+                                <li>重新配置电子邮件帐户设置。</li></ul></textformat></font></td>
+            </tr>
+
+           
+             <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>移动设备无法安装其他应用或保存照片。</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'>移动设备的存储空间已用完。</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>插入内存卡或换用容量更大的内存卡。</li>
+                                <li>删除不必要的文件。</li>
+                                <li>卸载不必要的应用。</li></ul></textformat></font></td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>移动设备无法连接蓝牙设备。</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>移动设备上未启用蓝牙。</li>
+                        <li>蓝牙设备不在移动设备的范围内。</li>
+                        <li>蓝牙设备没有打开。</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>在移动设备上启用蓝牙。</li>
+                            <li>将蓝牙设备移至移动设备的范围内。</li>
+                            <li>启动蓝牙设备。</li></ul></textformat></font></td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>移动设备无法与蓝牙设备配对。</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>移动设备上未启用蓝牙。</li>
+                        <li>蓝牙设备没有打开。</li>
+                        <li>PIN 码不正确。</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>在移动设备上启用蓝牙。</li>
+                            <li>启动蓝牙设备。</li>
+                            <li>输入正确的 PIN 码。</li></ul></textformat></font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>移动设备显示屏看上去有点暗。</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>显示屏设置中的亮度设置太低。</li>
+                            <li>自动亮度在强光区域下不起作用。</li>
+                            <li>自动亮度没有正确校准。</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>增加显示屏设置中的亮度。</li>
+                            <li>关闭自动亮度。</li>
+                            <li>重新校准光传感器。</li></ul></textformat></font></td>
+            </tr>
+           
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>移动设备无法广播到外部显示器。</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>没有支持无线显示的设备。</li>
+                            <li>Miracast、WiDi、AirPlay 或其他无线显示技术未启用。</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>安装支持无线显示的设备，如果已经有此设备，则打开它。</li>
+                                <li>启用无线显示功能。</li></ul></textformat></font></td>
+            </tr>
+           
+             <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>移动设备的速度较慢。</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>GPS 应用正在运行。</li>
+                            <li>一个或多个电源密集型应用正在运行。</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>关闭 GPS 或结束 GPS 应用。</li>
+                                <li>关闭所有不必要的应用。</li>
+                                <li>重启设备。</li></ul></textformat></font></td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>移动设备无法解密电子邮件。</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>您的电子邮件客户端未设置为解密电子邮件。</li>
+                            <li>您没有正确的解密密钥。</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>配置电子邮件客户端，对已加密的电子邮件进行解密。</li>
+                                <li>从加密电子邮件的发件人那里获得解密密钥。</li></ul></textformat></font></td>
+            </tr>
+
+           
+             <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>移动设备操作系统已冻结。</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>应用与设备不兼容。</li>
+                            <li>网络连接不佳。</li>
+                            <li>设备中的硬件有故障。</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>卸载不兼容的应用。</li>
+                                <li>移动到网络覆盖更好的区域。</li>
+                                <li>更换所有故障硬件。</li></ul></textformat></font></td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>移动设备的扬声器没有声音。</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>设备的音频设置或应用中的音量设置过低。</li>
+                        <li>音量已静音。</li>
+                        <li>扬声器出现故障。</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>调大音频设置或应用中的音量。</li>
+                            <li>取消静音。</li>
+                            <li>更换扬声器</li></ul></textformat></font></td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>移动设备触摸屏响应不正确。</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>显示设置或应用中未校准触摸屏。</li>
+                        <li>触摸屏脏了。</li>
+                        <li>触摸屏由于损坏或进水而短路。</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>在显示设置或应用中重新校准触摸屏。</li>
+                            <li>清洁触摸屏。</li>
+                            <li>更换触摸屏。</li></ul></textformat></font></td>
+            </tr>
+        </table>]]></text>
+    </component>
+    
+    
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>常见问题和解决方案</b>]]></text> 
+    </component>
+    
+   <component id="ID_s2_table">
+          <text><![CDATA[ <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>移动操作系统安全的常见问题和解决方案</b></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="3" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='180'><font color='#FFFFFF'><b>识别问题</b></font></td>
+                <td bgcolor='#666263' width="210"><font color='#FFFFFF'><b>可能的原因</b></font></td>
+                <td bgcolor='#666263' ><font color='#FFFFFF'><b>可能的解决方案</b></font></td>
+            </tr>
+
+           
+           
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>移动设备信号较弱或没有信号。 </font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>该区域内没有足够的信号塔。</li>
+                            <li>该区域在运营商的多个覆盖区域之间。</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>移动到具有更多手机信号塔，信号更好的区域中。</li>
+                            <li>移动到运营商范围内的一个区域。</li></ul></textformat></font></td>
+            </tr>
+
+              <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>移动设备的电源比正常时候用得快。</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>设备在手机信号塔或覆盖范围之间漫游。</li>
+                        <li>显示屏设置为较高的亮度级别。</li>
+                        <li>应用占用过多资源。</li>
+                        <li>使用的无线应用过多。</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>移动到运营商范围内的一个区域。</li>
+                            <li>将显示屏设置为较低的亮度级别。</li>
+                            <li>关闭所有不必要的应用。</li>
+                            <li>关闭所有不必要的无线应用。</li>
+                            <li>重新启动设备。</li></ul></textformat></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>移动设备的数据传输速度很慢。</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>所连接的手机信号塔太远，无法实现高速数据传输。</li>
+                        <li>移动设备正在漫游。</li>
+                        <li>数据传输超过设备的使用限制。</li>
+                        <li>设备的资源利用率很高。</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>移动到距离手机信号塔更近的距离。 </li>
+                            <li>移动到运营商范围内的一个区域。</li>
+                            <li>提高设备的数据限制。</li>
+                            <li>关闭设备的数据使用。</li>
+                            <li>关闭所有不必要的应用。</li>
+                            <li>重启设备。</li></ul></textformat></font></td>
+            </tr>
+
+
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>移动设备意外连接到 WiFi 网络。</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'>设备已设置为自动连接到未知的 WiFi 网络。</font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'>将设备设置为只连接到已知 WiFi 网络。</font></td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>移动设备无意中与蓝牙设备配对。</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'>设备已设置为与未知设备自动配对。</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>将设备设置为默认情况下关闭蓝牙配对。</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>移动设备已泄露个人文件和数据。 </font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>设备丢失或被盗。</li>
+                            <li>设备已被恶意软件攻陷。</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>远程锁定或擦除设备。</li>
+                            <li>浏览并从设备删除恶意软件。</li></ul></textformat></font></td>
+            </tr>
+
+              <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>未经授权的人员访问了移动设备帐户。</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>默认存储了凭证。</li>
+                        <li>不使用 VPN。</li>
+                        <li>设备上未设置密码。</li>
+                        <li>已发现了设备上的密码。</li>
+                        <li>设备已被恶意软件攻陷。</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>将设备设置为默认情况下不存储凭证。</li>
+                            <li>使用 VPN 连接。</li>
+                            <li>设置设备上的密码。</li>
+                            <li>将密码改为强度更高的密码。</li>
+                            <li>浏览并从设备删除恶意软件。</li></ul></textformat></font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>应用实现了对根的未授权访问。</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'>设备已被恶意软件攻陷。</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>浏览并从设备删除恶意软件。</font></td>
+            </tr>
+
+              <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>在未获得允许的情况下跟踪移动设备。</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>GPS 已开启，但任何应用都未使用。</li>
+                        <li>应用可连接至 GPS。</li>
+                        <li>设备已被恶意软件攻陷。</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>在不使用时关闭 GPS。</li>
+                            <li>关闭或删除可连接至 GPS 的所有不需要应用。</li>
+                            <li>浏览并从设备删除恶意软件。</li></ul></textformat></font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>在未获得允许的情况下使用移动设备摄像头或麦克风。</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>应用可连接至摄像头或麦克风。</li>
+                            <li>设备已被恶意软件攻陷。</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>关闭或删除可连接至摄像头或麦克风的所有不需要应用。</li>
+                            <li>浏览并从设备删除恶意软件。</li></ul></textformat></font></td>
+            </tr>
+
+        </table>]]></text>
+        
+    </component>
+
+
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>常见问题和解决方案</b>]]></text> 
+    </component>
+    
+    <component id="ID_s3_table">
+          <text><![CDATA[ <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>Linux 和 OS X 操作系统的常见问题和解决方案</b></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="3" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='180'><font color='#FFFFFF'><b>识别问题</b></font></td>
+                <td bgcolor='#666263' width="210"><font color='#FFFFFF'><b>可能的原因</b></font></td>
+                <td bgcolor='#666263' ><font color='#FFFFFF'><b>可能的解决方案</b></font></td>
+            </tr>
+
+           
+           
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>自动备份操作未启动。 </font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>OS X 中的 Time Machine 已关闭。</li>
+                            <li> Linux 中的 Deja Dup 已关闭。</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>打开 OS X 中的 Time Machine。</li>
+                            <li>打开 Linux 中的 Dejà Dup。</li></ul></textformat></font></td>
+            </tr>
+
+              <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>目录是空白的。</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>目录是另一个磁盘或分区的装入点。</li>
+                        <li>文件已被意外删除。</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>利用针对 OS X 的磁盘实用程序，使用正确的目录重新装入磁盘。</li>
+                            <li>利用针对 Linux 的磁盘程序，使用正确的目录重新装入磁盘。</li>
+                            <li>使用 Time Machine 或 Dejà Dup，从备份中还原已删除的文件。</li></ul></textformat></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>OS X 中的应用停止响应。</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>应用停止工作。</li>
+                        <li>应用所使用的资源不可用了。</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>强制退出应用。 </li></ul></textformat></font></td>
+            </tr>
+
+
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>无法使用 Ubuntu 访问 Wi-Fi。</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>没有正确安装无线网卡驱动程序。 </li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>从制造商的网站安装 Linux 驱动程序（如果有）。</li>
+                            <li>从 Ubuntu 存储库安装 Linux 驱动程序（如果有）。</li></ul></textformat></font></td>
+            </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>OS X 无法使用 Remote Disc 读取远程光盘。</font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul> <li>Mac 已安装了一个光驱。</li>
+                        <li>已启用了请求允许使用光驱的选项。</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>将介质放入本地光驱。</li>
+                            <li>接受允许使用驱动器的请求。</li></ul></textformat></font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>Linux 无法启动，并且您收到“缺少 GRUB”或“缺少 LILO”的消息。 </font></td>
+
+                <td bgcolor='#E9E7E8'><font color='#393536'><textformat blockindent='-18'><ul><li>GRUB 或 LILO 已损坏。</li>
+                            <li>GRUB 或 LILO 已删除。</li></ul></textformat></font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>从安装介质运行 Linux，打开终端并使用以下命令安装启动管理器：sudo grub-install 或 sudo lilo-install</font></td>
+            </tr>
+
+              <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>Linux 或 Mac OS 在启动时停止，并在停止屏幕上显示内核严重错误。</font></td>
+
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>驱动程序已损坏。</li>
+                        <li>硬件发生故障。</li></ul></textformat></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'><textformat blockindent='-18'><ul><li>从制造商的网站更新所有设备驱动程序。</li>
+                            <li>更换所有故障硬件。</li></ul></textformat></font></td>
+            </tr>
+        </table>]]></text>
+        
+    </component>
+</textcomponents>

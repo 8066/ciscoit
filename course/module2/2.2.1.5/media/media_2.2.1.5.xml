@@ -1,0 +1,16 @@
+﻿<textcomponents> 
+
+<component id="ID_s1_caption">
+  <text><![CDATA[柔软、不起毛的布用于清洁不同的计算机组件，不会划伤或留下碎屑。]]></text>
+  </component>
+<component id="ID_s2_caption">
+  <text><![CDATA[压缩空气用于吹走不同计算机零件的灰尘和碎屑，而无需触碰组件。]]></text> 
+  </component>
+<component id="ID_s3_caption">
+  <text><![CDATA[束线带用于整齐地捆绑计算机内外的电缆。]]></text> 
+  </component>
+<component id="ID_s4_caption">
+  <text><![CDATA[零件收纳盒用于存放螺钉、跳线、紧固件和其他小零件，防止它们混在一起。]]></text>
+</component>
+
+</textcomponents>

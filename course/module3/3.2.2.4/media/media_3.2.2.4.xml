@@ -1,0 +1,90 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>风扇速度配置文件</b>]]></text>
+	</component>
+	
+    <component id="ID_s1_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>风扇配置文件</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>描述</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>标准</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>风扇根据 CPU、机箱、电源或其他硬件的温度自动调整。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>涡轮</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>始终最大风速。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>静音</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>最大限度地降低风扇速度以降低风扇噪音。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>手动</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>用户可以指定风扇速度控制设置。</li></ul></textformat></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>电压</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>时钟和总线速度</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s4_title">
+	<text><![CDATA[<b>内置诊断</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s4_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>诊断测试</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>描述</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>开始检测</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>检查主要组件，确保其正常运行。</li><li>当计算机无法正确启动时，使用此测试。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>硬盘驱动器测试</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>检查硬盘损坏的区域。</li><li>如果找到了损坏的区域，它会尝试检索数据并将其移至良好区域并将损坏的区域标记为“bad”（损坏），以便不再使用此区域。</li><li>当您怀疑硬盘驱动器无法正常工作、计算机不启动，或硬盘驱动器发出异常的声音时，请使用此测试。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>内存测试</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>检查内存模块，确保其正常运行。</li><li>当计算机运行不稳定或无法启动时，请使用此测试。</li><li>如果此测试报告错误，请立即更换内存。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>电池测试</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>检查电池是否正常运行。</li><li>当您的电池未正常运行、无法蓄电，或者报告错误的电量时，请使用此测试。</li><li>如果电池未通过此测试，请更换电池。</li></ul></textformat></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+
+	
+	
+</textcomponents>

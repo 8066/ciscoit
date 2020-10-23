@@ -1,0 +1,113 @@
+﻿<textcomponents>
+<component id="ID_s1_title">
+	<text><![CDATA[<font size="17"><b>TCP 与 UDP</b></font>]]></text>
+</component>
+
+
+<component id="MCTable_title">
+	<text><![CDATA[特征]]></text>
+</component>
+
+<component id='ID_instr_title'>
+	<text><![CDATA[说明]]></text>
+</component>
+
+<component id='ID_instr_body'>
+	<text><![CDATA[将协议与其特征相匹配。]]></text>
+</component><!-- buttons --><component id="ID_s1_CHECK">
+	<text><![CDATA[检查]]></text>
+</component>
+
+<component id="ID_s1_RESET">
+	<text><![CDATA[重置]]></text>
+</component><!--Number of rows in the table--><component id="txt_numrows">
+	<text><![CDATA[9]]></text>
+</component><!--Number of columns for the answers in the table. Do not count the question column--><component id="txt_numcols">
+	<text><![CDATA[2]]></text>
+</component><!--Answer column headers--><component id="txt_col1">
+	<text><![CDATA[<b>TCP</b>]]></text>
+</component>
+
+<component id="txt_col2">
+	<text><![CDATA[<b>UDP</b>]]></text>
+</component><!--Question text - blockindent code moves the text away from the left edge a bit--><!--Question text - If questions are numbered, use blockindent for hanging indents--><component id="txt_q1">
+	<text><![CDATA[不需要确认]]></text>
+</component>
+
+<component id="txt_q2">
+	<text><![CDATA[在数据到达时交付数据]]></text>
+</component>
+
+<component id="txt_q3">
+	<text><![CDATA[可靠]]></text>
+</component>
+
+<component id="txt_q4">
+	<text><![CDATA[快速]]></text>
+</component>
+
+<component id="txt_q5">
+	<text><![CDATA[重新发送丢失的数据]]></text>
+</component>
+
+<component id="txt_q6">
+	<text><![CDATA[以数据发送的顺序交付数据]]></text>
+</component>
+
+<component id="txt_q7">
+	<text><![CDATA[开销低]]></text>
+</component>
+<component id="txt_q8">
+	<text><![CDATA[不重新发送丢失的数据]]></text>
+</component>
+
+<component id="txt_q9">
+	<text><![CDATA[确认数据]]></text>
+</component><!--Answers - Give the column number(s), column numbering start with 1 not 0--><!--Answers - For MCMA separate the correct answers with commas [2, 4, 5] --><component id="txt_a1">
+	<text><![CDATA[2]]></text>
+</component>
+
+<component id="txt_a2">
+	<text><![CDATA[2]]></text>
+</component>
+
+<component id="txt_a3">
+	<text><![CDATA[1]]></text>
+</component>
+
+<component id="txt_a4">
+	<text><![CDATA[2]]></text>
+</component>
+
+<component id="txt_a5">
+	<text><![CDATA[1]]></text>
+</component>
+
+<component id="txt_a6">
+	<text><![CDATA[1]]></text>
+</component>
+
+<component id="txt_a7">
+	<text><![CDATA[2]]></text>
+</component>
+<component id="txt_a8">
+	<text><![CDATA[2]]></text>
+</component>
+<component id="txt_a9">
+	<text><![CDATA[1]]></text>
+</component><!-- Correct Feedback --><component id="ID_titleCorrect">
+	<text><![CDATA[<font size="17">正确</font>]]></text>
+</component>
+
+<component id="ID_correctText">
+	<text><![CDATA[您已成功确定所需的协议属性。 ]]></text>
+</component><!-- Incorrect Feedback --><component id="ID_titleIncorrect">
+	<text><![CDATA[<font size="17">不正确</font>]]></text>
+</component>
+
+<component id="ID_IncorrectText">
+	<text><![CDATA[您尚未成功确定所需的协议属性。 请单击“重置”重试。]]></text>
+</component>
+
+
+</textcomponents>

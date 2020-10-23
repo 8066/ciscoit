@@ -1,0 +1,19 @@
+﻿<textcomponents>
+
+<component id="ID_s1_caption">
+<text><![CDATA[数字万用表用于测试电路完整性以及计算机组件中的电力质量。]]></text>
+</component>
+
+<component id="ID_s2_caption">
+<text><![CDATA[环回适配器用于测试计算机端口的基本功能。]]></text>
+</component>
+
+<component id="ID_s3_caption">
+<text><![CDATA[音频发生器和探针用于跟踪电缆情况。]]></text>
+</component>
+
+<component id="ID_s5_caption">
+<text><![CDATA[外置硬盘盒内装有硬盘驱动器，可用于诊断客户的硬盘驱动器或无法启动的计算机。 外置硬盘盒也可用于创建客户硬盘驱动器的备份。]]></text>
+</component>
+
+</textcomponents>

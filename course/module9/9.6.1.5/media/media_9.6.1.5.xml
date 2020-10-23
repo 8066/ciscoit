@@ -1,0 +1,42 @@
+﻿<textcomponents>
+
+<component id='ID_table01'>
+	<text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>第 5 步： 检验完整的系统功能，如果适用，并实施预防措施</b></font></td>
+			</tr>
+	
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#E9E7E8' width="200">验证解决方案和笔记本电脑的完整系统功能</td>
+				
+				<td bgcolor='#E9E7E8'><ul><textformat blockindent='-18'>
+					<li>重启笔记本电脑。</li>
+					<li>连接所有外围设备。</li>
+					<li>仅使用电池操作笔记本电脑。</li>
+					<li>从应用中打印文档。</li>
+					<li>键入示例文档以测试键盘。</li>
+					<li>检查事件查看器中的警告或错误。</li>
+				</textformat></ul></td> 
+			</tr>
+			
+			<tr>
+				<td bgcolor='#E9E7E8' width="200">验证解决方案和移动设备的完整系统功能</td>
+				
+				<td bgcolor='#E9E7E8'><ul><textformat blockindent='-18'>
+					<li>重新启动移动设备。</li>
+					<li>使用 Wi-Fi 浏览 Internet。</li>
+					<li>使用 4G、3G 或另一个运营商网络类型浏览 Internet。</li>
+					<li>拨打电话。</li><li>发送文本消息。</li>
+					<li>打开不同类型的应用。</li>
+					<li>仅使用电池操作移动设备。</li>
+				</textformat></ul></td> 
+			</tr>
+	</table>]]></text>
+</component>
+
+</textcomponents>

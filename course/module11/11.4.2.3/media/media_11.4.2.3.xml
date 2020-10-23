@@ -1,0 +1,35 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	    <component id="ID_table01">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>第 3 步：验证推测以确定原因</b></font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#E9E7E8' width="150">确定原因的常见步骤</td>
+				
+                <td bgcolor='#E9E7E8'><ul><li>重新启动打印机或扫描仪。</li>
+					<li>断开并重新连接电缆。</li>
+					<li>重启计算机。</li>
+					<li>检查打印机是否卡纸。</li>
+					<li>在纸盒中重新放置纸张。</li>
+					<li>打开并关闭打印机盒。</li>
+					<li>确保打印机门已关闭。</li>
+					<li>安装新的墨水或墨粉盒。</li></ul></td>
+            </tr>
+ 
+            
+        </table>]]></text>
+    </component>
+	
+</textcomponents>

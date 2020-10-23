@@ -1,0 +1,100 @@
+<textcomponents><!-- Slide 1--><component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>练习 - 网络类型</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[说明]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[将每个网络类型与定义相匹配。]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[LAN]]></text>
+	</component>
+
+	<component id='ID_s1_drag02'>
+		<text><![CDATA[对等]]></text>
+	</component>
+
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[MAN]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[WLAN]]></text>
+	</component>
+	
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[WAN]]></text>
+	</component>
+	
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[PAN]]></text>
+	</component>
+	
+	<component id='ID_s1_drag07'>
+		<text><![CDATA[客户端-服务器]]></text>
+	</component>
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[检查]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[重置]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[正确]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[您已成功地将每个网络类型与其描述相匹配。]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[不正确]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[您尚未成功地将每个网络类型与其描述相匹配。 请单击“<b>重置</b>”重试。]]></text>
+	</component>
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>描述</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>网络类型</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[一种连接个人范围内各种设备的网络。 所有这些设备由单个主机专用。]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[ 计算机之间没有层级，而且也不存在任何专用服务器的一种网络。 每个客户端具有同等的功能和责任。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[一种包含较小地理区域，通常归个人所有或完全由一个 IT 部门管理的网络。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[一种跨越大型园区或城市，由通过无线或光纤主干网络互连的许多建筑物组成的网络。 ]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[一种使用无线电波在无线设备之间传输数据的网络。 此网络可在基础设施或临时模式下运行。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[连接多个地理位置上分开的网络，并且归服务提供商所有的一种网络。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[主机会从服务器请求信息或服务的一种网络。 服务器会向主机提供所请求的信息或服务。]]></text>
+	</component>
+</textcomponents>

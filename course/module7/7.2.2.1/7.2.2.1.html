@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.2.1 CSMA/CD</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>CSMA/CD</h1>
+        <div>
+          <p>以太网协议描述了控制以太网网络上如何通信的规则。为了确保所有以太网设备彼此兼容，IEEE 为制造商和程序员制定了开发以太网设备时要遵循的标准。</p>
+          <p>以太网架构基于 IEEE 802.3 标准。IEEE 802.3 标准规定了网络实施带冲突检测的载波侦听多路访问 (CSMA/CD) 的访问控制方法：</p>
+          <p>
+            <ul>
+              <li>
+                <b>载波</b> – 是指用于传输数据的电线。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>侦听</b> - 每台设备侦听电线以确定是否能清晰发送数据，如图所示。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>多路访问</b> - 可以有多台设备同时访问网络。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>冲突检测</b> - 冲突会导致电线上的电压加倍，可通过设备的网卡来检测这种情况。</li>
+            </ul>
+          </p>
+          <p>在 CSMA/CD 中，所有设备都会侦听网络电线中的间隙，以便发送数据。此过程类似于在拨打电话前等待听到电话上的拨号音。设备检测到没有其他设备传输数据时，该设备就可以尝试发送数据。与此同时，如果没有其他设备发送任何数据，此次传输的数据就会毫无差错地到达目的计算机。如果有另一台设备同时传输数据，电线上就会发生冲突。 </p>
+          <p></p>
+          <p>检测到冲突的第一站会发送出一个阻塞信号，告诉所有站停止传输并运行回退算法。回退算法会计算终端站再次尝试传输的随机时间。此随机时间通常在 1 毫秒或 2 毫秒 (ms) 内。每次网络中出现冲突时都会出现此操作序列，它可以将以太网传输减少最多 40%。</p>
+          <p></p>
+          <p>
+            <b>注意</b>：现在大多数以太网网络是全双工网络。在全双工以太网中极少出现冲突，因为设备可同时传输和接收数据。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

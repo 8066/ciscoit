@@ -1,0 +1,11 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>内存升级问题</b>]]></text>
+	</component><!-- Textbox --><component id='ID_titleTxt'>
+		<text><![CDATA[<b>新的内存问题</b>]]></text>
+	</component>
+	
+	<component id='ID_bodyTxt'>
+		<text><![CDATA[<textformat blockindent='-16'><ul><li>主板当前使用什么类型的内存？</li><li>是否有可用内存插槽？</li><li>此内存可以一次安装一个模块，还是必须将其分为相匹配的内存库？</li><li>新内存是否与现有内存的速度、延迟、类型和电压相符？</li></ul></textformat>]]></text>
+	</component><!-- End Textbox --></textcomponents>

@@ -1,0 +1,25 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Unix 概要图</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt01">
+		<text><![CDATA[应用程序]]></text>
+	</component>
+	
+	<component id="ID_s1_txt02">
+		<text><![CDATA[外壳]]></text>
+	</component>
+	
+	<component id="ID_s1_txt03">
+		<text><![CDATA[内核]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>Linux 终端仿真程序 - Gnome 终端</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>OS X 终端仿真程序 - 终端</b>]]></text>
+	</component>
+</textcomponents>

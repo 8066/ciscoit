@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.1.4 文件系统</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>文件系统</h1>
+        <div>
+          <p>安装全新的操作系统，就像磁盘是全新的一样。不会保留目标分区上的当前信息。安装过程的第一个阶段是对硬盘驱动器进行分区和格式化。此过程是让磁盘准备接受新的文件系统。文件系统提供了可组织用户操作系统、应用、配置和数据文件的目录结构。有许多不同类型的文件系统，每种文件系统都有不同的结构和逻辑。不同的文件系统也有速度、灵活性、安全性、大小和其他属性方面的区别。以下是五种常见的文件系统：</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>文件分配表，32 位 (FAT32)</b> - 支持的分区大小最高为 2 TB 或 2,048 GB。Windows XP 和较早的操作系统版本使用 FAT32 文件系统。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>新技术文件系统 (NTFS)</b> - 在理论上分区大小最高为 16 EB。NTFS 融合了文件系统安全功能和更多的属性。Windows 8.1、Windows 7 和 Windows Vista 使用整个硬盘驱动器自动创建一个分区。如果用户未使用“<b>新建</b>”选项（如图所示）创建自定义分区，系统会将分区格式化并开始安装 Windows。如果用户创建了分区，他们也可确定分区的大小。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>exFAT (FAT 64)</b> - 用于解决 FAT、FAT32 和 NTFS 在格式化 USB 闪存驱动器时的局限性，例如文件大小和目录大小。exFAT 的一个主要优点是，它支持大于 4GB 的文件。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>光盘文件系统 (CDFS)</b> - 专门用于光盘介质。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>NFS（网络文件系统）</b> - NFS 是一个基于网络的文件系统，允许通过网络访问文件。从用户的角度来看，访问本地存储的文件与访问网络中另一台计算机上存储的文件之间没有区别。NFS 是一项开放标准，任何人都可以实施它。</li>
+            </ul>
+          </p>
+          <p>
+            <b>快速格式化与完全格式化</b>
+          </p>
+          <p></p>
+          <p>快速格式化从分区中删除文件，但是不会扫描磁盘中是否有坏扇区。扫描磁盘中的坏扇区可以防止将来丢失数据。因此，不要对已经格式化过的磁盘使用快速格式化。虽然在安装操作系统后可以对分区或磁盘进行快速格式化，但是安装 Windows 8.1、Windows 7 或 Windows Vista 后，并没有快速格式化选项。</p>
+          <p></p>
+          <p>完全格式化可从分区中删除文件，同时扫描磁盘中是否有坏扇区。对于所有新的硬盘驱动器，这是一个必须执行的操作。完全格式化工作需要更长的时间才能完成。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

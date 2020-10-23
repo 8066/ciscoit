@@ -1,0 +1,100 @@
+<textcomponents><!--slide 1--><component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>常见问题和解决方案</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' ><font color='#FFFFFF'><b>识别问题</b></font></td>
+		<td bgcolor='#666263' width='225'><font color='#FFFFFF'><b>可能的原因</b></font></td>
+		<td bgcolor='#666263' width='225'><font color='#FFFFFF'><b>可能的解决方案</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>操作系统锁定。</td>
+  <td bgcolor='#E9E7E8'><ul><li>计算机过热。</li><li>某些操作系统文件可能受损。</li><li>电源、RAM、硬盘驱动器或主板可能有缺陷。</li><li>BIOS 设置可能不正确。</li><li>出现未知事件，导致操作系统锁定。</li><li>安装了不正确的驱动程序。</li></ul></td>
+  <td bgcolor='#E9E7E8'><ul><li>清理内部组件。</li><li>检查风扇连接，确保风扇正常运行。</li><li>运行系统文件检查器 (SFC)，以更换受损的操作系统文件。</li><li>使用第三方诊断软件测试电源、RAM、硬盘驱动器或主板，并按需更换。</li><li>检查并调整 BIOS 设置。</li><li>处理事件日志中的任何事件。</li><li>安装或回滚更新的驱动程序。</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>键盘或鼠标不响应。</td>
+  <td bgcolor='#F2F2F2'><ul><li>计算机使用不兼容或过期的驱动程序。</li><li>电缆受损或或已断开连接。</li><li>设备存在缺陷。</li><li>使用了 KVM 交换机，而且活动计算机未显示。</li><li>无线键盘或鼠标出现故障。</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>重新启动计算机。</li><li>安装或回滚驱动程序。</li><li>更换或重新连接电缆。</li><li>更换设备。</li><li>更改 KVM 交换机上的输入。</li><li>更换电池。</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>操作系统无法启动。</td>
+		<td bgcolor='#E9E7E8'><ul><li>硬件设备无法初始化。</li><li>某些操作系统文件可能受损。</li><li>引导扇区受损。</li><li>电源、RAM、硬盘驱动器或主板可能有缺陷。</li><li>未正确安装新的硬件驱动程序。</li><li>Windows 更新已经损坏了操作系统。</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>重新启动计算机。</li><li>使用系统还原工具还原 Windows。</li><li>使用系统映像恢复工具恢复系统磁盘。</li><li>对操作系统执行修复安装。</li><li>使用恢复环境修复引导扇区。</li><li>换用正常的电源、RAM、硬盘驱动器或主板。</li><li>断开任何新连接的设备，并使用“最近一次的正确配置”选项启动操作系统。</li><li>在安全模式下启动计算机并处理事件日志中的所有事件。</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>加电自检后计算机显示一个“无效的启动磁盘”错误。</td>
+		<td bgcolor='#F2F2F2'><ul><li>在 BIOS 中未正确设置启动顺序。</li><li>未检测到硬盘驱动器。</li><li>硬盘驱动器上没有安装操作系统。</li><li>MBR 损坏。</li><li>GPT 损坏。</li><li>计算机感染了引导扇区病毒。</li><li>硬盘驱动器故障。</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>更改 BIOS 中的启动顺序，使用启动驱动器启动。</li><li>重新连接硬盘驱动器电缆。</li><li>安装一个操作系统。</li><li>使用系统修复光盘，运行 bootrec /FixMbr 来修复 MBR。</li><li>使用系统修复光盘，运行 DISKPART 来修复 GPT（或 MBR）。</li><li>运行防病毒软件。</li><li>更换硬盘驱动器。</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>加电自检后计算机显示“BOOTMGR 丢失”错误。</td>
+		<td bgcolor='#E9E7E8'><ul><li>BOOTMGR 丢失或损坏。</li><li>启动配置数据丢失或损坏。</li><li>在 BIOS 中未正确设置启动顺序。</li><li>MBR 损坏。</li><li>硬盘驱动器故障。</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>从安装介质还原 BOOTMGR。</li><li>从安装介质还原启动配置数据。</li><li>更改 BIOS 中的启动顺序，使用启动驱动器启动。</li><li>从恢复环境下运行 bootrec /FixMbr。</li><li>从恢复环境下运行 chkdsk /F /R。</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>计算机启动时，一项服务无法启动。</td>
+		<td bgcolor='#F2F2F2'><ul><li>该服务未启用。</li><li>该服务设置为“手动”。</li><li>未能启动的服务需要通过另一项服务才能启动。</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>启用服务。</li><li>将服务设置为“自动”。</li><li>重新启用所需服务。</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>计算机启动时，一台设备没有启动。</td>
+		<td bgcolor='#E9E7E8'><ul><li>外部设备未通电。</li><li>数据线或电源线未连接到设备。</li><li>已在 BIOS 中禁用了该设备。</li><li>设备出现故障。</li><li>设备与最近安装的某台设备发生冲突。</li><li>驱动程序损坏。</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>将外部设备通电。</li><li>将数据线和电源线连接到设备上。</li><li>在 BIOS 中启用设备。</li><li>更换设备。</li><li>删除最新安装的设备。</li><li>重新安装或回滚驱动程序。</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>计算机连续重新启动，不显示桌面。</td>
+		<td bgcolor='#F2F2F2'><ul><li>已设置计算机在出现故障时重新启动。</li><li>某个启动文件已损坏。</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>按 F8 打开“高级选项”菜单，并选择“禁用系统失败时自动重新启动”。</li><li>从恢复环境下运行 chkdsk /F /R。</li><li>使用恢复环境执行自动修复或系统还原。</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>计算机显示黑屏或蓝屏死机 (BSOD) 状态。</td>
+		<td bgcolor='#E9E7E8'><ul><li>驱动程序与硬件不兼容。</li><li>RAM 故障。</li><li>电源发生故障。</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>调查这种停止错误和造成此错误的模块名称。</li><li>使用已知良好的设备更换任何故障设备。</li><li>执行内存检查。</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>计算机锁定，不显示任何错误消息。</td>
+		<td bgcolor='#F2F2F2'><ul><li>主板或 BIOS 中的 CPU 或 FSB 设置不正确。</li><li>计算机过热。</li><li>某个更新损坏了操作系统。</li><li>RAM 故障。</li><li>电源发生故障。</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>重置 CPU 和 FSB 设置。</li><li>检查并按需更换任何冷却装置。</li><li>卸载软件更新或执行系统还原。</li><li>从恢复环境下运行 chkdsk /F /R。</li><li>使用已知良好的设备更换任何故障设备。</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>一个应用程序没有安装。</td>
+		<td bgcolor='#E9E7E8'><ul><li>下载的应用安装程序中包含病毒，病毒防护软件阻止其安装。</li><li>安装磁盘或文件损坏。</li><li>安装程序与操作系统不兼容。</li><li>硬件不符合最低要求。</li><li>未安装该应用所依赖的软件。</li></ul></td>
+		<td bgcolor='#E9E7E8'><ul><li>获取新的安装磁盘或删除文件并重新下载安装文件。</li><li>在兼容模式下运行安装程序</li><li>安装可符合最低安装要求的硬件。</li><li>安装应用所依赖的任何软件。</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>安装了 Windows 7 的计算机无法运行 Aero。</td>
+		<td bgcolor='#F2F2F2'>计算机不符合运行 Aero 的最低硬件要求。</td>		
+		<td bgcolor='#F2F2F2'>升级处理器、RAM 和视频卡，以满足最低的 Microsoft Aero 要求。</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>UAC 不再提示用户许可。</td>
+		<td bgcolor='#E9E7E8'>UAC 已关闭。</td>
+		<td bgcolor='#E9E7E8'>在控制面板中的“用户帐户”小程序中打开 UAC。</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>小工具不在桌面上显示。</td>
+		<td bgcolor='#F2F2F2'><ul><li>小工具从未安装或已卸载。</li><li>呈现小工具所需的 XML 已破损、毁坏或未安装。</li></ul></td>		
+		<td bgcolor='#F2F2F2'><ul><li>右键单击“桌面”>“小工具”> 右键单击“小工具”>“添加”。</li><li>在命令提示符下输入 regsvr32 msxml3.dll > Enter 以注册文件 msxml3.dll。</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>计算机运行缓慢，而且存在响应延迟。</td>
+		<td bgcolor='#E9E7E8'>某进程正在使用大部分 CPU 资源。</td>
+		<td bgcolor='#E9E7E8'><ul><li>使用服务控制台 (services.msc) 重启进程。</li><li>如果不需要此进程，请使用任务管理器终止它。</li><li>重启计算机。</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>在升级至 Windows 7 或 Vista 后，计算机运行非常缓慢。</td>
+		<td bgcolor='#F2F2F2'>Aero 导致计算机运行缓慢。</td>		
+		<td bgcolor='#F2F2F2'>关闭 Aero。</td>
+	</tr>
+	
+</table>]]></text>
+</component><!--end slide 1--></textcomponents>

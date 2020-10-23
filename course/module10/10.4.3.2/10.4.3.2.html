@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.4.3.2 管理命令</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.4.3.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>管理命令</h1>
+        <div>
+          <p>为了组织系统和强化系统内的边界，Unix 使用文件权限。文件权限内置于文件系统结构中，所提供的机制可定义每个文件的权限。Unix 系统中的每个文件都包含其文件权限，该文件权限定义了所有者、组和其他人可以利用该文件执行的操作。可能的权限为“读取”、“写入”和“执行”。使用 <b>ls</b> 命令和 <b>–l</b> 参数列出有关文件的其他信息，请思考以下 <b>ls –l </b> 命令的输出：</p>
+          <p></p>
+          <p>
+            <b>rod@machine: $ ls –l my_awesome_file</b>
+          </p>
+          <p></p>
+          <p>
+            <b>-rwxrw-r-- 1 rod staff 1108485 Aug 14 7:34 My_Awesome_File </b>
+          </p>
+          <p></p>
+          <p>
+            <b>rod@machine: $</b>
+          </p>
+          <p></p>
+          <p>上面的输出提供了许多有关 <b>My_Awesome_File</b> 的信息。</p>
+          <p></p>
+          <p>输出的第一部分显示了与 <b>My_Awesome_File</b> 相关的权限。文件权限通常按照“用户”、“组”和“其他”顺序来显示，因此，<b>My_Awesome_File</b> 的权限为：</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>拥有该文件的用户可以读取、写入和执行该文件。这通过 rwx 来表示。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>拥有该文件的组可以读取和写入到该文件。这通过 rw- 来表示。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>系统中的任何其他用户或组只能读取文件。这通过 r-- 来表示。</li>
+            </ul>
+          </p>
+          <p>下一部分是到该文件的硬链接数量，在本例中为数字 1。这一部分不属于本课程的范围。</p>
+          <p></p>
+          <p>第三部分显示文件所有者的用户名。第四部分显示拥有该文件的组的名称。在本例中，用户 <b>rod</b> 和组 <b>staff</b> 都对文件拥有一定级别的所有权。</p>
+          <p></p>
+          <p>第五部分显示以字节为单位的文件大小。<b>My_Awesome_File</b> 拥有 1108485 个字节，或约 1.1 MB。</p>
+          <p></p>
+          <p>第六部分显示上次修改此文件的日期与时间。 </p>
+          <p></p>
+          <p>第七部分显示文件名。</p>
+          <p></p>
+          <p>图 1 显示了 Unix 中的文件权限分类。</p>
+          <p></p>
+          <p>能够在 Unix 中覆盖文件权限的唯一用户是根用户。根用户拥有覆盖文件权限的权利，并且可以对任何文件执行写入操作。由于所有内容都作为文件来对待，因此根用户可以完全控制 Unix 操作系统。在执行维护和管理任务之前通常需要根访问权限。</p>
+          <p></p>
+          <p>
+            <b>注意</b>：由于 Linux 和 OS X 都基于 Unix，因此两个操作系统完全符合 Unix 文件权限要求。</p>
+          <p></p>
+          <p>参阅图 2 了解几种管理命令行工具。 </p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

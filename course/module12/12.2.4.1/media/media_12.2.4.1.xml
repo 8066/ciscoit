@@ -1,0 +1,11 @@
+﻿<textcomponents>
+
+    <component id="ID_s1_title">
+		<text><![CDATA[<b>病毒检测</b>]]></text>
+	</component>
+
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>非法防病毒软件示例</b>]]></text>
+	</component>
+	
+</textcomponents>

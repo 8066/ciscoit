@@ -1,0 +1,48 @@
+﻿<textcomponents><!-- slide 2 --><component id="ID_s2_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8' width='175'>计算机机箱和显示器外部</td>
+			<td bgcolor='#E9E7E8'>中性清洁溶剂和不起毛的布</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2'>LCD 屏幕</td>
+			<td bgcolor='#F2F2F2'>LCD 清洁溶剂或蒸馏水和不起毛的布</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'>CRT 屏幕</td>
+			<td bgcolor='#E9E7E8'>蒸馏水和不起毛的布</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2'>散热器</td>
+			<td bgcolor='#F2F2F2'>压缩空气</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'>内存</td>
+			<td bgcolor='#E9E7E8'>异丙醇和不起毛的清洁棉棒</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2'>键盘</td>
+			<td bgcolor='#F2F2F2'>附带刷子的手持吸尘器</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'>鼠标</td>
+			<td bgcolor='#E9E7E8'>中性清洁溶剂和不起毛的布</td>
+		</tr>
+	
+	</table>]]></text> 
+</component><!-- end slide 2 --></textcomponents>

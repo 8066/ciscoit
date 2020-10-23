@@ -1,0 +1,15 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>WI-FI 天线</b>]]></text>
+	</component>
+
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>WI-FI 天线引线</b>]]></text>
+	</component>
+
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>WI-FI 天线导线</b>]]></text>
+	</component>
+
+</textcomponents>

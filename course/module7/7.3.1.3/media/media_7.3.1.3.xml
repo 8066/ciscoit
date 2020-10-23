@@ -1,0 +1,14 @@
+<textcomponents><!--SLIDE 1--><component id="ID_s1_title">
+<text><![CDATA[<b>无线接入点</b>]]></text>
+</component><!--SLIDE 2--><component id="ID_txt01">
+	<text><![CDATA[<b>小型办公室</b>]]></text>
+</component>
+<component id="ID_txt02">
+	<text><![CDATA[<b>数据中心</b>]]></text>
+</component>
+<component id="ID_txt03">
+	<text><![CDATA[Internet]]></text>
+</component>
+
+
+</textcomponents>

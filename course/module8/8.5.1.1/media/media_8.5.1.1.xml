@@ -1,0 +1,34 @@
+﻿<textcomponents>
+	<component id='ID_table01'>
+<text><![CDATA[
+<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>第 1 步：识别问题。</b></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	  
+		<tr>
+			<td bgcolor='#E9E7E8' width="200">开放式问题</td>
+			
+			<td bgcolor='#E9E7E8'><ul><textformat blockindent='-18'><li>您使用计算机或网络设备时遇到了哪些问题？</li>
+					<li>您的计算机上最近安装了什么软件？</li>
+					<li>发现问题时您正在执行什么操作？</li>
+					<li>您收到了什么错误消息？</li>
+					<li>计算机使用什么类型的网络连接？</li>
+			</textformat></ul></td> 
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>封闭式问题</td>
+			<td bgcolor='#F2F2F2'><ul><textformat blockindent='-18'><li>最近有其他人使用过您的计算机吗？</li>
+			<li>您可以看到任何共享的文件或打印机吗？</li>
+			<li>您最近是否更改了您的密码？</li>
+			<li>您能否访问 Internet？</li>
+			<li> 您当前登录到网络了吗？</li>
+			<li>其他人存在此问题吗？</li></textformat></ul></td> 
+		</tr>	
+</table>]]></text>
+</component>
+</textcomponents>

@@ -1,0 +1,46 @@
+<textcomponents><!--slide 1--><component id="ID_title">
+<text><![CDATA[<b>系统配置</b>]]></text>
+</component>
+    
+<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#F2F2F2'><font size="16"><b> </b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' width='125'><font color='#F2F2F2'><b>选项卡</b></font></td>
+		<td bgcolor='#666263' ><font color='#F2F2F2'><b>描述</b></font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>常规</td>
+		<td bgcolor='#E9E7E8'>显示一个启动选择列表：<br/><b>正常启动 </b>– 正常启动。<br/><b>诊断启动 </b>- 只启动基本服务和驱动程序。<br/><b>有选择的启动 </b>- 只启动基本服务和驱动程序以及用户选择的启动程序。</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>引导</td>
+		<td bgcolor='#F2F2F2'>显示可用的 Windows 操作系统列表并显示引导选项。</td>		
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>服务</td>
+		<td bgcolor='#E9E7E8'>列出与操作系统一同启动的服务。 允许您禁用服务以进行故障排除。</td>
+		
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>启动</td>
+		<td bgcolor='#F2F2F2'>列出计算机启动时运行的所有应用。 此列表包括应用（包含制造商名称）、可执行文件位置和注册表位置。</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>工具</td>
+		<td bgcolor='#E9E7E8'>列出您可以启动的诊断工具。</td>
+		
+	</tr>
+	
+</table>]]></text>
+</component><!--end slide 1--></textcomponents>

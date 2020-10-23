@@ -1,0 +1,23 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>在 iOS 设备上越狱 - iPhone 上的终端</b>]]></text>
+	</component>
+
+	<component id="ID_s1_text">
+        <text><![CDATA[图中显示了一台已越狱的 iPhone 正在运行终端应用来访问设备的命令行界面。 注意用户的移动电话如何成为超级用户并能够列出 / 目录的内容。 之后，该超级用户还对电话的无线网卡启动了命令行数据包嗅探器 (tcpdump)。 如果没有越狱，是无法完成这些任务的。]]></text>
+	</component>
+    
+		<component id="ID_s1_header">
+        <text><![CDATA[ ]]></text>
+	</component>
+	
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>在 iOS 设备上越狱 - iPhone 作为 SSH 服务器</b>]]></text>
+	</component>
+
+	<component id="ID_s2_text">
+        <text><![CDATA[图中显示了运行 SSH 服务器的已越狱 iPhone 的 SSH 连接。 注意超级用户如何显示有关所使用的内核 (Darwin) 的信息，并显示当前已建立的 SSH 连接（TCP 端口 22）。 如果没有越狱，是无法完成这些任务的。]]></text>
+	</component>
+   
+
+</textcomponents>

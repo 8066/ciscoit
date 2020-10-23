@@ -1,79 +1,2276 @@
-
 <!DOCTYPE html>
-<html>
+<html class="loading" dir="ltr" lang="zh">
   <head>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'">
-    <title>Page not found &middot; GitHub Pages</title>
-    <style type="text/css" media="screen">
-      body {
-        background-color: #f1f1f1;
-        margin: 0;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      }
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>IT 基本要素</title>
+    <link rel="stylesheet" type="text/css" href="course/common-ext/styles/course.css"/>
+    <link rel="stylesheet" type="text/css" href="course/common/styles/course.css"/>
+    <script type="text/javascript" src="course/common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="course/common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="course/common-ext/scripts/netacad.js"></script>
+    <script type="text/javascript" src="course/common-ext/scripts/course.js"></script>
+    <script>
 
-      .container { margin: 50px auto 40px auto; width: 600px; text-align: center; }
+      netacad.settings.init("ITE6");
 
-      a { color: #4183c4; text-decoration: none; }
-      a:hover { text-decoration: underline; }
+      netacad.lang.set("Module", "第 # 章");
+      netacad.lang.set("Section", "第 # 节");
+      netacad.lang.set("Topic", "主题 #");
+      netacad.lang.set("Page", "第 # 页");
+      netacad.lang.set("Figure", "图 #");
+      netacad.lang.set("Figures", "图片");
+      netacad.lang.set("NoItems", "没有项目。");
+      netacad.lang.set("NoBookmarks", "没有书签。");
+      netacad.lang.set("NoRecentPages", "没有最近访问的页面。");
+      netacad.lang.set("NoSearchResults", "没有搜索结果。");
+      netacad.lang.set("EnterSearchTerms", "输入搜索词……");
+      netacad.lang.set("PageThumbnail", "頁碼 # 縮略圖");
+      netacad.lang.set("BackgroundImage", "背景影像");
 
-      h1 { width: 800px; position:relative; left: -100px; letter-spacing: -1px; line-height: 60px; font-size: 60px; font-weight: 100; margin: 0px 0 50px 0; text-shadow: 0 1px 0 #fff; }
-      p { color: rgba(0, 0, 0, 0.5); margin: 20px 0; line-height: 1.6; }
+      var course = function() {
+        var c, m, s, t, p;
+        c = new netacad.models.Course("ITE6", "zh", "IT 基本要素");
+        m = new netacad.models.Module("0", "课程简介");
+        s = new netacad.models.Section("0.0", "欢迎学习 IT 基础课程");
+        t = new netacad.models.Topic("0.0.1", "致学生的话");
+        p = new netacad.models.Page("0.0.1.1", "欢迎", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("0.0.1.2", "不只包含信息", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("0.0.1.3", "如何教学", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("0.0.1.4", "广开思路", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("0.0.2", "IT 行业");
+        p = new netacad.models.Page("0.0.2.1", "教育与认证", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("0.0.2.2", "CompTIA A+ 认证", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("0.0.2.3", "现场技术人员、远程技术人员以及维修中心技术人员", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("0.0.2.4", "Cisco Networking Academy 和 NetAcad Advantage", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("1", "个人计算机系统简介");
+        s = new netacad.models.Section("1.0", "简介");
+        t = new netacad.models.Topic("1.0.1", "欢迎");
+        p = new netacad.models.Page("1.0.1.1", "第 1 章：个人计算机简介", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("1.1", "个人计算机系统");
+        t = new netacad.models.Topic("1.1.1", "机箱和电源");
+        p = new netacad.models.Page("1.1.1.1", "机箱", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.1.2", "电源", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.1.3", "电源功率", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.1.4", "实验 - 欧姆定律", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("1.1.2", "内部 PC 组件");
+        p = new netacad.models.Page("1.1.2.1", "主板", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.2.2", "CPU 架构", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.2.3", "增强 CPU 性能", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.2.4", "冷却系统", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.2.5", "ROM", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.2.6", "内存", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.2.7", "内存模块", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.2.8", "适配器卡和扩展槽", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.2.9", "存储设备", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.2.10", "存储设备接口和 RAID", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("1.1.3", "外部端口和电缆");
+        p = new netacad.models.Page("1.1.3.1", "视频端口和电缆", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.3.2", "其他端口和电缆", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.3.3", "适配器和转换器", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("1.1.4", "输入和输出设备");
+        p = new netacad.models.Page("1.1.4.1", "输入设备", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.4.2", "输出设备", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.1.4.3", "显示器特点", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("1.2", "选择计算机组件");
+        t = new netacad.models.Topic("1.2.1", "选择 PC 组件");
+        p = new netacad.models.Page("1.2.1.1", "组装计算机", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.2", "选择主板", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.3", "选择机箱和风扇", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.4", "选择电源", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.5", "选择 CPU 和 CPU 冷却系统", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.6", "选择内存", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.7", "选择适配器卡", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.8", "选择硬盘驱动器", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.9", "选择读卡器", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.10", "选择光驱", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.11", "选择外部存储", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.12", "选择输入和输出设备", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.2.1.13", "实验 - 研究计算机组件", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("1.3", "专用计算机系统的配置");
+        t = new netacad.models.Topic("1.3.1", "专用计算机系统");
+        p = new netacad.models.Page("1.3.1.1", "胖客户端和瘦客户端", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.3.1.2", "CAx 工作站", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.3.1.3", "音频和视频编辑工作站", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.3.1.4", "虚拟化工作站", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.3.1.5", "游戏 PC", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.3.1.6", "家庭影院 PC", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("1.3.1.7", "实验 - 组装专用计算机系统", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("1.4", "本章总结");
+        t = new netacad.models.Topic("1.4.1", "小结");
+        p = new netacad.models.Page("1.4.1.1", "第 1 章：个人计算机系统简介", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("2", "实验流程和工具使用简介");
+        s = new netacad.models.Section("2.0", "简介");
+        t = new netacad.models.Topic("2.0.1", "欢迎");
+        p = new netacad.models.Page("2.0.1.1", "第 2 章：实验流程和工具使用简介", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("2.1", "安全的实验流程");
+        t = new netacad.models.Topic("2.1.1", "保护人员的流程");
+        p = new netacad.models.Page("2.1.1.1", "通用安全", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.1.2", "电气安全", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.1.3", "消防安全", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("2.1.2", "保护设备和数据的流程");
+        p = new netacad.models.Page("2.1.2.1", "ESD 和 EMI", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.2.2", "功率波动类型", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.2.3", "电源保护设备", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("2.1.3", "保护环境的流程");
+        p = new netacad.models.Page("2.1.3.1", "安全数据表", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.1.3.2", "设备处理", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("2.2", "正确使用工具");
+        t = new netacad.models.Topic("2.2.1", "硬件工具");
+        p = new netacad.models.Page("2.2.1.1", "一般工具使用", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.1.2", "ESD 工具", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.1.3", "手工工具", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.1.4", "电缆工具", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.1.5", "清洁工具", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.1.6", "诊断工具", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("2.2.2", "软件工具");
+        p = new netacad.models.Page("2.2.2.1", "磁盘管理工具", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.2.2", "保护软件工具", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.2.3", "实验 - 诊断软件", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("2.2.3", "收纳工具");
+        p = new netacad.models.Page("2.2.3.1", "参考工具", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.3.2", "杂项工具", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("2.2.4", "示范正确的工具使用方法");
+        p = new netacad.models.Page("2.2.4.1", "防静电腕带", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.4.2", "防静电垫", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.4.3", "手工工具", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.4.4", "实验 - 使用万用表和电源测试仪", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.4.5", "清洁材料", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.4.6", "视频 - 计算机拆解", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("2.2.4.7", "实验 - 计算机拆解", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("2.3", "小结");
+        t = new netacad.models.Topic("2.3.1", "结论");
+        p = new netacad.models.Page("2.3.1.1", "第 2 章：实验流程和工具使用", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("3", "计算机组装");
+        s = new netacad.models.Section("3.0", "简介");
+        t = new netacad.models.Topic("3.0.1", "欢迎");
+        p = new netacad.models.Page("3.0.1.1", "第 3 章：计算机组装", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("3.1", "组装计算机");
+        t = new netacad.models.Topic("3.1.1", "打开机箱并连接电源");
+        p = new netacad.models.Page("3.1.1.1", "打开机箱", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.1.2", "安装电源", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.1.3", "实验 - 安装电源", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("3.1.2", "安装主板");
+        p = new netacad.models.Page("3.1.2.1", "安装 CPU、散热器和风扇组件", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.2.2", "练习 - 安装 CPU", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.2.3", "安装内存", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.2.4", "安装主板", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.2.5", "练习 - 安装主板", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.2.6", "实验 - 安装主板", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("3.1.3", "安装驱动器");
+        p = new netacad.models.Page("3.1.3.1", "安装硬盘驱动器", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.3.2", "安装光驱", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.3.3", "实验 - 安装驱动器", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("3.1.4", "安装适配器卡");
+        p = new netacad.models.Page("3.1.4.1", "适配器卡的类型", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.4.2", "安装无线网卡", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.4.3", "安装显卡", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.4.4", "实验 - 安装适配器卡", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("3.1.5", "安装电缆");
+        p = new netacad.models.Page("3.1.5.1", "将电源连接到主板", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.5.2", "连接内部驱动器和机箱风扇电源", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.5.3", "练习 - 确定电源接头", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.5.4", "连接内部数据线", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.5.5", "实验 - 连接内部电缆", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.5.6", "连接前面板电缆", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.5.7", "练习 - 确定前面板接头", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.5.8", "实验 - 连接前面板电缆", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.5.9", "重新组装机箱组件", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.5.10", "安装外部电缆", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.5.11", "练习 - 确定外部接头", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.1.5.12", "实验 - 完成计算机组装", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("3.2", "启动计算机");
+        t = new netacad.models.Topic("3.2.1", "POST、BIOS、UEFI");
+        p = new netacad.models.Page("3.2.1.1", "BIOS 蜂鸣声代码和设置", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.2.1.2", "BIOS 和 CMOS", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.2.1.3", "BIOS 设置程序", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.2.1.4", "UEFI 设置程序", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("3.2.2", "BIOS 和 UEFI 配置");
+        p = new netacad.models.Page("3.2.2.1", "BIOS 组件信息", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.2.2.2", "BIOS 配置", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.2.2.3", "BIOS 安全配置", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.2.2.4", "BIOS 硬件诊断和监控", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.2.2.5", "UEFI EZ 模式", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.2.2.6", "UEFI 高级模式", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.2.2.7", "练习 - 确定术语", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.2.2.8", "实验 - 启动计算机", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("3.3", "升级并配置计算机");
+        t = new netacad.models.Topic("3.3.1", "主板和相关组件");
+        p = new netacad.models.Page("3.3.1.1", "主板组件升级", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.3.1.2", "升级主板", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.3.1.3", "升级 BIOS", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.3.1.4", "升级 CPU、散热器和风扇组件", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.3.1.5", "升级内存", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.3.1.6", "实验 - BIOS 文件搜索", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("3.3.2", "存储设备");
+        p = new netacad.models.Page("3.3.2.1", "升级硬盘驱动器", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("3.3.3", "外围设备");
+        p = new netacad.models.Page("3.3.3.1", "升级输入和输出设备", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("3.3.3.2", "实验 - 升级硬件", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("3.4", "本章总结");
+        t = new netacad.models.Topic("3.4.1", "结论");
+        p = new netacad.models.Page("3.4.1.1", "第 3 章：计算机组装", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("4", "预防性维护概述");
+        s = new netacad.models.Section("4.0", "简介");
+        t = new netacad.models.Topic("4.0.1", "欢迎");
+        p = new netacad.models.Page("4.0.1.1", "第 4 章：预防性维护概述", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("4.1", "预防性维护");
+        t = new netacad.models.Topic("4.1.1", "PC 预防性维护概述");
+        p = new netacad.models.Page("4.1.1.1", "预防性维护的好处", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.1.1.2", "预防性维护任务", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.1.1.3", "清理机箱和内部组件", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.1.1.4", "检查内部组件", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.1.1.5", "环境问题", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("4.2", "故障排除流程");
+        t = new netacad.models.Topic("4.2.1", "故障排除流程步骤");
+        p = new netacad.models.Page("4.2.1.1", "故障排除简介", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.2.1.2", "确定问题", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.2.1.3", "练习 - 确定问题", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.2.1.4", "推测潜在原因", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.2.1.5", "测试自己的推测，确定问题原因", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.2.1.6", "制定行动方案以解决问题，并实施解决方案", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.2.1.7", "检验完整的系统功能，如果适用，并实施预防措施", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("4.2.1.8", "记录调查结果、措施和结果", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("4.2.2", "常见问题和解决方案");
+        p = new netacad.models.Page("4.2.2.1", "PC 常见问题和解决方案", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("4.3", "本章总结");
+        t = new netacad.models.Topic("4.3.1", "小结");
+        p = new netacad.models.Page("4.3.1.1", "第 4 章：预防性维护概述", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("5", "Windows 安装");
+        s = new netacad.models.Section("5.0", "简介");
+        t = new netacad.models.Topic("5.0.1", "欢迎");
+        p = new netacad.models.Page("5.0.1.1", "第 5 章：Windows® 安装", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("5.1", "现代操作系统");
+        t = new netacad.models.Topic("5.1.1", "操作系统术语和特征");
+        p = new netacad.models.Page("5.1.1.1", "术语", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.1.2", "操作系统的基本功能", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.1.3", "处理器架构", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("5.1.2", "操作系统类型");
+        p = new netacad.models.Page("5.1.2.1", "桌面操作系统", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.2.2", "网络操作系统", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.2.3", "实验 - 搜索 NOC 认证和职业", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("5.1.3", "客户对操作系统的要求");
+        p = new netacad.models.Page("5.1.3.1", "与操作系统兼容的应用和环境", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.3.2", "最低硬件要求和操作系统平台兼容性", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("5.1.4", "操作系统升级");
+        p = new netacad.models.Page("5.1.4.1", "检查操作系统兼容性", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.4.2", "Windows 操作系统升级", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.4.3", "数据迁移", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.1.4.4", "实验 - Windows 中的数据迁移", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("5.2", "操作系统安装");
+        t = new netacad.models.Topic("5.2.1", "存储设备设置过程");
+        p = new netacad.models.Page("5.2.1.1", "存储设备类型", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.1.2", "硬盘驱动器分区", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.1.3", "练习 - 识别磁盘术语", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.1.4", "文件系统", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.1.5", "视频 - 磁盘管理", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.1.6", "使用默认设置安装操作系统", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.1.7", "实验 - 安装 Windows", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.1.8", "帐户创建", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.1.9", "完成安装", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.1.10", "实验 - 检查 Windows 更新", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("5.2.2", "自定义安装选项");
+        p = new netacad.models.Page("5.2.2.1", "磁盘克隆", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.2.2", "其他安装方法", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.2.3", "网络安装", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.2.4", "还原、刷新和恢复", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.2.5", "系统恢复选项", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.2.6", "识别操作系统安装术语", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("5.2.3", "启动顺序和注册表文件");
+        p = new netacad.models.Page("5.2.3.1", "Windows 启动过程", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.3.2", "确定 BIOS 启动过程顺序", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.3.3", "启动模式", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.3.4", "Windows 注册表", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("5.2.4", "多重启动");
+        p = new netacad.models.Page("5.2.4.1", "多重启动过程", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.4.2", "磁盘管理工具", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.4.3", "分区", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.4.4", "驱动器映射或驱动器号分配", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.4.5", "视频 - 磁盘分区", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.4.6", "视频 - 驱动器镜像", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.4.7", "实验 - 在 Windows 中创建分区", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("5.2.5", "磁盘目录");
+        p = new netacad.models.Page("5.2.5.1", "目录结构", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.5.2", "用户和系统文件位置", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.5.3", "文件扩展名和属性", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("5.2.5.4", "应用、文件和文件夹属性", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("5.3", "小结");
+        t = new netacad.models.Topic("5.3.1", "本章总结");
+        p = new netacad.models.Page("5.3.1.1", "第 5 章：Windows® 安装", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("6", "Windows 配置和管理");
+        s = new netacad.models.Section("6.0", "简介");
+        t = new netacad.models.Topic("6.0.1", "欢迎");
+        p = new netacad.models.Page("6.0.1.1", "第 6 章：Windows 配置和管理", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("6.1", "Windows GUI 和控制面板");
+        t = new netacad.models.Topic("6.1.1", "Windows 桌面、工具和应用");
+        p = new netacad.models.Page("6.1.1.1", "Windows 桌面", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.1.2", "桌面属性", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.1.3", "开始菜单", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.1.4", "任务管理器", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.1.5", "实验 - 任务管理器", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.1.6", "计算机和 Windows 资源管理器", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.1.7", "Windows 库", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.1.8", "安装和卸载应用", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.1.9", "实验 - 安装第三方软件", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("6.1.2", "控制面板实用程序");
+        p = new netacad.models.Page("6.1.2.1", "控制面板实用程序简介", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.2", "用户帐户", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.3", "实验 - 创建用户帐户", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.4", "Internet 选项", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.5", "实验 - 配置浏览器设置", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.6", "显示器设置", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.7", "文件夹选项", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.8", "操作中心", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.9", "Windows 防火墙", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.10", "电源选项", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.11", "系统实用程序", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.12", "实验 - 管理虚拟内存", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.13", "设备管理器、设备和打印机、声音", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.14", "实验 - 设备管理器", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.15", "区域、程序和功能、疑难解答", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.16", "实验 - 区域和语言选项", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.2.17", "家庭组、网络和共享中心", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("6.1.3", "管理工具");
+        p = new netacad.models.Page("6.1.3.1", "计算机管理", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.3.2", "事件查看器", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.3.3", "服务", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.3.4", "系统配置", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.3.5", "性能监视器和 Windows 内存诊断", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.3.6", "编程工具", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.3.7", "实验 - 监控和管理系统资源", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("6.1.4", "磁盘碎片整理程序和磁盘错误检查工具");
+        p = new netacad.models.Page("6.1.4.1", "磁盘碎片整理程序和磁盘错误检查工具", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.4.2", "实验 - 硬盘驱动器维护", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.4.3", "系统信息", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.4.4", "实验 – 在 Windows 中管理系统文件", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("6.1.5", "命令行工具");
+        p = new netacad.models.Page("6.1.5.1", "Windows CLI 命令", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.5.2", "视频 - 常用 Windows CLI 命令", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.5.3", "视频 - 日志用户访问", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.5.4", "实验 - 常用 Windows CLI 命令", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.5.5", "系统实用程序", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.1.5.6", "实验 - 系统实用程序", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("6.2", "客户端虚拟化");
+        t = new netacad.models.Topic("6.2.1", "虚拟化的用途和要求");
+        p = new netacad.models.Page("6.2.1.1", "虚拟机的用途", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.2.1.2", "虚拟机监控程序：Virtual Machine Manager", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.2.1.3", "虚拟机要求", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("6.3", "常见的操作系统预防性维护技术");
+        t = new netacad.models.Topic("6.3.1", "操作系统预防性维护计划");
+        p = new netacad.models.Page("6.3.1.1", "预防性维护计划的内容", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.3.1.2", "实验 - 管理”启动“文件夹", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.3.1.3", "更新", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.3.1.4", "计划任务", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.3.1.5", "实验 - 任务计划程序", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.3.1.6", "还原点", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.3.1.7", "实验 - 系统还原", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.3.1.8", "硬盘备份", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.3.1.9", "视频 - 备份工具", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.3.1.10", "视频 - 还原点", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("6.4", "操作系统的基本故障排除流程");
+        t = new netacad.models.Topic("6.4.1", "使用操作系统故障排除流程");
+        p = new netacad.models.Page("6.4.1.1", "识别问题", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.4.1.2", "推测潜在原因", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.4.1.3", "验证推测以确定原因。", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.4.1.4", "制定行动方案，解决问题并实施解决方案", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.4.1.5", "检验完整的系统功能并实施预防措施", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("6.4.1.6", "记录调查结果、措施和结果", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("6.4.2", "操作系统的常见问题和解决方案");
+        p = new netacad.models.Page("6.4.2.1", "常见问题和解决方案", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("6.5", "本章总结");
+        t = new netacad.models.Topic("6.5.1", "本章总结");
+        p = new netacad.models.Page("6.5.1.1", "第 6 章：Microsoft Windows 操作系统", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("7", "网络概念");
+        s = new netacad.models.Section("7.0", "简介");
+        t = new netacad.models.Topic("7.0.1", "欢迎");
+        p = new netacad.models.Page("7.0.1.1", "第 7 章：网络概念", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("7.1", "网络原理");
+        t = new netacad.models.Topic("7.1.1", "计算机网络");
+        p = new netacad.models.Page("7.1.1.1", "网络定义", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.1.2", "主机设备", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.1.3", "中间设备", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.1.4", "网络介质", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.1.5", "练习 - 识别网络设备和介质的表示方法", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.1.6", "带宽和延迟", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.1.7", "数据传输", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("7.1.2", "网络类型");
+        p = new netacad.models.Page("7.1.2.1", "LAN", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.2.2", "WLAN", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.2.3", "PAN", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.2.4", "MAN", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.2.5", "WAN", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.2.6", "对等网络", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.2.7", "客户端-服务器网络", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.1.2.8", "练习 - 匹配网络类型", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("7.2", "网络标准");
+        t = new netacad.models.Topic("7.2.1", "参考模型");
+        p = new netacad.models.Page("7.2.1.1", "开放标准", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.2.1.2", "协议", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.2.1.3", "OSI 参考模型", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.2.1.4", "TCP/IP 模型", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.2.1.5", "协议数据单元", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.2.1.6", "封装示例", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.2.1.7", "解封示例", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.2.1.8", "比较 OSI 模型与 TCP/IP 模型", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.2.1.9", "练习 - 放置 OSI 和 TCP/IP 模型各层", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("7.2.2", "有线和无线以太网标准");
+        p = new netacad.models.Page("7.2.2.1", "CSMA/CD", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.2.2.2", "以太网电缆标准", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.2.2.3", "CSMA/CA", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.2.2.4", "无线标准", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.2.2.5", "无线安全", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("7.3", "网络的物理组件");
+        t = new netacad.models.Topic("7.3.1", "网络设备");
+        p = new netacad.models.Page("7.3.1.1", "调制解调器", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.1.2", "集线器、网桥和交换机", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.1.3", "无线接入点和路由器", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.1.4", "硬件防火墙", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.1.5", "其他设备", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.1.6", "练习 - 识别网络设备", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("7.3.2", "电缆和接头");
+        p = new netacad.models.Page("7.3.2.1", "同轴电缆", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.2.2", "双绞线电缆", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.2.3", "双绞线类别评级", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.2.4", "双绞线布线方案", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.2.5", "练习 - 电缆引脚", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.2.6", "实验 - 构建和测试网络电缆", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.2.7", "Packet Tracer – 简单网络布线", "Activity", "Packet Tracer", "Skills Integration Challenge");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.2.8", "光缆", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.2.9", "光纤介质的类型", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.3.2.10", "光纤接头", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("7.4", "基本网络概念和技术");
+        t = new netacad.models.Topic("7.4.1", "网络设备寻址");
+        p = new netacad.models.Page("7.4.1.1", "网络寻址", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.1.2", "IP 地址", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.1.3", "IPv4 地址格式", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.1.4", "有类 IPv4 编址与无类 IPv4 编址", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.1.5", "Pv6 地址的数量", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.1.6", "IPv6 地址格式", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.1.7", "视频 - IPv4 与 IPv6", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.1.8", "静态寻址", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.1.9", "动态寻址", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.1.10", "ICMP", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.1.11", "实验 – 在 Windows 中配置网卡使用 DHCP", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.1.12", "Packet Tracer – 将计算机添加到现有网络中", "Activity", "Packet Tracer", "Skills Integration Challenge");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("7.4.2", "传输层协议");
+        p = new netacad.models.Page("7.4.2.1", "传输层的作用", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.2.2", "传输层功能", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.2.3", "传输层协议", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.2.4", "TCP", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.2.5", "UDP", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.2.6", "端口号", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.2.7", "练习 – TCP 与 UDP", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("7.4.2.8", "练习 - 协议定义和端口", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("7.5", "本章总结");
+        t = new netacad.models.Topic("7.5.1", "结论");
+        p = new netacad.models.Page("7.5.1.1", "第 7 章：网络概念", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("8", "应用网络连接");
+        s = new netacad.models.Section("8.0", "简介");
+        t = new netacad.models.Topic("8.0.1", "欢迎");
+        p = new netacad.models.Page("8.0.1.1", "第 8 章：应用网络连接", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("8.1", "计算机连网");
+        t = new netacad.models.Topic("8.1.1", "网络卡");
+        p = new netacad.models.Page("8.1.1.1", "网络安装完成清单", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.1.2", "选择网卡", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.1.3", "安装和更新网卡", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.1.4", "配置网卡", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.1.5", "高级网卡设置", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("8.1.2", "无线和有线路由器配置");
+        p = new netacad.models.Page("8.1.2.1", "连接网卡", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.2", "将路由器连接到 Internet", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.3", "设置网络位置", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.4", "登录到路由器", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.5", "基本网络设置", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.6", "基本无线设置", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.7", "测试与 Windows GUI 的连接", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.8", "测试与 Windows CLI 的连接", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.9", "视频 – 网络 CLI 命令", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.10", "实验 - 首次连接路由器", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.11", "Packet Tracer - 连接无线路由器并配置基本设置", "Activity", "Packet Tracer", "Skills Integration Challenge");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.12", "实验 - 在 Windows 中配置无线路由器", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.13", "Packet Tracer – 将无线计算机连接到无线路由器", "Activity", "Packet Tracer", "Skills Integration Challenge");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.14", "实验 – 测试 Windows 中的无线网卡", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.2.15", "Packet Tracer – 测试无线连接", "Activity", "Packet Tracer", "Skills Integration Challenge");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("8.1.3", "网络共享");
+        p = new netacad.models.Page("8.1.3.1", "域和工作组", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.3.2", "连接到工作组或域", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.3.3", "Windows 家庭组", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.3.4", "在 Windows Vista 中共享资源", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.3.5", "网络共享和映射驱动器", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.3.6", "管理共享", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.3.7", "网络驱动器映射", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.3.8", "视频 - 共享一个文件夹", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.3.9", "实验 – 在 Windows 中共享资源", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("8.1.4", "远程连接");
+        p = new netacad.models.Page("8.1.4.1", "VPN", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.4.2", "远程桌面和远程协助", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.4.3", "实验 – Windows 中的远程协助", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.1.4.4", "实验 – Windows 中的远程桌面", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("8.2", "ISP 连接技术");
+        t = new netacad.models.Topic("8.2.1", "宽带技术");
+        p = new netacad.models.Page("8.2.1.1", "连接技术简史", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.2.1.2", "DSL 和 ADSL", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.2.1.3", "视距无线 Internet 服务", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.2.1.4", "WiMAX", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.2.1.5", "其他宽带技术", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.2.1.6", "为客户选择 ISP", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.2.1.7", "练习 - ISP 连接类型", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("8.3", "Internet 技术");
+        t = new netacad.models.Topic("8.3.1", "数据中心和云计算");
+        p = new netacad.models.Page("8.3.1.1", "数据中心", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.1.2", "云计算与数据中心", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.1.3", "云计算的特征", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.1.4", "SaaS、IaaS 和 PaaS", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.1.5", "云类型", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.1.6", "练习 - 识别云术语", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("8.3.2", "网络主机服务");
+        p = new netacad.models.Page("8.3.2.1", "DHCP 服务", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.2.2", "DNS 服务", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.2.3", "Web 服务", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.2.4", "文件服务", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.2.5", "打印服务", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.2.6", "电子邮件服务", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.2.7", "代理设置", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.2.8", "身份验证服务", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.2.9", "入侵检测和防御服务", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.2.10", "统一威胁管理", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.3.2.11", "练习 - 识别网络主机服务", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("8.4", "网络中常用的预防性维护技术");
+        t = new netacad.models.Topic("8.4.1", "网络维护");
+        p = new netacad.models.Page("8.4.1.1", "预防性维护程序", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("8.5", "基本的网络故障排除流程");
+        t = new netacad.models.Topic("8.5.1", "对网络应用故障排除流程");
+        p = new netacad.models.Page("8.5.1.1", "识别问题", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.5.1.2", "推测潜在原因", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.5.1.3", "验证推测以确定原因。", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.5.1.4", "制定行动方案，解决问题并实施解决方案", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.5.1.5", "检验完整的系统功能并实施预防措施", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("8.5.1.6", "记录调查结果、措施和结果", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("8.5.2", "网络常见问题和解决方案");
+        p = new netacad.models.Page("8.5.2.1", "识别常见问题和解决方案", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("8.6", "本章总结");
+        t = new netacad.models.Topic("8.6.1", "结论");
+        p = new netacad.models.Page("8.6.1.1", "第 8 章：应用网络连接", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("9", "笔记本电脑和移动设备");
+        s = new netacad.models.Section("9.0", "简介");
+        t = new netacad.models.Topic("9.0.1", "欢迎");
+        p = new netacad.models.Page("9.0.1.1", "第 9 章：笔记本电脑和移动设备", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("9.1", "笔记本电脑组件");
+        t = new netacad.models.Topic("9.1.1", "笔记本电脑组件的功能");
+        p = new netacad.models.Page("9.1.1.1", "笔记本电脑独有的外部功能", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.1.1.2", "笔记本电脑中常见的输入设备和 LED", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.1.1.3", "内部组件", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.1.1.4", "特殊功能键", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.1.1.5", "扩展坞与端口复制器", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.1.1.6", "实验 - 研究扩展坞", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("9.1.2", "笔记本电脑显示屏");
+        p = new netacad.models.Page("9.1.2.1", "LCD、LED 和 OLED 显示屏", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.1.2.2", "背光和逆变器", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.1.2.3", "Wi-Fi 天线接头", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.1.2.4", "网络摄像头和麦克风", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("9.2", "笔记本电脑配置");
+        t = new netacad.models.Topic("9.2.1", "电源设置配置");
+        p = new netacad.models.Page("9.2.1.1", "电源管理", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.2.1.2", "管理 BIOS 中的 ACPI 设置", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.2.1.3", "练习 - 匹配 ACPI 标准", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.2.1.4", "管理笔记本电脑电源选项", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("9.2.2", "无线配置");
+        p = new netacad.models.Page("9.2.2.1", "蓝牙", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.2.2.2", "蜂窝 WAN", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.2.2.3", "Wi-Fi", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("9.3", "笔记本电脑硬件和组件的安装与配置");
+        t = new netacad.models.Topic("9.3.1", "扩展槽");
+        p = new netacad.models.Page("9.3.1.1", "扩展卡", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.1.2", "闪存", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.1.3", "智能卡读卡器", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.1.4", "SODIMM 内存", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.1.5", "实验 - 研究笔记本电脑 RAM", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("9.3.2", "更换硬件设备");
+        p = new netacad.models.Page("9.3.2.1", "硬件更换概述", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.2", "电源", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.3", "实验 - 研究笔记本电脑电池", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.4", "键盘、触摸板和屏幕", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.5", "实验 - 研究笔记本电脑屏幕", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.6", "内部存储驱动器和光驱", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.7", "实验 - 研究笔记本电脑硬盘驱动器", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.8", "无线网卡", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.9", "扬声器", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.10", "CPU", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.11", "主板", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.12", "塑料框架", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.13", "视频 - 更换笔记本电脑组件", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.3.2.14", "实验 - 研究如何构建专用的笔记本电脑", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("9.4", "移动设备硬件概述");
+        t = new netacad.models.Topic("9.4.1", "移动设备硬件");
+        p = new netacad.models.Page("9.4.1.1", "移动设备部件", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.4.1.2", "不可升级硬件", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.4.1.3", "触摸屏", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.4.1.4", "固态驱动器", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.4.1.5", "连接类型", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.4.1.6", "练习 - 识别连接类型", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.4.1.7", "配件", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("9.4.2", "其他移动设备");
+        p = new netacad.models.Page("9.4.2.1", "可穿戴设备", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.4.2.2", "专用设备", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("9.5", "笔记本电脑和移动设备的常用预防性维护技术");
+        t = new netacad.models.Topic("9.5.1", "笔记本电脑和移动设备的计划维护");
+        p = new netacad.models.Page("9.5.1.1", "计划维护工作", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("9.6", "笔记本电脑和移动设备的基本故障排除过程");
+        t = new netacad.models.Topic("9.6.1", "方法");
+        p = new netacad.models.Page("9.6.1.1", "识别问题", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.6.1.2", "推测潜在原因", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.6.1.3", "验证推测以确定原因", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.6.1.4", "制定行动方案，解决问题并实施解决方案", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.6.1.5", "检验完整的系统功能并实施预防措施", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.6.1.6", "记录调查结果、措施和结果", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("9.6.2", "笔记本电脑和移动设备的常见问题和解决方案");
+        p = new netacad.models.Page("9.6.2.1", "识别常见问题和解决方案", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.6.2.2", "实验 - 研究笔记本电脑问题", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.6.2.3", "实验 - 从客户处收集信息", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("9.6.2.4", "实验 - 调查支持网站", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("9.7", "本章小结");
+        t = new netacad.models.Topic("9.7.1", "小结");
+        p = new netacad.models.Page("9.7.1.1", "第 9 章：笔记本电脑和移动设备", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("10", "移动、Linux 和 OS X 操作系统");
+        s = new netacad.models.Section("10.0", "简介");
+        t = new netacad.models.Topic("10.0.1", "欢迎");
+        p = new netacad.models.Page("10.0.1.1", "第 10 章：移动、Linux 和 OS X 操作系统", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("10.1", "移动操作系统");
+        t = new netacad.models.Topic("10.1.1", "Android 与 iOS");
+        p = new netacad.models.Page("10.1.1.1", "开源与闭源", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.1.1.2", "移动应用开发", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.1.1.3", "应用和内容源", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("10.1.2", "Android 触摸界面");
+        p = new netacad.models.Page("10.1.2.1", "主屏幕项目", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.1.2.2", "管理应用、小部件和文件夹", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.1.2.3", "实验 - 使用 Android", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("10.1.3", "iOS 触摸界面");
+        p = new netacad.models.Page("10.1.3.1", "主屏幕项目", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.1.3.2", "管理应用和文件夹", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.1.3.3", "实验 - 使用 iOS", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("10.1.4", "Windows Phone 触摸界面");
+        p = new netacad.models.Page("10.1.4.1", "“开始”屏幕项目", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.1.4.2", "管理应用和文件夹", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("10.1.5", "常见的移动设备功能");
+        p = new netacad.models.Page("10.1.5.1", "屏幕方向和校准", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.1.5.2", "GPS", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.1.5.3", "实验 - 移动设备功能", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.1.5.4", "实验 - 移动设备信息", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.1.5.5", "便利功能", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.1.5.6", "信息功能", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("10.2", "保护移动设备的方法");
+        t = new netacad.models.Topic("10.2.1", "密码锁");
+        p = new netacad.models.Page("10.2.1.1", "密码锁概述", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.2.1.2", "实验 - 密码锁", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.2.1.3", "对失败登录尝试次数的限制", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("10.2.2", "针对移动设备的云基服务");
+        p = new netacad.models.Page("10.2.2.1", "远程备份", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.2.2.2", "定位器应用", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.2.2.3", "远程锁定和远程擦除", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("10.2.3", "软件安全");
+        p = new netacad.models.Page("10.2.3.1", "防病毒", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.2.3.2", "修补和更新操作系统", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("10.3", "网络连接性和电子邮件");
+        t = new netacad.models.Topic("10.3.1", "无线和蜂窝数据网络");
+        p = new netacad.models.Page("10.3.1.1", "无线数据网络", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.3.1.2", "实验 - 移动 Wi-Fi", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.3.1.3", "蜂窝网络通信", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("10.3.2", "蓝牙");
+        p = new netacad.models.Page("10.3.2.1", "移动设备的蓝牙", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.3.2.2", "蓝牙配对", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("10.3.3", "配置电子邮件");
+        p = new netacad.models.Page("10.3.3.1", "电子邮件简介", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.3.3.2", "练习 - 匹配电子邮件协议", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.3.3.3", "Android 电子邮件配置", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.3.3.4", "iOS 电子邮件配置", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.3.3.5", "Internet 电子邮件", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("10.3.4", "移动设备同步");
+        p = new netacad.models.Page("10.3.4.1", "要同步的数据类型", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.3.4.2", "同步连接类型", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("10.4", "Linux 和 OS X 操作系统");
+        t = new netacad.models.Topic("10.4.1", "Linux 和 OS X 工具和功能");
+        p = new netacad.models.Page("10.4.1.1", "Linux 和 OS X 操作系统简介", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.4.1.2", "Linux 和 OS X GUI 概述", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.4.1.3", "Linux 和 OS X CLI 概述", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.4.1.4", "实验 - 在虚拟机中安装 Linux 并探索 GUI", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.4.1.5", "备份和恢复概述", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.4.1.6", "磁盘实用程序概述", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.4.1.7", "视频 - 多重引导", "Activity", "Other", "Flash PnC");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("10.4.2", "Linux 和 OS X 最佳实践");
+        p = new netacad.models.Page("10.4.2.1", "定期任务", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.4.2.2", "安全", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("10.4.3", "基础 CLI");
+        p = new netacad.models.Page("10.4.3.1", "文件和文件夹命令", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.4.3.2", "管理命令", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.4.3.3", "实验 - 使用 Linux 命令行", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("10.5", "移动、Linux 和 OS X 操作系统的基本故障排除流程");
+        t = new netacad.models.Topic("10.5.1", "对移动、Linux 和 OS X 操作系统应用故障排除流程");
+        p = new netacad.models.Page("10.5.1.1", "识别问题", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.5.1.2", "推测潜在原因", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.5.1.3", "验证推测以确定原因", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.5.1.4", "制定行动方案，解决问题并实施解决方案", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.5.1.5", "检验完整的系统功能并实施预防措施", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.5.1.6", "记录调查结果、措施和结果", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("10.5.2", "移动、Linux 和 OS X 的常见问题和解决方案");
+        p = new netacad.models.Page("10.5.2.1", "识别常见问题和解决方案", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("10.5.2.2", "实验 - 排除移动设备故障", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("10.6", "本章小结");
+        t = new netacad.models.Topic("10.6.1", "总结");
+        p = new netacad.models.Page("10.6.1.1", "第 10 章：移动、Linux 和 OS X 操作系统", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("11", "打印机");
+        s = new netacad.models.Section("11.0", "简介");
+        t = new netacad.models.Topic("11.0.1", "欢迎");
+        p = new netacad.models.Page("11.0.1.1", "第 11 章：打印机", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("11.1", "常见的打印机特性");
+        t = new netacad.models.Topic("11.1.1", "特征和功能");
+        p = new netacad.models.Page("11.1.1.1", "打印机的特征和功能", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.1.1.2", "打印机连接类型", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("11.1.2", "打印机类型");
+        p = new netacad.models.Page("11.1.2.1", "喷墨打印机", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.1.2.2", "激光打印机", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.1.2.3", "激光打印流程", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.1.2.4", "练习 - 激光打印流程", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.1.2.5", "热敏式打印机", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.1.2.6", "击打式打印机", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.1.2.7", "虚拟打印机", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("11.2", "安装和配置打印机");
+        t = new netacad.models.Topic("11.2.1", "安装和更新打印机");
+        p = new netacad.models.Page("11.2.1.1", "安装打印机", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.2.1.2", "打印机驱动程序的类型", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.2.1.3", "更新和安装打印机驱动程序", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.2.1.4", "打印机测试页", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.2.1.5", "测试打印机功能", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.2.1.6", "实验 - 安装打印机", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("11.2.2", "配置选项和默认设置");
+        p = new netacad.models.Page("11.2.2.1", "常见配置设置", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.2.2.2", "全局和单个文档选项", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("11.2.3", "优化打印机性能");
+        p = new netacad.models.Page("11.2.3.1", "软件优化", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.2.3.2", "硬件优化", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("11.3", "共享打印机");
+        t = new netacad.models.Topic("11.3.1", "共享打印机的操作系统设置");
+        p = new netacad.models.Page("11.3.1.1", "配置打印机共享", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.3.1.2", "连接到共享计算机", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.3.1.3", "无线打印机连接", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("11.3.2", "打印服务器");
+        p = new netacad.models.Page("11.3.2.1", "打印服务器的用途", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.3.2.2", "软件打印服务器", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.3.2.3", "硬件打印服务器", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.3.2.4", "专用打印机服务器", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.3.2.5", "实验 - 共享打印机", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("11.4", "对打印机进行维护和故障排除");
+        t = new netacad.models.Topic("11.4.1", "打印机预防性维护");
+        p = new netacad.models.Page("11.4.1.1", "供应商指南", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.4.1.2", "更换耗材", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.4.1.3", "清洁方法", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.4.1.4", "操作环境", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("11.4.2", "排除打印机故障");
+        p = new netacad.models.Page("11.4.2.1", "识别问题", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.4.2.2", "推测潜在原因", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.4.2.3", "验证推测以确定原因", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.4.2.4", "制定行动方案，解决问题并实施解决方案", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.4.2.5", "检验完整的系统功能并实施预防措施", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("11.4.2.6", "记录调查结果、措施和结果", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("11.4.3", "打印机的常见问题和解决方案");
+        p = new netacad.models.Page("11.4.3.1", "识别常见问题和解决方案", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("11.5", "本章小结");
+        t = new netacad.models.Topic("11.5.1", "总结");
+        p = new netacad.models.Page("11.5.1.1", "第 11 章：打印机", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("12", "安全");
+        s = new netacad.models.Section("12.0", "简介");
+        t = new netacad.models.Topic("12.0.1", "欢迎");
+        p = new netacad.models.Page("12.0.1.1", "第 12 章：安全", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("12.1", "安全威胁");
+        t = new netacad.models.Topic("12.1.1", "安全威胁类型");
+        p = new netacad.models.Page("12.1.1.1", "恶意软件", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.1.1.2", "练习 - 识别恶意软件类型", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.1.1.3", "网络钓鱼", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.1.1.4", "垃圾邮件", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.1.1.5", "TCP/IP 攻击", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.1.1.6", "练习 - 识别 TCP/IP 攻击", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.1.1.7", "零日攻击", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.1.1.8", "社会工程", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("12.2", "安全程序");
+        t = new netacad.models.Topic("12.2.1", "Windows 本地安全策略");
+        p = new netacad.models.Page("12.2.1.1", "什么是安全策略？", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.1.2", "访问 Windows 本地安全策略", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.1.3", "用户名和密码", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.1.4", "帐户策略的安全设置", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.1.5", "本地密码管理", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.1.6", "本地策略的安全设置", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.1.7", "导出本地安全策略", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.1.8", "实验 - 配置 Windows 本地安全策略", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("12.2.2", "确保 Web 访问的安全");
+        p = new netacad.models.Page("12.2.2.1", "Web 安全", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.2.2", "ActiveX 过滤", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.2.3", "弹出窗口阻止程序", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.2.4", "SmartScreen 过滤器", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.2.5", "InPrivate 浏览", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("12.2.3", "保护数据");
+        p = new netacad.models.Page("12.2.3.1", "软件防火墙", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.3.2", "生物识别和智能卡", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.3.3", "数据备份", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.3.4", "文件和文件夹权限", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.3.5", "文件和文件夹加密", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.3.6", "Windows BitLocker", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.3.7", "数据擦除", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.3.8", "硬盘驱动器回收和销毁", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.3.9", "练习 - 确定数据保护术语", "Activity", "Other", "Flash DnD");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("12.2.4", "防护恶意软件");
+        p = new netacad.models.Page("12.2.4.1", "恶意软件保护程序", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.4.2", "修复已感染的系统", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.4.3", "签名文件更新", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("12.2.5", "安全技术");
+        p = new netacad.models.Page("12.2.5.1", "常见通信加密类型", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.5.2", "服务集标识符", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.5.3", "无线安全模式", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.5.4", "通用即插即用", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.5.5", "固件更新", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.5.6", "防火墙", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.5.7", "端口转发和端口触发", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.5.8", "Packet Tracer - 配置无线安全", "Activity", "Packet Tracer", "Skills Integration Challenge");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("12.2.6", "保护物理设备");
+        p = new netacad.models.Page("12.2.6.1", "物理设备保护方法", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.6.2", "安全硬件", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.2.6.3", "练习 - 确定物理安全设备", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("12.3", "常见的预防性维护安全技术");
+        t = new netacad.models.Topic("12.3.1", "安全维护");
+        p = new netacad.models.Page("12.3.1.1", "操作系统的服务包和安全补丁", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.3.1.2", "数据备份", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.3.1.3", "实验 - 在 Windows 上配置数据备份和恢复", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.3.1.4", "Windows 防火墙", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.3.1.5", "实验 - 在 Windows 中配置防火墙", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.3.1.6", "维护帐户", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.3.1.7", "管理用户", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.3.1.8", "管理组", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.3.1.9", "实验 - 在 Windows 中配置用户和组", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("12.4", "基本的安全故障排除流程");
+        t = new netacad.models.Topic("12.4.1", "对安全问题应用故障排除流程");
+        p = new netacad.models.Page("12.4.1.1", "识别问题", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.4.1.2", "推测潜在原因", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.4.1.3", "验证推测以确定原因", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.4.1.4", "制定行动方案，解决问题并实施解决方案", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.4.1.5", "检验完整的系统功能，如果适用，并实施预防措施", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.4.1.6", "记录调查结果、措施和结果", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("12.4.2", "常见的安全问题和解决方案");
+        p = new netacad.models.Page("12.4.2.1", "识别常见问题和解决方案", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("12.4.2.2", "实验 - 在工作订单中记录客户信息", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("12.5", "小结");
+        t = new netacad.models.Topic("12.5.1", "总结");
+        p = new netacad.models.Page("12.5.1.1", "第 12 章：安全", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("13", "IT 专业人员");
+        s = new netacad.models.Section("13.0", "简介");
+        t = new netacad.models.Topic("13.0.1", "欢迎");
+        p = new netacad.models.Page("13.0.1.1", "第 13 章：IT 专业人员", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("13.1", "沟通技能和 IT 专业人员");
+        t = new netacad.models.Topic("13.1.1", "沟通技能、故障排除和 IT 专业人员");
+        p = new netacad.models.Page("13.1.1.1", "沟通技能和故障排除之间的关系", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.1.1.2", "沟通技能和专业行为之间的关系", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.1.1.3", "实验 - 技术人员资源", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("13.1.2", "与客户交流");
+        p = new netacad.models.Page("13.1.2.1", "使用沟通技能确定客户问题", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.1.2.2", "展示与客户沟通的专业行为", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.1.2.3", "练习与客户沟通的专业行为", "Activity", "Other", "Flash DnD");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.1.2.4", "让客户始终专注于问题", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.1.2.5", "使用适当的网络礼仪", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("13.1.3", "员工最佳做法");
+        p = new netacad.models.Page("13.1.3.1", "时间和压力管理技巧", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.1.3.2", "遵守服务级别协议", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.1.3.3", "遵循业务策略", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("13.2", "IT 行业的道德和法律问题");
+        t = new netacad.models.Topic("13.2.1", "道德和法律注意事项");
+        p = new netacad.models.Page("13.2.1.1", "IT 行业的道德注意事项", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.2.1.2", "IT 行业的法律注意事项", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.2.1.3", "许可", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        t = new netacad.models.Topic("13.2.2", "合法程序概述");
+        p = new netacad.models.Page("13.2.2.1", "计算机取证", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.2.2.2", "网络法和第一响应", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.2.2.3", "记录和监管链", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("13.3", "呼叫中心技术人员");
+        t = new netacad.models.Topic("13.3.1", "呼叫中心 1 级技术人员和 2 级技术人员");
+        p = new netacad.models.Page("13.3.1.1", "呼叫中心", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.3.1.2", "1 级技术人员的职责", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("13.3.1.3", "2 级技术人员的职责", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("13.4", "本章小结");
+        t = new netacad.models.Topic("13.4.1", "总结");
+        p = new netacad.models.Page("13.4.1.1", "第 13 章：IT 专业人员", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        m = new netacad.models.Module("14", "高级故障排除");
+        s = new netacad.models.Section("14.0", "简介");
+        t = new netacad.models.Topic("14.0.1", "欢迎");
+        p = new netacad.models.Page("14.0.1.1", "第 14 章：高级故障排除", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("14.0.1.2", "故障排除的六个步骤回顾", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("14.1", "计算机组件和外围设备");
+        t = new netacad.models.Topic("14.1.1", "将故障排除流程应用于计算机组件和外围设备");
+        p = new netacad.models.Page("14.1.1.1", "组件和外围设备方面的高级问题和解决方案", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("14.1.1.2", "实验 - 排除硬件故障", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("14.1.1.3", "实验 - 远程技术人员 - 解决硬件问题", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("14.2", "操作系统");
+        t = new netacad.models.Topic("14.2.1", "将故障排除流程应用于操作系统");
+        p = new netacad.models.Page("14.2.1.1", "操作系统方面的高级问题和解决方案", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("14.2.1.2", "实验 - 排除操作系统故障", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("14.2.1.3", "实验 - 远程技术人员 - 修复操作系统故障", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("14.3", "网络");
+        t = new netacad.models.Topic("14.3.1", "对网络应用故障排除流程");
+        p = new netacad.models.Page("14.3.1.1", "网络方面的高级问题和解决方案", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("14.3.1.2", "实验 - 排除网络故障", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("14.3.1.3", "实验 - 远程技术人员 - 修复网络故障", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("14.4", "安全");
+        t = new netacad.models.Topic("14.4.1", "对安全问题应用故障排除流程");
+        p = new netacad.models.Page("14.4.1.1", "安全方面的高级问题和解决方案", "Content");
+        t.appendChild(p);
+        p = new netacad.models.Page("14.4.1.2", "实验 - 排除安全故障", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        p = new netacad.models.Page("14.4.1.3", "实验 - 远程技术人员 - 修复安全故障", "Activity", "Lab", "Hands-On");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        s = new netacad.models.Section("14.5", "本章小结");
+        t = new netacad.models.Topic("14.5.1", "总结");
+        p = new netacad.models.Page("14.5.1.1", "第 14 章：高级故障排除", "Content");
+        t.appendChild(p);
+        s.appendChild(t);
+        m.appendChild(s);
+        c.appendChild(m);
+        return c;
+      }();
 
-      ul { list-style: none; margin: 25px 0; padding: 0; }
-      li { display: table-cell; font-weight: bold; width: 1%; }
-
-      .logo { display: inline-block; margin-top: 35px; }
-      .logo-img-2x { display: none; }
-      @media
-      only screen and (-webkit-min-device-pixel-ratio: 2),
-      only screen and (   min--moz-device-pixel-ratio: 2),
-      only screen and (     -o-min-device-pixel-ratio: 2/1),
-      only screen and (        min-device-pixel-ratio: 2),
-      only screen and (                min-resolution: 192dpi),
-      only screen and (                min-resolution: 2dppx) {
-        .logo-img-1x { display: none; }
-        .logo-img-2x { display: inline-block; }
-      }
-
-      #suggestions {
-        margin-top: 35px;
-        color: #ccc;
-      }
-      #suggestions a {
-        color: #666666;
-        font-weight: 200;
-        font-size: 14px;
-        margin: 0 10px;
-      }
-
-    </style>
+    </script>
   </head>
-  <body>
-
-    <div class="container">
-
-      <h1>派大星</h1>
-      <p><strong>Patrick Star</strong></p>
-
-      <p>
-        This is my first site.      </p>
-
-      <p>
-      </p>
-
-      <div id="suggestions">
-        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
-        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+  <body aria-live="polite">
+    <div id="login" role="document" aria-hidden="true">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+    <div id="splash" role="document" aria-hidden="true">
+      <div class="logo" title="Cisco Systems, Inc."></div>
+      <h1>IT 基本要素</h1>
+      <table role="grid" aria-readonly="true">
+        <thead>
+          <tr role="row">
+            <th role="gridcell" colspan="4">单击任意图像开始课程。</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr role="row">
+            <td role="gridcell">
+              <div class="bg-0">
+                <input id="bg-0" type="image" src="course/common/backgrounds/bg-0-S.jpg" alt="背景影像"/>
+                <label id="bg-0-text" for="bg-0"></label>
+              </div>
+            </td>
+            <td role="gridcell">
+              <div class="bg-1">
+                <input id="bg-1" type="image" src="course/common/backgrounds/bg-1-S.jpg" alt="背景影像"/>
+                <label id="bg-1-text" for="bg-1"></label>
+              </div>
+            </td>
+            <td role="gridcell">
+              <div class="bg-2">
+                <input id="bg-2" type="image" src="course/common/backgrounds/bg-2-S.jpg" alt="背景影像"/>
+                <label id="bg-2-text" for="bg-2"></label>
+              </div>
+            </td>
+            <td role="gridcell">
+              <div class="bg-3">
+                <input id="bg-3" type="image" src="course/common/backgrounds/bg-3-S.jpg" alt="背景影像"/>
+                <label id="bg-3-text" for="bg-3"></label>
+              </div>
+            </td>
+          </tr>
+          <tr role="row">
+            <td role="gridcell">
+              <div class="bg-4">
+                <input id="bg-4" type="image" src="course/common/backgrounds/bg-4-S.jpg" alt="背景影像"/>
+                <label id="bg-4-text" for="bg-4"></label>
+              </div>
+            </td>
+            <td role="gridcell">
+              <div class="bg-5">
+                <input id="bg-5" type="image" src="course/common/backgrounds/bg-5-S.jpg" alt="背景影像"/>
+                <label id="bg-5-text" for="bg-5"></label>
+              </div>
+            </td>
+            <td role="gridcell">
+              <div class="bg-6">
+                <input id="bg-6" type="image" src="course/common/backgrounds/bg-6-S.jpg" alt="背景影像"/>
+                <label id="bg-6-text" for="bg-6"></label>
+              </div>
+            </td>
+            <td role="gridcell">
+              <div class="bg-7">
+                <input id="bg-7" type="image" src="course/common/backgrounds/bg-7-S.jpg" alt="背景影像"/>
+                <label id="bg-7-text" for="bg-7"></label>
+              </div>
+            </td>
+          </tr>
+          <tr role="row">
+            <td role="gridcell">
+              <div class="bg-8">
+                <input id="bg-8" type="image" src="course/common/backgrounds/bg-8-S.jpg" alt="背景影像"/>
+                <label id="bg-8-text" for="bg-8"></label>
+              </div>
+            </td>
+            <td role="gridcell">
+              <div class="bg-9">
+                <input id="bg-9" type="image" src="course/common/backgrounds/bg-9-S.jpg" alt="背景影像"/>
+                <label id="bg-9-text" for="bg-9"></label>
+              </div>
+            </td>
+            <td role="gridcell">
+              <div class="bg-10">
+                <input id="bg-10" type="image" src="course/common/backgrounds/bg-10-S.jpg" alt="背景影像"/>
+                <label id="bg-10-text" for="bg-10"></label>
+              </div>
+            </td>
+            <td role="gridcell">
+              <div class="bg-11">
+                <input id="bg-11" type="image" src="course/common/backgrounds/bg-11-S.jpg" alt="背景影像"/>
+                <label id="bg-11-text" for="bg-11"></label>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="main" role="document" aria-hidden="false">
+      <div id="header">
+        <div class="logo" title="Cisco Systems, Inc."></div>
+        <h1><a id="course-title" href="">IT 基本要素</a></h1>
       </div>
-
-      <a href="/" class="logo logo-img-1x">
-        <img width="32" height="32" title="" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFMTZCRDY3REIzRjAxMUUyQUQzREIxQzRENUFFNUM5NiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFMTZCRDY3RUIzRjAxMUUyQUQzREIxQzRENUFFNUM5NiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkUxNkJENjdCQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkUxNkJENjdDQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+SM9MCAAAA+5JREFUeNrEV11Ik1EY3s4+ddOp29Q5b0opCgKFsoKoi5Kg6CIhuwi6zLJLoYLopq4qsKKgi4i6CYIoU/q5iDAKs6syoS76IRWtyJ+p7cdt7sf1PGOD+e0c3dygAx/67ZzzPM95/877GYdHRg3ZjMXFxepQKNS6sLCwJxqNNuFpiMfjVs4ZjUa/pmmjeD6VlJS8NpvNT4QQ7mxwjSsJiEQim/1+/9lgMHgIr5ohuxG1WCw9Vqv1clFR0dCqBODElV6v90ogEDjGdYbVjXhpaendioqK07CIR7ZAqE49PT09BPL2PMgTByQGsYiZlQD4uMXtdr+JxWINhgINYhGT2MsKgMrm2dnZXgRXhaHAg5jEJodUAHxux4LudHJE9RdEdA+i3Juz7bGHe4mhE9FNrgwBCLirMFV9Okh5eflFh8PR5nK5nDabrR2BNJlKO0T35+Li4n4+/J+/JQCxhmu5h3uJoXNHPbmWZAHMshWB8l5/ipqammaAf0zPDDx1ONV3vurdidqwAQL+pEc8sLcAe1CCvQ3YHxIW8Pl85xSWNC1hADDIv0rIE/o4J0k3kww4xSlwIhcq3EFFOm7KN/hUGOQkt0CFa5WpNJlMvxBEz/IVQAxg/ZRZl9wiHA63yDYieM7DnLP5CiAGsC7I5sgtYKJGWe2A8seFqgFJrJjEPY1Cn3pJ8/9W1e5VWsFDTEmFrBcoDhZJEQkXuhICMyKpjhahqN21hRYATKfUOlDmkygrR4o4C0VOLGJKrOITKB4jijzdXygBKixyC5TDQdnk/Pz8qRw6oOWGlsTKGOQW6OH6FBWsyePxdOXLTgxiyebILZCjz+GLgMIKnXNzc49YMlcRdHXcSwxFVgTInQhC9G33UhNoJLuqq6t345p9y3eUy8OTk5PjAHuI9uo4b07FBaOhsu0A4Unc+T1TU1Nj3KsSSE5yJ65jqF2DDd8QqWYmAZrIM2VlZTdnZmb6AbpdV9V6ec9znf5Q7HjYumdRE0JOp3MjitO4SFa+cZz8Umqe3TCbSLvdfkR/kWDdNQl5InuTcysOcpFT35ZrbBxx4p3JAHlZVVW1D/634VRt+FvLBgK/v5LV9WS+10xMTEwtRw7XvqOL+e2Q8V3AYIOIAXQ26/heWVnZCVfcyKHg2CBgTpmPmjYM8l24GyaUHyaIh7XwfR9ErE8qHoDfn2LTNAVC0HX6MFcBIP8Bi+6F6cdW/DICkANRfx99fEYFQ7Nph5i/uQiA214gno7K+guhaiKg9gC62+M8eR7XsBsYJ4ilam60Fb7r7uAj8wFyuwM1oIOWgfmDy6RXEEQzJMPe23DXrVS7rtyD3Df8z/FPgAEAzWU5Ku59ZAUAAAAASUVORK5CYII=">
-      </a>
-
-      <a href="/" class="logo logo-img-2x">
-        <img width="32" height="32" title="" alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpEQUM1QkUxRUI0MUMxMUUyQUQzREIxQzRENUFFNUM5NiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpEQUM1QkUxRkI0MUMxMUUyQUQzREIxQzRENUFFNUM5NiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkUxNkJENjdGQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkUxNkJENjgwQjNGMDExRTJBRDNEQjFDNEQ1QUU1Qzk2Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+hfPRaQAAB6lJREFUeNrsW2mME2UYbodtt+2222u35QheoCCYGBQligIJgkZJNPzgigoaTEj8AdFEMfADfyABkgWiiWcieK4S+QOiHAYUj2hMNKgYlEujpNttu9vttbvdw+chU1K6M535pt3ubHCSyezR+b73eb73+t7vrfXsufOW4bz6+vom9/b23ovnNNw34b5xYGAgODg46Mbt4mesVmsWd1qSpHhdXd2fuP/Afcput5/A88xwymcdBgLqenp6FuRyuWV4zu/v759QyWBjxoz5t76+/gun09mK5xFyakoCAPSaTCazNpvNPoYVbh6O1YKGRF0u13sNDQ27QMzfpiAAKj0lnU6/gBVfAZW2WWpwwVzy0IgP3G73FpjI6REhAGA9qVRqA1b9mVoBVyIC2tDi8Xg24+dUzQiAbS/s7Ox8G2o/3mKCC+Zw0efzPQEfcVjYrARX3dbV1bUtHo8fMgt42f+Mp0yUTVQbdWsAHVsikdiHkHaPxcQXQufXgUBgMRxme9U0AAxfH4vFvjM7eF6UkbJS5qoQwEQGA57Ac5JllFyUVZZ5ckUEgMVxsK2jlSYzI+QXJsiyjzNEAJyJAzb/KQa41jJKL8pODMQiTEAymXw5n8/P0IjD3bh7Rgog59aanxiIRTVvV/oj0tnHca/WMrVwODwB3raTGxzkBg/gnZVapFV62Wy2n5AO70HM/5wbJ0QnXyQSaVPDIuNZzY0V3ntHMwxiwHA0Gj2Np7ecIBDgaDAYXKCQJM1DhrgJ3nhulcPbl8j4NmHe46X/g60fwbz3aewjkqFQaAqebWU1AOqyQwt8Id6qEHMc97zu7u7FGGsn7HAiVuosVw7P35C1nccdgSCxop1dHeZswmfHMnxBo6ZTk+jN8dl/vF7vWofDsa+MLN9oEUBMxOb3+1eoEsBVw6Zmua49r8YmhAKDiEPcMwBsxMiqQ+ixzPFxZyqRpXARG/YOr1ObFJ0gUskXBbamcR1OKmMUvDxHRAu8/LmY3jFLMUpFqz9HxG65smYJdyKyECOxDiEAe/p1gjF2oonivZAsxVgl2daa4EQWCW6J55qFAFFZiJWYLxNQy2qOSUzGRsyXCUDIeliwAHEO4WSlWQBRFoZakXcKmCXmyXAKs0Ve9vl8q42WoIYpJU4hV3hKcNs8m9gl7p/xQ73eF5kB4j5mNrWmTJRNwAzqiV1CxjVTZCIkEq+Z1bZFZSN2CenmVAFVy4Plz8xKAGWjjAKFk6lCBMDR/MJjLLMSQNm43xAiQKTaA+9/wewhDjL+JVI1kkTSSOTcKbMTwPqESAot6dn6Fr1gHwVJju6IRuyiByPuUUBAg5DGkAgBmxlvdgIEK9gDkohdY/BJo4CAG0R8miRSsGABkgVQs4KXu098IgUXSSRsFAoKZiVAVDY2WUiiPTjYRi41KwGisrGsLtlsth8Fiwnz2fBkQvWfRtlE3iF2yW63/yCacXZ1dW02GwGyTFaRd4idJnCKHRaCxYRHoG5LTKT6SyiToP1fJHbmAYPYRR0UnZQtMnA6s0zg+GZBlt0Gdo7EPHgpE3Q6nZ8YyLhc8Xj8MJh/aKTAY+5FPAKHLE7RdwuYJZmNwzyCMkBCYyKROJBMJl9B/PXXCjjmCmDOVzH3fiPpObEWGqoKe4EBl8v1hlqsdLvd23mkxHM9pc9kMpmno9HoeTii7ewbHEZPPx1ztLS1tV3AnGuMjiNjvbQFuHw6zDo5By7dTPAQNBgMLrRarTkSls1mnwT7uwp9virx9QzbW/HuV/j5d/b+6jniKlllP8lkeONJDk+dq9GsQTnC4fB1heO0K47Hwe7WdDr9nAKgXwOBwHI+C45Htj1d6sd429TUNEcmUdc+PRaLHcvn87dXW4ugzdsaGxufL94NFv9zi1J7GVbhlvb2dnaJ3SVrxfc+n2+NTsZ7/H7/Mr3g5XdSIHyJSH1PZ+7fToyl2+ErqilgZ4NaLYB9goVGaHjR93Hv1ZrU4XDsFT20kH3PObzbWk0CgG1jacVIUnAQb9F+VexyLMzkpcLv0IJV7AHQIOCAUYHx7v5qgScmYHtTqSAyZLEJTK22Bie4iq3xsqpm4SAf9Hq9a2DnJ4uLK3SEULcdRvp3i3zHySqpficxEdsQc1NrlYXXvR+O7qASSezXB+h1SuUomgg9LL8BUoV4749EIolKh+EiqWmqVEZlDgHks2pxHw7xTqUQw9J5NcAXOK10AGIoZ6Zli6JY6Z1Q461KoZ4NiKLHarW+KDsxlDUPHZ5zPQZqUVDPJsTqb5n9malbpAh8C2XXDLl62+WZIDFRUlNVOiwencnNU3aQEkL+cDMSoLvZo2fQB7AJssNAuFuvorlDVVkkg2I87+jo2K2QAVphDrfyViK5VqtO34OkaxXCp+7drdDBCAdubm6eidX+2WwqT5komwh4YQLk+H4aE93h8Xg2gvHekQZOGSgLZTLyDTLJ4Lx9/KZWKBSainT4Iy3FqQBfnUZR42PKQFksBr9QKVXCPusD3OiA/RkQ5kP8qV/Jl1WywAp/6+dcmPM2zL1UrUahe4JqfnWWKXIul3uUbfP8njAFLW1OFr3gdFtZ72cNH+PtQT7/brW+NXqJAHh0y9V8/U/A1U7AfwIMAD7mS3pCbuWJAAAAAElFTkSuQmCC">
-      </a>
+      <div id="map" role="navigation">
+        <div class="map-container" id="map-modules" aria-live="polite">
+          <div class="scroll-pane active">
+            <button type="button" class="scroll-pane-up-button" title="向上滚动" aria-hidden="true">向上滚动</button>
+            <button type="button" class="scroll-pane-down-button" title="向下滚动" aria-hidden="true">向下滚动</button>
+            <div class="scroll-pane-content" tabindex="-1"></div>
+          </div>
+        </div>
+        <div class="map-container" id="map-sections" aria-live="polite">
+          <div class="scroll-pane">
+            <button type="button" class="scroll-pane-up-button" title="向上滚动" aria-hidden="true">向上滚动</button>
+            <button type="button" class="scroll-pane-down-button" title="向下滚动" aria-hidden="true">向下滚动</button>
+            <div class="scroll-pane-content" tabindex="-1"></div>
+          </div>
+        </div>
+        <div class="map-container" id="map-topics" aria-live="polite">
+          <div class="scroll-pane">
+            <button type="button" class="scroll-pane-up-button" title="向上滚动" aria-hidden="true">向上滚动</button>
+            <button type="button" class="scroll-pane-down-button" title="向下滚动" aria-hidden="true">向下滚动</button>
+            <div class="scroll-pane-content" tabindex="-1"></div>
+          </div>
+        </div>
+        <div class="map-container" id="map-pages" aria-live="polite">
+          <div class="scroll-pane">
+            <button type="button" class="scroll-pane-up-button" title="向上滚动" aria-hidden="true">向上滚动</button>
+            <button type="button" class="scroll-pane-down-button" title="向下滚动" aria-hidden="true">向下滚动</button>
+            <div class="scroll-pane-content" tabindex="-1"></div>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div id="container" tabindex="-1">
+          <div id="page-header">
+            <nav class="breadcrumbs" aria-label="breadcumbs">
+              <ul>
+                <li aria-level="1">
+                  <a id="breadcrumbs-module" href="#">
+                    <span id="breadcrumbs-module-li" class="breadcrumbs-header">第 # 章</span>
+                    <span id="breadcrumbs-module-title" class="breadcrumbs-title"></span>
+                  </a>
+                </li>
+                <li aria-level="2">
+                  <a id="breadcrumbs-section" href="#">
+                    <span id="breadcrumbs-section-li" class="breadcrumbs-header">第 # 节</span>
+                    <span id="breadcrumbs-section-title" class="breadcrumbs-title"></span>
+                  </a>
+                </li>
+                <li aria-level="3">
+                  <a id="breadcrumbs-topic" href="#">
+                    <span id="breadcrumbs-topic-li" class="breadcrumbs-header">主题 #</span>
+                    <span id="breadcrumbs-topic-title" class="breadcrumbs-title"></span>
+                  </a>
+                </li>
+                <li aria-level="4">
+                  <a id="breadcrumbs-page" href="#">
+                    <span id="breadcrumbs-page-li" class="breadcrumbs-header">第 # 页</span>
+                    <span id="breadcrumbs-page-title" class="breadcrumbs-title"></span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="page-menu">
+              <button type="button" id="page-menu-close-button" title="关闭">
+                <span aria-hidden="true">关闭</span>
+              </button>
+            </div>
+          </div>
+          <div id="page-content" role="main" aria-live="polite"></div>
+          <div id="page-footer">
+            <fieldset id="page-slide-buttons"><legend>图片</legend></fieldset>
+            <div class="page-menu" role="menu">
+              <button type="button" id="page-menu-transcript-button" role="menuitem" title="脚本">脚本</button>
+              <button type="button" id="page-menu-bookmark-button" role="menuitem" title="书签">书签</button>
+              <button type="button" id="page-menu-previous-button" role="menuitem" title="上一个">上一个</button>
+              <button type="button" id="page-menu-next-button" role="menuitem" title="下一个">下一个</button>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay-course-index" aria-hidden="true" aria-labelledby="menu-course-index" aria-live="polite" tabindex="0">
+          <div class="overlay-header">
+            <div class="overlay-icon"></div>
+            <div class="overlay-label">课程索引</div>
+            <button type="button" class="overlay-close-button" title="关闭">
+              <span aria-hidden="true">关闭</span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <div class="overlay-container">
+              <div id="course-index-buttons" role="menu">
+                <button type="button" class="index-button" id="index-course" role="menuitem" title="课程索引">
+                  <span class="index-button-icon"></span>
+                  <span class="index-button-label">课程索引</span>
+                </button>
+                <button type="button" class="index-button" id="index-packet-tracer" role="menuitem" title="Packet Tracer 索引">
+                  <span class="index-button-icon"></span>
+                  <span class="index-button-label">Packet Tracer 索引</span>
+                </button>
+                <button type="button" class="index-button" id="index-lab" role="menuitem" title="实验索引">
+                  <span class="index-button-icon"></span>
+                  <span class="index-button-label">实验索引</span>
+                </button>
+                <button type="button" class="index-button" id="index-video" role="menuitem" title="视频索引">
+                  <span class="index-button-icon"></span>
+                  <span class="index-button-label">视频索引</span>
+                </button>
+              </div>
+              <div class="scroll-pane active">
+                <button type="button" class="scroll-pane-up-button" title="向上滚动" aria-hidden="true">向上滚动</button>
+                <button type="button" class="scroll-pane-down-button" title="向下滚动" aria-hidden="true">向下滚动</button>
+                <div class="scroll-pane-content" tabindex="-1"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay-recent-pages" aria-hidden="true" aria-labelledby="menu-recent-pages" aria-live="polite" tabindex="0">
+          <div class="overlay-header">
+            <div class="overlay-icon"></div>
+            <div class="overlay-label">最近访问的页面</div>
+            <button type="button" class="overlay-close-button" title="关闭">
+              <span aria-hidden="true">关闭</span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <div class="overlay-container">
+              <div class="scroll-pane active">
+                <button type="button" class="scroll-pane-up-button" title="向上滚动" aria-hidden="true">向上滚动</button>
+                <button type="button" class="scroll-pane-down-button" title="向下滚动" aria-hidden="true">向下滚动</button>
+                <div class="scroll-pane-content" tabindex="-1"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay-bookmarks" aria-hidden="true" aria-labelledby="menu-bookmarks" aria-live="polite" tabindex="0">
+          <div class="overlay-header">
+            <div class="overlay-icon"></div>
+            <div class="overlay-label">书签</div>
+            <button type="button" class="overlay-close-button" title="关闭">
+              <span aria-hidden="true">关闭</span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <div class="overlay-container">
+              <div class="scroll-pane active">
+                <button type="button" class="scroll-pane-up-button" title="向上滚动" aria-hidden="true">向上滚动</button>
+                <button type="button" class="scroll-pane-down-button" title="向下滚动" aria-hidden="true">向下滚动</button>
+                <div class="scroll-pane-content" tabindex="-1"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay-backgrounds" aria-hidden="true" aria-labelledby="menu-backgrounds" aria-live="polite" tabindex="0">
+          <div class="overlay-header">
+            <div class="overlay-icon"></div>
+            <div class="overlay-label">选择背景</div>
+            <button type="button" class="overlay-close-button" title="关闭">
+              <span aria-hidden="true">关闭</span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <div class="overlay-container">
+              <div class="scroll-pane active">
+                <button type="button" class="scroll-pane-up-button" title="向上滚动" aria-hidden="true">向上滚动</button>
+                <button type="button" class="scroll-pane-down-button" title="向下滚动" aria-hidden="true">向下滚动</button>
+                <div class="scroll-pane-content" tabindex="-1"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay-search" aria-hidden="true" aria-labelledby="menu-search" aria-live="polite" tabindex="0">
+          <div class="overlay-header">
+            <div class="overlay-icon"></div>
+            <div class="overlay-label">搜索</div>
+            <button type="button" class="overlay-close-button" title="关闭">
+              <span aria-hidden="true">关闭</span>
+            </button>
+            <input id="search-input" type="search"/>
+          </div>
+          <div class="overlay-content">
+            <div class="overlay-container">
+              <div class="scroll-pane active">
+                <button type="button" class="scroll-pane-up-button" title="向上滚动" aria-hidden="true">向上滚动</button>
+                <button type="button" class="scroll-pane-down-button" title="向下滚动" aria-hidden="true">向下滚动</button>
+                <div class="scroll-pane-content" tabindex="-1"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay-languages" aria-hidden="true" aria-labelledby="menu-languages" aria-live="polite" tabindex="0">
+          <div class="overlay-header">
+            <div class="overlay-icon"></div>
+            <div class="overlay-label">语言</div>
+            <button type="button" class="overlay-close-button" title="关闭">
+              <span aria-hidden="true">关闭</span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <div class="overlay-container">
+              <div class="scroll-pane active">
+                <button type="button" class="scroll-pane-up-button" title="向上滚动" aria-hidden="true">向上滚动</button>
+                <button type="button" class="scroll-pane-down-button" title="向下滚动" aria-hidden="true">向下滚动</button>
+                <div class="scroll-pane-content" tabindex="-1">
+                  <p>选择课程语言：</p>
+                  <ul>
+                    <li><a href="#" data-lang="ar" lang="ar" title="العربية (Arabic)" >العربية</a></li>
+                    <li><a href="#" data-lang="de" lang="de" title="Deutsch (German)">Deutsch</a></li>
+                    <li><a href="#" data-lang="en" lang="en" title="English (English)">English</a></li>
+                    <li><a href="#" data-lang="es" lang="es" title="Español (Spanish)">Español</a></li>
+                    <li><a href="#" data-lang="fr" lang="fr" title="Français (French)">Français</a></li>
+                    <li><a href="#" data-lang="he" lang="he" title="עברית (Hebrew)">עברית</a></li>
+                    <li><a href="#" data-lang="hr" lang="hr" title="Hrvatski (Croatian)">Hrvatski</a></li>
+                    <li><a href="#" data-lang="hu" lang="hu" title="Magyar (Hungarian)">Magyar</a></li>
+                    <li><a href="#" data-lang="hy" lang="hy" title="Հայերեն (Armenian)">Հայերեն</a></li>
+                    <li><a href="#" data-lang="it" lang="it" title="Italiano (Italian)">Italiano</a></li>
+                    <li><a href="#" data-lang="jp" lang="ja" title="日本語 (Japanese)">日本語</a></li>
+                    <li><a href="#" data-lang="ka" lang="ka" title="ქართული (Georgian)">ქართული</a></li>
+                    <li><a href="#" data-lang="ko" lang="ko" title="한국어 (Korean)">한국어</a></li>
+                    <li><a href="#" data-lang="nl" lang="nl" title="Nederlands (Dutch)">Nederlands</a></li>
+                    <li><a href="#" data-lang="pl" lang="pl" title="Polski (Polish)">Polski</a></li>
+                    <li><a href="#" data-lang="pt" lang="pt" title="Português (Portuguese)">Português</a></li>
+                    <li><a href="#" data-lang="ro" lang="ro" title="Română (Romanian)">Română</a></li>
+                    <li><a href="#" data-lang="ru" lang="ru" title="Русский (Russian)">Русский</a></li>
+                    <li><a href="#" data-lang="tr" lang="tr" title="Türkçe (Turkish)">Türkçe</a></li>
+                    <li><a href="#" data-lang="uk" lang="uk" title="Українська (Ukrainian)">Українська</a></li>
+                    <li><a href="#" data-lang="zh" lang="zh-Hans" title="简体中文 (Simplified Chinese)">简体中文</a></li>
+                    <li><a href="#" data-lang="ch" lang="zh-Hant" title="繁體中文 (Traditional Chinese)">繁體中文</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay-help" aria-hidden="true" aria-labelledby="menu-help" aria-live="polite" tabindex="0">
+          <div class="overlay-header">
+            <div class="overlay-icon"></div>
+            <div class="overlay-label">帮助</div>
+            <button type="button" class="overlay-close-button" title="关闭">
+              <span aria-hidden="true">关闭</span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <div class="overlay-container">
+              <div id="help-buttons" role="menu">
+                <button type="button" class="help-button" id="help-1" role="menuitem" title="简介">
+                  <span class="help-button-icon"></span>
+                  <span class="help-button-label">简介</span>
+                </button>
+                <button type="button" class="help-button" id="help-2" role="menuitem" title="课程导航">
+                  <span class="help-button-icon"></span>
+                  <span class="help-button-label">课程导航</span>
+                </button>
+                <button type="button" class="help-button" id="help-3" role="menuitem" title="评估和证书">
+                  <span class="help-button-icon"></span>
+                  <span class="help-button-label">评估和证书</span>
+                </button>
+                <button type="button" class="help-button" id="help-4" role="menuitem" title="Packet Tracer – 安装教程">
+                  <span class="help-button-icon"></span>
+                  <span class="help-button-label">Packet Tracer – 安装教程</span>
+                </button>
+                <button type="button" class="help-button" id="help-5" role="menuitem" title="Packet Tracer – 导航教程">
+                  <span class="help-button-icon"></span>
+                  <span class="help-button-label">Packet Tracer – 导航教程</span>
+                </button>
+                <div class="help-button" role="menuitem" title="在 Facebook 上关注我们">
+                  <a href="http://www.facebook.com/cisconetworkingacademy" target="facebook-netacad">
+                    <div class="help-facebook-icon"></div>
+                    <div class="help-button-label">在 Facebook 上关注我们</div>
+                  </a>
+                </div>
+              </div>
+              <div id="help-content" tabindex="-1"></div>
+            </div>
+          </div>
+        </div>
+        <div class="overlay" id="overlay-developer" aria-hidden="true" aria-labelledby="menu-developer" aria-live="polite" tabindex="0">
+          <div class="overlay-header">
+            <div class="overlay-icon"></div>
+            <div class="overlay-label">Developer Tools</div>
+            <button type="button" class="overlay-close-button" title="关闭">
+              <span aria-hidden="true">关闭</span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <div class="overlay-container">
+              <ul class="items">
+                <li><button id="clear-local-storage-button">Clear Local Storage</button></li>
+                <li><button id="clear-background-button">Clear Background</button></li>
+                <li>
+                  <button id="enable-pseudolocalization-button">Enable Pseudolocalization</button>
+                  <button id="disable-pseudolocalization-button">Disable Pseudolocalization</button>
+                </li>
+                <li><button id="disable-developer-tools-button">Disable Developer Tools</button></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="menu" role="menu">
+        <div class="menu-buttons">
+          <button type="button" class="menu-button" role="menuitem" id="menu-developer" title="Developer Tools" aria-haspopup="true">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label">Developer Tools</span>
+            </span>
+          </button>
+          <button type="button" class="menu-button" role="menuitem" id="menu-recent-pages" title="最近访问的页面" aria-haspopup="true">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label">最近访问的页面</span>
+            </span>
+          </button>
+          <button type="button" class="menu-button" role="menuitem" id="menu-bookmarks" title="书签" aria-haspopup="true">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label">书签</span>
+            </span>
+          </button>
+          <button type="button" class="menu-button" role="menuitem" id="menu-course-index" title="课程索引" aria-haspopup="true">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label">课程索引</span>
+            </span>
+          </button>
+          <button type="button" class="menu-button" role="menuitem" id="menu-search" title="搜索" aria-haspopup="true">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label">搜索</span>
+            </span>
+          </button>
+          <button type="button" class="menu-button" role="menuitem" id="menu-languages" title="语言" aria-haspopup="true">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label">语言</span>
+            </span>
+          </button>
+          <button type="button" class="menu-button" role="menuitem" id="menu-backgrounds" title="选择背景" aria-haspopup="true">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label">选择背景</span>
+            </span>
+          </button>
+          <button type="button" class="menu-button" role="menuitem" id="menu-help" title="帮助" aria-haspopup="true">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label">帮助</span>
+            </span>
+          </button>
+          <button type="button" class="menu-button" role="menuitem" id="menu-return" title="返回课程">
+            <span class="menu-button-icon"></span>
+            <span class="menu-button-box">
+              <span class="menu-button-label">返回课程</span>
+            </span>
+          </button>
+        </div>
+      </div>
     </div>
   </body>
 </html>

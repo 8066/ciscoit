@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>11.1.2.3 激光打印流程</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_11.1.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>激光打印流程</h1>
+        <div>
+          <p>激光打印机将信息打印到一张纸上需要七个步骤。</p>
+          <p></p>
+          <p>
+            <b>1. 处理</b> - 必须将打印源的数据转换为可打印的形式。打印机将来自通用语言（例如 Adobe 语言 [PS] 或 HP 打印机命令语言 [PCL]）的数据转换为存储在打印机内存中的位图图像。一些激光打印机具备内置图形设备接口 (GDI) 支持。Windows 应用使用 GDI 在显示器上显示要打印的图像，因此无需将输出转换为另一种格式（例如 PostScript 或 PCL）。</p>
+          <p></p>
+          <p>
+            <b>2. 充电</b> - 之前成像鼓上的潜像被删除，然后成像鼓为形成新的潜像做好准备。线缆、栅格或轧辊会接收整个成像鼓表面的大约 -600 伏的直流电电荷。带电线缆或栅格称为主电晕。轧辊称为调节辊。</p>
+          <p></p>
+          <p>
+            <b>3. 曝光</b> - 为了写入图像，成像鼓要暴露在激光束下。激光在成像鼓上扫描过的每个部分表面电荷会减少到大约 -100 伏直流电。此电荷比成像鼓上剩余电荷的负电荷要低。成像鼓转动时，鼓上会生成一个未显影的潜像。</p>
+          <p></p>
+          <p>
+            <b>4. 显影</b> - 将墨粉施加在成像鼓的潜像上。墨粉是带负电荷的塑料和金属微粒的组合。控制刮板使墨粉与成像鼓保持极小的距离。墨粉从控制刮板移动到成像鼓上带更多正电荷的潜像上。</p>
+          <p></p>
+          <p>
+            <b>5. 转印</b> - 将附在潜像上的墨粉转印到纸上。电晕线在纸上施加正电荷。由于成像鼓带有负电荷，所以成像鼓上的墨粉会吸附到纸上。现在图像就显示在纸上，并且带有正电荷。由于彩色打印机有三个墨盒，因此一个彩色的图像必须通过多次转印才能完成。为了确保得到准确的图像，一些彩色打印机会在传输带上多次写入信息，然后传输带会将整个图像转印到纸上。</p>
+          <p></p>
+          <p>
+            <b>6. 熔结</b> - 将墨粉永久熔结在纸上。打印纸在加热辊和压力辊之间进行滚压。纸张通过轧辊时，松散的墨粉会熔化并与纸纤维熔结在一起。接着，纸张会移动到输出托盘，即形成打印页。带有双面打印组件的激光打印机可以在一张纸的两面打印内容。</p>
+          <p></p>
+          <p>
+            <b>7. 清洁</b> - 在纸张上已成像且成像鼓已经与纸张分离时，必须从成像鼓上清除剩余的墨粉。打印机可能会有一个刮去多余墨粉的刮片。有些打印机在线缆中使用交流电压清除成像鼓表面的电荷并可让多余的墨粉从成像鼓上落下。多余的墨粉存储在一个废墨粉收集器中，该收集器可以清空，也可以丢弃。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

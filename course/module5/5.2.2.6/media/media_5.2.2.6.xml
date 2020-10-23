@@ -1,0 +1,100 @@
+<textcomponents><!-- Slide 1--><component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>练习 - 识别操作系统安装术语</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[<b>说明</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[将每个术语与其定义匹配。]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[RIS]]></text>
+	</component>
+
+	<component id='ID_s1_drag02'>
+		<text><![CDATA[刷新您的 PC]]></text>
+	</component>
+
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[高级启动选项]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[映像]]></text>
+	</component>
+	
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[PXE]]></text>
+	</component>
+	
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[恢复分区]]></text>
+	</component>
+	
+	<component id='ID_s1_drag07'>
+		<text><![CDATA[Sysprep]]></text>
+	</component>
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[<b>检查</b>]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[<b>重置</b>]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[<b>正确</b>]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[您已将每个术语与其定义成功匹配。]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[<b>不正确</b>]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[您尚未成功地将每个术语与其定义相匹配。 请单击“<b>重置</b>”重试。]]></text>
+	</component>
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>定义</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>术语</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[允许用户在操作系统无法启动时排除故障、恢复或还原操作系统的一组工具]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[用于启动计算机、连接网络并与服务器通信，以开始安装操作系统的特殊环境]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[包含一个可用于将计算机恢复到原始配置的映像]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[该程序可将包含不同硬件配置的操作系统用于在多台计算机上安装和配置相同的操作系统]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[将计算机系统软件还原到出厂状态，而不删除用户文件或删除现代应用]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[包含某个分区所有数据的文件]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[软件包可用于同客户端通信并为客户端提供必要的指示，以下载操作系统设置文件并开始安装]]></text>
+	</component>
+</textcomponents>

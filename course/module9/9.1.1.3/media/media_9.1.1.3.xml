@@ -1,0 +1,60 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>主板比较</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt01">
+        <text><![CDATA[笔记本电脑主板]]></text>
+	</component>
+
+    <component id="ID_s1_txt02">
+        <text><![CDATA[台式机主板]]></text>
+	</component>
+	
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>笔记本电脑和台式机设计比较</b>]]></text>
+	</component>
+	
+	<component id='ID_s2_table'>
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+				<td colspan="3" bgcolor='#FFFFFF'><font size="16" color='#393536'><b>笔记本电脑和台式机设计比较</b></font></td>
+			</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	 
+	<tr>
+		<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>组件</b></font></td>
+		<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>笔记本电脑</b></font></td>
+		<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>台式机</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>主板外形规格</td>
+		<td bgcolor='#E9E7E8'>受限于专有环境</td>
+		<td bgcolor='#E9E7E8'>ATX、Micro-ATX、Mini-ITX、ITX</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>扩展槽</td>
+		<td bgcolor='#F2F2F2'>Mini-PCI</td>
+		<td bgcolor='#F2F2F2'>PCI、PCI-X、PCIe、miniPCI</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>RAM 插槽类型</td>
+		<td bgcolor='#E9E7E8'>SODIMM</td>
+		<td bgcolor='#E9E7E8'>DIMM</td>
+	</tr>
+</table>]]></text>
+</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>SODIMM</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_txt01">
+        <text><![CDATA[SODIMM - 小型双列直插式内存模块]]></text>
+	</component>
+    
+   
+</textcomponents>

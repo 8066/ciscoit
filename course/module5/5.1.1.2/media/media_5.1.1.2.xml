@@ -1,0 +1,9 @@
+﻿<textcomponents><!--Slide 1--><component id='ID_s1_title'>
+	<text><![CDATA[<b>命令行界面</b>]]></text>
+</component><!--Slide 2--><component id='ID_s2_title'>
+		<text><![CDATA[<b>图形用户界面</b>]]></text>
+</component>
+
+
+
+</textcomponents>

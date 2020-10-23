@@ -1,0 +1,23 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[操作系统图]]></text>
+	</component>
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[<font size="15">用户</font>]]></text>
+	</component>
+	
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[<font size="15">应用</font>]]></text>
+	</component>
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[<font size="15">操作系统</font>]]></text>
+	</component>
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[<font size="15">硬件</font>]]></text>
+	</component>
+
+</textcomponents>

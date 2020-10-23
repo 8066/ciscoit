@@ -1,0 +1,53 @@
+<textcomponents>
+  <component id="ID_s1_title">
+  <text><![CDATA[<b>光纤接头</b>]]></text> 
+  </component>
+  <component id="ID_s1_txt01">
+  <text><![CDATA[ST 接头]]></text> 
+  </component>
+  <component id="ID_s1_txt02">
+  <text><![CDATA[SC 接头]]></text> 
+  </component>
+  
+  <component id="ID_s1_txt03">
+  <text><![CDATA[LC 接头]]></text> 
+  </component>
+  
+  <component id="ID_s1_txt04">
+  <text><![CDATA[双工多模 LC 接头]]></text> 
+  </component>
+  
+  	<component id="ID_s1_titleTxt01">
+		<text><![CDATA[直通式 (ST) 接头]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt01">
+		<text><![CDATA[使用基本接头类型之一。 该接头可使用“扭转开关”卡口类机制牢固锁定。]]></text>
+	</component>
+	
+	<component id="ID_s1_titleTxt02">
+		<text><![CDATA[用户连接器 (SC) 接头]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt02">
+		<text><![CDATA[有时称为方形接头或标准接头。 它是一种广泛采用的 LAN 和 WAN 接头，使用推拉机制以确保正向插入。 此类接头同时用于多模和单模光纤。]]></text>
+	</component>
+	
+	<component id="ID_s1_titleTxt03">
+		<text><![CDATA[朗讯连接器 (LC) 单工接头]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt03">
+		<text><![CDATA[较小版本的光纤 SC 接头。 有时称为小型或本地接头，因尺寸更小而迅速受到人们的欢迎。]]></text>
+	</component>
+	
+	<component id="ID_s1_titleTxt04">
+		<text><![CDATA[双工多模 LC 接头]]></text>
+	</component>
+	<component id="ID_s1_bodyTxt04">
+		<text><![CDATA[与 LC 单工接头类似，但使用双工接头。]]></text>
+	</component>
+  
+  	<component id="ID_s1_inst">
+		<text><![CDATA[单击每个接头类型的按钮以了解详细信息。]]></text>
+	</component>
+  
+ 
+</textcomponents>

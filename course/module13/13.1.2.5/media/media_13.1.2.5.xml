@@ -1,0 +1,14 @@
+<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+
+    <component id="ID_s1_titleTxt01">
+        <text><![CDATA[<b>基本礼仪</b>]]></text> 
+    </component>
+	
+	<component id="ID_s1_bodyTxt01">
+        <text><![CDATA[<textformat blockindent='-18'><li>保持亲切、礼貌。</li><li>在每封电子邮件开头加上适当的问候语，即使在跟帖中也是如此。</li><li>不要通过电子邮件发送连锁信。</li><li>不要发送或回复争论内容。</li><li>使用混合大小写。 大写会被视为大声说。</li><li>在发布之前，请检查语法和拼写。</li><li>要有道德。</li><li>不要邮寄或发布任何您不会当面对人说的内容。</li></textformat>]]></text> 
+    </component>
+	
+</textcomponents>

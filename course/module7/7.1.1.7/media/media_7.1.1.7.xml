@@ -1,0 +1,41 @@
+﻿<textcomponents>
+
+<component id="ID_title01">
+<text><![CDATA[<b>半双工</b>]]></text>
+</component>
+<component id="ID_title02">
+<text><![CDATA[<b>全双工</b>]]></text>
+</component><!--<component id="ID_bubble01">
+<text><![CDATA[I can send and receive, but not at the same time.]]></text>
+</component>
+<component id="ID_bubble02">
+<text><![CDATA[I can send and receive, but not at the same time.]]></text>
+</component>
+
+<component id="ID_bubble03">
+<text><![CDATA[We can send and receive at the same time.]]></text>
+</component>--><component id="ID_bubble01">
+<text><![CDATA[<font color="#FFFFFF"><p id="ID_bubble01" class="ID_bubble01">我可以发送和接收，但不能同时进行。</textformat></p></font>]]></text>
+</component>
+
+<component id="ID_bubble02">
+<text><![CDATA[<font color="#FFFFFF"><p id="ID_bubble02" class="ID_bubble02">我可以发送和接收，但不能同时进行。</textformat></p></font>]]></text>
+</component>
+
+<component id="ID_bubble03">
+<text><![CDATA[<font color="#FFFFFF"><p id="ID_bubble03" class="ID_bubble03">我们可以同时发送和接收。</textformat></p></font>]]></text>
+</component><!--<component id="ID_txt05">
+<text><![CDATA[Transmitting]]></text>
+</component>
+<component id="ID_txt06">
+<text><![CDATA[Transmitting]]></text>
+</component>
+<component id="ID_txt07">
+<text><![CDATA[Transmitting]]></text>
+</component>
+<component id="ID_txt08">
+<text><![CDATA[Network]]></text>
+</component>--><component id="transcript">
+  <text><![CDATA[<b>此处显示脚本</b>]]></text> 
+  </component>
+</textcomponents>

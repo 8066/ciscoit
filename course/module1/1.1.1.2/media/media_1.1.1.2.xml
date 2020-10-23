@@ -1,0 +1,155 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>计算机电源</b>]]></text>
+	</component>
+	
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>计算机电源接头</b>]]></text>
+	</component>	
+	
+	<component id="ID_s2_txt01">
+	<text><![CDATA[20 引脚或 24 引脚插槽式接头]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+	<text><![CDATA[与 SATA 匹配的接头]]></text>
+	</component>
+	<component id="ID_s2_txt03">
+	<text><![CDATA[与 Molex 匹配的接头]]></text>
+	</component>
+	<component id="ID_s2_txt04">
+	<text><![CDATA[与 Berg 匹配的接头]]></text>
+	</component>
+	<component id="ID_s2_txt05">
+	<text><![CDATA[4 引脚至 8 引脚辅助电源接头]]></text>
+	</component>
+	<component id="ID_s2_txt06">
+	<text><![CDATA[6/8 引脚 PCIe 电源接头]]></text>
+	</component>	
+	
+	
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>常见电源接头</b>]]></text>
+	</component>
+
+	<component id="ID_s3_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>接头</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>描述</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>20 引脚或 24 引脚插槽式接头</td>
+			<td bgcolor='#E9E7E8'><ul><li>连接到主板</li><li>24 引脚接头有两行引脚，每行 12 个引脚</li><li>20 引脚接头有两行引脚，每行 10 个引脚</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>与 SATA 匹配的接头</td>
+			<td bgcolor='#F2F2F2'><ul><li>连接硬盘驱动器</li><li>比 Molex 接头更宽更薄的接头</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>与 Molex 匹配的接头</td>
+			<td bgcolor='#E9E7E8'><ul><li>连接硬盘驱动器、光驱或其他设备</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>与 Berg 匹配的接头</td>
+			<td bgcolor='#F2F2F2'><ul><li>连接到传统软盘驱动器</li><li>比 Molex 接头小</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>4 引脚至 8 引脚辅助电源接头</td>
+			<td bgcolor='#E9E7E8'><ul><li>接头有两行引脚，每行二到四个引脚，为主板的不同区域供电</li><li>辅助电源接头与主电源接头形状相同，但更小</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>6/8 引脚 PCIe 电源接头</td>
+			<td bgcolor='#F2F2F2'><ul><li>接头有两行引脚，每行三到四个引脚，为内部组件供电</li></ul></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	
+	
+	<component id="ID_s4_title">
+	<text><![CDATA[<b>电源电压</b>]]></text>
+	</component>	
+	
+	<component id="ID_s4_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="6" bgcolor='#FFFFFF'><br/><br/></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='6' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="55" rowspan='2' id="voltage"><font color='#FFFFFF' ><b>电压</b></font></td>
+			<td bgcolor='#666263' width="55" rowspan='2' id="Wire"><font color='#FFFFFF' ><b>导线颜色</b></font></td>
+			<td bgcolor='#666263' rowspan='2' id="use"><font color='#FFFFFF' ><b>使用</b></font></td>
+			<td bgcolor='#666263' class="border_left" colspan='3' ><font color='#FFFFFF'  ><b>电源规格</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263'  width="30" class="border_left"><font color='#FFFFFF' ><b>AT</b></font></td>
+			<td bgcolor='#666263'  width="35" class="border_left"><font color='#FFFFFF' ><b>ATX</b></font></td>
+			<td bgcolor='#666263'  width="55" class="border_left" id="ATXv12"><font color='#FFFFFF' ><b>ATX12V</b></font></td>
+		</tr>
+		<tr>
+			<td height="30" bgcolor='#E9E7E8'>+12V</td>
+			<td bgcolor='#E9E7E8'>黄色</td>
+			<td bgcolor='#E9E7E8'>磁盘驱动器电机、风扇、冷却装置和系统总线插槽</td>
+			<td bgcolor='#E9E7E8'>•</td>
+			<td bgcolor='#E9E7E8'>•</td>
+			<td bgcolor='#E9E7E8'>•</td>
+		</tr>
+		<tr>
+			<td height="30" bgcolor='#F2F2F2'>-12V</td>
+			<td bgcolor='#F2F2F2'>蓝色</td>
+			<td bgcolor='#F2F2F2'>部分类型的串行端口电路以及早期的可编程只读存储器 (PROM)</td>
+			<td bgcolor='#F2F2F2'>•</td>
+			<td bgcolor='#F2F2F2'>•</td>
+			<td bgcolor='#F2F2F2'>•</td>
+		</tr>
+		<tr>
+			<td height="30" bgcolor='#E9E7E8'>+3.3V</td>
+			<td bgcolor='#E9E7E8'>橙色</td>
+			<td bgcolor='#E9E7E8'>最新的 CPU、部分类型的系统内存以及 AGP 显卡</td>
+			<td bgcolor='#E9E7E8'></td>
+			<td bgcolor='#E9E7E8'>•</td>
+			<td bgcolor='#E9E7E8'>•</td>
+		</tr>
+		<tr>
+			<td height="30" bgcolor='#F2F2F2'>+5V</td>
+			<td bgcolor='#F2F2F2'>红色</td>
+			<td bgcolor='#F2F2F2'>主板、小型 AT 和较早的 CPU，以及许多主板组件</td>
+			<td bgcolor='#F2F2F2'>•</td>
+			<td bgcolor='#F2F2F2'>•</td>
+			<td bgcolor='#F2F2F2'>•</td>
+		</tr>
+		<tr>
+			<td height="30" bgcolor='#E9E7E8'>-5V</td>
+			<td bgcolor='#E9E7E8'>白色</td>
+			<td bgcolor='#E9E7E8'>ISA 总线卡以及早期的 PROMS</td>
+			<td bgcolor='#E9E7E8'>•</td>
+			<td bgcolor='#E9E7E8'>•</td>
+			<td bgcolor='#E9E7E8'>•</td>
+		</tr>
+		<tr>
+			<td height="30" bgcolor='#F2F2F2'>0V</td>
+			<td bgcolor='#F2F2F2'>黑色</td>
+			<td bgcolor='#F2F2F2'>接地 - 用于与其他电压形成回路。</td>
+			<td bgcolor='#F2F2F2'>•</td>
+			<td bgcolor='#F2F2F2'>•</td>
+			<td bgcolor='#F2F2F2'>•</td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+</textcomponents>

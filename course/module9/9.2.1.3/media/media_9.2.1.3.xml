@@ -1,0 +1,97 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>练习 - 匹配 ACPI 标准</b>]]></text>
+</component>
+
+<component id='ID_instr_title'>
+	<text><![CDATA[说明]]></text>
+</component>
+
+<component id='ID_instr_body'>
+	<text><![CDATA[请将术语与其描述相匹配。]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[正确]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[您已成功地将每个 ACPI 标准与其电源管理状态相匹配。]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[不正确]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[您尚未成功地将每个 ACPI 标准与其电源管理状态相匹配。 请单击“重置”重试。]]></text>
+</component>
+
+<component id='ID_CHECK'>
+	<text><![CDATA[检查]]></text>
+</component>
+
+<component id='ID_RESET'>
+	<text><![CDATA[重置]]></text>
+</component><!--Drag Items--><component id='ID_drag_header'>
+	<text><![CDATA[<font color="#FFFFFF"><b>ACPI 标准</b></font>]]></text>
+</component>
+
+<component id='ID_drag04'>
+	<text><![CDATA[<font color="#393536">S3</font>]]></text>
+</component>
+
+<component id='ID_drag06'>
+	<text><![CDATA[<font color="#393536">S5</font>]]></text>
+</component>
+
+<component id='ID_drag02'>
+	<text><![CDATA[<font color="#393536">S1</font>]]></text>
+</component>
+
+<component id='ID_drag01'>
+	<text><![CDATA[<font color="#393536">S0</font>]]></text>
+</component>
+
+
+<component id='ID_drag05'>
+	<text><![CDATA[<font color="#393536">S4</font>]]></text>
+</component>
+
+<component id='ID_drag03'>
+	<text><![CDATA[<font color="#393536">S2</font>]]></text>
+</component><!--Questions--><component id='ID_target_header'>
+	<text><![CDATA[<b>ACPI 标准</b>]]></text>
+</component>
+<component id='ID_text_header'>
+	<text><![CDATA[<b>描述</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+	<text><![CDATA[CPU 关闭，但是 RAM 会刷新以维护内容。]]></text>
+</component>
+
+<component id="ID_txt02">
+  <text><![CDATA[CPU 和 RAM 处于关闭状态。 RAM 的内容已经保存到硬盘上的临时文件中。]]></text> 
+</component>
+
+<component id="ID_txt03">
+  <text><![CDATA[CPU 不执行指令；但是 CPU 和 RAM 仍接通电源。]]></text> 
+</component>
+
+<component id="ID_txt04">
+	<text><![CDATA[CPU 关闭，并且将 RAM 设置为较慢的刷新率。]]></text>
+</component>
+
+<component id="ID_txt05">
+  <text><![CDATA[计算机关闭，并且任何未保存的内容将丢失。]]></text> 
+</component>
+
+<component id="ID_txt06">
+  <text><![CDATA[计算机打开，并且 CPU 以全功率运行。]]></text> 
+</component>
+
+   
+</textcomponents>

@@ -1,0 +1,127 @@
+<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>练习 - 确定 BIOS 启动过程顺序</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[<b>说明</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[将每个步骤与其描述匹配。]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[<b>正确</b>]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[您已成功地将每个步骤与其描述相匹配。]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[<b>不正确</b>]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[您尚未成功地将每个步骤与其描述相匹配。 请单击“重置”重试。]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[<b>检查</b>]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[<b>重置</b>]]></text>
+</component><!--Drag Items--><component id='ID_s1_drag_header'>
+	<text><![CDATA[<font color="#FFFFFF"><b>步骤</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag01'>
+	<text><![CDATA[<font color="#393536"><b>1</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[<font color="#393536"><b>2</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag03'>
+	<text><![CDATA[<font color="#393536"><b>3</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag04'>
+	<text><![CDATA[<font color="#393536"><b>4</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag05'>
+	<text><![CDATA[<font color="#393536"><b>5</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag06'>
+	<text><![CDATA[<font color="#393536"><b>6</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag07'>
+	<text><![CDATA[<font color="#393536"><b>7</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag08'>
+	<text><![CDATA[<font color="#393536"><b>8</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag09'>
+	<text><![CDATA[<font color="#393536"><b>9</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag10'>
+	<text><![CDATA[<font color="#393536"><b>10</b></font>]]></text>
+</component><!--Questions--><component id='ID_s1_target_header'>
+	<text><![CDATA[<font color="#393536"><b>步骤</b></font>]]></text>
+</component>
+
+<component id='ID_s1_text_header'>
+	<text><![CDATA[<b>描述</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[Windows 内核接手启动过程。]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+  <text><![CDATA[WinLoad 使用 BOOTMGR 中指定的路径查找启动分区。]]></text> 
+</component>
+
+<component id="ID_s1_txt03">
+  <text><![CDATA[WINLOGON.EXE 显示 Windows 欢迎屏幕。]]></text> 
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[BIOS 会查找并读取 CMOS 内存中保存的配置设置。]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+  <text><![CDATA[NTOSKRNL.EXE 启动名为 WINLOGON.EXE 的登录文件。]]></text> 
+</component>
+
+<component id="ID_s1_txt06">
+  <text><![CDATA[WinLoad 加载构成 Windows 核心的两个文件：NTOSKRNL.EXE 和 HAL.DLL。]]></text> 
+</component>
+
+<component id="ID_s1_txt07">
+  <text><![CDATA[BIOS 使用包含有效启动扇区的第一个驱动器启动计算机。]]></text> 
+</component>
+
+<component id="ID_s1_txt08">
+  <text><![CDATA[POST。]]></text> 
+</component>
+
+<component id="ID_s1_txt09">
+  <text><![CDATA[此时将会执行引导扇区中的代码，而启动过程将由 Windows 启动管理器来控制。]]></text> 
+</component>
+
+<component id="ID_s1_txt10">
+  <text><![CDATA[WinLoad 读取注册表文件，选择硬件配置文件，并加载设备驱动程序。]]></text> 
+</component>
+</textcomponents>

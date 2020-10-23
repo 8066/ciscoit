@@ -1,0 +1,124 @@
+﻿<textcomponents>
+
+<component id="ID_s1_txt01">
+  <text><![CDATA[注意：此列表并不详尽。]]></text> 
+  </component>
+
+<component id="ID_s1_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+				<td colspan="3" bgcolor='#FFFFFF'><font size="16" color='#393536'><b>显示分辨率</b></font></td>
+			</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr class="mtable_title">
+				<td bgcolor='#666263'><font color='#FFFFFF'><b>显示标准</b></font></td>
+				<td bgcolor='#666263'><font color='#FFFFFF'><b>线性像素</b></font></td>
+				<td bgcolor='#666263'><font color='#FFFFFF'><b>画面宽高比</b></font></td>
+				
+			</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>VGA</td>
+			<td bgcolor='#E9E7E8'>640x480</td>
+			<td bgcolor='#E9E7E8'>4:3</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>SVGA</td>
+			<td bgcolor='#F2F2F2'>800x600</td>
+			<td bgcolor='#F2F2F2'>4:3</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>HD</td>
+			<td bgcolor='#E9E7E8'>1280x720</td>
+			<td bgcolor='#E9E7E8'>16:9</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>WXGA</td>
+			<td bgcolor='#F2F2F2'>1280x800</td>
+			<td bgcolor='#F2F2F2'>16:10</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>SXGA</td>
+			<td bgcolor='#E9E7E8'>1280x1024</td>
+			<td bgcolor='#E9E7E8'>5:4</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>QHD</td>
+			<td bgcolor='#F2F2F2'>1440x2560</td>
+			<td bgcolor='#F2F2F2'>16:9</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>UXGA</td>
+			<td bgcolor='#E9E7E8'>1600×1200</td>
+			<td bgcolor='#E9E7E8'>4:3</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>FHD</td>
+			<td bgcolor='#F2F2F2'>1920x1080</td>
+			<td bgcolor='#F2F2F2'>16:9</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>UHD</td>
+			<td bgcolor='#E9E7E8'>3840x2160</td>
+			<td bgcolor='#E9E7E8'>16:9</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>WQUXGA</td>
+			<td bgcolor='#F2F2F2'>3840x2400</td>
+			<td bgcolor='#F2F2F2'>16:10</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>FUHD</td>
+			<td bgcolor='#E9E7E8'>7680x4320</td>
+			<td bgcolor='#E9E7E8'>16:9</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>QUHD</td>
+			<td bgcolor='#F2F2F2'>15360x8640</td>
+			<td bgcolor='#F2F2F2'>16:9</td>
+		</tr>
+		
+	</table>]]></text> 
+</component>
+
+<component id="ID_s2_title">
+  <text><![CDATA[<b>将多台显示器连接到单个计算机</b>]]></text> 
+  </component>
+  
+ <component id="ID_s2_btn01">
+  <text><![CDATA[需要的硬件]]></text>
+  </component>
+<component id="ID_s2_btn02">
+  <text><![CDATA[软件配置]]></text> 
+  </component>
+<component id="ID_s2_btn03">
+  <text><![CDATA[优点]]></text> 
+  </component>
+  
+  <component id="ID_s2_title01">
+  <text><![CDATA[<b>需要的硬件</b>]]></text>
+  </component>
+<component id="ID_s2_title02">
+  <text><![CDATA[<b>软件配置</b>]]></text> 
+  </component>
+<component id="ID_s2_title03">
+  <text><![CDATA[<b>优点</b>]]></text> 
+  </component>
+  
+ <component id="ID_s2_txt01">
+  <text><![CDATA[<textformat blockindent='-16'><ul><li>两个或更多视频端口</li><li>额外的显示器</li></ul></textformat>]]></text>
+  </component>
+<component id="ID_s2_txt02">
+  <text><![CDATA[1. <textformat blockindent='14'>单击<b>“开始”>“控制面板”>“显示”</b>。</textformat><BR/><BR/>2. <textformat blockindent='14'>单击<b>“更改显示器设置”</b>。<br/>（<span class="alignment">屏幕分辨率窗口应显示两个显示器图标。</span><br/><span class="alignment">如果屏幕上不显示多个显示器，</span><br/><span class="alignment">可能是显示器不受支持。）</span></textformat><BR/><BR/>3. <textformat blockindent='14'>单击代表您的主显示屏的显示器图标。<br/><span class="alignment">如果显示器已不是主显示屏，可选</span><br/><span class="alignment">中<b>“使之成为我的主显示器”</b>旁边</span><br/><span class="alignment">的复选框。</span></textformat><BR/><BR/>4. <textformat blockindent='14'>从<b>“多显示器”</b>下拉框中选择<b>“扩展这些显示器”</b>。</textformat><BR/><BR/>5. <textformat blockindent='14'>单击<b>“识别”</b>。 Windows 7 将显示<br/><span class="alignment">大号的数字以识别两台显示器。</span> <br/><span class="alignment">拖放显示器图标，以与显示器的物理布局相匹配。</span></textformat><BR/><BR/>6. <textformat blockindent='14'>从下拉框中选择所需的<b>“分辨率”</b>和<b>“方向”</b>。</textformat><br/><br/>7. <textformat blockindent='14'>单击<b>“确定”</b>。</textformat>]]></text> 
+  </component>
+<component id="ID_s2_txt03">
+  <text><![CDATA[<textformat blockindent='-16'><ul><li>在两台显示器上扩展 Windows 桌面是强化计算机的一种经济实用的方法。</li><li>Dualview 也可用于将第二台显示器添加到笔记本电脑。</li><li>使用多个显示器可提高工作效率。 例如，用户可以使用一个屏幕进行视频会议，同时在另一台显示器显示的应用中做记录。</li></ul></textformat>]]></text> 
+  </component>
+    
+<component id="transcript">
+  <text><![CDATA[<b>此处显示脚本</b>]]></text> 
+  </component>
+</textcomponents>

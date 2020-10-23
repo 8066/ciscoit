@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.1.4.1 磁盘碎片整理程序和磁盘错误检查工具</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.1.4.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>磁盘碎片整理程序和磁盘错误检查工具</h1>
+        <div>
+          <p>要维护和优化操作系统，您可以使用 Windows 中的许多工具。这些工具包括通过合并文件来加快访问速度的硬盘碎片整理工具，以及扫描硬盘，以查看是否存在文件结构和磁盘表面错误的磁盘错误检查工具。</p>
+          <p></p>
+          <p>
+            <b>磁盘碎片整理程序（或磁盘优化）</b>
+          </p>
+          <p></p>
+          <p>随着文件的大小不断增加，系统会将某些数据写入磁盘上下一个可用的簇中。时间一长，数据就变得很零碎并且散布在硬盘驱动器上不相邻的各个簇上。从而需要花费更长的时间才能查找和检索数据的每个部分。磁盘碎片整理程序会将非连续数据收集到一个地方，使操作系统能够更快地运行。</p>
+          <p></p>
+          <p>
+            <b>注意</b>：不建议在 SSD 上执行磁盘碎片整理。SSD 已通过它们所使用的控制器和固件进行了优化。对混合 SSD (SSHD) 进行磁盘碎片整理不会对其造成损害，因为它们使用硬盘来存储数据，而非固态 RAM。</p>
+          <p></p>
+          <p>要在 Windows 8 中访问磁盘碎片整理程序（如图 1 所示），请使用以下路径：</p>
+          <p></p>
+          <p>右键单击要检查的驱动器，然后选择<b>>“属性”>“工具”></b>，单击<b>“优化”</b></p>
+          <p></p>
+          <p>要在 Windows 7 和 Vista 中访问磁盘碎片整理程序（如图 2 所示），请使用以下路径：</p>
+          <p></p>
+          <p>右键单击要检查的驱动器，然后选择<b>>“属性”>“工具”></b>，单击<b>“立即进行碎片整理”</b></p>
+          <p></p>
+          <p>
+            <b>磁盘错误检查工具</b>
+          </p>
+          <p></p>
+          <p>磁盘错误检查工具通过扫描硬盘表面是否存在物理错误来检查文件和文件夹的完整性。如果检测到错误，此工具会尝试修复它们。可通过磁盘碎片整理程序或通过搜索 CHKDSK 来访问 CHKDSK。或者，您可以使用以下步骤检查驱动器错误：</p>
+          <p></p>
+          <p>
+            <b>第 1 步</b>：右键单击要检查的驱动器并选择<b>“属性”</b>。</p>
+          <p>
+            <b>第 2 步</b>：单击<b>“工具”</b>选项卡。</p>
+          <p>
+            <b>第 3 步</b>：在 Windows 8 中，在“查错”下方单击<b>“检查”</b>，如图 3 所示。在 Windows 7 或 Vista 中，单击<b>“开始检查”</b>，如图 4 所示。</p>
+          <p>
+            <b>第 4 步</b>：在 Windows 8 中，在“检查磁盘”选项下方选择<b>“扫描驱动器”</b>，尝试恢复坏扇区。在 Windows 7 和 Vista 中，选择<b>“扫描并尝试恢复坏扇区”</b>，并单击<b>“开始”</b>。</p>
+          <p></p>
+          <p>该工具会修复文件系统错误，并检查磁盘是否存在坏扇区。它还会尝试恢复坏扇区中的数据。</p>
+          <p>
+            <b>注意</b>：每次突然断电导致系统关闭后，请使用磁盘错误检查工具检查磁盘。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

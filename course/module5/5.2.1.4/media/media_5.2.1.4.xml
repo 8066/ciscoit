@@ -1,0 +1,13 @@
+﻿<textcomponents><!--Slide 1--><component id='ID_s1_title'>
+	<text><![CDATA[<b>存储设备格式设置</b>]]></text>
+</component>
+
+<component id='ID_titleTxt01'>
+	<text><![CDATA[<b>Windows 8.1 安装中的多个分区</b>]]></text>
+</component>
+
+<component id='ID_bodyTxt01'>
+	<text><![CDATA[在上图中，通过选择“驱动 0 未分配的空间”并单击“新建”创建两个分区。 安装程序还允许用户指定新分区的大小。]]></text>
+</component>
+
+</textcomponents>

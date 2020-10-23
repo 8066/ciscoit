@@ -1,0 +1,9 @@
+﻿<textcomponents>
+<component id="ID_title_01">
+<text><![CDATA[<b>操作环境指南</b>]]></text>
+</component>
+<component id="ID_body01">
+  <text><![CDATA[<textformat blockindent='-18'><ul><li>保持纸张干燥。</li><li>将打印机放在凉爽、无尘的环境中。</li><li>将墨粉放在干净、干燥的环境中。</li><li>清洁扫描仪上的玻璃。</li></ul></textformat>]]></text> 
+  </component>
+
+</textcomponents>

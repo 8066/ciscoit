@@ -1,0 +1,51 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>开始 InPrivate 浏览</b>]]></text> 
+    </component>
+
+	<component id="ID_s1_tbox_header">
+        <text><![CDATA[InPrivate 浏览可防止 Web 浏览器存储以下信息：]]></text> 
+    </component>
+	
+	<component id="ID_s1_tbox_body">
+        <text><![CDATA[<textformat blockindent='-16'><li>用户名</li><li>密码</li><li>Cookie</li><li>浏览历史</li><li>Internet 临时文件</li><li>表单数据</li></textformat>]]></text> 
+    </component>
+
+    <component id="ID_s1_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="1" bgcolor='#FFFFFF'><font size="16">InPrivate 浏览可防止 Web 浏览器存储以下信息：</font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td colspan="1" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr><td><ul><textformat blockindent='-18'><li>用户名</li></textformat>
+			<textformat blockindent='-18'><li>密码</li></textformat>
+            <textformat blockindent='-18'><li>Cookie</li></textformat>
+            <textformat blockindent='-18'><li>浏览历史</li></textformat>
+            <textformat blockindent='-18'><li>Internet 临时文件</li></textformat>
+            <tr><td bgcolor='#F2F2F2'><ul><li>表单数据</li></textformat></ul></td> </tr>
+           
+        </table>]]></text>
+    </component>
+    
+    
+    
+  
+    
+    
+
+      <component id="ID_s2_title">
+        <text><![CDATA[<b>从 Windows 中启动 InPrivate 浏览</b>]]></text> 
+    </component>
+
+     <component id="ID_s3_title">
+        <text><![CDATA[<b>InPrivate 浏览网页</b>]]></text> 
+    </component>
+
+    <component id="ID_s4_title">
+        <text><![CDATA[<b>从 Internet Explorer 11 中启动 InPrivate 浏览</b>]]></text> 
+    </component>
+</textcomponents>

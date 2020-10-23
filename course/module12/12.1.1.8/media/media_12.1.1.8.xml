@@ -1,0 +1,82 @@
+<textcomponents>
+
+<component id="ID_s1_title">
+<text><![CDATA[<b>社会工程攻击示例</b>]]></text>
+</component>
+
+<component id="ID_s1_bubble01">
+<text><![CDATA[<font color="#FFFFFF">您好，我是支持中心工作人员 Amy。 我们需要在下班后升级您计算机上的软件。 您的用户 ID 和密码是多少？ 您可在明天登录时更改密码。</font>]]></text>
+</component>
+
+<component id="ID_s1_bubble02">
+<text><![CDATA[<font color="#FFFFFF">好的。我的用户 ID 和密码是……</font>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+  <text><![CDATA[社会工程师]]></text>
+</component>
+    
+<component id="ID_s1_txt02">
+  <text><![CDATA[XYZ 公司未设防的员工]]></text> 
+</component>
+
+
+<component id="ID_s2_title">
+		<text><![CDATA[<b>社会工程技巧</b>]]></text>
+	</component>
+	
+	    <component id="ID_s2_table01">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='150'><font color='#FFFFFF'><b>技巧</b></font></td>
+                <td bgcolor='#666263'><font color='#FFFFFF'><b>描述</b></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>假托</td>
+                <td bgcolor='#E9E7E8'>攻击者假装需要个人或财务数据才能确认收件人的身份。</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>网络钓鱼</td>
+                <td bgcolor='#F2F2F2'>攻击者发送伪装成来自合法可信来源的欺诈性电子邮件。 此消息的目的是欺骗收件人在他们的设备上安装恶意软件，或者共享个人或财务信息。</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#E9E7E8'>鱼叉式网络钓鱼</td>
+                <td bgcolor='#E9E7E8'>攻击者创建专门针对个人或组织的、有针对性的网络钓鱼攻击。</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>垃圾邮件</td>
+                <td bgcolor='#F2F2F2'>攻击者使用垃圾邮件欺骗用户点击受感染的链接或下载受感染的文件。</td>
+            </tr>
+			
+            <tr>
+                <td bgcolor='#E9E7E8'>近距尾随</td>
+                <td bgcolor='#E9E7E8'>攻击者快速尾随获得授权的人员进入安全位置。 黑客随后就可以访问安全区域。</td>
+            </tr>
+			
+            <tr>
+                <td bgcolor='#F2F2F2'>以物换物（交换条件）</td>
+                <td bgcolor='#F2F2F2'>黑客通过交换某些东西（例如免费礼物）来交换个人信息。</td>
+            </tr>
+			
+            <tr>
+                <td bgcolor='#E9E7E8'>引诱</td>
+                <td bgcolor='#E9E7E8'>攻击者在公共位置（例如公司的洗手间）留下已感染恶意软件的物理设备（例如 USB 闪存驱动器）。 捡到物理设备的人将其查到自己的计算机上，无意中就会安装恶意软件。</td>
+            </tr>
+        </table>]]></text>
+    </component>
+
+</textcomponents>

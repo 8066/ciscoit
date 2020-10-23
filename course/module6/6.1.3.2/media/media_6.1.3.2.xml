@@ -1,0 +1,13 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>Windows 事件查看器</b>]]></text>
+	</component>  	
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>Windows 组件服务</b>]]></text>
+	</component>  	
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>Windows 8 ODBC 数据源</b>]]></text>
+	</component>  	
+</textcomponents>

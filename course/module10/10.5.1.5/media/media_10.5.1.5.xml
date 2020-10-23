@@ -1,0 +1,33 @@
+﻿<textcomponents><!-- slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[<b>检验完整的系统功能</b>]]></text>
+</component>
+
+<component id='ID_s1_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>第 5 步： 检验完整的系统功能，如果适用，并实施预防措施</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+   	   	<tr>
+			<td bgcolor='#E9E7E8' width='185'>验证解决方案和移动设备操作系统的完整系统功能。</td>
+ 			<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>重新启动移动设备。</li>
+				<li>使用 Wi-Fi 浏览 Internet。</li>
+				<li>使用 4G、3G 或另一个运营商网络类型浏览 Internet。</li>
+				<li>拨打电话。</li><li>发送文本消息。</li>
+				<li>打开不同类型的应用。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>验证解决方案以及 Linux 和 OS X 的完整系统功能。</td>
+  			<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>重新启动计算机。</li>
+				<li>使用 Wi-Fi 浏览 Internet。</li>
+				<li>使用有线连接浏览 Internet。</li>
+				<li>发送测试电子邮件。</li>
+				<li>打开不同的程序。</li></ul></textformat></td>		
+		</tr>
+</table>]]></text>
+</component>
+
+
+</textcomponents>

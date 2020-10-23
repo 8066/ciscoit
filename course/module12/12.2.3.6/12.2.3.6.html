@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.2.3.6 Windows BitLocker</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.2.3.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Windows BitLocker</h1>
+        <div>
+          <p>您还可以使用称为 BitLocker 的功能加密整个硬盘驱动器。要使用 BitLocker，一个硬盘上至少要有两个卷。系统卷不加密，并且必须至少为 100 MB。此卷包含启动 Windows 所需的文件。 </p>
+          <p></p>
+          <p>使用 BitLocker 之前，必须在 BIOS 中启用可信平台模块 (TPM)。TPM 是主板上安装的一个专用芯片。TPM 存储特定于主机系统的信息，例如加密密钥、数字证书和密码。使用加密功能的应用（例如 BitLocker）可以利用 TPM 芯片。要启用 TPM，请执行以下步骤：</p>
+          <p></p>
+          <p>
+            <b>第 1 步</b>：启动计算机，并进入 BIOS 配置。</p>
+          <p></p>
+          <p>
+            <b>第 2 步</b>：在 BIOS 配置屏幕中寻找 <b>TPM</b> 选项。查阅主板手册可以找到正确的屏幕。图 1 显示了 Lenovo ThinkPad 的设置实用程序。</p>
+          <p></p>
+          <p>
+            <b>第 3 步</b>：选择<b>“启用”</b>或<b>“激活”</b>安全芯片。</p>
+          <p></p>
+          <p>
+            <b>第 4 步</b>：保存对 BIOS 配置的更改。</p>
+          <p></p>
+          <p>
+            <b>第 5 步</b>：重新启动计算机。</p>
+          <p></p>
+          <p>要在所有 Windows 版本中打开 BitLocker，请执行以下步骤：</p>
+          <p></p>
+          <p>
+            <b>第 1 步</b>：单击<b>“控制面板”>“BitLocker 驱动器加密”</b>。</p>
+          <p></p>
+          <p>
+            <b>第 2 步</b>：在<b>“BitLocker 驱动器加密”</b>页面中，单击操作系统卷上的<b>“启用 BitLocker”</b>。</p>
+          <p></p>
+          <p>
+            <b>第 3 步</b>：如果 TPM 尚未初始化，将显示<b>“初始化 TPM 安全硬件”</b>向导。按照向导的说明初始化 TPM。重启计算机。 </p>
+          <p></p>
+          <p>
+            <b>第 4 步</b>：<b>“保存恢复密码”</b>页面包含以下选项：</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>将恢复密钥保存到 USB 驱动器上</b> - 此选项将恢复密钥保存到 USB 驱动器。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>将恢复密钥保存到文件夹</b> - 此选项将恢复密钥保存到网络驱动器或其他位置。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>打印恢复密钥</b> - 此选项将打印恢复密钥。</li>
+            </ul>
+          </p>
+          <p>
+            <b>第 5 步</b>：保存恢复密钥后，单击<b>“下一步”</b>。</p>
+          <p></p>
+          <p>
+            <b>第 6 步</b>：在<b>“加密所选磁盘卷”</b>”页面中，选中“<b>运行 BitLocker 系统检查”</b>复选框。</p>
+          <p></p>
+          <p>
+            <b>第 7 步</b>：单击<b>“继续”</b>。 </p>
+          <p></p>
+          <p>
+            <b>第 8 步</b>：单击<b>“立即重启”</b>。</p>
+          <p></p>
+          <p>
+            <b>第 9 步</b>：显示<b>“加密进行中”</b>状态栏。如图 2 所示，重新启动计算机后，您可以验证 BitLocker 是否处于活动状态。如图 3 所示，您可以单击“<b>“TPM 管理”</b>查看 TPM 详细信息。</p>
+          <p></p>
+          <p>
+            <b>注意</b>：借助 BitLocker To Go，也可将 BitLocker 加密同可移动驱动器搭配使用。BitLocker To Go 不使用 TPM 芯片，但仍为数据提供加密并且需要密码。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

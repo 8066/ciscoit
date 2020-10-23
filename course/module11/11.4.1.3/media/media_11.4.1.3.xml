@@ -1,0 +1,59 @@
+﻿<textcomponents>
+
+<component id='ID_title'>
+	<text><![CDATA[<b>打印机服务</b>]]></text>
+</component>
+
+<component id='ID_txt01'>
+	<text><![CDATA[<b>估计墨水高度</b>]]></text>
+</component>
+
+<component id='ID_txt02'>
+	<text><![CDATA[<b>设备服务</b>]]></text>
+</component>
+
+<component id='ID_txt03'>
+	<text><![CDATA[<b>设备信息</b>]]></text>
+</component>
+
+<component id='ID_txt04'>
+	<text><![CDATA[<b>对齐墨盒</b>]]></text>
+</component>
+<component id='ID_txt08'>
+	<text><![CDATA[对齐墨盒可以为您提供卓越的打印质量。 如果您看到<br>颜色或线条没有对齐，请将墨盒对齐。]]></text>
+</component>
+
+<component id='ID_txt05'>
+	<text><![CDATA[<b>清洁墨盒</b>]]></text>
+</component>
+<component id='ID_txt09'>
+	<text><![CDATA[如果您的打印有斑纹或者颜色不正确或缺失，<br>可能需要清理墨盒。 此过程要使用墨水<br>和一张纸。]]></text>
+</component>
+
+<component id='ID_txt06'>
+	<text><![CDATA[<b>打印诊断信息</b><br />]]></text>
+</component>
+<component id='ID_txt10'>
+	<text><![CDATA[打印信息可用于确定您的打印机<br>状况。]]></text>
+</component>
+<component id='ID_txt07'>
+	<text><![CDATA[<b>清洁打印机</b><br />]]></text>
+</component>
+<component id='ID_txt11'>
+	<text><![CDATA[清洁打印机，以防止在<br>页面背面出现污迹。]]></text>
+</component><!-- 
+<component id='ID_txt04'>
+	<text><![CDATA[<font size="11"><font size="+2"><b>Align Ink Cartridges</b></font><br /><textformat blockindent='18'>Alignment gives you excellent print quality. If you see misaligned colors or lines, perform an alignment.</textformat></font>]]></text>
+</component>
+
+<component id='ID_txt05'>
+	<text><![CDATA[<font size="11"><font size="+2"><b>Clean Ink Cartridges</b></font><br /><textformat blockindent='18'>If your printing is streaked or has incorrect or missing colors, the ink cartridges may need cleaning. This process uses ink and one sheet of paper.</textformat></font>]]></text>
+</component>
+
+<component id='ID_txt06'>
+	<text><![CDATA[<font size="11"><font size="+2"><b>Print Diagnostic Information</b></font><br /><textformat blockindent='18'>Prints information that can be used to determine the condition of your printer.</textformat></font>]]></text>
+</component>
+
+<component id='ID_txt07'>
+	<text><![CDATA[<font size="11"><font size="+2"><b>Clean Printer</b></font><br /><textformat blockindent='18'>Cleans the printer to prevent smears on the back of pages.</textformat></font>]]></text>
+</component> --></textcomponents>

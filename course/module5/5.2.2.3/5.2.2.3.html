@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.2.3 网络安装</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>网络安装</h1>
+        <div>
+          <p>
+            <b>远程网络安装</b>
+          </p>
+          <p></p>
+          <p>在有多台计算机的环境中，安装操作系统的一种常见方法是远程网络安装。使用此方法时，操作系统安装文件存储在服务器上，这样客户端计算机便可以远程访问文件来开始安装过程。软件包（如远程安装服务 (RIS)）可用于同客户端通信，存储设置文件，并为客户端提供必要的指示，使其访问设置文件、下载设置文件并开始安装操作系统。</p>
+          <p></p>
+          <p>由于客户端计算机未安装操作系统，因此必须使用特殊的环境来启动计算机、连接网络并与服务器通信，进而开始安装过程。这个特殊的环境称为预启动执行环境 (PXE)。要想使用 PXE，网卡必须已启用 PXE。BIOS 或网卡上的固件可能附带此功能。计算机启动时，网卡会侦听网络中用于开始 PXE 的特殊指令，如图 1 所示。</p>
+          <p></p>
+          <p>
+            <b>注意</b>：如果网卡未启用 PXE，可使用第三方软件从存储介质中加载 PXE。</p>
+          <p></p>
+          <p>
+            <b>无人参与安装</b>
+          </p>
+          <p></p>
+          <p>无人参与安装是另一种基于网络的安装，几乎无需用户干预即可安装或升级 Windows 系统。Windows 无人参与安装基于一个<i>应答文件</i>。此文件包含了指示 Windows 安装程序如何配置和安装操作系统的简单文本。</p>
+          <p></p>
+          <p>要执行 Windows 无人参与安装，必须使用应答文件中的用户选项运行 setup.exe。安装过程将像往常一样开始，但安装程序不会提示用户，而是用应答文件中列出的应答。</p>
+          <p></p>
+          <p>要自定义标准 Windows 7 或 Windows Vista 安装，可使用系统映像管理器 (SIM) 创建安装程序应答文件。您还可以在应答文件中添加软件包，例如应用或驱动程序。</p>
+          <p></p>
+          <p>图 2 显示了应答文件的一个示例。回答所有问题后，系统将该文件复制到服务器上的分布式共享文件夹中。此时，您可以做以下两件事之一：</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>在客户端计算机上运行 unattended.bat 文件，准备硬盘驱动器并通过网络从服务器安装操作系统。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>创建一个启动磁盘，负责启动计算机并连接到服务器的分布式共享文件夹。然后运行批处理文件，其中包含一组通过网络安装操作系统的指令。</li>
+            </ul>
+          </p>
+          <p>
+            <b>注意</b>：Windows SIM 是 Windows 自动安装工具包 (AIK) 的一部分，可从 Microsoft 网站下载。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

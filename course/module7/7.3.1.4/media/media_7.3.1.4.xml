@@ -1,0 +1,41 @@
+<textcomponents>
+<component id="ID_s1_title">
+	<text><![CDATA[<b>硬件防火墙</b>]]></text>
+</component>
+<component id="ID_s1_txt01">
+	<text><![CDATA[集成路由器]]></text>
+</component>
+<component id="ID_s1_txt02">
+	<text><![CDATA[<b>内部网络</b>]]></text>
+</component>
+<component id="ID_s1_txt03">
+	<text><![CDATA[<b>外部网络</b>]]></text>
+</component>
+<component id="ID_s1_txt04">
+	<text><![CDATA[<b>H1</b>]]></text>
+</component>
+<component id="ID_s1_txt05">
+	<text><![CDATA[<b>H2</b>]]></text>
+</component>
+<component id="ID_s1_txt06">
+	<text><![CDATA[<b>H3</b>]]></text>
+</component>
+<component id="ID_s1_txt07">
+	<text><![CDATA[Web 服务器]]></text>
+</component>
+<component id="ID_s1_txt08">
+	<text><![CDATA[<b>以太网交换机</b><br>（连接全部有线主机）]]></text>
+</component>
+<component id="ID_s1_txt09">
+	<text><![CDATA[<b>内部防火墙</b><br>（保护主机 H1 和 H2）]]></text>
+</component>
+<component id="ID_s1_txt10">
+	<text><![CDATA[<b>内部路由器</b><br>（对所有主机路由数据包）]]></text>
+</component>
+<component id="ID_s1_txt11">
+	<text><![CDATA[Internet]]></text>
+</component>
+<component id="ID_s1_txt12">
+	<text><![CDATA[<b>内部组件</b>]]></text>
+</component>
+</textcomponents>

@@ -1,0 +1,36 @@
+<textcomponents>
+<component id="ID_title">
+        <text><![CDATA[<b>验证推测以确定原因</b>]]></text>
+	</component>
+<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>第 3 步： 验证推测以确定原因</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+   	   	<tr>
+			<td bgcolor='#E9E7E8' width='200'>确定移动设备操作系统问题原因的常见步骤</td>
+ 			<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>强制关闭正在运行的应用。</li>
+				<li>重新配置电子邮件帐户设置。</li>
+				<li>重新启动移动设备。</li>
+				<li>通过备份还原移动设备。</li>
+				<li>将 iOS 设备连接到 iTunes。</li>
+				<li>更新操作系统。</li>
+				<li>将移动设备重置为工厂默认设置。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>确定 Linux 或 OS X 问题原因的常见步骤</td>
+  			<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>强制关闭正在运行的程序。</li>
+				<li>重新配置电子邮件帐户设置。</li>
+				<li>重启计算机。</li>
+				<li>执行完整的操作系统安装，将计算机还原到出厂默认设置。</li>
+				<li>通过备份还原计算机。</li>
+				<li>更新计算机的操作系统。</li></ul></textformat></td>		
+		</tr>
+</table>]]></text>
+</component>
+
+
+</textcomponents>

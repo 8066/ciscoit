@@ -1,0 +1,290 @@
+﻿<textcomponents>
+
+<component id="ID_test">
+<text><![CDATA[标题文本]]></text>
+</component><!-- slide 1 --><component id="ID_s01_title">
+<text><![CDATA[<b>笔记本电脑顶视图</b>]]></text>
+</component><!--Textbox --><component id='ID_s01_titleTxt01'>
+	<text><![CDATA[蓝牙状态 LED]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt01">
+<text><![CDATA[蓝牙状态 LED 指示蓝牙无线收发器何时启用。 蓝牙是允许便携式设备实现短距离通信的无线行业标准。]]></text>
+</component>
+
+<component id='ID_s01_titleTxt02'>
+	<text><![CDATA[电池状态 LED]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt02">
+<text><![CDATA[电池状态 LED 指示电池的状态。 笔记本电脑可以使用电池或交流电源适配器运行。 电池的类型和笔记本电脑的使用方式会影响电池充电一次的使用时间。]]></text>
+</component>
+
+<component id='ID_s01_titleTxt03'>
+	<text><![CDATA[待机 LED]]></text>
+</component>
+
+<component id="ID_s01_bodyTxt03">
+<text><![CDATA[待机 LED 指示笔记本电脑是否处于待机状态。 待机模式会关闭显示器、硬盘驱动器和 CPU，从而减少笔记本电脑的耗电量。 笔记本电脑使用少量的电量使 RAM 处于活动状态，并使数据可用。 笔记本电脑开启后未使用的时间达到预先定义的时间量时，笔记本电脑可能会进入待机模式。]]></text>
+</component><!-- end slide 1 --><!-- slide 2 --><component id="ID_s02_title">
+<text><![CDATA[<b>笔记本电脑后视图</b>]]></text>
+</component>
+
+<component id='ID_s02_titleTxt01'>
+	<text><![CDATA[电池托架]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt01">
+<text><![CDATA[电池托架是连接笔记本电脑电池的接头。]]></text>
+</component>
+
+<component id='ID_s02_titleTxt02'>
+	<text><![CDATA[交流电源接头]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt02">
+<text><![CDATA[交流电源接头是将交流电源适配器连接到笔记本电脑和为电池充电的接头。]]></text>
+</component>
+
+<component id='ID_s02_titleTxt03'>
+	<text><![CDATA[并行端口]]></text>
+</component>
+
+<component id="ID_s02_bodyTxt03">
+<text><![CDATA[并行端口是连接某个设备（例如打印机或扫描仪）的插槽。]]></text>
+</component><!-- end slide 2 --><!-- slide 3 --><component id="ID_s03_title">
+<text><![CDATA[<b>笔记本电脑电池比较</b>]]></text>
+</component>
+
+<component id='ID_s3_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+				
+	<tr class="mtable_title">
+		<td colspan="3" bgcolor='#FFFFFF'><font size="16">笔记本电脑电池比较</font></td>
+	</tr>
+
+	<tr class="mtable_top">
+		<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>				
+	
+	<tr>
+		<td bgcolor='#666263'class="msubtitle" width='175'><font color='#FFFFFF'><b>电池类型</b></font></td>
+		<td bgcolor='#666263'class="msubtitle"><font color='#FFFFFF'><b>特征</b></font></td>
+		<td bgcolor='#666263'class="msubtitle" width='175'><font color='#FFFFFF'><b>常见用途</b></font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top"><font size='12'color='#393536'>镍镉“Ni-Cad”(NiCd)</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>重量大，寿命长（充电循环次数多），具有记忆效应</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>玩具、无线电话、应急灯、电动工具、摄像头闪光灯</font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>镍氢电池 (NiMH)</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>中等重量，寿命一般，在周期结束时可能会遇到“极性变换”，应立即关闭或充电。 可能需要经过多次充电/放电周期才能到达完整容量</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>手机、数码相机、GPS 设备、手电筒和其他消费类电子产品</font></td>
+		
+	</tr>	
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top"><font size='12'color='#393536'>锂离子电池 (Li-Ion)</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>重量较轻，没有记忆效应，容易过热，应保持冷却，可经常充电，应使用最新的电池（最近制造）</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>手机、笔记本电脑</font></td>
+	
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>锂聚合物<br/>（Li-Poly 或 LiPo）</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>价格高、体积小、重量轻，中等容量，快速充电，寿命一般，不能发生短路，不是易燃物</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>PDA、笔记本电脑、便携式 MP3 播放器、便携式游戏设备、遥控飞机</font></td>
+		
+	</tr></table>]]></text>
+</component><!-- end slide 3 --><!-- slide 4 --><component id="ID_s04_title">
+<text><![CDATA[<b>笔记本电脑左视图</b>]]></text>
+</component>
+
+<component id='ID_s04_titleTxt01'>
+	<text><![CDATA[安全匙孔]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt01">
+<text><![CDATA[安全匙孔是笔记本电脑框架中的一个硬点，用于连接安全电缆。]]></text>
+</component>
+
+<component id='ID_s04_titleTxt02'>
+	<text><![CDATA[通用串行总线 (USB)]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt02">
+<text><![CDATA[通用串行总线 (USB) 端口是连接一个或多个外围设备的插槽。]]></text>
+</component>
+
+<component id='ID_s04_titleTxt03'>
+	<text><![CDATA[S 视频端口]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt03">
+<text><![CDATA[S 视频端口是将视频信号输出到兼容设备的四引脚微型 DIN 接头。 S 视频将视频信号的亮度和颜色部分分开了。]]></text>
+</component>
+
+<component id='ID_s04_titleTxt04'>
+	<text><![CDATA[RJ-11 调制解调器端口]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt04">
+<text><![CDATA[RJ-11 调制解调器端口是连接笔记本电脑与标准电话线路的设备。 调制解调器可用于将计算机连接到 Internet、传真文档和接听来电。]]></text>
+</component>
+
+<component id='ID_s04_titleTxt05'>
+	<text><![CDATA[以太网端口]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt05">
+<text><![CDATA[以太网端口是连接笔记本电脑与有线局域网的 RJ-45 插槽。]]></text>
+</component>
+
+<component id='ID_s04_titleTxt06'>
+	<text><![CDATA[网络 LED]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt06">
+<text><![CDATA[这两个网络 LED 是表示网络连接状态的指示灯。 绿色链路指示灯指示网络连接。 另一个 LED 灯指示进出笔记本电脑的数据流量。]]></text>
+</component>
+
+<component id='ID_s04_titleTxt07'>
+	<text><![CDATA[耳机插孔]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt07">
+<text><![CDATA[耳机插孔是将音频信号输出到所连接的立体声耳机或扬声器的插槽。]]></text>
+</component>
+
+<component id='ID_s04_titleTxt08'>
+	<text><![CDATA[麦克风插孔]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt08">
+<text><![CDATA[麦克风插孔是连接音频输入麦克风的插槽。]]></text>
+</component>
+
+<component id='ID_s04_titleTxt09'>
+	<text><![CDATA[通风网栅]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt09">
+<text><![CDATA[通风网栅是允许热空气从笔记本电脑内部吹出的一系列通风口。]]></text>
+</component>
+
+<component id='ID_s04_titleTxt10'>
+	<text><![CDATA[PC 组合卡插槽]]></text>
+</component>
+
+<component id="ID_s04_bodyTxt10">
+<text><![CDATA[PC 组合卡插槽是一种扩展槽，顶部插糟支持 ExpressCard 扩展卡，底部插槽支持 PC 卡。]]></text>
+</component><!-- end slide 4 --><!-- slide 5 --><component id="ID_s05_title">
+<text><![CDATA[<b>笔记本电脑前视图</b>]]></text>
+</component>
+
+
+<component id='ID_s05_titleTxt01'>
+	<text><![CDATA[红外线端口]]></text>
+</component>
+
+<component id="ID_s05_bodyTxt01">
+<text><![CDATA[红外线端口是进行数据传输的视距无线收发器。]]></text>
+</component>
+
+<component id='ID_s05_titleTxt02'>
+	<text><![CDATA[扬声器]]></text>
+</component>
+
+<component id="ID_s05_bodyTxt02">
+<text><![CDATA[扬声器是将笔记本电脑中产生的音频信号转换为声音的输出设备。]]></text>
+</component>
+
+<component id='ID_s05_titleTxt03'>
+	<text><![CDATA[笔记本电脑锁]]></text>
+</component>
+
+<component id="ID_s05_bodyTxt03">
+<text><![CDATA[笔记本电脑锁是用于打开笔记本电脑盖的锁杆。]]></text>
+</component>
+
+<component id='ID_s05_titleTxt04'>
+	<text><![CDATA[通风网栅]]></text>
+</component>
+
+<component id="ID_s05_bodyTxt04">
+<text><![CDATA[通风网栅是允许热空气从笔记本电脑内部吹出的一系列通风口。]]></text>
+</component><!-- end slide 5 --><!-- slide 6 --><component id="ID_s06_title">
+<text><![CDATA[<b>笔记本电脑右视图</b>]]></text>
+</component>
+
+<component id='ID_s06_titleTxt01'>
+	<text><![CDATA[光驱]]></text>
+</component>
+
+<component id="ID_s06_bodyTxt01">
+<text><![CDATA[光驱是读取和写入光学介质的光盘驱动器。]]></text>
+</component>
+
+<component id='ID_s06_titleTxt02'>
+	<text><![CDATA[光驱活动指示灯]]></text>
+</component>
+
+<component id="ID_s06_bodyTxt02">
+<text><![CDATA[光驱活动指示灯是在使用光驱时会亮起的 LED。]]></text>
+</component>
+
+<component id='ID_s06_titleTxt03'>
+	<text><![CDATA[驱动器槽位状态指示灯]]></text>
+</component>
+
+<component id="ID_s06_bodyTxt03">
+<text><![CDATA[驱动器槽位状态指示灯是在笔记本电脑托架中安装驱动器时会亮起的 LED。]]></text>
+</component>
+
+<component id='ID_s06_titleTxt04'>
+	<text><![CDATA[VGA 端口]]></text>
+</component>
+
+<component id="ID_s06_bodyTxt04">
+<text><![CDATA[VGA 端口是连接外部显示屏和投影仪的 15 引脚插槽。]]></text>
+</component><!-- end slide 6 --><!-- slide 7 --><component id="ID_s07_title">
+<text><![CDATA[<b>笔记本电脑底视图</b>]]></text>
+</component>
+
+
+<component id='ID_s07_titleTxt01'>
+	<text><![CDATA[硬盘驱动器盖板]]></text>
+</component>
+
+<component id="ID_s07_bodyTxt01">
+<text><![CDATA[硬盘驱动器盖板是访问内部硬盘驱动器托架的盖子。]]></text>
+</component>
+
+<component id='ID_s07_titleTxt02'>
+	<text><![CDATA[电池锁]]></text>
+</component>
+
+<component id="ID_s07_bodyTxt02">
+<text><![CDATA[两个电池锁是在插入、取出或固定笔记本电脑电池时使用的锁杆。]]></text>
+</component>
+
+<component id='ID_s07_titleTxt03'>
+	<text><![CDATA[扩展坞接头]]></text>
+</component>
+
+<component id="ID_s07_bodyTxt03">
+<text><![CDATA[扩展坞接头是将笔记本电脑连接到扩展坞的插槽。]]></text>
+</component>
+
+<component id='ID_s07_titleTxt04'>
+	<text><![CDATA[RAM 盖板]]></text>
+</component>
+
+<component id="ID_s07_bodyTxt04">
+<text><![CDATA[RAM 盖板是用于检修扩展内存的盖子。]]></text>
+</component><!-- end slide 7 --><component id="ID_inst">
+  <text><![CDATA[单击突出显示的区域可查看重要内容。 再次单击突出显示的区域可关闭该内容。]]></text> 
+</component>  
+
+</textcomponents>

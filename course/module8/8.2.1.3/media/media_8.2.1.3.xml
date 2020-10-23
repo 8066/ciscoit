@@ -1,0 +1,9 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>视距无线 Internet 服务</b>]]></text>
+</component>
+
+<component id="ID_txt02">
+  <text><![CDATA[视距传输]]></text> 
+  </component>
+</textcomponents>

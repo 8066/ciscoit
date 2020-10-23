@@ -1,0 +1,5 @@
+﻿<textcomponents>
+	    <component id="ID_title">
+        <text><![CDATA[<b>高级启动选项</b>]]></text> 
+    </component>
+</textcomponents>

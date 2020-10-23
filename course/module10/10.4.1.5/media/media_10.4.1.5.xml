@@ -1,0 +1,27 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>使用 Ubuntu Linux 上的 Déjà Dup 进行备份</b>]]></text>
+</component>
+<component id="ID_s2_title">
+	<text><![CDATA[<b>Ubuntu Linux 上的 Déjà Dup 和备份位置</b>]]></text>
+</component>
+<component id="ID_s3_title">
+	<text><![CDATA[<b>使用 Ubuntu Linux 上的 Déjà Dup 计划备份</b>]]></text>
+</component>
+<component id="ID_s4_title">
+	<text><![CDATA[<b>使用 Ubuntu Linux 上的 Déjà Dup 还原备份</b>]]></text>
+</component>
+<component id="ID_s5_title">
+	<text><![CDATA[<b>Time Machine 新目标磁盘</b>]]></text>
+</component>
+<component id="ID_s6_title">
+	<text><![CDATA[<b>Time Machine 设置</b>]]></text>
+</component>
+<component id="ID_s7_title">
+	<text><![CDATA[<b>Time Machine 菜单栏状态</b>]]></text>
+</component>
+<component id="ID_s8_title">
+	<text><![CDATA[<b>进入 Time Machine</b>]]></text>
+</component>
+</textcomponents>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.2.3.4 文件和文件夹权限</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.2.3.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>文件和文件夹权限</h1>
+        <div>
+          <p>权限是您配置的各种规则，可限制单个或一组用户访问文件或文件夹。图中列出了可用于文件和文件夹的权限。要在各种版本的 Windows 中配置文件或文件夹级别的权限，请使用以下路径：</p>
+          <p></p>
+          <p>右键单击文件或文件夹，并选择<b>“属性”>“安全”>“编辑…”</b></p>
+          <p></p>
+          <p>
+            <b>最小特权原则</b>
+          </p>
+          <p></p>
+          <p>应在计算机系统或网络中限制用户仅访问他们需要的资源。例如，如果他们只需访问一个文件夹，则不能允许他们访问服务器上的所有文件。允许用户访问整个驱动器可能更轻松，但限制用户只能访问执行任务所需的文件夹会更安全。这称为最小特权原则。如果用户的计算机已被感染，限制对资源的访问还能防止恶意程序访问这些资源。</p>
+          <p></p>
+          <p>
+            <b>限制用户权限</b>
+          </p>
+          <p></p>
+          <p>可将文件和网络共享权限授予个人或组中的所有成员。这些共享权限与文件和文件夹级别的 NTFS 权限不同。如果拒绝了个人或某个组对网络共享的权限，该拒绝会覆盖任何其他已授予的权限。例如，如果您拒绝了某人的网络共享权限，则用户无法访问该共享，即使用户是管理员组的管理员或管理组的一部分也是如此。本地安全策略必须概述允许每个用户或组访问哪些资源和访问类型。</p>
+          <p></p>
+          <p>更改文件夹权限后会提供选项，允许对所有子文件夹应用相同的权限。这称为权限传播。权限传播是一种将权限快速应用到许多文件和文件夹的简单方式。设置父文件夹权限后，创建于父文件夹中的文件夹和文件可继承父文件夹的权限。 </p>
+          <p></p>
+          <p>此外，数据的位置和对数据执行的操作也确定了权限的传播方式：</p>
+          <p>
+            <ul>
+              <li>
+                <b>数据移至同一卷</b> - 它将保留原始权限</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>数据复制到同一卷</b> - 它将继承新的权限</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>数据移至不同的卷</b> - 它将继承新的权限</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>数据复制到不同的卷</b> - 它将继承新的权限</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

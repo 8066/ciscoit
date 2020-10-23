@@ -1,0 +1,9 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Windows 8 文件历史记录</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Windows 7 备份和还原 – 选择备份磁盘</b>]]></text>
+	</component>
+</textcomponents>

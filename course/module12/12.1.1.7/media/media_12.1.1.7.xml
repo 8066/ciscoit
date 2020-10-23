@@ -1,0 +1,34 @@
+<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>Microsoft Internet Explorer 零日漏洞</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[第 0 日<br/>零日恶意软件失控]]></text>
+	</component>
+
+	
+	<component id="ID_txt02">
+		<text><![CDATA[第 16 日<br/>部署第一个防病毒签名]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[第 17 日<br/>部署第二个防病毒签名]]></text>
+	</component>	
+
+	<component id="ID_txt04">
+		<text><![CDATA[第 18 日<br/>部署第三个防病毒签名]]></text>
+	</component>	
+
+	<component id="ID_txt05">
+		<text><![CDATA[传统响应]]></text>
+	</component>	
+
+	<component id="ID_txt06">
+		<text><![CDATA[发出安全建议]]></text>
+	</component>
+
+	<component id="ID_txt07">
+		<text><![CDATA[修补 Microsoft IE]]></text>
+	</component>		
+</textcomponents>

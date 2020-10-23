@@ -1,0 +1,30 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+    <tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>第 1 步：识别问题</b></font></td>
+	</tr>
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#E9E7E8' width="210" valign="top"><font  color='#393536'>开放式问题</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><textformat blockindent='-18'><ul><li>故障是什么时候开始的？</li><li>您遇到了什么故障？</li><li>您最近访问过什么网站？</li><li>您的计算机上安装了哪些安全软件？</li><li>还有谁最近使用过您的计算机？</li></ul></textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>封闭式问题</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font  color='#393536'><textformat blockindent='-18'><ul><li>您的安全软件是否为最新的？</li><li>您最近是否扫描过计算机病毒？</li><li>您是否打开过来自可疑电子邮件的任何附件？</li><li>您最近是否更改了您的密码？</li><li>您是否共享了您的密码？</li></ul></textformat></font></td>
+	</tr>
+	
+
+	</table>]]></text> 
+</component>
+	
+	
+</textcomponents>

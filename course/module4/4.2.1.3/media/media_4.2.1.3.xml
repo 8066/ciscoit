@@ -1,0 +1,87 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>练习 - 确定问题</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[<b>说明</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[本练习含有技术人员可能问客户的问题，以帮助您确定问题。 通过将问题类型拖到问题左边的下拉框中，确定哪些是开放式问题，哪些是封闭式问题。]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[正确]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[您已成功地将每个问题类型与技术人员问题相匹配。]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[不正确]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[您尚未成功地将每个问题类型与技术人员问题相匹配。 请单击“重置”重试。]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[<b>检查</b>]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[<b>重置</b>]]></text>
+</component><!--Drag Items--><component id='ID_s1_drag01'>
+	<text><![CDATA[<font color="#393536">开放式</font>]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[<font color="#393536">封闭式</font>]]></text>
+</component><!--Questions--><component id='ID_s1_target_header'>
+	<text><![CDATA[<font size="15">问题类型</font>]]></text>
+</component>
+<component id='ID_s1_text_header'>
+	<text><![CDATA[<font size="15">技术人员问题</font>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[最近有其他人使用过您的计算机吗？]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+  <text><![CDATA[您的计算机收到过任何错误消息吗？]]></text> 
+</component>
+
+<component id="ID_s1_txt03">
+  <text><![CDATA[您的计算机或网络出现过哪些问题？]]></text> 
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[您能否重现问题？]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+  <text><![CDATA[最近您在计算机上安装了哪些软件？]]></text> 
+</component>
+
+<component id="ID_s1_txt06">
+  <text><![CDATA[确定问题后您采取了什么措施？]]></text> 
+</component>
+
+<component id="ID_s1_txt07">
+  <text><![CDATA[您最近是否更改了您的密码？]]></text> 
+</component>
+
+<component id="ID_s1_txt08">
+	<text><![CDATA[您最近更换过计算机硬件吗？]]></text>
+</component>
+
+<component id="ID_s1_txt09">
+  <text><![CDATA[您当前是否登录了网络？]]></text> 
+</component>
+
+</textcomponents>

@@ -1,0 +1,51 @@
+﻿<textcomponents><!--Buttons--><component id='ID_s1_btn01'>
+	<text><![CDATA[滔滔不绝的客户]]></text>
+</component>
+
+<component id='ID_s1_btn02'>
+	<text><![CDATA[无礼的客户]]></text>
+</component>
+
+<component id='ID_s1_btn03'>
+	<text><![CDATA[愤怒的客户]]></text>
+</component>
+
+<component id='ID_s1_btn04'>
+	<text><![CDATA[经验丰富的客户]]></text>
+</component>
+
+<component id='ID_s1_btn05'>
+	<text><![CDATA[无经验的客户]]></text>
+</component><!--Textbox 1--><component id='ID_s1_title_txt01'>
+	<text><![CDATA[<b>滔滔不绝的客户</b>]]></text>
+</component>
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[<b>建议：</b><br /><textformat blockindent='-18'><ul><li>让客户说一分钟。</li><li>收集尽可能多的问题信息。</li><li>礼貌地插话，转移客户的注意力。 对于从不打断客户的规则，这是一个例外。</li><li>重新获得谈话的控制权后，询问尽可能多的封闭式问题。</li></ul></textformat><br /><b>不建议：</b><br />通过询问社交性的问题鼓励与故障无关的对话，例如“今天过得怎么样？”。]]></text>
+</component><!--Textbox 2--><component id='ID_s1_title_txt02'>
+	<text><![CDATA[<b>无礼的客户</b>]]></text>
+</component>
+
+<component id='ID_s1_txt02'>
+	<text><![CDATA[<b>建议：</b><br /><textformat blockindent='-18'><ul><li>仔细倾听，因为您不希望让客户重复任何信息。</li><li>按照分步式方法确定和解决问题。</li><li>如果客户有偏好的技术人员，请尝试与该技术人员联系，确定他们是否可以接听来电。 例如告知客户，“我现在可以帮助您，也可以看看（首选技术人员）是否有空。 他们在两小时后有空。 您能接受吗？” 如果客户想等待另一位技术人员，请在申请单中记录下来。</li><li>为等待时间和带来的不便表示抱歉，即使没有等待时间也要如此。</li><li>重申您会尽快解决问题。</li></ul></textformat><br /><b>不建议：</b><br /><textformat blockindent='-18'><ul><li>让客户执行明显的操作步骤（如果您可以在没有他们帮助的情况下确定问题）。</li><li>无礼地对待客户，即使他们对您很无礼。</li></ul></textformat>]]></text>
+</component><!--Textbox 3--><component id='ID_s1_title_txt03'>
+	<text><![CDATA[<b>愤怒的客户</b>]]></text>
+</component>
+
+<component id='ID_s1_txt03'>
+	<text><![CDATA[<b>建议：</b><br /><textformat blockindent='-18'><ul><li>让客户描述他们的问题，不要打断他们，即使他们非常愤怒。 这样可以让客户释放一些愤怒，然后您再继续。</li><li>对客户的问题表示赞同。</li><li>为等待时间或不便表示歉意。</li></ul></textformat><br /><b>不建议：</b><br /><textformat blockindent='-18'><ul><li>如果可能的话，尽量不让客户持机等待或转接呼叫。</li><li>在呼叫时间内讨论是什么导致了问题（而不是将会话重定向到解决问题）。</li></ul></textformat>]]></text>
+</component><!--Textbox 4--><component id='ID_s1_title_txt04'>
+	<text><![CDATA[<b>经验丰富的客户</b>]]></text>
+</component>
+
+<component id='ID_s1_txt04'>
+	<text><![CDATA[<b>建议：</b><br /><textformat blockindent='-18'><ul><li>如果您是 1 级技术人员，可以尝试与 2 级技术人员建立会议呼叫。</li><li>为客户提供您尝试验证的整体方法。</li></ul></textformat><br /><b>不建议：</b><br /><textformat blockindent='-18'><ul><li>与此客户一起执行分步过程。</li><li>让客户检查明显的问题，例如电源线或电源开关。 例如，您可以建议重新启动。</li></ul></textformat>]]></text>
+</component><!--Textbox 5--><component id='ID_s1_title_txt05'>
+	<text><![CDATA[<b>无经验的客户</b>]]></text>
+</component>
+
+<component id='ID_s1_txt05'>
+	<text><![CDATA[<font><b>建议：</b></font><br /><textformat blockindent='-18'><ul><li>使用一个简单的分步说明流程。</li><li>用简单的术语。</li></ul></textformat><br /><font><b>不建议：</b></font><br /><textformat blockindent='-18'><ul><li>使用行话。</li><li>居高临下或轻视客户。</li></ul></textformat>]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,112 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>练习 – 识别网络主机服务</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[说明]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[将术语与其描述相匹配。]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[Web 服务]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[身份验证服务]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[DHCP]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[电子邮件服务]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[打印服务]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[DNS]]></text>
+	</component>
+	<component id='ID_s1_drag07'>
+		<text><![CDATA[入侵检测和防御服务]]></text>
+	</component>
+	<component id='ID_s1_drag08'>
+		<text><![CDATA[文件服务]]></text>
+	</component>
+	
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[检查]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[重置]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[正确]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[您已成功地将每个术语与其描述相匹配。]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[不正确]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[您尚未成功地将每个术语与其描述相匹配。 请单击“重置”重试。]]></text>
+	</component>
+
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>术语</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>描述</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[主机使用 HTTP 或 HTTPS 访问此服务。]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[通过 AAA 控制网络设备。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[此服务会自动向主机分配 IP 地址信息。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[客户端使用以下协议发送和检索消息：SMTP、POP 或 IMAP。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[此服务允许多个用户访问打印机。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[此服务会将域名转换为 IP 地址。]]></text>
+	</component> 
+
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[此服务监控并处理网络流量。]]></text>
+	</component> 
+
+	<component id='ID_s1_txt08'>
+		<text><![CDATA[此服务使用 FTP 协议在服务器和客户端之间传输数据。]]></text>
+	</component> 
+
+	
+</textcomponents>

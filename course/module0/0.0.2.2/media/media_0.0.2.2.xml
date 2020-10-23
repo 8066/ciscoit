@@ -1,0 +1,84 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id='ID_s1_trans01'>
+		<text><![CDATA[轻松成为 CompTIA 认证的 IT 专业人员]]></text>
+	</component>
+
+	<component id='ID_s1_trans02'>
+		<text><![CDATA[这也是获得更好职业机会和更多报酬的最佳途径。]]></text>
+	</component>
+
+	<component id='ID_s1_trans03'>
+		<text><![CDATA[为什么要获取 CompTIA 认证？]]></text>
+	</component>
+
+	<component id='ID_s1_trans04'>
+		<text><![CDATA[不断增长的劳动力需求]]></text>
+	</component>
+
+	<component id='ID_s1_trans05'>
+		<text><![CDATA[预计到 2020 年，一些技术领域将出现超过 20% 的劳动力需求增长。* CompTIA 认证证明具备从事此项工作的技能。]]></text>
+	</component>
+
+	<component id='ID_s1_trans06'>
+		<text><![CDATA[更高的薪资]]></text>
+	</component>
+
+	<component id='ID_s1_trans07'>
+		<text><![CDATA[简历中有认证的 IT 专业人员要求更好的工作、赚更高的薪资，并且有更多新的跨行业机会。 ]]></text>
+	</component>
+
+	<component id='ID_s1_trans08'>
+		<text><![CDATA[经过验证的优势]]></text>
+	</component>
+
+	<component id='ID_s1_trans09'>
+		<text><![CDATA[91% 的招聘经理表示，CompTIA 认证在验证 IT 专业知识方面很有价值，此认证已成为您向雇主展示能力和知识的最佳方式。**]]></text>
+	</component>
+
+	<component id='ID_s1_trans10'>
+		<text><![CDATA[通用技能]]></text>
+	</component>
+
+	<component id='ID_s1_trans11'>
+		<text><![CDATA[CompTIA 认证是供应商中立的 - 即获得认证的专业人员可以在大多数组织中熟练地从事硬件和软件方面的广泛工作。]]></text>
+	</component>
+
+
+	<component id="ID_s2_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id='ID_s2_trans01'>
+		<text><![CDATA[学习]]></text>
+	</component>
+
+	<component id='ID_s2_trans02'>
+		<text><![CDATA[通过查看以下内容了解更多有关考试范围的信息：<ul><li>用于明确学习要点的考试目标。<li>用于大致了解考试要求和题目格式示例的题目示例。</li><li>访问在线论坛（如 LinkedIn），了解其他 IT 专业人员如何谈论 CompTIA 考试。</li></ul>]]></text>
+	</component>
+
+	<component id='ID_s2_trans03'>
+		<text><![CDATA[认证]]></text>
+	</component>
+
+	<component id='ID_s2_trans04'>
+		<text><![CDATA[在 Pearson VUE 测试中心或 CompTIAstore.com 购买优惠券。 <ul><li>在 Pearson VUE 测试中心注册参加考试。</li><li>访问 pearsonvue.com/CompTIA 查找距离最近的测试中心。</li><li>在线安排考试。 您需要输入您的优惠券号码或提供注册付款信息。</li><li>参加认证考试。</li></ul>]]></text>
+	</component>
+
+	<component id='ID_s2_trans05'>
+		<text><![CDATA[工作]]></text>
+	</component>
+
+	<component id='ID_s2_trans06'>
+		<text><![CDATA[恭喜您获得 CompTIA 认证！ <ul><li>确保将您的认证添加到您的个人简历中。</li><li>查看 CompTIA 认证路线图以规划您接下来的职业方向。</li></ul>]]></text>
+	</component>
+
+	<component id='ID_s2_trans07'>
+		<text><![CDATA[了解更多内容：Certification.CompTIA.org/aplus]]></text>
+	</component>
+
+</textcomponents>

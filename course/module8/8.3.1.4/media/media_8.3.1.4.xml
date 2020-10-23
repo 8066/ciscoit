@@ -1,0 +1,51 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>云服务模型</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[软件即服务 (SaaS)]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[平台即服务 (PaaS)]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[基础设施即服务 (IaaS)]]></text>
+	</component>
+	
+	<component id="ID_txt04">
+		<text><![CDATA[IT 即服务 (ITaaS)]]></text>
+	</component>
+	
+	<component id="ID_titleTxt01">
+		<text><![CDATA[<b>软件即服务 (SaaS)</b>]]></text>
+	</component>
+	<component id="ID_bodyTxt01">
+		<text><![CDATA[云提供商对通过 Internet 传输的电子邮件、通信和虚拟桌面等服务的访问负责。]]></text>
+	</component>
+
+	<component id="ID_titleTxt02">
+		<text><![CDATA[<b>平台即服务 (PaaS)</b>]]></text>
+	</component>
+	<component id="ID_bodyTxt02">
+		<text><![CDATA[云提供商对用于提供应用的开发工具和服务的访问负责。]]></text>
+	</component>
+	
+	<component id="ID_titleTxt03">
+		<text><![CDATA[<b>基础设施即服务 (IaaS)</b>]]></text>
+	</component>
+	<component id="ID_bodyTxt03">
+		<text><![CDATA[云提供商对网络设备、虚拟化网络服务和支持网络基础设施的访问负责。]]></text>
+	</component>	
+	
+	<component id="ID_titleTxt04">
+		<text><![CDATA[<b>IT 即服务 (ITaaS)</b>]]></text>
+	</component>
+	<component id="ID_bodyTxt04">
+		<text><![CDATA[云提供商负责提供对 IaaS、PaaS 和 SaaS 服务模型的 IP 支持。 在 ITaaS 模型中，一个企业通过与云提供商签署合同来获得独立服务或捆绑的服务。]]></text>
+	</component>
+
+</textcomponents>

@@ -1,0 +1,34 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>PS/2 线缆和接头</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>音频和游戏端口接头</b>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>网线和接头</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_txt01">
+        <text><![CDATA[线路输入]]></text>
+    </component>
+
+    <component id="ID_s2_txt02">
+        <text><![CDATA[麦克风输入]]></text>
+    </component>
+
+    <component id="ID_s2_txt03">
+        <text><![CDATA[线路输出]]></text>
+    </component>
+
+    <component id="ID_s2_txt04">
+        <text><![CDATA[辅助输入]]></text>
+    </component>
+
+    <component id="ID_s2_txt05">
+        <text><![CDATA[游戏端口/MIDI]]></text>
+    </component>
+    
+</textcomponents>

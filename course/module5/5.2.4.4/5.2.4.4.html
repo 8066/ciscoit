@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.4.4 驱动器映射或驱动器号分配</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.4.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>驱动器映射或驱动器号分配</h1>
+        <div>
+          <p>Windows 中使用字母为物理或逻辑驱动器命名。这一过程称为驱动器映射或驱动器号分配。Windows 计算机最多可以有 26 个物理和逻辑驱动器，因为英语字母表中有 26 个字母。C 盘留作主活动分区。在 Windows Vista 和 Windows 7 中，如果您没有软盘驱动器，可以为驱动器分配字母 A 或 B。随着将额外的存储设备添加到系统中，Windows 尝试将它们自动映射到下一个可用字母。这样，光驱、额外的内部磁盘和外部存储设备在传统上标记为 D 盘、E 盘、F 盘。最多可有多少额外的驱动器取决于具体的计算机硬件。</p>
+          <p></p>
+          <p>您可以更改、添加和删除驱动器号和路径。默认情况下，在创建或添加分区或驱动器后，Windows 会为其分配一个字母。只要字母未被使用，您就可以将驱动器指定为任意字母。</p>
+          <p></p>
+          <p>要从 Windows 的磁盘管理工具中更改驱动器号，请右键单击该驱动器并选择“<b>更改驱动器号和路径</b>”。</p>
+          <p></p>
+          <p>
+            <b>添加驱动器</b>
+          </p>
+          <p></p>
+          <p>要增加计算机上的可用存储空间，或实施独立磁盘冗余阵列 (RAID) 设置，您可以在计算机中添加驱动器。如果正确安装了额外的硬盘驱动器，BIOS 应该自动识别该驱动器。安装驱动器后，您可以使用磁盘管理工具检查是否已识别了该驱动器。如果磁盘可用，可能需要进行格式化后才能使用。如果磁盘未出现，请排除故障。</p>
+          <p></p>
+          <p>
+            <b>添加阵列</b>
+          </p>
+          <p></p>
+          <p>要设置独立磁盘冗余阵列 (RAID)，一台计算机中必须安装两个或多个驱动器。您可以使用磁盘管理工具添加阵列。您有以下选择：</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>新建跨区卷</b> - 创建一个磁盘分区，分区中包含来自多个物理磁盘的磁盘空间。跨区卷上的数据没有容错能力。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>新建带区卷</b> - 一种动态分区，在多个物理磁盘的带区中存储数据。这也称为 RAID 0，这种卷可实现较高的读写速度。数据分布在多个物理磁盘上，因而可以同时访问数据的各个部分。由于带区卷上的数据没有容错能力，因此不能使用这种卷存储重要数据。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>新建镜像卷</b> - 需要两个物理磁盘。这也称为 RAID 1，写入卷的所有数据将同时写入两个磁盘。此操作可以使镜像卷上存储的数据具有容错能力。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>新建 RAID-5 卷</b> - RAID 5 是在多个物理磁盘的带区中存储数据的动态分区，同时也会存储每个条带的恢复信息。这些恢复信息称为奇偶校验数据，可用于重建故障磁盘上的数据。创建奇偶校验信息可以使 RAID 5 卷上的数据具备容错能力。</li>
+            </ul>
+          </p>
+          <p></p>
+          <p>要在磁盘管理工具中添加阵列，请右键单击所需的磁盘并选择一个选项。</p>
+          <p></p>
+          <p>除了上述磁盘管理工具选项，另一种常见的 RAID 类型是 RAID 10，也称为 RAID 1+0。RAID 10 是由 RAID 0 和 RAID 1 组成的混合卷。RAID 10 在多个物理磁盘的带区中存储数据，同时在另一组磁盘上创建数据镜像。RAID 10 速度很快，而且具备容错能力。</p>
+          <p></p>
+          <p>
+            <b>注意</b>：有哪些添加阵列的选项取决于系统限制。并非所有选项都可用</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

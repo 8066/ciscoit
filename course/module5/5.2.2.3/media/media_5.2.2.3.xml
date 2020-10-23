@@ -1,0 +1,17 @@
+﻿<textcomponents>
+	<component id="ID_title">
+        <text><![CDATA[<b>Windows PXE 安装</b>]]></text>
+    </component>	
+	
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Windows 无人值守安装</b>]]></text>
+    </component>
+	
+	<component id='ID_s1_titleTxt01'>
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt01'>
+		<text><![CDATA[该图展示了 PXE Windows 安装启动过程中显示的第一个屏幕。 所显示的安装作为 PXE 映像在基于 Windows 的服务器上创建，并且位于 TFTP 文件夹中。 PXE 客户端可以在 TFTP 上查找并获取文件。]]></text>
+	</component>
+</textcomponents>

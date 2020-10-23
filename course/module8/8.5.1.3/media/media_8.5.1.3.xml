@@ -1,0 +1,30 @@
+﻿<textcomponents>
+
+<component id='ID_table'>
+<text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>第 3 步：验证推测以确定原因。</b></font></td>
+			</tr>
+	
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+
+			<tr>
+				<td bgcolor='#E9E7E8' width="200">确定原因的常见步骤</td>
+				
+				<td bgcolor='#E9E7E8'><ul><textformat blockindent='-18'>
+					<li>检查所有电缆是否连接到正确位置。</li>
+					<li>拆除然后重新连接电缆和接头。</li>
+					<li>重新启动计算机或网络设备。</li>
+					<li>以其他用户身份登录。</li>
+					<li>修复或重新启用网络连接。</li>
+					<li>联系网络管理员。</li>
+					<li>对您的默认网关执行 ping 操作。</li>
+					<li>访问一个远程网页，比如 http://www.cisco.com。</li>
+					</textformat></ul></td> 
+			</tr>	
+	</table>]]>
+</text></component>
+</textcomponents>

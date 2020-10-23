@@ -1,0 +1,64 @@
+﻿<textcomponents>
+
+    <component id="ID_s1_title">
+		<text><![CDATA[<b>虚拟机监控程序类型 1 和类型 2</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt01">
+		<text><![CDATA[操作系统]]></text>
+	</component>
+	<component id="ID_s1_txt02">
+	<text><![CDATA[操作系统]]></text>
+	</component>
+	<component id="ID_s1_txt03">
+		<text><![CDATA[操作系统]]></text>
+	</component>
+	<component id="ID_s1_txt04">
+		<text><![CDATA[虚拟机监控程序]]></text>
+	</component>
+	<component id="ID_s1_txt05">
+		<text><![CDATA[硬件]]></text>
+	</component>
+	<component id="ID_s1_txt06">
+		<text><![CDATA[<b>服务器</b>]]></text>
+	</component>
+	<component id="ID_s1_txt07">
+		<text><![CDATA[<b>类型 1 本机</b>]]></text>
+	</component>
+	<component id="ID_s1_txt08">
+		<text><![CDATA[<b>类型 2 托管</b>]]></text>
+	</component>
+	<component id="ID_s2_txt01">
+		<text><![CDATA[操作系统]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+	<text><![CDATA[操作系统]]></text>
+	</component>
+	<component id="ID_s2_txt03">
+		<text><![CDATA[操作系统]]></text>
+	</component>
+	<component id="ID_s2_txt04">
+		<text><![CDATA[虚拟机监控程序]]></text>
+	</component>
+	<component id="ID_s2_txt05">
+		<text><![CDATA[操作系统]]></text>
+	</component>
+	<component id="ID_s2_txt06">
+		<text><![CDATA[硬件]]></text>
+	</component>
+	<component id="ID_s2_txt07">
+		<text><![CDATA[<b>主机</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>在 Windows 8 中启用 Hyper-V</b>]]></text>
+	</component>
+
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>Windows 8 中的 Hyper-V</b>]]></text>
+	</component>
+	
+
+	
+	
+</textcomponents>

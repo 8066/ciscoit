@@ -1,0 +1,11 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>CPU 要求</b>]]></text>
+	</component><!-- Textbox --><component id='ID_bodyTxt'>
+	<text><![CDATA[<textformat blockindent='-16'><ul><li>新的 CPU 必须适合现有的 CPU 插槽。</li><li>新的 CPU 必须与主板芯片集兼容。</li><li>新的 CPU 必须搭配现有的主板和电源运行。</li></ul></textformat>]]></text>
+</component>
+
+<component id='ID_titleTxt'>
+	<text><![CDATA[<b>要求</b>]]></text>
+</component><!-- EndTextbox --></textcomponents>

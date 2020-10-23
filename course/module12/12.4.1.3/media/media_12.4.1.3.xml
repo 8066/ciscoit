@@ -1,0 +1,33 @@
+<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b>验证推测以确定原因</b>]]></text> 
+    </component>
+
+
+   <component id="ID_s1_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>第 3 步： 验证推测以确定原因</b></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="2" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+     
+            <tr>
+                <td bgcolor='#E9E7E8' width='150'>确定原因的常见步骤</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>网络连接断开。</li>
+                       <li>更新病毒和间谍软件签名。</li>
+                       <li>使用保护软件扫描计算机。</li>
+                       <li>检查计算机的最新操作系统补丁和更新。</li>
+                       <li>重新启动计算机或网络设备。</li>
+                       <li>以管理用户的身份登录，更改用户密码。</li>
+                       <li>确保设备间的安全。</li>
+                       <li>确保工作环境的安全。</li>
+                       <li>实施安全策略。</li></ul></textformat></td> 
+            </tr>
+        </table>]]></text>
+    </component>
+    
+
+</textcomponents>

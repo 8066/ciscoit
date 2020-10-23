@@ -1,0 +1,33 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+    <tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>第 4 步：制定行动方案，解决问题并实施解决方案</b></font></td>
+	</tr>
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#E9E7E8' width="240" valign="top"><font  color='#393536'>如果上一步骤没有解决问题，则需要进一步调查以实施解决方案。</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><textformat blockindent='-18'><ul><li>支持人员修复日志</li>
+    <li>其他技术人员</li>
+    <li>制造商常见问题解答</li>
+    <li>技术网站</li>
+    <li>新闻组</li>
+    <li>计算机手册</li>
+    <li>设备手册</li>
+    <li>在线论坛</li>
+    <li>Internet 搜索</li></ul></textformat></font></td>
+	</tr>
+	
+	</table>]]></text> 
+</component>
+	
+	
+</textcomponents>

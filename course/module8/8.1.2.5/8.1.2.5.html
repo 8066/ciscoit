@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.2.5 基本网络设置</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.2.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>基本网络设置</h1>
+        <div>
+          <p>登录后，一个设置窗口将会打开，如图 1 所示。设置屏幕上的选项卡或菜单将帮助您导航至各项路由器配置任务。通常需要保存一个窗口中更改后的设置，然后才能继续进入另一窗口。 </p>
+          <p></p>
+          <p>此时，最好的做法是对默认设置作出更改。</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>网络设备访问权限</b> - 更改默认用户名和密码。在某些设备上，您只能重置密码，如图 2 所示。更改密码后，无线路由器会再次请求授权，如图 3 所示。 </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>路由器 IP 地址</b> - 更改默认路由器 IP 地址。最佳做法是使用网络内的私有 IP 地址。图 4 中的示例使用 IP 地址 10.10.10.1。但也可使用您所选择的任何私有 IP 地址。单击“保存”时，将会临时断开对无线路由器的访问。要重新获得访问，请更新您的 IP 设置，如图 5 所示。然后在 Web 浏览器中输入新的路由器 IP 地址，并使用新密码进行身份验证，如图 6 所示。  </li>
+            </ul>
+          </p>
+          <p>虽然有些默认设置应该更改，但有些设置最好保留原样。大多数家庭或小型办公室网络共享由 ISP 所提供的单个 Internet 连接。这类网络中的路由器会从 ISP 那里收到公有地址，允许路由器通过 Internet 发送和接收数据包。路由器为本地网络主机提供私有地址。由于私有地址无法在 Internet 上使用，所以有一个流程用于将私有地址转换成唯一的公有地址。这就允许本地主机通过 Internet 进行通信。</p>
+          <p></p>
+          <p>网络地址转换 (NAT) 是可将私有地址转换为 Internet 可路由地址的流程。借助 NAT 可将私有（本地）源 IP 地址转换为公有（全局）地址。传入数据包的过程与之相反。通过使用 NAT，路由器可以将许多内部 IP 地址转换为公有地址。 </p>
+          <p></p>
+          <p>只有发送到其他网络的数据包需要转换。这些数据包必须通过网关，在网关上，路由器将源主机的私有 IP 地址替换为路由器的公有 IP 地址。 </p>
+          <p></p>
+          <p>虽然内部网络上的每台主机都有一个唯一的私有 IP 地址，但主机可以共享由 ISP 分配给路由器的 Internet 可路由地址。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

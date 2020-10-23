@@ -1,0 +1,74 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>识别问题</b>]]></text> 
+    </component>
+
+
+<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>第 1 步： 识别移动设备操作系统的问题</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+   	   	<tr>
+			<td bgcolor='#E9E7E8' width='145'>开放式问题</td>
+ 			<td bgcolor='#E9E7E8'><textformat blockindent='-18'>
+				<li>您遇到了什么问题？</li>
+                <li>您使用什么移动操作系统版本？</li>
+                <li>您使用哪个服务提供商？</li>
+                <li>您最近安装了哪些应用？</li>
+			</textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>封闭式问题</td>
+  			<td bgcolor='#F2F2F2'><textformat blockindent='-18'>
+				<li>过去发生过这个问题吗？</li>
+                <li>其他人是否用过此移动设备？</li>
+                <li>您的移动设备是否在保修期内？</li>
+                <li>您是否修改过移动设备上的操作系统？</li>
+                <li>您是否安装了来自未批准来源的任何应用？</li>
+                <li>移动设备是否连接到 Internet？</li>
+			</textformat></td>		
+		</tr>
+	</table>]]></text>
+</component>
+
+
+    
+<component id="ID_s2_title">
+	<text><![CDATA[<b>识别问题</b>]]></text> 
+</component>
+    
+<component id="ID_s2_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>第 1 步： 确定 Linux 或 OS X 的问题</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+   	   	<tr>
+			<td bgcolor='#E9E7E8' width='145'>开放式问题</td>
+ 			<td bgcolor='#E9E7E8'><textformat blockindent='-18'>
+				<li>您遇到了什么问题？</li>
+                <li>计算机的构造和型号是什么？</li>
+                <li>它运行哪个版本的 Linux 或 OS X？</li>
+                <li>您最近安装了哪些程序或驱动程序？</li>
+                <li>您最近安装了哪些操作系统更新？</li>
+                <li>您最近更改了什么系统配置？</li>
+			</textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>封闭式问题</td>
+  			<td bgcolor='#F2F2F2'><textformat blockindent='-18'>
+				<li>过去发生过这个问题吗？</li>
+                <li>其他人是否用过此计算机？</li>
+                <li>您的计算机是否在保修期内？</li>
+                <li>计算机是否连接到 Internet？</li>
+			</textformat></td>		
+		</tr>
+	</table>]]></text>
+</component>
+</textcomponents>

@@ -1,0 +1,144 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Ubuntu Unity GUI</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt01">
+		<text><![CDATA[系统和通知菜单]]></text>
+	</component>
+	<component id="ID_s1_txt02">
+ 		 <text><![CDATA[顶部菜单栏]]></text> 
+  	</component>
+	<component id="ID_s1_txt03">
+ 		 <text><![CDATA[短横线搜索框]]></text> 
+  </component>
+  <component id="ID_s1_txt04">
+ 		 <text><![CDATA[启动器]]></text> 
+  </component>
+   <component id="ID_s1_txt05">
+  		<text><![CDATA[镜头]]></text> 
+  </component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>OS X GUI</b>]]></text>
+	</component>
+
+	 <component id="ID_s2_txt01">
+  		<text><![CDATA[通知中心图标]]></text> 
+  </component>
+
+   <component id="ID_s2_txt02">
+  		<text><![CDATA[聚光灯图标]]></text> 
+  </component>
+
+  <component id="ID_s2_txt03">
+  		<text><![CDATA[状态菜单]]></text> 
+  </component>
+
+   <component id="ID_s2_txt04">
+  		<text><![CDATA[菜单栏]]></text> 
+  </component>
+
+  <component id="ID_s2_txt05">
+  		<text><![CDATA[应用菜单]]></text> 
+  </component>
+
+  <component id="ID_s2_txt06">
+  		<text><![CDATA[Apple 菜单]]></text> 
+  </component>
+
+   <component id="ID_s2_txt07">
+  		<text><![CDATA[停靠面板]]></text> 
+  </component>
+
+  <component id="ID_s2_txt08">
+  		<text><![CDATA[桌面区域]]></text> 
+  </component>
+
+	 <component id="ID_s1_titleTxt01">
+    <text><![CDATA[系统和通知菜单]]></text>
+  </component>
+  <component id="ID_s1_bodyTxt01">
+    <text><![CDATA[屏幕右上角的指示器菜单中有许多重要功能。 使用指示器菜单可切换用户、关闭计算机、控制音量或更改网络设置。]]></text>
+  </component>
+  
+  <component id="ID_s1_titleTxt02">
+    <text><![CDATA[顶部菜单栏]]></text>
+  </component>
+  <component id="ID_s1_bodyTxt02">
+    <text><![CDATA[该多功能菜单栏包含当前正在运行的应用、用来控制活动窗口的按钮以及系统控制和通知。]]></text>
+  </component>
+
+   <component id="ID_s1_titleTxt03">
+    <text><![CDATA[短横线搜索框]]></text>
+  </component>
+  <component id="ID_s1_bodyTxt03">
+    <text><![CDATA[包含搜索工具和最近使用的应用列表。 短横线在短横线区域底部包含一个镜头，可以让用户优化短横线搜索结果。 要访问短横线，请单击启动器顶部的 Ubuntu 按钮。]]></text>
+  </component>
+
+
+   <component id="ID_s1_titleTxt04">
+    <text><![CDATA[启动器]]></text>
+  </component>
+  <component id="ID_s1_bodyTxt04">
+    <text><![CDATA[屏幕左侧放置的停靠区域可以用作应用启动器和切换器。 右键单击启动器上托管的任意应用可以查看该应用可执行的任务列表。]]></text>
+  </component>
+   <component id="ID_s1_titleTxt05">
+    <text><![CDATA[镜头]]></text>
+  </component>
+  <component id="ID_s1_bodyTxt05">
+    <text><![CDATA[可以让用户优化结果。]]></text>
+  </component>
+
+
+   <component id="ID_s2_titleTxt01">
+    <text><![CDATA[通知中心图标 ]]></text>
+  </component>
+  <component id="ID_s2_bodyTxt01">
+    <text><![CDATA[可以让用户查看所有通知。]]></text>
+  </component>
+
+  <component id="ID_s2_titleTxt02">
+    <text><![CDATA[聚光灯图标]]></text>
+  </component>
+  <component id="ID_s2_bodyTxt02">
+    <text><![CDATA[用于搜索应用、文档、图像和其他文件。]]></text>
+  </component>
+
+  <component id="ID_s2_titleTxt03">
+    <text><![CDATA[状态菜单]]></text>
+  </component>
+  <component id="ID_s2_bodyTxt03">
+    <text><![CDATA[显示计算机和某些功能（例如蓝牙和无线）的日期和时间及状态。]]></text>
+  </component>
+
+  <component id="ID_s2_titleTxt04">
+    <text><![CDATA[菜单栏]]></text>
+  </component>
+  <component id="ID_s2_bodyTxt04">
+    <text><![CDATA[包含 Apple 菜单、当前活动的应用菜单、状态菜单和指示器、聚光灯和通知中心。]]></text>
+  </component>
+
+
+  <component id="ID_s2_titleTxt05">
+    <text><![CDATA[应用菜单]]></text>
+  </component>
+  <component id="ID_s2_bodyTxt05">
+   <text><![CDATA[粗体显示活动应用的名称以及活动应用的菜单。]]></text>
+  </component>
+
+   <component id="ID_s2_titleTxt06">
+    <text><![CDATA[Apple 菜单]]></text>
+  </component>
+  <component id="ID_s2_bodyTxt06">
+   <text><![CDATA[访问系统首选项、软件更新、电源控制和其他设置。]]></text>
+  </component>
+
+  <component id="ID_s2_titleTxt07">
+    <text><![CDATA[停靠面板]]></text>
+  </component>
+  <component id="ID_s2_bodyTxt07">
+   <text><![CDATA[显示常用应用的缩略图和已经最小化且正在运行的应用。 停靠面板的一个重要功能是强制退出。 右键单击停靠面板中正在运行的某个应用，用户可以选择关闭不响应的应用。]]></text>
+  </component>
+
+</textcomponents>

@@ -1,0 +1,146 @@
+﻿<textcomponents><!--Slide 1--><component id='ID_s1_title'>
+	<text><![CDATA[<b></b>]]></text>
+</component>
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[<b>顺时针</b>]]></text>
+</component>
+
+<component id='ID_s1_txt02'>
+	<text><![CDATA[<b>逆时针</b>]]></text>
+</component><!--Slide 2--><component id='ID_s2_title'>
+	<text><![CDATA[<b></b>]]></text>
+</component><!--Slide 3--><component id='ID_s3_title'>
+	<text><![CDATA[<b></b>]]></text>
+</component><!--Slide 4--><component id='ID_s4_title'>
+	<text><![CDATA[<b></b>]]></text>
+</component><!--Slide 5--><component id='ID_s5_title'>
+	<text><![CDATA[<b></b>]]></text>
+</component>
+
+<component id='ID_s5_inst'>
+	<text><![CDATA[<p>要了解万用表的不同功能，请单击按钮、表盘和引线。</p>]]></text>
+</component>
+
+<component id='ID_s5_titleTxt'>
+	<text><![CDATA[<b>Fluke Networks 110 万用表</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt'>
+	<text><![CDATA[<p>Fluke Networks 110 万用表是用于测试电压的设备示例。 要了解万用表的不同功能，请单击按钮和开关档位。</p>]]></text>
+</component>
+
+<component id='ID_s5_titleTxt01'>
+	<text><![CDATA[<b>显示</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt01'>
+	<text><![CDATA[查看显示的信息。]]></text>
+</component>
+
+<component id='ID_s5_titleTxt02'>
+	<text><![CDATA[<b>暂候</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt02'>
+	<text><![CDATA[显示 HOLD 启动。 显示冻结当前读数。 在 MIN MAX AVG 模式下，MIN MAX AVG 记录暂停。]]></text>
+</component>
+
+<component id='ID_s5_titleTxt03'>
+	<text><![CDATA[<b>MIN MAX AVG</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt03'>
+	<text><![CDATA[MIN MAX AVG 模式启动。 显示最大、最小或平均读数。]]></text>
+</component>
+
+<component id='ID_s5_titleTxt04'>
+	<text><![CDATA[<b>范围</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt04'>
+	<text><![CDATA[仪表选择最佳解析度范围。 在手动范围模式下，用户可选择范围。]]></text>
+</component>
+
+<component id='ID_s5_titleTxt05'>
+	<text><![CDATA[<b>Hz</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt05'>
+	<text><![CDATA[频率从 50 Hz 到 5 kHz。 注意：交流电压和电流在交流耦合时，真有效值高达 500 Hz。]]></text>
+</component>
+
+<component id='ID_s5_titleTxt06'>
+	<text><![CDATA[<b>COM</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt06'>
+	<text><![CDATA[所有测量的通用（返回）终端。 当测量电压时，通常称为接地。]]></text>
+</component>
+
+<component id='ID_s5_titleTxt07'>
+	<text><![CDATA[<b>输入终端</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt07'>
+	<text><![CDATA[测量电压、连续性、电阻、二极管测试、电容和电压频率的输入终端。]]></text>
+</component>
+
+<component id='ID_s5_titleTxt08'>
+	<text><![CDATA[<b>关闭电源</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt08'>
+	<text><![CDATA[关闭电源。]]></text>
+</component>
+
+<component id='ID_s5_titleTxt09'>
+	<text><![CDATA[<b>AC</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt09'>
+	<text><![CDATA[交流电，从 300 mV 到 600 V。]]></text>
+</component>
+
+<component id='ID_s5_titleTxt10'>
+	<text><![CDATA[<b>DC</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt10'>
+	<text><![CDATA[直流电，从 1 mV 到 600 V。]]></text>
+</component>
+
+<component id='ID_s5_titleTxt11'>
+	<text><![CDATA[<b>蜂鸣器</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt11'>
+	<text><![CDATA[蜂鸣器在电阻小于 20 欧姆时开启，大于 250 欧姆时关闭。]]></text>
+</component>
+
+<component id='ID_s5_titleTxt12'>
+	<text><![CDATA[<b>欧姆</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt12'>
+	<text><![CDATA[从 0.1 欧姆到 40 兆欧姆。]]></text>
+</component>
+
+<component id='ID_s5_titleTxt13'>
+	<text><![CDATA[<b>二极管</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt13'>
+	<text><![CDATA[测试二极管。 “OL”的结果表明二极管开路。]]></text>
+</component>
+
+<component id='ID_s5_titleTxt14'>
+	<text><![CDATA[<b>电容</b>]]></text>
+</component>
+
+<component id='ID_s5_bodyTxt14'>
+	<text><![CDATA[电容，从 1 nF 到 9999 µF。]]></text>
+</component>
+
+
+</textcomponents>

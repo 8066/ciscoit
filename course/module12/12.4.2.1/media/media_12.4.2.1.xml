@@ -1,0 +1,91 @@
+<textcomponents>
+	<component id='ID_table01'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>常见问题和解决方案</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>问题症状</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>问题原因</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>可能的解决方案</b></font></td>
+	</tr>
+	<tr class="mtable">
+		<td bgcolor='#E9E7E8'>尽管使用了 128 位 WEP 加密，无线网络还是遭到攻击了。</td>
+		<td bgcolor='#E9E7E8'>黑客使用常见的无线黑客攻击工具来破解加密。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>已升级到 WPA 加密。</li>
+			<li>为不支持 WPA 的旧客户端添加 MAC 地址过滤。</li></ul></textformat>
+	</td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>一个用户每天收到数百个或数千个垃圾电子邮件。</td>
+		<td bgcolor='#F2F2F2'>网络无法检测或阻止攻击电子邮件服务器的垃圾邮件发送者。</td>		
+		<td bgcolor='#F2F2F2'>安装防病毒软件或可从电子邮件收件箱删除垃圾邮件的电子邮件软件程序。</td>
+	</tr>
+	
+	<tr class="mtable">
+		<td bgcolor='#E9E7E8'>发现身份不明的打印机维修人员在键盘下和在桌面上查看内容。</td>
+		<td bgcolor='#E9E7E8'>没有适当地监控访客或用来进入建筑物的用户凭据被盗取。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>联系人安全或策略。</li>
+			<li>建议用户切勿在他们的工作区附近隐藏密码。</li></ul></textformat>
+	    </td>
+	</tr>
+
+	<tr class="mtable">
+		<td bgcolor='#F2F2F2'>在网络上发现未授权的无线接入点。</td>
+		<td bgcolor='#F2F2F2'>为了增加公司网络的无线覆盖范围，用户添加了一个无线接入点。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>断开并没收未经授权的设备。</li>
+			<li>对负责安全漏洞的人员采取措施，实施安全策略。</li></ul></textformat>
+	    </td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>携带闪存驱动器的用户使网络中的计算机感染病毒。</td>
+		<td bgcolor='#E9E7E8'>闪存驱动器感染了病毒，当网络计算机访问它时，病毒防护软件没有对其进行扫描。</td>
+		<td bgcolor='#E9E7E8'>设置防病毒软件，使其在访问数据时扫描可移动介质。</td>
+	</tr>
+
+	<tr class="mtable">
+		<td bgcolor='#F2F2F2'>显示一条安全警报。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>Windows 防火墙已关闭。</li>
+			<li>病毒定义已过时。</li>
+			<li>检测到恶意软件。</li></ul></textformat>
+	</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>打开 Windows 防火墙。</li>
+			<li>更新病毒定义。</li>
+			<li>扫描计算机，以删除所有恶意软件。</li></ul></textformat>
+	   </td>
+	</tr>
+	
+	<tr class="mtable">
+		<td bgcolor='#E9E7E8'>Windows 更新失败。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>下载的更新已损坏。</li>
+			<li>更新需要未安装的上一个更新。</li></ul></textformat>
+	   </td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>手动下载更新并安装它。</li>
+			<li>使用系统还原功能将计算机还原到尝试更新之前的状态。</li>
+			<li>从备份中还原计算机。</li></ul></textformat>
+		</td>
+	</tr>
+
+	<tr class="mtable">
+		<td bgcolor='#F2F2F2'>系统文件已重命名，应用崩溃，文件消失，或文件权限发生更改。</td>
+		<td bgcolor='#F2F2F2'>计算机有病毒。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>使用防病毒软件删除病毒。</li>
+			<li>从备份中还原计算机。</li></ul></textformat>
+	</td>
+	</tr>
+ 
+    <tr class="mtable">
+		<td bgcolor='#E9E7E8'>您的电子邮件联系人报告来自您的地址的垃圾邮件。</td>
+		<td bgcolor='#E9E7E8'>您的电子邮件已被黑客攻击。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>更改您的电子邮件密码。</li>
+			<li>请与电子邮件服务支持人员联系，以重置该帐户。</li></ul></textformat>
+	</td>
+	</tr>
+</table>]]></text>
+</component>
+</textcomponents>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.2.5.7 端口转发和端口触发</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.2.5.7_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>端口转发和端口触发</h1>
+        <div>
+          <p>您可使用硬件防火墙拦截端口，防止未经授权的 LAN 进出访问。但是在有些情况下必须打开特定端口，以便某些程序和应用可以和不同网络中的设备通信。端口转发是一种在独立网络之间定向流量的、基于规则的方法。 </p>
+          <p></p>
+          <p>流量到达路由器时，路由器根据流量的端口号确定是否应该将流量转发到特定设备。端口号与特定服务相关，例如 FTP、HTTP、HTTPS 和 POP3。规则确定了将哪些流量发送到 LAN。例如，可将路由器配置为转发与 HTTP 相关的端口 80 的流量。路由器接收到目的端口为 80 的数据包时，会将该流量转发到提供网页服务的网络的内部服务器。在图中，对端口 80 启用端口转发并与 IP 地址 192.168.1.254 的 Web 服务器关联。</p>
+          <p></p>
+          <p>端口触发允许路由器临时将数据从入站端口转发到特定的设备。只有指定的端口范围用于执行出站请求时，才能使用端口触发将数据转发到计算机。例如，一个电子游戏可能使用端口 27000 至 27100 连接到其他玩家。这些是触发端口。聊天客户端可能使用端口 56 连接相同玩家，以便他们可以互动。在这种情况下，如果触发端口范围内的出站端口上有游戏流量，端口 56 上的入站聊天流量将被转发到人们正在玩电子游戏和与朋友聊天的计算机上。游戏结束且不再使用触发端口时，将不再允许端口 56 发送任何类型流量到此计算机。 </p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

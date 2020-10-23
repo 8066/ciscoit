@@ -1,0 +1,5 @@
+<textcomponents>
+	<component id="ID_title">
+        <text><![CDATA[<b>分页打印</b>]]></text>
+	</component>
+</textcomponents>

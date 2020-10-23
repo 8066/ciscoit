@@ -1,0 +1,260 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[<b>SATA 电缆</b>]]></text>
+</component><!-- Slide 2 --><component id='ID_s2_title'>
+	<text><![CDATA[<b>连接便携式 USB 硬盘驱动器</b>]]></text>
+</component><!-- Slide 3 --><component id='ID_s3_title'>
+	<text><![CDATA[<b>USB 接头类型</b>]]></text>
+</component>
+
+<component id='ID_s3_txt01'>
+	<text><![CDATA[USB Type A]]></text>
+</component>
+
+<component id='ID_s3_txt02'>
+	<text><![CDATA[USB Type B]]></text>
+</component>
+
+<component id='ID_s3_txt04'>
+	<text><![CDATA[USB Mini B]]></text>
+</component>
+
+<component id='ID_s3_txt03'>
+	<text><![CDATA[USB Micro B]]></text>
+</component><!-- Slide 4 --><component id='ID_s4_title'>
+	<text><![CDATA[<b>USB-C 接头</b>]]></text>
+</component>
+
+<component id='ID_s4_txt01'>
+	<text><![CDATA[<b>全新设计</b><br/>为新产品设计而打造]]></text>
+</component>
+<component id='ID_s4_txt02'>
+	<text><![CDATA[<b>支持可扩展电源充电</b>]]></text>
+</component>
+<component id='ID_s4_txt03'>
+	<text><![CDATA[<b>未来可扩展性</b><br/>旨在建立未来的 USB 需求]]></text>
+</component>
+<component id='ID_s4_txt04'>
+	<text><![CDATA[<b>可用性增强</b><br/>可逆的插头方向和电缆方向]]></text>
+</component>
+<component id='ID_s4_txt05'>
+	<text><![CDATA[<b>全新小尺寸</b>]]></text>
+</component><!-- Slide 5 --><component id='ID_s5_title'>
+	<text><![CDATA[<b>外部连接类型</b>]]></text>
+</component>
+
+ <component id="ID_s5_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="4" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='4' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263'  valign="top"  width="110"><font color='#FFFFFF' ><b>连接类型</b></font></td>
+			<td bgcolor='#666263'  valign="top"  width="200"><font color='#FFFFFF' ><b>描述</b></font></td>
+			<td bgcolor='#666263'  valign="top"  width="140"><font color='#FFFFFF' ><b>最大带宽</b></font></td>
+			<td bgcolor='#666263'  valign="top" ><font color='#FFFFFF' ><b>最大电缆长度</b></font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'><b>FireWire 400<br/> (IEEE 1394a)</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>支持热插拔驱动器</li><li>端口支持多达 63 个设备（使用集线器）</li><li>提供电源</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'>400 Mb/s</td>
+			<td bgcolor='#E9E7E8'>4.5 米（15 英尺）</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>FireWire 800<br/> (IEEE 1394b)</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>与 FireWire 400 向后兼容</li><li>也可以使用以太网电缆连接</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'>800 Mb/s</td>
+			<td bgcolor='#E9E7E8'>4.5 米（15 英尺）<br/>100 米（328 英尺）</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>eSATA</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>连接外部 SATA 驱动器</li><li>外部驱动器需要电源线</li><li>不与 SATA 兼容</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'>3 Gb/s</td>
+			<td bgcolor='#E9E7E8'>2 米（6.6 英尺）</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>USB 2.0</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>支持热插拔驱动器</li><li>端口支持多达 127 个设备（使用集线器）</li><li>提供电源</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'>480 Mb/s</td>
+			<td bgcolor='#E9E7E8'>5 米（16.4 英尺）</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>USB 3.0</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>与 USB 2.0 向后兼容</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'>5 Gb/s</td>
+			<td bgcolor='#E9E7E8'>3 米（9.8 英尺）</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>USB 3.1</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>与 USB 2.0 和 USB 3.0 向后兼容</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'>10 Gb/s</td>
+			<td bgcolor='#E9E7E8'>3 米（9.8 英尺）</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>Thunderbolt</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>支持多达 6 个菊链式设备</li><li>提供电源</li><li>Thunderbolt 3 使用 USB-C 接头</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'>10Gb/s<br/> 20 Gb/s (Thunderbolt 2)<br/> 40 Gb/s (Thunderbolt 3)</td>
+			<td bgcolor='#E9E7E8'>3 米（9.8 英尺）</td>
+		</tr>
+		
+	</table>]]></text> 
+</component><!-- Slide 6 --><component id='ID_s6_title'>
+	<text><![CDATA[<b>外部连接最大带宽</b>]]></text>
+</component>
+
+<component id='ID_s6_txt01'>
+	<text><![CDATA[FireWire 400]]></text>
+</component>
+
+<component id='ID_s6_txt02'>
+	<text><![CDATA[USB 2.0]]></text>
+</component>
+
+<component id='ID_s6_txt03'>
+	<text><![CDATA[FireWire 800]]></text>
+</component>
+
+<component id='ID_s6_txt04'>
+	<text><![CDATA[eSATA]]></text>
+</component>
+
+<component id='ID_s6_txt05'>
+	<text><![CDATA[USB 3.0]]></text>
+</component>
+
+<component id='ID_s6_txt06'>
+	<text><![CDATA[USB 3.1]]></text>
+</component>
+
+<component id='ID_s6_txt07'>
+	<text><![CDATA[Thunderbolt 2]]></text>
+</component>
+
+<component id='ID_s6_txt08'>
+	<text><![CDATA[千兆/秒 (Gb/s)]]></text>
+</component>
+
+<component id='ID_s6_txt09'>
+	<text><![CDATA[信道 1]]></text>
+</component>
+
+<component id='ID_s6_txt10'>
+	<text><![CDATA[信道 2]]></text>
+</component>
+
+<component id='ID_s6_txt11'>
+	<text><![CDATA[400 Mb/s]]></text>
+</component>
+
+<component id='ID_s6_txt12'>
+	<text><![CDATA[480 Mb/s]]></text>
+</component>
+
+<component id='ID_s6_txt13'>
+	<text><![CDATA[800 Mb/s]]></text>
+</component>
+
+<component id='ID_s6_txt14'>
+	<text><![CDATA[3 Gb/s (3000 Mb/s)<br/>]]></text>
+</component>
+
+<component id='ID_s6_txt15'>
+	<text><![CDATA[5 Gb/s (5000 Mb/s)<br/>]]></text>
+</component><!-- Slide 7 --><component id='ID_s7_title'>
+	<text><![CDATA[<b>RAID 级别比较</b>]]></text>
+</component>
+
+<component id="ID_s7_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+				<td colspan="5" bgcolor='#FFFFFF'><font size="16" color='#393536'><b>RAID 级别比较</b></font></td>
+			</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='5' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263'  valign="top" width="70"><font color='#FFFFFF' ><b>RAID 级别</b></font></td>
+			<td bgcolor='#666263'  valign="top"  width="70"><font color='#FFFFFF' ><b>驱动器最小数目</b></font></td>
+			<td bgcolor='#666263'  valign="top"  width="110"><font color='#FFFFFF' ><b>描述</b></font></td>
+			<td bgcolor='#666263'  valign="top" ><font color='#FFFFFF' ><b>优点</b></font></td>
+			<td bgcolor='#666263'  valign="top" ><font color='#FFFFFF' ><b>缺点</b></font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'><b>0</b></td>
+			<td bgcolor='#E9E7E8'>2</td>
+			<td bgcolor='#E9E7E8'>数据条带化，无冗余</td>
+			<td bgcolor='#E9E7E8'>最高性能</td>
+			<td bgcolor='#E9E7E8'>无数据保护，一个驱动器故障会导致数据全部丢失</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>1</b></td>
+			<td bgcolor='#E9E7E8'>2</td>
+			<td bgcolor='#E9E7E8'>磁盘镜像</td>
+			<td bgcolor='#E9E7E8'>性能好、数据保护程度高，因为所有数据都有备份</td>
+			<td bgcolor='#E9E7E8'>实施成本高，因为需要多加一个同样容量的驱动器，或使用更大的容量</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>2</b></td>
+			<td bgcolor='#E9E7E8'>2</td>
+			<td bgcolor='#E9E7E8'>纠错码</td>
+			<td bgcolor='#E9E7E8'>此级别现已停用</td>
+			<td bgcolor='#E9E7E8'>使用 RAID 3 可达到相同性能，成本却更低</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>3</b></td>
+			<td bgcolor='#E9E7E8'>3</td>
+			<td bgcolor='#E9E7E8'>字节级数据条带化，带专用奇偶校验盘</td>
+			<td bgcolor='#E9E7E8'>适用于大量、有序的数据请求</td>
+			<td bgcolor='#E9E7E8'>不支持多个并发读写请求</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>4</b></td>
+			<td bgcolor='#E9E7E8'>3</td>
+			<td bgcolor='#E9E7E8'>块级数据条带化，带专用奇偶校验盘</td>
+			<td bgcolor='#E9E7E8'>支持多个读请求，如果磁盘出现故障，专用奇偶校验盘可用于创建替代磁盘</td>
+			<td bgcolor='#E9E7E8'>因为使用专用奇偶校验盘，故存在写请求瓶颈</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'><b>5</b></td>
+			<td bgcolor='#E9E7E8'>3</td>
+			<td bgcolor='#E9E7E8'>数据条带化和奇偶校验相结合</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li style="font-size:10px">支持多个并发读取和写入</li><li style="font-size:10px">数据写入所有带奇偶校验的驱动器</li><li style="font-size:10px">数据可以使用其他驱动器上的信息重建</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'>写入性能比 RAID 0 和 RAID 1 慢</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>6</b></td>
+			<td bgcolor='#E9E7E8'>4</td>
+			<td bgcolor='#E9E7E8'>使用双奇偶校验的独立数据磁盘</td>
+			<td bgcolor='#E9E7E8'>使用分布在所有磁盘上的奇偶校验数据进行以块为单位的条带化，可处理两个同时发生的驱动器故障</td>
+			<td bgcolor='#E9E7E8'>性能低于 RAID 5，所有磁盘控制器都不支持</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'><b>RAID 0+1</b></td>
+			<td bgcolor='#E9E7E8'>4</td>
+			<td bgcolor='#E9E7E8'>数据条带化和镜像相结合</td>
+			<td bgcolor='#E9E7E8'>性能高，数据保护程度最高</td>
+			<td bgcolor='#E9E7E8'>成本高，因为数据冗余需要两倍的存储容量</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'><b>10</b></td>
+			<td bgcolor='#E9E7E8'>4（必须为偶数）</td>
+			<td bgcolor='#E9E7E8'>条带集中的镜像集</td>
+			<td bgcolor='#E9E7E8'>提供容错能力并提高了性能</td>
+			<td bgcolor='#E9E7E8'>成本高，因为数据冗余需要两倍的存储容量</td>
+		</tr>
+		
+	</table>]]></text> 
+</component>
+
+</textcomponents>

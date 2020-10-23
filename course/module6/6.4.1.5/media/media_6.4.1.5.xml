@@ -1,0 +1,33 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[]]></text>
+</component>
+
+	
+<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+    <tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>第 5 步：检验完整的系统功能，如果适用，并实施预防措施</b></font></td>
+	</tr>
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#E9E7E8' width="180" valign="top"><font  color='#393536'>检验完整功能</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><textformat blockindent='-18'>
+			<li>关闭计算机并重新启动它</li>
+			<li>检查事件日志，确信没有新的警告或错误</li>
+			<li>检查设备管理器，查看是否存在任何警告或错误</li>
+			<li>运行 DxDiag 以确认 DirectX 正确运行</li>
+			<li>确定应用正确运行</li>
+			<li>确定网络共享可访问</li>
+			<li>确定 Internet 可访问</li>
+			<li>重新运行系统文件检查器，确保所有文件正确</li>
+			<li>检查任务管理器，确保所有程序的状态为正在运行</li>
+			<li>重新运行所有第三方诊断工具</li></textformat></font></td>
+	</tr>
+	</table>]]></text> 
+</component>
+
+
+</textcomponents>

@@ -1,0 +1,5 @@
+﻿<textcomponents>
+	    <component id="ID_title">
+        <text><![CDATA[<b>Windows 兼容中心</b>]]></text> 
+    </component>
+</textcomponents>

@@ -1,0 +1,47 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>购买新的硬盘驱动器</b>]]></text>
+    </component>
+	
+	<component id='ID_s1_titleTxt'>
+		<text><![CDATA[<b>新硬盘驱动器的规格</b>]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt'>
+		<text><![CDATA[<ul><textformat blockindent='-18'><li>内置或外置</li><li>HDD、SSD 或 SSHD</li><li>热插拔</li><li>产生热量</li><li>产生噪音</li><li>电源要求</li></textformat></ul>]]></text>
+	</component>
+	
+	
+	<component id="ID_s2_title">
+        <text><![CDATA[<b>SSD 组件</b>]]></text>
+    </component>
+	
+	<component id="ID_s2_txt01">
+        <text><![CDATA[顶盖]]></text>
+    </component>
+	
+	<component id="ID_s2_txt02">
+        <text><![CDATA[接口接头]]></text>
+    </component>
+	
+	<component id="ID_s2_txt03">
+        <text><![CDATA[缓存芯片]]></text>
+    </component>
+	
+	<component id="ID_s2_txt04">
+        <text><![CDATA[控制器芯片]]></text>
+    </component>
+	
+	<component id="ID_s2_txt05">
+        <text><![CDATA[逻辑板两侧的 NAND 内存芯片]]></text>
+    </component>
+	
+	<component id="ID_s2_txt06">
+        <text><![CDATA[逻辑板]]></text>
+    </component>
+	
+	<component id="ID_s2_txt07">
+        <text><![CDATA[底盖]]></text>
+    </component>
+	
+</textcomponents>

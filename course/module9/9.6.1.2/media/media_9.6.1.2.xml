@@ -1,0 +1,41 @@
+<textcomponents>
+
+<component id='ID_table01'>
+	<text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>第 2 步：推测潜在原因</b></font></td>
+			</tr>
+	
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+		  
+			<tr>
+				<td bgcolor='#E9E7E8' width="200">笔记本电脑故障的常见原因</td>
+				
+				<td bgcolor='#E9E7E8'><ul><textformat blockindent='-18'>
+					<li>电池没有充电</li>
+					<li>电池无法充电</li>
+					<li>电缆连接松动</li>
+					<li>键盘不起作用</li>
+					<li>数字锁定键打开</li>
+					<li>RAM 模块松动</li>
+				</textformat></ul></td> 
+			</tr>
+			
+			<tr>
+				<td bgcolor='#E9E7E8' width="200">移动设备故障的常见原因</td>
+				
+				<td bgcolor='#E9E7E8'><ul><textformat blockindent='-18'>
+					<li>电源按钮损坏</li>
+					<li>电池可能无法充电</li>
+					<li>扬声器、麦克风或充电端口灰尘过多</li>
+					<li>移动设备曾掉落过</li>
+					<li>移动设备不堪重负</li>
+				</textformat></ul></td> 
+			</tr>
+	</table>]]></text>
+</component>
+
+</textcomponents>

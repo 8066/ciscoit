@@ -1,0 +1,73 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>Android 主屏幕</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt01">
+		<text><![CDATA[后台进程和指示灯]]></text>
+	</component>
+	<component id="ID_s1_txt02">
+		<text><![CDATA[Google 搜索栏]]></text>
+	</component>
+	<component id="ID_s1_txt03">
+		<text><![CDATA[系统图标和时钟]]></text>
+	</component>
+	<component id="ID_s1_txt04">
+		<text><![CDATA[主要的应用和小部件区域]]></text>
+	</component>
+	<component id="ID_s1_txt05">
+		<text><![CDATA[主屏幕指示灯]]></text>
+	</component>
+	<component id="ID_s1_txt06">
+		<text><![CDATA[停靠面板]]></text>
+	</component>
+	<component id="ID_s1_txt07">
+		<text><![CDATA[导航图标]]></text>
+	</component>
+
+
+
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>导航图标</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt01">
+		<text><![CDATA[返回]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+		<text><![CDATA[主页]]></text>
+	</component>
+	<component id="ID_s2_txt03">
+		<text><![CDATA[最近使用的应用]]></text>
+	</component>
+	
+	
+
+	<component id="ID_s3_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	<component id="ID_s3_txt01">
+		<text><![CDATA[快速访问设置]]></text>
+	</component>
+	<component id="ID_s3_txt02">
+		<text><![CDATA[快速访问用户]]></text>
+	</component>
+	<component id="ID_s3_txt03">
+		<text><![CDATA[切换常用设置]]></text>
+	</component>
+	<component id="ID_s3_txt04">
+		<text><![CDATA[响应通知]]></text>
+	</component>
+	<component id="ID_s3_txt05">
+		<text><![CDATA[调整屏幕亮度]]></text>
+	</component>
+
+	
+
+	<component id="ID_s4_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+
+</textcomponents>

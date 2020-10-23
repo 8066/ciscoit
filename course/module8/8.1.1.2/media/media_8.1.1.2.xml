@@ -1,0 +1,18 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>网卡类型</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>选择网卡</b>]]></text>
+	</component>
+	
+	    
+    <component id="ID_s2_titleTxt">
+        <text><![CDATA[<b>新网卡问题</b>]]></text>
+    </component>
+
+    <component id="ID_s2_bodyTxt">
+        <text><![CDATA[网卡类型：<br/><ul><li>有线（快速以太网或千兆以太网）？</li><li>无线 802.11n / 802.11ac？</li></ul>连接类型：<br/><ul><li>扩展槽 (PCI / PCIe)？</li><li>USB？</li></ul>高级网卡功能：<br/><ul><li>LAN 唤醒 (WoL)？</li><li>服务质量 (QoS)？</li></ul>成本？]]></text>
+    </component>
+</textcomponents>

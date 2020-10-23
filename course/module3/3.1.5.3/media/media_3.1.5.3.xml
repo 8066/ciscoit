@@ -1,0 +1,85 @@
+<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>练习 - 识别电源接头</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[说明]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[将接头类型与其图片相匹配。]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[正确]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[您已成功地将每个电源接头与其图片相匹配。]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[不正确]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[您尚未成功地将每个电源接头与其图片相匹配。 请单击“重置”重试。]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[检查]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[重置]]></text>
+</component><!--Drag Items--><component id='ID_drag_header'>
+	<text><![CDATA[<b>接头类型</b>]]></text>
+</component>
+
+
+<component id='ID_s1_drag01'>
+	<text><![CDATA[ATX 主板]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[ATX 辅助]]></text>
+</component>
+
+<component id='ID_s1_drag03'>
+	<text><![CDATA[Molex]]></text>
+</component>
+
+<component id='ID_s1_drag04'>
+	<text><![CDATA[SATA]]></text>
+</component><!--Questions--><component id='ID_s1_text_header'>
+	<text><![CDATA[<b>描述</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[将支架安装在计算机机箱内的主板安装孔处。]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+  <text><![CDATA[将主板的螺钉孔与支架对齐。]]></text> 
+</component>
+
+<component id="ID_s1_txt03">
+  <text><![CDATA[在计算机机箱背面安装 I/O 接线板。]]></text> 
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[插入所有主板螺钉并用手拧紧，然后用螺丝刀拧紧所有螺钉。]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+  <text><![CDATA[为机箱选择适当的主板支架。]]></text> 
+</component>
+
+<component id="ID_s1_txt06">
+  <text><![CDATA[将主板背面的 I/O 接头与 I/O 接线板中的开口对齐。]]></text> 
+</component>
+
+</textcomponents>

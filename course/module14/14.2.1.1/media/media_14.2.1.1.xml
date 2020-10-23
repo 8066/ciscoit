@@ -1,0 +1,127 @@
+﻿<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+    
+    <component id="ID_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>操作系统方面的高级问题和解决方案</b></font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+            <tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>识别问题</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>可能的原因</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>可能的解决方案</b></font></td>
+		</tr>
+
+
+            <tr>
+                <td bgcolor='#E9E7E8'>加电自检后计算机显示一个“无效的启动磁盘”错误。</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>驱动器中的介质上没有操作系统。</li><li>BIOS/UEFI 设置中的启动顺序设置不正确。</li><li>未检测到硬盘驱动器。</li><li>硬盘驱动器上没有安装操作系统。</li><li>MBR/GPT 损坏。</li><li>计算机感染了引导扇区病毒。</li><li>硬盘驱动器故障。</li></ul></textformat></td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>取出驱动器中的所有介质。</li><li>更改 BIOS/UEFI 中的启动顺序，使用启动驱动器启动。</li><li>重新连接硬盘驱动器电缆。</li><li>安装一个操作系统。</li><li>在系统中使用 <font face="_typewriter"><b><i>bootrec /fixmbr</i></b></font> 命令。</li><li>Windows 7 或 Vista 的恢复选项。</li><li>运行病毒删除软件。</li><li>更换硬盘驱动器。</li></ul></textformat></td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>加电自检后计算机显示一个“无法访问启动设备”错误。</td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>最近安装的设备驱动程序与启动控制器不兼容。</li><li>BOOTMGR 损坏。</li></ul></textformat></td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>使用最后一个已知良好的配置启动计算机。</li><li>在安全模式下启动计算机，并加载安装新硬件之前的还原点。</li></ul></textformat></td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#E9E7E8'>加电自检后计算机显示“BOOTMGR 丢失”错误。</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>BOOTMGR 丢失或损坏。</li><li>BIOS/UEFI 设置中的启动顺序设置不正确。</li><li>MBR/GPT 损坏。</li><li>硬盘驱动器故障。</li></ul></textformat></td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>使用 Windows 恢复环境还原 BOOTMGR。</li><li>更改 BIOS 中的启动顺序，使用启动驱动器启动。</li><li>从恢复控制台运行 <font face="_typewriter"><b><i>chkdsk /F /R</i></b></font>。</li></ul></textformat></td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>计算机启动时，一项服务无法启动。</td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>计算机启动时，一项服务无法启动。</li><li>该服务未启用。</li><li>该服务设置为手动模式，启动失败的服务需要启用另一项服务。</li></ul></textformat></td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>启用该服务。</li><li>将该服务设置为自动模式，并重新启用所需的服务。</li></ul></textformat></td>
+            </tr>
+			
+            <tr>
+                <td bgcolor='#E9E7E8'>计算机启动时，一台设备没有启动。</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>已在 BIOS 设置中禁用了该设备。</li><li>设备与最近安装的某台设备发生冲突。</li><li>驱动程序损坏。</li></ul></textformat></td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>在 BIOS 设置中启用该设备。</li><li>删除最新安装的设备。</li><li>重新安装或回滚驱动程序。</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>未找到注册表列出的某个程序。</td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>卸载程序不能正常运行。</li><li>硬盘驱动器已损坏。</li><li>计算机有病毒。</li></ul></textformat></td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>重新安装程序并再次运行卸载程序。</li><li>运行 <font face="_typewriter"><b><i>chkdsk /F /R</i></b></font>，以修复硬盘驱动器文件条目。</li><li>扫描并删除病毒。</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>计算机连续重新启动，不显示桌面。</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>已设置计算机在出现故障时重新启动。</li><li>某个启动文件已损坏。</li></ul></textformat></td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>按 F8 打开“高级选项”菜单，并选择“禁用系统失败时自动重新启动”。</li><li>从恢复环境下运行 <font face="_typewriter"><b><i>chkdsk /F /R</i></b></font>。</li><li>从 Windows 8 的恢复环境下运行自动修复。</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>计算机显示黑屏或蓝屏死机 (BSOD) 状态。</td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>驱动程序与硬件不兼容。</li><li>存在硬件故障。</li></ul></textformat></td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>调查这种停止错误和造成此错误的模块名称。</li><li>使用已知良好的设备更换任何故障设备。</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>计算机锁定，不显示任何错误消息。</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>主板或 BIOS 设置中的 CPU 或 FSB 设置不正确。</li><li>计算机过热。</li><li>某个更新损坏了操作系统。</li><li>存在硬件故障。</li><li>计算机有病毒。</li></ul></textformat></td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>检查并重置 CPU 和 FSB 设置。</li><li>检查并按需更换任何冷却装置。</li><li>卸载软件更新或执行系统还原。</li><li>从恢复环境下运行 <font face="_typewriter"><b><i>chkdsk /F /R</i></b></font>。</li><li>使用已知良好的设备更换任何故障设备。</li><li>扫描并删除病毒。</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>一个应用程序没有安装。</td>
+                <td bgcolor='#F2F2F2'>安装程序与操作系统不兼容。</td>
+                <td bgcolor='#F2F2F2'>在兼容模式下运行安装程序。</td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>搜索功能需要很长时间才能找到结果。</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>索引服务无法运行。</li><li>索引服务无法索引正确位置。</li></ul></textformat></td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>使用 <b>services.msc</b> 启动索引服务。</li><li>更改“高级选项”面板中的索引服务设置。</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>计算机运行缓慢，而且存在响应延迟。</td>
+                <td bgcolor='#F2F2F2'>某进程正在使用大部分 CPU 资源。</td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>使用 <b>services.msc</b> 重新启动该进程。</li><li>如果不需要此进程，请使用任务管理器终止它。</li><li>重启计算机。</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>运行某个程序时，显示 DLL 丢失或损坏消息。</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>使用该 DLL 文件的一个或多个程序已卸载，并删除了另一个程序所需要的 DLL 文件。</li><li>该 DLL 文件在某次失败的安装中已损坏。</li></ul></textformat></td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>重新安装 DLL 文件已丢失或已损坏的程序。</li><li>重新安装已卸载了 DLL 的应用。</li><li>在安全模式下运行 <font face="_typewriter"><b><i>sfc /scannow</i></b></font>。</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>安装过程中未检测到 RAID。</td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Windows 没有用来识别 RAID 的正确驱动程序。</li><li>BIOS/UEFI 中的 RAID 设置不正确。</li></ul></textformat></td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>安装正确的驱动程序。</li><li>更改 BIOS/UEFI 中的设置，以启用 RAID。</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>系统文件已损坏。</td>
+                <td bgcolor='#E9E7E8'>计算机错误关闭。</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>从高级启动选项菜单修复计算机。</li><li>在安全模式下启动计算机并运行 <font face="_typewriter"><b><i>sfc /scannow</i></b></font>。</li></ul></textformat></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>计算机启动到安全模式。</td>
+                <td bgcolor='#F2F2F2'>计算机已配置为在安全模式下启动。</td>
+                <td bgcolor='#F2F2F2'>使用 msconfig 调整程序的启动设置。</td>
+            </tr>
+			
+			<tr>
+                <td bgcolor='#E9E7E8'>某个文件无法打开。</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>计算机有病毒。</li><li>该文件已损坏。</li><li>该文件类型没有与任何程序关联。</li></ul></textformat></td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>扫描并删除病毒。</li><li>从备份中还原文件。</li><li>选择用于打开该文件类型的程序。</li></ul></textformat></td>
+            </tr>
+        </table>]]></text>
+    </component>
+</textcomponents>

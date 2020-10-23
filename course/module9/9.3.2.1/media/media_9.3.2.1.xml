@@ -1,0 +1,12 @@
+﻿<textcomponents>
+<component id="ID_s1_title">
+<text><![CDATA[<b>笔记本电脑显示屏</b>]]></text>
+</component>
+
+<component id="ID_s2_title">
+<text><![CDATA[<b>取下笔记本电脑键盘</b>]]></text>
+</component>
+
+
+
+</textcomponents>

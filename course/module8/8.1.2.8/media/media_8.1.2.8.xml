@@ -1,0 +1,275 @@
+﻿<textcomponents> 
+<component id="ID_s1_title">
+<text><![CDATA[<b>ipconfig 命令选项</b>]]></text>
+</component>
+
+<component id='ID_s1_table'>
+<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#F2F2F2'><font size="16"><b></b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' width="200"><font color='#F2F2F2'><b>ipconfig 命令选项</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>目的</b></font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">/all</td>
+		<td bgcolor='#E9E7E8' valign="top"><textformat blockindent='-18'>显示所有网络适配器的完整配置信息。</textformat></td>		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">/release</td>
+		<td bgcolor='#F2F2F2' valign="top">释放网络适配器的 IP 地址。</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">/renew</td>
+		<td bgcolor='#E9E7E8' valign="top">更新网络适配器的 IP 地址。</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">/flushdns</td>
+		<td bgcolor='#F2F2F2' valign="top">将存储 DNS 信息的缓存清空。</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">/registerdns</td>
+		<td bgcolor='#E9E7E8' valign="top">刷新 DHCP 租赁，并使用 DNS 重新注册适配器。</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">/displaydns</td>
+		<td bgcolor='#F2F2F2' valign="top">显示缓存中的 DNS 信息。</td>		 
+	</tr>
+</table>]]></text>
+</component>
+
+
+<component id="ID_s2_title">
+<text><![CDATA[<b>ping 命令选项</b>]]></text>
+</component>
+
+<component id='ID_s2_table'>
+<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#F2F2F2'><font size="16"><b></b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' width="200"><font color='#F2F2F2'><b>ping 命令选项</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>目的</b></font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">-t</td>
+		<td bgcolor='#E9E7E8' valign="top"><textformat blockindent='-18'>对特定主机执行 Ping 命令，直到被停止</textformat></td>		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">-a</td>
+		<td bgcolor='#F2F2F2' valign="top">将地址解析为一个主机名</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">-n count</td>
+		<td bgcolor='#E9E7E8' valign="top">要发送的回应请求数</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">-l size</td>
+		<td bgcolor='#F2F2F2' valign="top">发送缓冲区大小</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">-f</td>
+		<td bgcolor='#E9E7E8' valign="top">在数据包中设置&apos;不分段标记</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">-i TTL</td>
+		<td bgcolor='#F2F2F2' valign="top">生存时间</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">-v TOS</td>
+		<td bgcolor='#E9E7E8' valign="top">服务类型</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">-r count</td>
+		<td bgcolor='#F2F2F2' valign="top">记录路由，以计算跳数</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">-s count</td>
+		<td bgcolor='#E9E7E8' valign="top">跳数计数的时间戳</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">-j host-list</td>
+		<td bgcolor='#F2F2F2' valign="top">沿主机列表的松散源路由</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">-k host-list</td>
+		<td bgcolor='#E9E7E8' valign="top">沿主机列表的严格源路由</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">-w time out</td>
+		<td bgcolor='#F2F2F2' valign="top">等待每个回复超时的时间，以毫秒为单位。</td>		 
+	</tr>
+	
+</table>]]></text>
+</component>
+
+
+
+
+<component id="ID_s3_title">
+<text><![CDATA[<b>net 命令</b>]]></text>
+</component>
+
+<component id='ID_s3_table'>
+<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#F2F2F2'><font size="16"><b></b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' width="200"><font color='#F2F2F2'><b>net 命令</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>目的</b></font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net/? or net help</td>
+		<td bgcolor='#E9E7E8' valign="top"><textformat blockindent='-18'>显示 net 命令</textformat></td>		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">nbtstat</td>
+		<td bgcolor='#F2F2F2' valign="top">显示协议统计信息和使用 NetBIOS over TCO/IP (NBT) 的当前 TCP/IP 连接</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">netstat</td>
+		<td bgcolor='#E9E7E8' valign="top">显示活动的 TCP 连接</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net accounts</td>
+		<td bgcolor='#F2F2F2' valign="top">更新用户帐户数据库并修改密码和登录要求</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net computer</td>
+		<td bgcolor='#E9E7E8' valign="top">添加或删除计算机</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net config [workstation | server]</td>
+		<td bgcolor='#F2F2F2' valign="top">显示配置信息</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net continue</td>
+		<td bgcolor='#E9E7E8' valign="top">继续运行已通过 net pause 暂停的服务</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net file</td>
+		<td bgcolor='#F2F2F2' valign="top">显示服务器上所有打开的共享文件的名称</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net group</td>
+		<td bgcolor='#E9E7E8' valign="top">添加、显示或修改全局组</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net help [command]</td>
+		<td bgcolor='#F2F2F2' valign="top">显示有关特定 net 命令的信息</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net helpmsg</td>
+		<td bgcolor='#E9E7E8' valign="top">提供错误和问题解决信息 </td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net localgroup</td>
+		<td bgcolor='#F2F2F2' valign="top">添加、显示或修改本地组</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net name</td>
+		<td bgcolor='#E9E7E8' valign="top">添加或删除消息名称</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net pause</td>
+		<td bgcolor='#F2F2F2' valign="top">暂停当前正在运行的服务</td>		 
+	</tr>
+ 
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net print</td>
+		<td bgcolor='#E9E7E8' valign="top">显示打印队列或打印作业信息，或控制指定的打印作业</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net send</td>
+		<td bgcolor='#F2F2F2' valign="top">发送消息</td>		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net session</td>
+		<td bgcolor='#E9E7E8' valign="top">显示或中断计算机之间的会话</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net share</td>
+		<td bgcolor='#F2F2F2' valign="top">显示或管理共享打印机或目录</td>		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net start</td>
+		<td bgcolor='#E9E7E8' valign="top">显示已启动的服务</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net statistics [workstation | server ] </td>
+		<td bgcolor='#F2F2F2' valign="top">显示工作站和服务器统计信息</td>		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net stop [service]</td>
+		<td bgcolor='#E9E7E8' valign="top">停止指定的网络服务</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net time</td>
+		<td bgcolor='#F2F2F2' valign="top">显示或同步网络时间</td>		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net use</td>
+		<td bgcolor='#E9E7E8' valign="top">显示或管理远程连接</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">net user</td>
+		<td bgcolor='#F2F2F2' valign="top">创建、修改或列出用户帐户</td>		 
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">net view</td>
+		<td bgcolor='#E9E7E8' valign="top">显示网络资源或计算机</td>
+		 
+	</tr>
+
+</table>]]></text>
+</component>
+
+    
+
+</textcomponents>

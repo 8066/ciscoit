@@ -1,0 +1,33 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[]]></text>
+</component>
+
+	
+<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+    <tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>第 2 步：推测潜在原因。</b></font></td>
+	</tr>
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#E9E7E8' width="180" valign="top"><font  color='#393536'>操作系统问题的常见原因</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><textformat blockindent='-18'>
+			<li>BIOS 中的设置不正确</li>
+			<li>Caps lock 键设置为开启</li>
+			<li>计算机启动时有不可启动的介质</li>
+			<li>密码已经更改</li>
+			<li>控制面板中的监视器设置不正确</li>
+			<li>操作系统更新故障</li>
+			<li>驱动程序更新故障</li>
+			<li>恶意软件感染</li>
+			<li>硬盘驱动器故障</li>
+			<li>操作系统文件受损</li></textformat></font></td>
+	</tr>
+	</table>]]></text> 
+</component>
+
+
+</textcomponents>

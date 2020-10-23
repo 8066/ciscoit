@@ -1,0 +1,13 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>网络摄像头和麦克风</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[网络摄像头]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[麦克风]]></text>
+	</component>
+</textcomponents>

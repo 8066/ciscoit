@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.3.2.4 文件服务</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.3.2.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>文件服务</h1>
+        <div>
+          <p>文件传输协议 (FTP) 于 1971 年实现标准化，用以支持客户端和服务器之间的数据传输。FTP 客户端是一种在计算机上运行的应用，用于通过将 FTP 作为服务运行的服务器收发数据。</p>
+          <p></p>
+          <p>如图所示，为了成功传输数据，FTP 要求客户端和服务器之间建立两个连接，一个用于命令和应答，另一个用于实际文件传输。</p>
+          <p></p>
+          <p>FTP 有很多安全漏洞。因此，应该使用一种更为安全的文件传输服务，比如以下服务之一：</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>文件传输协议安全 (FTPS)</b> - FTP 客户端可以请求使用 TLS 加密文件传输会话。文件服务器可以接受或者拒绝该请求。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>SSH 文件传输协议 (SFTP)</b> - 作为安全外壳 (SSH) 协议的一个扩展，SFTP 可用于建立安全的文件传输会话。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>安全复制 (SCP)</b> - SCP 也使用 SSH 保护文件传输。</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

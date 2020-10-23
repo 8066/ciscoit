@@ -1,0 +1,14 @@
+<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+
+    <component id="ID_s1_titleTxt01">
+        <text><![CDATA[<b>信息检查表</b>]]></text> 
+    </component>
+	
+	<component id="ID_s1_bodyTxt01">
+        <text><![CDATA[<textformat blockindent='-18'><li>联系信息</li><li>计算机的制造商和型号是什么？</li><li>计算机使用什么操作系统？</li><li>计算机插入墙壁插座还是使用电池运行？</li><li>计算机是否在网络上？ 如果是，它使用有线还是无线连接？</li><li>出现故障时，是否使用了特定应用？</li><li>最近是否安装了新驱动程序或更新？ 如果是，它们是什么？</li><li>问题描述</li><li>问题优先级</li></textformat>]]></text> 
+    </component>
+
+</textcomponents>

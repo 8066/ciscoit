@@ -1,0 +1,134 @@
+﻿<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>常用 Windows CLI 命令</b>]]></text>
+</component>
+<component id='ID_table01'>
+<text><![CDATA[
+<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' width="160" valign="top"><font color='#FFFFFF' ><b>命令</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>命令的功能</b></font></td>
+		</tr>
+
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Help [command-name]</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>提供有关任何 CLI 命令的具体信息。 或者您可以使用 [command-name] /?。</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Taskkill</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>停止一个正在运行的应用。</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Bootrec</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>修复 MBR。</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>Shutdown</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>关闭本地或远程计算机。</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>Tasklist</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>显示当前正在运行的应用。</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>MD</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>创建新目录。</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>RD</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>删除目录。</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>CD</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>更改到另一个目录。</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>DEL</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>删除文件。</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>FORMAT</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>将一个驱动器、装入点或包含一个文件系统的卷格式化。</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>COPY</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>将文件从一个位置复制到另一个位置。</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>XCOPY</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'><ul><li>将多个文件、目录或整个驱动器从一个位置复制到另一个位置。</li>
+          <li>将一个目录及其内容从一个位置复制到另一个位置，除非此目录为空。</li>
+          <li>只复制具有存档属性集的文件。    </li>
+          <li>复制并确认每个新文件与源文件相同。</li>
+           <li>在不提示覆盖现有文件的情况下复制。</li></ul> </font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>ROBOCOPY</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>复制一个文件。</font></td>
+        </tr>
+
+        <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>SFC</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>如果系统文件已被损坏或删除，该命令可检查所有受保护的系统文件，并使用已知的完好版本取代它们。</font></td>
+        </tr>
+        <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>CHKDSK</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'><ul><li>创建有关磁盘的报告。</li><li> 修复任何文件分配表条目。</li>
+          <li>尝试恢复驱动器坏扇区中的数据。</li></ul></font></td>
+        </tr>
+		
+		
+		 <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>RUNAS</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>允许用户使用与用户当前登录后所提供的不同的权限来运行特定工具和程序。</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>GPUPDATE</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>刷新组策略设置，包括安全设置。</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>GPRESULT</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>显示一个用户或计算机的组策略设置和策略的结果集 (RSOP)。</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>DIR</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>显示目录文件和子目录的列表。</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>EXIT</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>退出命令提示符。</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>EXPAND</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>从 CAB (Cabinet) 文件中解压一个或多个文件。</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>RSTRUI</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>启动系统还原实用程序。</font></td>
+        </tr>
+		 <tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>BOOTREC</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>修复会阻止 Windows 启动的启动扇区问题。 此工具只在恢复环境中可用。 请参阅 BOOTREC 帮助了解更多信息。</font></td>
+        </tr>
+		<tr>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>DEFRAG</font></td>
+          <td bgcolor='#F2F2F2' valign="top"><font color='#393536'>优化磁盘上的文件以改善系统性能。</font></td>
+        </tr>
+		<tr>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>DISKPART</font></td>
+          <td bgcolor='#E9E7E8' valign="top"><font color='#393536'>创建、删除硬盘分区和调整其大小。 DISKPART 还可以分配或重新分配驱动器号。 使用 DISKPART 时应谨慎操作。</font></td>
+        </tr>
+    </table>
+]]>
+</text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,38 @@
+<textcomponents>
+<component id="ID_title">
+        <text><![CDATA[<b>推测潜在原因</b>]]></text>
+	</component>
+<component id='ID_table01'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>第 2 步： 推测潜在原因</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+   	   	<tr>
+			<td bgcolor='#E9E7E8' width='185'>移动设备操作系统问题的常见原因</td>
+ 			<td bgcolor='#E9E7E8'><textformat blockindent='-18'>
+				<li>移动设备无法发送或接收电子邮件。</li>
+				<li>应用停止工作。</li>
+				<li>旁加载了一个恶意应用。</li>
+				<li>移动设备已停止响应。</li>
+				<li>移动设备软件或应用不是最新的。</li>
+				<li>用户忘记其密码。</li>
+			</textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Linux 或 OS X 问题的常见原因</td>
+  			<td bgcolor='#F2F2F2'><textformat blockindent='-18'>
+				<li>计算机无法发送或接收电子邮件。</li>
+				<li>应用停止工作。</li>
+				<li>安装了一种恶意应用。</li>
+				<li>计算机停止响应。</li>
+				<li>操作系统不是最新的。</li>
+				<li>用户忘记其登录凭证。</li>
+			</textformat></td>		
+		</tr>
+</table>]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,13 @@
+﻿<textcomponents>
+	
+<component id='ID_s1_title'>
+	<text><![CDATA[<b>协议的功能</b>]]></text>
+</component>
+<component id='ID_s1_bodyTxt'>
+	<text><![CDATA[<textformat blockindent='-16'><li>识别和处理错误</li><li>压缩数据</li><li>确定如何划分和包装数据</li><li>为数据包寻址</li><li>确定如何通告正在发送和接收数据包</li></textformat>]]></text>
+</component>
+
+<component id='ID_s1_titleTxt'>
+	<text><![CDATA[<b>协议的功能</b>]]></text>
+</component>
+</textcomponents>

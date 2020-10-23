@@ -1,0 +1,87 @@
+﻿<textcomponents><!-- slide 2 --><component id="ID_txt01">
+	<text><![CDATA[社区：<br>医疗]]></text>
+	</component>
+	<component id="ID_txt02">
+	  <text><![CDATA[社区：<br>政府]]></text> 
+	  </component>
+	<component id="ID_txt03">
+	  <text><![CDATA[公共]]></text> 
+	  </component>
+		
+	<component id='ID_txt04'>
+		<text><![CDATA[社区：<br>以及更多]]></text> 
+	</component>
+
+	<component id='ID_txt04b'>
+		<text><![CDATA[社区：<br>以及更多]]></text> 
+	</component>
+
+	<component id="ID_txt05">
+	  <text><![CDATA[私有：<br>故乡新闻]]></text> 
+	  </component>
+	<component id="ID_txt06">
+	  <text><![CDATA[社区：<br>媒体]]></text> 
+	  </component>
+	<component id="ID_txt07">
+	  <text><![CDATA[混合]]></text> 
+	  </component>
+
+	  <component id="ID_titleTxt01">
+	  <text><![CDATA[社区云]]></text> 
+	  </component>
+
+	    <component id="ID_bodyTxt01">
+	  <text><![CDATA[这些云的创建是为了满足特定行业（比如医疗保健或媒体）的需求。 社区云可以是私有云或公共云。]]></text> 
+	  </component>
+
+	    <component id="ID_titleTxt02">
+	  <text><![CDATA[社区云]]></text> 
+	  </component>
+
+	    <component id="ID_bodyTxt02">
+	  <text><![CDATA[这些云的创建是为了满足特定行业（比如医疗保健或媒体）的需求。 社区云可以是私有云或公共云。]]></text> 
+	  </component>
+
+	    <component id="ID_titleTxt03">
+	  <text><![CDATA[社区云]]></text> 
+	  </component>
+
+	    <component id="ID_bodyTxt03">
+	  <text><![CDATA[这些云的创建是为了满足特定行业（比如医疗保健或媒体）的需求。 社区云可以是私有云或公共云。]]></text> 
+	  </component>
+	  
+	  <component id="ID_titleTxt04">
+	  <text><![CDATA[社区云]]></text> 
+	  </component>
+
+	    <component id="ID_bodyTxt04">
+	  <text><![CDATA[这些云的创建是为了满足特定行业（比如医疗保健或媒体）的需求。 社区云可以是私有云或公共云。]]></text> 
+	  </component>
+
+	  <component id="ID_titleTxt05">
+	  <text><![CDATA[专用云]]></text> 
+	  </component>
+
+	  <component id="ID_bodyTxt05">
+	  <text><![CDATA[私有云中提供的基于云的应用和服务仅用于特定组织或实体，例如政府。 私有云可以使用组织的私有网络来设置，不过其构建和维护会非常昂贵。 私有云也可以由具有严格访问安全控制的外部组织管理。]]></text> 
+	  </component>
+	  
+	  <component id="ID_titleTxt06">
+	  <text><![CDATA[混合云]]></text> 
+	  </component>
+
+	  <component id="ID_bodyTxt06">
+	  <text><![CDATA[混合云由两种或多种云组成（例如：部分为社区，部分为公共），每一部分保持为独立的对象，但两部分使用一个架构连接。 混合云中的个人将根据用户访问权限有权访问各种服务。]]></text> 
+	  </component>
+
+
+	  <component id="ID_titleTxt07">
+	  <text><![CDATA[公共云]]></text> 
+	  </component>
+
+	  <component id="ID_bodyTxt07">
+	  <text><![CDATA[公共云中提供的基于云的应用和服务可供所有用户使用。 服务可能免费，也可能按即用即付模式提供，比如按在线存储付费。 公共云利用 Internet 提供服务。]]></text> 
+	  </component>
+
+	  
+</textcomponents>

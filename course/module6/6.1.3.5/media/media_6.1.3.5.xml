@@ -1,0 +1,11 @@
+﻿<textcomponents><!--Slide 1--><component id='ID_s1_title'>
+	<text><![CDATA[<b>性能监控器</b>]]></text>
+</component>
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[注意说明文本下面指向资源监视器的链接。]]></text>
+</component><!--Slide 2--><component id='ID_s2_title'>
+		<text><![CDATA[<b>Windows 8.x 中的 Windows 内存诊断</b>]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.3.1.7 管理用户</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.3.1.7_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>管理用户</h1>
+        <div>
+          <p>管理员的一项定期维护任务是在网络中创建和删除用户、更改帐户密码或更改用户权限。 </p>
+          <p>管理本地用户帐户时，可执行以下步骤：</p>
+          <p>
+            <ul>
+              <li>创建本地用户帐户</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>重置本地用户帐户密码 </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>禁用或激活本地用户帐户</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>删除本地用户帐户</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>重命名本地用户帐户</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>将登录脚本指定给本地用户帐户</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>将主文件夹指定给本地用户帐户</li>
+            </ul>
+          </p>
+          <p>有两种工具可用于完成这些任务：</p>
+          <p>
+            <ul>
+              <li>
+                <b>用户帐户控制 (UAC)</b> - 用此工具添加、删除或更改个人用户属性。以管理员身份登录时，请使用 UAC 来配置各种设置，防止恶意代码获取安全管理特权。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>本地用户和组管理器</b> - 可用于创建和管理在计算机上本地存储的用户和组。 </li>
+            </ul>
+          </p>
+          <p>
+            <b>注意</b>：您必须拥有管理用户的管理员特权。</p>
+          <p></p>
+          <p>要打开 UAC，请使用以下路径： </p>
+          <p>
+            <b>控制面板>用户帐户>管理另一个帐户</b>
+          </p>
+          <p>要打开本地用户和组管理器，请使用以下路径：</p>
+          <p>
+            <b>控制面板>管理工具>计算机管理>本地用户和组</b>
+          </p>
+          <p>通过使用本地用户和组，您可以限制用户和组的功能，通过为他们指定权利和权限来执行某些操作。一项权利可授权用户在计算机上执行某些操作，例如备份文件和文件夹或关闭计算机。权限是与对象（通常是文件、文件夹或打印机）有关的规则，而且权限规定哪些用户可以访问该对象，以及以什么方式访问。</p>
+          <p>在“本地用户和组”窗口中，双击<b>“用户”</b>。有两个内置帐户：</p>
+          <p>
+            <ul>
+              <li>
+                <b>Administrator</b> - 默认情况下已禁用此帐户。启用此帐户后，它可完全控制计算机，而且可以根据需要将用户权限和访问控制权限分配给用户。Administrator 帐户是计算机上 Administrators 组的成员。无法从 Administrators 组中删除或移除 Administrator 帐户，但是可以重命名或禁用该帐户。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Guest</b> - 默认情况下已禁用此帐户。没有计算机帐户的用户可使用此帐户。默认情况下，该帐户不需要密码。它是默认 Guests 组的成员，允许用户登录计算机。 </li>
+            </ul>
+          </p>
+          <p>要添加用户，请单击<b>“操作”</b>菜单，并选择<b>“新用户”</b>。“新用户”窗口打开，如图 2 所示。您可在此窗口中指定用户名、全名、描述和帐户选项。</p>
+          <p>如图 3 所示，双击用户或右键单击并选择<b>“属性”</b>，打开用户属性窗口。创建用户后，此窗口允许您更改已定义的用户选项。此外，它还允许您锁定帐户。此窗口还允许您使用<b>“成员”</b>选项卡将用户分配到组，或使用<b>“配置文件”</b>选项卡控制用户可以访问的文件夹。 </p>
+          <p></p>
+          <p>
+            <b>注意</b>：还有一个称为“高级用户”的重要帐户类型。此帐户拥有管理员的大多数权利（例如安装程序或更改防火墙设置），但出于安全原因，此帐户缺少管理员的某些特权。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

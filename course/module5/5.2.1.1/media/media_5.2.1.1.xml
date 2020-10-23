@@ -1,0 +1,173 @@
+﻿<textcomponents><!-- slide 1 --><component id="ID_s1_title">
+		<text><![CDATA[硬盘驱动器的结构]]></text>
+	</component>
+
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[致动器轴]]></text>
+	</component>
+
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[主轴]]></text>
+	</component>
+
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[驱动臂]]></text>
+	</component>
+
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[盘片 / 磁盘]]></text>
+	</component>
+
+
+	<component id='ID_s1_titleTxt01'>
+		<text><![CDATA[致动器轴]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt01'>
+		<text><![CDATA[致动器轴带有驱动臂，并作为旋转点。]]></text>
+	</component>
+
+
+	<component id='ID_s1_titleTxt02'>
+		<text><![CDATA[主轴]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt02'>
+		<text><![CDATA[主轴带动盘片旋转。]]></text>
+	</component>
+
+
+	<component id='ID_s1_titleTxt03'>
+		<text><![CDATA[驱动臂]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt03'>
+		<text><![CDATA[驱动臂带有读写磁头并使其在盘片上的磁道之间移动。]]></text>
+	</component>
+
+
+	<component id='ID_s1_titleTxt04'>
+		<text><![CDATA[盘片]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt04'>
+		<text><![CDATA[盘片是涂有磁性介质的磁盘。]]></text>
+	</component><!-- end slide 1 --><!-- slide 2 --><component id="ID_s2_title">
+		<text><![CDATA[硬盘驱动器盘片的结构]]></text>
+	</component>
+
+	<component id='ID_s2_txt01'>
+		<text><![CDATA[磁道]]></text>
+	</component>
+
+	<component id='ID_s2_txt02'>
+		<text><![CDATA[簇]]></text>
+	</component>
+
+	<component id='ID_s2_txt03'>
+		<text><![CDATA[扇区]]></text>
+	</component>
+
+	<component id='ID_s2_txt04'>
+		<text><![CDATA[柱面]]></text>
+	</component>
+
+	<component id='ID_s2_txt05'>
+		<text><![CDATA[扇区内间隔]]></text>
+	</component>
+
+	<component id='ID_s2_txt06'>
+		<text><![CDATA[纠错码 (ECC)]]></text>
+	</component>
+
+	<component id='ID_s2_txt07'>
+		<text><![CDATA[同步信息]]></text>
+	</component>
+
+	<component id='ID_s2_txt08'>
+		<text><![CDATA[磁道内间隔]]></text>
+	</component>
+
+	<component id='ID_s2_txt09'>
+		<text><![CDATA[帧头]]></text>
+	</component>
+
+	<component id='ID_s2_txt10'>
+		<text><![CDATA[数据]]></text>
+	</component>
+
+	<component id='ID_s2_txt11'>
+		<text><![CDATA[帧尾]]></text>
+	</component>
+
+
+	<component id='ID_s2_titleTxt01'>
+		<text><![CDATA[磁道]]></text>
+	</component>
+
+	<component id='ID_s2_bodyTxt01'>
+		<text><![CDATA[磁道是写入和读取数据的盘片一面上的一个完整的圆形轨迹。 一个磁道可分为多个扇区。]]></text>
+	</component>
+
+
+	<component id='ID_s2_titleTxt02'>
+		<text><![CDATA[簇]]></text>
+	</component>
+
+	<component id='ID_s2_bodyTxt02'>
+		<text><![CDATA[簇是由分配给数据存储的若干个扇区组成的。 因为大多数文件都比一个扇区大，所以文件系统会分配簇进行存储。]]></text>
+	</component>
+
+
+	<component id='ID_s2_titleTxt03'>
+		<text><![CDATA[扇区]]></text>
+	</component>
+
+	<component id='ID_s2_bodyTxt03'>
+		<text><![CDATA[扇区是包含同步信息、数据和纠错码 (ECC) 的磁道部分。]]></text>
+	</component>
+
+
+	<component id='ID_s2_titleTxt04'>
+		<text><![CDATA[柱面]]></text>
+	</component>
+
+	<component id='ID_s2_bodyTxt04'>
+		<text><![CDATA[柱面是许多盘片上按顺序上下排列的多个磁道。]]></text>
+	</component>
+
+
+	<component id='ID_s2_titleTxt05'>
+		<text><![CDATA[扇区内间隔]]></text>
+	</component>
+
+	<component id='ID_s2_bodyTxt05'>
+		<text><![CDATA[这是定义扇区之间边界的间隔。]]></text>
+	</component>
+
+
+	<component id='ID_s2_titleTxt06'>
+		<text><![CDATA[纠错码 (ECC)]]></text>
+	</component>
+
+	<component id='ID_s2_bodyTxt06'>
+		<text><![CDATA[此代码可帮助检验扇区内的数据是否正确写入。]]></text>
+	</component>
+
+
+	<component id='ID_s2_titleTxt07'>
+		<text><![CDATA[同步信息]]></text>
+	</component>
+
+	<component id='ID_s2_bodyTxt07'>
+		<text><![CDATA[驱动器和控制器使用该数据来帮助进行数据存储。]]></text>
+	</component>
+
+
+	<component id='ID_s2_titleTxt08'>
+		<text><![CDATA[磁道内间隔]]></text>
+	</component>
+
+	<component id='ID_s2_bodyTxt08'>
+		<text><![CDATA[这是定义磁道之间边界的间隔。]]></text>
+	</component><!-- end slide 2 --></textcomponents>

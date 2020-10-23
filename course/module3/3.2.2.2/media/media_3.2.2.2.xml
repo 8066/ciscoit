@@ -1,0 +1,68 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>BIOS 系统时间和系统日期</b>]]></text>
+	</component>
+	
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>BIOS 设备设置</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>BIOS 启动顺序</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s4_title">
+	<text><![CDATA[<b>BIOS CPU 时钟速度</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s5_title">
+	<text><![CDATA[<b>BIOS 虚拟化设置</b>]]></text>
+	</component>	
+	
+	<component id="ID_s6_title">
+	<text><![CDATA[<b>配置 BIOS 设置</b>]]></text>
+	</component>
+
+	<component id="ID_s6_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>BIOS 设置</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>具体设置</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>时间和日期</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>始终将这些字段设置为正确的时间和日期，因为操作系统和其他程序需要参考时间和日期。 </li><li>不正确的日期和时间可能导致意想不到的问题。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>禁用设备</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>如果安装专用的显卡、声卡或网卡，将禁用主板内置功能。</li><li>如果设备未正常工作，请检查高级 BIOS 设置以查看是否默认禁用了设置或意外禁用了设备。 </li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>启动顺序</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>创建基于用户需求的启动顺序。 </li><li>从启动顺序列表中禁用或删除未使用的设备。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>时钟速度 </td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>CPU 超频会使 CPU 的保修失效，可能会缩短 CPU 的生命周期，或者导致 CPU 损坏。 </li><li>请始终记得安装一个能够驱散超频产生的多余热量的冷却系统。 </li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>虚拟化</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>如果无法正确进行虚拟化或不使用虚拟化，请禁用此设置。</li></ul></textformat></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+</textcomponents>

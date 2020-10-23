@@ -1,0 +1,132 @@
+<textcomponents><!-- slide 1 --><component id='ID_s1_title'>
+		<text><![CDATA[<b>呼叫台</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt01">
+		<text><![CDATA[注销]]></text>
+	</component>
+	
+	<component id="ID_s1_txt02">
+		<text><![CDATA[打印]]></text>
+	</component>
+
+	<component id="ID_s1_txt03">
+		<text><![CDATA[<font color='#386B33'><b>实时呼叫中心监控</b></font>]]></text>
+	</component>
+
+	<component id="ID_s1_txt04">
+		<text><![CDATA[<u>呼叫中心经理</u>]]></text>
+	</component>
+
+	<component id="ID_s1_txt05">
+		<text><![CDATA[<b>J Smith</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt06">
+		<text><![CDATA[<b>11:01:17</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt07">
+		<text><![CDATA[立即重新加载]]></text>
+	</component>
+
+	<component id="ID_s1_txt08">
+		<text><![CDATA[队列：]]></text>
+	</component>
+
+	<component id="ID_s1_txt09">
+		<text><![CDATA[queue-dps、queue-test]]></text>
+	</component>
+
+	<component id="ID_s1_txt10">
+		<text><![CDATA[<p align='center'>为了维持会话信息，将自动重新加载此页。</p>]]></text>
+	</component><!-- table 1 --><component id='ID_s1_table01'>
+	<text><![CDATA[<table header='none' bordercolor='#386B33' borderwidth='2' shadow='false' shadowcolor='#000000' glow='false' glowcolor='#808080' cellpadding='4'>
+		<tr>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>队列</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>座席</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>就绪座席</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>暂停</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>呼叫等待</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>座席联系</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>全选</td>
+			<td bgcolor='#E9E7E8'>1</td>
+			<td bgcolor='#E9E7E8'>0</td>
+			<td bgcolor='#E9E7E8'>0</td>
+			<td bgcolor='#E9E7E8'>0</td>
+			<td bgcolor='#E9E7E8'>1</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>queue-dps</td>
+			<td bgcolor='#F2F2F2'> </td>
+			<td bgcolor='#F2F2F2'> </td>
+			<td bgcolor='#F2F2F2'> </td>
+			<td bgcolor='#F2F2F2'>0</td>
+			<td bgcolor='#F2F2F2'>1</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>queue-test</td>
+			<td bgcolor='#E9E7E8'> </td>
+			<td bgcolor='#E9E7E8'> </td>
+			<td bgcolor='#E9E7E8'> </td>
+			<td bgcolor='#E9E7E8'>1</td>
+			<td bgcolor='#E9E7E8'>0</td>
+		</tr>
+	</table>]]></text>
+	</component><!-- end table 1 --><!-- table 2 --><component id='ID_s1_table02'>
+	<text><![CDATA[<table header='none' bordercolor='#386B33' borderwidth='2' shadow='false' shadowcolor='#000000' glow='false' glowcolor='#808080' cellpadding='4'>
+		<tr>
+			<td colspan='6' bgcolor='#FFFFFF'><font size="12"><b>呼叫正在处理</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>队列</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>主叫方</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>已输入</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>等待</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>持续时间</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>座席</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>queue-dps</td>
+			<td bgcolor='#E9E7E8'>34</td>
+			<td bgcolor='#E9E7E8'>03/12 - 11:00:46</td>
+			<td bgcolor='#E9E7E8'>0:02</td>
+			<td bgcolor='#E9E7E8'><font color='#FF0000'>0:29</font></td>
+			<td bgcolor='#E9E7E8'>Pluto(101)</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>队列测试</td>
+			<td bgcolor='#F2F2F2'>22</td>
+			<td bgcolor='#F2F2F2'>03/12 - 11:01:13</td>
+			<td bgcolor='#F2F2F2'><font color='#FF0000'>0:04</font></td>
+			<td bgcolor='#F2F2F2'> </td>
+			<td bgcolor='#F2F2F2'> </td>
+		</tr>
+	</table>]]></text>
+	</component><!-- end table 2 --><!-- table 3 --><component id='ID_s1_table03'>
+	<text><![CDATA[<table header='none' bordercolor='#386B33' borderwidth='2' shadow='false' shadowcolor='#000000' glow='false' glowcolor='#808080' cellpadding='4'>
+		<tr>
+			<td colspan='4' bgcolor='#FFFFFF'><font size="12"><b>座席当前已登录</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>座席</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>最后一次登录</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>扩展</b></font></td>
+			<td bgcolor='#386B33'><font color='#ffffff'><b>暂停</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Pluto(101)</td>
+			<td bgcolor='#E9E7E8'>03/12 - 11:00:22</td>
+			<td bgcolor='#E9E7E8'> </td>
+			<td bgcolor='#E9E7E8'>否</td>
+		</tr>
+	</table>]]></text>
+	</component><!-- end table 3 --><!-- end slide 1 --><!-- slide 2 --><component id='ID_s2_titleTxt01'>
+		<text><![CDATA[<b>放松方法</b>]]></text>
+	</component>
+	
+	<component id='ID_s2_bodyTxt01'>
+		<text><![CDATA[<textformat blockindent='-18'><ul><li>练习放松呼吸：吸气-保持-呼气-重复。</li><li>听舒缓的音乐。</li><li>按摩您的太阳穴。</li><li>休息 - 快步走或爬楼梯。</li><li>吃小零食 - 最好是含蛋白质的零食。</li><li>计划周末活动。</li><li>避免咖啡、起泡饮料和巧克力等兴奋性饮料。 他们都包含咖啡因，会增加人的压力。</li></textformat></ul>]]></text>
+	</component><!-- end slide 2 --></textcomponents>

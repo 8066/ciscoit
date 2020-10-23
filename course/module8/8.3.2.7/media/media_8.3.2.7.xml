@@ -1,0 +1,24 @@
+﻿<textcomponents>
+<component id="ID_s1_title">
+<text><![CDATA[<b>代理服务器缓存网页</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[HTTP 服务器]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[网络]]></text>
+</component>
+<component id="ID_txt03">
+<text><![CDATA[客户端]]></text> 
+</component>
+
+<component id="ID_txt04">
+<text><![CDATA[网页]]></text> 
+</component>
+
+<component id="ID_txt05">
+<text><![CDATA[代理服务器]]></text> 
+</component>
+</textcomponents>

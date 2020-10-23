@@ -1,0 +1,44 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>虚拟机逻辑图</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[来宾 OS 中的应用]]></text>
+	</component>
+	<component id="ID_txt02">
+	<text><![CDATA[来宾 OS 中的应用]]></text>
+	</component>
+	<component id="ID_txt03">
+		<text><![CDATA[来宾 OS 中的应用]]></text>
+	</component>
+	<component id="ID_txt04">
+		<text><![CDATA[来宾 OS]]></text>
+	</component>
+	<component id="ID_txt05">
+		<text><![CDATA[来宾 OS]]></text>
+	</component>
+	<component id="ID_txt06">
+		<text><![CDATA[来宾 OS]]></text>
+	</component>
+	<component id="ID_txt07">
+		<text><![CDATA[虚拟化软件<br/>（Hyper-V、Virtual PC 和 VirtualBox 等）]]></text>
+	</component>
+	<component id="ID_txt08">
+		<text><![CDATA[主机 OS]]></text>
+	</component>
+	<component id="ID_txt09">
+		<text><![CDATA[<b>物理机</b>]]></text>
+	</component>
+	<component id="ID_txt10">
+		<text><![CDATA[<b>虚拟机</b>]]></text>
+	</component>
+	<component id="ID_txt11">
+		<text><![CDATA[<b>虚拟机</b>]]></text>
+	</component>
+	<component id="ID_txt12">
+		<text><![CDATA[<b>虚拟机</b>]]></text>
+	</component>
+	
+</textcomponents>

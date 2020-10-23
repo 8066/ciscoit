@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.4.1.10 ICMP</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.4.1.10_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>ICMP</h1>
+        <div>
+          <p>网络中的设备使用 Internet 控制消息协议 (ICMP) 向计算机和服务器发送控制和错误消息。ICMP　有多种不同的用途，比如通告网络错误、通告网络拥塞和故障排除等。</p>
+          <p></p>
+          <p>Ping 命令常用于测试计算机之间的连接。Ping 是一个非常简单但高度实用的实用程序，用于确定具体的 IP 地址是否可访问。要查看可与 ping 命令结合使用的选项列表，请在命令提示符窗口中键入 <b>ping /?</b>，如图 1 所示。</p>
+          <p></p>
+          <p>Ping 命令的工作方法是向目的计算机或其他网络设备发送 ICMP 回应请求。然后接收设备发回的 ICMP 回应回复消息，以确认连接性。回应请求和回应回复是一种测试消息，用于确定设备是否可以互相发送数据包。在 Windows 中，会将四个 ICMP 回应请求 (ping) 发送到目的计算机，如图 2 所示。如果目的计算机可达，那么它会以四个 ICMP 回应回复进行响应。成功回复所占的百分比可帮助您确定目的计算机的可靠性和可访问性。其他 ICMP 消息会报告未送达的数据包以及某个设备是否太过繁忙，无法处理此数据包。 </p>
+          <p></p>
+          <p>当主机名已知时，您还可以使用 ping 命令来查找该主机的 IP 地址。如果您对某网站的名称（例如 cisco.com）执行 ping 命令，如图 2 所示，就会显示服务器的 IP 地址。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

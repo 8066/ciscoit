@@ -1,0 +1,10 @@
+﻿<textcomponents>
+	
+	<component id="ID_type">
+		<text><![CDATA[实验]]></text>
+	</component>
+	<component id="ID_title">
+		<text><![CDATA[常用 Windows CLI 命令]]></text>
+	</component>
+	
+</textcomponents>

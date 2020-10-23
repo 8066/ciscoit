@@ -1,0 +1,38 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b></b>]]></text>
+	</component>
+	
+	    <component id="ID_table01">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>第 5 步：检验完整的系统功能，如果适用，并实施预防措施</b></font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable">
+                <td bgcolor='#E9E7E8' width="150">检验完整功能</td>
+				
+                <td bgcolor='#E9E7E8'>
+					<textformat blockindent='-18'><ul><li>重新扫描计算机，确保没有病毒。</li>
+					<li>重新扫描计算机，确保没有间谍软件。</li>
+					<li>检查安全软件日志，确保没有故障。</li>
+					<li>检查计算机的最新操作系统补丁和更新。</li>
+					<li>测试网络和 Internet 连接。</li>
+					<li>确保所有应用都能正常工作。</li>
+					<li>检验到授权资源（例如共享打印机和数据库）的访问。</li>
+					<li>确保条目安全。</li>
+					<li>确保实施了安全策略。</li></ul></textformat>
+				</td>
+            </tr>
+ 
+            
+        </table>]]></text>
+    </component>
+	
+</textcomponents>

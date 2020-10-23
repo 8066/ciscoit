@@ -1,0 +1,12 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>在电源选项实用程序中启用休眠模式</b>]]></text>
+</component>
+<component id="ID_s2_title">
+	<text><![CDATA[<b>电源选项高级设置</b>]]></text>
+</component>
+<component id="ID_s3_title">
+	<text><![CDATA[<b>在 Windows 中编辑电源计划设置</b>]]></text>
+</component>
+</textcomponents>

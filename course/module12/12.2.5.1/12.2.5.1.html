@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.2.5.1 常见通信加密类型</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.2.5.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>常见通信加密类型</h1>
+        <div>
+          <p>两台计算机之间进行通信时可能需要安全通信。为此需要以下协议：</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>散列编码</b>
+              </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>对称加密</b>
+              </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>非对称加密</b>
+              </li>
+            </ul>
+          </p>
+          <p>散列编码（或散列算法）可确保消息的完整性。这意味着它可以确保消息在传输过程中不会损坏或被篡改。散列算法使用一个数学函数创建一个数值，称为数据唯一的消息摘要。即使改变一个字符，函数输出都会不同。此函数只能单向使用。因此，知道消息摘要不允许攻击者重新创建该消息，这让他人难以拦截和更改消息。图 1 展示了散列编码。现在最受欢迎的散列算法是安全散列算法 (SHA)，它正在替换旧的消息摘要算法第五版 (MD5)。 </p>
+          <p></p>
+          <p>对称加密可确保消息的机密性。如果加密消息被拦截，也无法理解此消息。只能使用一同加密的密码（或密钥）来解密（或读取）该消息。对称加密需要加密会话的双方都使用加密密钥才能对数据进行编码和解码。发送方和接收方必须使用相同的密钥。图 2 显示了对称加密。高级加密标准 (AES) 和较旧的三重数据加密算法 (3DES) 都是非对称加密的示例。</p>
+          <p></p>
+          <p>非对称加密还可确保消息的机密性。它需要两个密钥，即私钥和公钥。公钥可广泛分发，包括使用明文通过电子邮件发送或发布在网站上。私钥由个人保留，且不能透露给其他任何各方。可以用两种方式使用这些密钥：</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>一个组织需要从多个源获取加密文本时，使用公钥加密。公钥可广泛分发并用于加密消息。预期的接收方是唯一拥有私钥的一方，该私钥用于解密消息。图 3 显示了使用公钥的非对称加密。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>至于数字签名，需要私钥加密消息，需要公钥解密消息。此方法让接收方能够确信消息来源，因为只有使用发起者的私钥进行加密的消息才能通过公钥解密。RSA 是最受欢迎的非对称加密示例。</li>
+            </ul>
+          </p>
+          <p>
+            <b>注意</b>：对称加密需要两个系统预配置密钥。非对称加密只需要一个系统有私钥。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

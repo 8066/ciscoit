@@ -1,0 +1,61 @@
+﻿<textcomponents>
+
+<component id="ID_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+				<td colspan="4" bgcolor='#FFFFFF'><font size="16" color='#393536'><b>ISP 连接详细信息</b></font></td>
+			</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='4' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263'  valign="top" width="100"><font color='#FFFFFF' ><b>类型</b></font></td>
+			<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>优点</b></font></td>
+			<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>缺点</b></font></td>
+			<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>速度</b></font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'>POTS</td>
+			<td bgcolor='#E9E7E8'>广泛使用</td>
+			<td bgcolor='#E9E7E8'>速度极慢<br/>连接时无法接通电话</td>
+			<td bgcolor='#E9E7E8'>最大速度 56 kbps</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>ISDN</td>
+			<td bgcolor='#F2F2F2'>比 POTS 速度高</td>
+			<td bgcolor='#F2F2F2'>仍比其他宽带技术慢得多</td>
+			<td bgcolor='#F2F2F2'>BRI - 最高 128 kbps <br/>PRI - 最高 2.048 Mb/s</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>DSL</td>
+			<td bgcolor='#E9E7E8'>低成本</td>
+			<td bgcolor='#E9E7E8'>与中央办公室的距离影响速度</td>
+			<td bgcolor='#E9E7E8'>24 kbps - 100 Mb/s</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>电缆</td>
+			<td bgcolor='#F2F2F2'>非常高速</td>
+			<td bgcolor='#F2F2F2'>上传速度慢</td>
+			<td bgcolor='#F2F2F2'>27 kbps - 160 Mb/s</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>卫星</td>
+			<td bgcolor='#E9E7E8'>当 DSL 和电缆不可用时提供</td>
+			<td bgcolor='#E9E7E8'>比其他宽带技术昂贵，而且易受天气状况的影响</td>
+			<td bgcolor='#E9E7E8'>达 10 Mb/s 或更高</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2'>移动电话</td>
+			<td bgcolor='#F2F2F2'>适用于移动用户</td>
+			<td bgcolor='#F2F2F2'>并非随处可访问</td>
+			<td bgcolor='#F2F2F2'>20 kbps 或更高，取决于所用的技术</td>
+		</tr>
+				
+	</table>]]></text> 
+</component>
+
+</textcomponents>

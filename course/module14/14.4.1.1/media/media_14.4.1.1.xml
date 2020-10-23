@@ -1,0 +1,179 @@
+﻿<textcomponents>
+	
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>操作系统方面的高级问题和解决方案</b>]]></text>
+	</component>
+
+    <component id="ID_s1_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>恶意软件方面的高级问题和解决方案</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>识别问题</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>可能的原因</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>可能的解决方案</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>在启动时显示消息“MBR 已更改或修改”。</td>
+			<td bgcolor='#E9E7E8'>启动扇区病毒更改了主引导记录。</td>
+			<td bgcolor='#E9E7E8'>启动具有可启动介质的计算机并运行杀毒软件，以删除引导扇区病毒。</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Windows 7 或 Windows Vista 计算机启动时显示错误消息“加载操作系统时出错”。</td>
+			<td bgcolor='#F2F2F2'>病毒损坏了主引导记录。</td>
+			<td bgcolor='#F2F2F2'>从安装介质启动计算机。 在“安装 Windows”屏幕上，请选择<b>“修复计算机”</b>。 在命令提示符下键入 <font face="_typewriter"><b><i>bootrec.exe /fixmbr</i></b></font>。</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Windows 7 或 Windows Vista 计算机启动时显示错误消息“警告：此硬盘驱动器可能已感染病毒！”。</td>
+			<td bgcolor='#E9E7E8'>病毒损坏了引导扇区。</td>
+			<td bgcolor='#E9E7E8'>从安装介质启动计算机。 在“安装 Windows”屏幕上，请选择<b>“修复计算机”</b>。 在命令提示符下键入 <font face="_typewriter"><b><i>bootrec.exe /fixboot</i></b></font>。</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Windows 7 计算机无法启动。</td>
+			<td bgcolor='#F2F2F2'>病毒损坏了 Windows 系统文件。</td>
+			<td bgcolor='#F2F2F2'>从 Windows PE 介质启动计算机。 访问 Windows 启动修复工具，恢复已损坏的系统文件。</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>您的联系人收到来自您的电子邮件帐户的垃圾邮件。</td>
+			<td bgcolor='#E9E7E8'>您的电子邮件帐户被病毒或间谍软件劫持。</td>
+			<td bgcolor='#E9E7E8'>运行杀毒软件并修复、删除或隔离受感染的文件。 运行反间谍软件并删除所有间谍软件感染内容。 清理计算机后，更改电子邮件帐户密码。</td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>操作系统方面的高级问题和解决方案</b>]]></text>
+	</component>	
+	
+	<component id="ID_s2_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>用户权限方面的高级问题和解决方案</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>识别问题</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>可能的原因</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>可能的解决方案</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>尝试访问某些文件夹和文件时，用户可以登录，但收到“拒绝访问”消息。</td>
+			<td bgcolor='#E9E7E8'>不允许该用户所在的组访问文件夹和文件。</td>
+			<td bgcolor='#E9E7E8'>将该用户添加到正确的组。 为文件夹和文件添加正确的用户权限。</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>用户可以查找服务器上的文件，但无法下载该文件。</td>
+			<td bgcolor='#F2F2F2'>用户权限不正确。</td>
+			<td bgcolor='#F2F2F2'>将文件的用户权限更改为读取和执行。</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>用户获得对本不该访问的子文件夹的访问权限。</td>
+			<td bgcolor='#E9E7E8'>子文件夹继承了上层文件夹的权限。</td>
+			<td bgcolor='#E9E7E8'>更改子文件夹权限设置，使其不继承父文件夹的权限。 为子文件夹设置适当的权限。</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>某个组的用户看不到他们应有权访问的一个文件夹。</td>
+			<td bgcolor='#F2F2F2'>该文件夹权限已设置为拒绝。</td>
+			<td bgcolor='#F2F2F2'>将文件夹权限改为允许。</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>通过网络移动到新计算机的加密文件不再加密。</td>
+			<td bgcolor='#E9E7E8'>新的计算机没有 NTFS 分区。</td>
+			<td bgcolor='#E9E7E8'>将新计算机上的分区转换为 NTFS 并再次加密文件。</td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>操作系统方面的高级问题和解决方案</b>]]></text>
+	</component>	
+	
+	<component id="ID_s3_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>计算机安全设置方面的高级问题和解决方案</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>识别问题</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>可能的原因</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>可能的解决方案</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>计算机在每天的同一时间运行缓慢。</td>
+			<td bgcolor='#E9E7E8'>杀毒软件已设置为在每天的同一时间扫描计算机。</td>
+			<td bgcolor='#E9E7E8'>将杀毒软件配置为在不使用计算机时扫描计算机。</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>用户抱怨计算机 BIOS 设置总是变化。</td>
+			<td bgcolor='#F2F2F2'>未设置 BIOS 密码，使得其他人可以更改 BIOS 设置。</td>
+			<td bgcolor='#F2F2F2'>设置密码，保护对 BIOS 设置的访问。</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>设备管理器中未显示 TPM。</td>
+			<td bgcolor='#E9E7E8'>TPM 已禁用。</td>
+			<td bgcolor='#E9E7E8'>在 BIOS 中启用 TPM。</td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	<component id="ID_s4_title">
+	<text><![CDATA[<b>操作系统方面的高级问题和解决方案</b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s4_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>防火墙或代理设置方面的高级问题和解决方案</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>识别问题</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>可能的原因</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>可能的解决方案</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>计算机无法 ping 通网络中的另一台计算机。</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>Windows 防火墙正在拦截 ping 请求。</li><li>路由器正在拦截 ping 请求。</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>将 Windows 防火墙配置为允许 ping 请求。</li><li>将路由器配置为允许 ping 请求。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>笔记本电脑的防火墙例外允许从非法计算机进行未经授权的连接。</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>Windows 防火墙设置不正确。</li><li>Windows 防火墙已禁用。</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>将 Windows 防火墙设置为“使用公共网络时不允许例外”。</li><li>启用 Windows 防火墙。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>电子邮件程序已正确配置，但无法连接到电子邮件服务器。</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>电子邮件服务器发生故障。</li><li>Windows 防火墙正在拦截电子邮件软件。</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>验证电子邮件服务器是否正常运行。</li><li>为电子邮件软件创建 Windows 防火墙例外。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>计算机可以 ping 通代理服务器，但是没有 Internet 连接。</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>浏览器代理服务器设置不正确。</li><li>代理服务器离线。</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>重新输入代理服务器设置，包括代理服务器的 IP 地址和端口，以及应定义的所有例外。</li><li>重新启动代理服务器。</li></ul></textformat></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+
+	
+	
+</textcomponents>

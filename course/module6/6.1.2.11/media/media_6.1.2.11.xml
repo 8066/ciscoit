@@ -1,0 +1,11 @@
+﻿<textcomponents>
+	 <component id="ID_s1_title">
+        <text><![CDATA[<b>Windows 8.1 中的系统实用程序</b>]]></text> 
+    </component>
+	<component id="ID_s2_title">
+        <text><![CDATA[<b>Windows 7 和 Vista 中的系统实用程序</b>]]></text> 
+    </component>
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>Windows 8 中的虚拟内存设置</b>]]></text> 
+    </component>
+</textcomponents>

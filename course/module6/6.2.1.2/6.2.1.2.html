@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>6.2.1.2 虚拟机监控程序：Virtual Machine Manager</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_6.2.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>虚拟机监控程序：Virtual Machine Manager</h1>
+        <div>
+          <p>用于在主机上创建并管理虚拟机的软件称为虚拟机监控程序，或 Virtual Machine Manager (VMM)。虚拟机监控程序可以在单个主机上运行多个虚拟机。每个虚拟机运行自己的操作系统。同时能够运行多少虚拟机取决于主机的硬件资源。虚拟机监控程序会根据需要将物理系统资源分配给每个虚拟机，比如 CPU、RAM 和硬盘驱动器。这可确保一个虚拟机的操作不会干扰其他的虚拟机。</p>
+          <p></p>
+          <p>图 1 显示了两种虚拟机监控程序类型：类型 1（本机）和类型 2（托管）。类型 1 虚拟机监控程序直接在主机硬盘上运行，并负责管理向虚拟操作系统分配系统资源。类型 2 虚拟机监控程序由操作系统托管。Windows Hyper-V 和 Windows Virtual PC 都属于类型 2 虚拟机监控程序。</p>
+          <p></p>
+          <p>
+            <b>Windows Hyper-V</b>
+          </p>
+          <p></p>
+          <p>Windows Hyper-V 是 Windows 8 的虚拟化平台。它提供软件基础设施和基本管理工具，用于创建并管理虚拟化服务器计算环境。虚拟化服务器环境具有很多优势：</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>它可以提高硬件的利用率，从而降低物理服务器的运行和维护成本。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>它可以缩短设置硬件和软件所需的时间，从而提高开发和测试效率。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>它可以在无需使用多台物理计算机的情况下提高服务器的可用性。</li>
+            </ul>
+          </p>
+          <p>您必须先启用 Windows Hyper-V，然后才能使用它。要启用 Windows Hyper-V（如图 2 所示），请使用以下路径：</p>
+          <p></p>
+          <p>
+            <b>“控制面板”>“程序和功能”></b>单击<b>“打开或关闭 Windows 功能”>选中“Hyper-V”框></b>单击<b>“确定”</b>。</p>
+          <p></p>
+          <p>您可能需要重启主机才能让更改生效。</p>
+          <p></p>
+          <p>图 3 显示了 Windows 8 中的 Hyper-V 管理器。</p>
+          <p></p>
+          <p>
+            <b>Windows Virtual PC</b>
+          </p>
+          <p></p>
+          <p>Windows Virtual PC 是 Windows 7 的虚拟化平台。Virtual PC 允许您为正在运行已获得许可的 Windows 7 或 Vista 副本的虚拟机当中的 Windows 操作系统划分系统资源。您可以从 Microsoft Windows 网站上下载 Virtual PC。 </p>
+          <p></p>
+          <p>
+            <b>Windows XP 模式</b>
+          </p>
+          <p></p>
+          <p>Windows XP 模式是 Windows 7 提供的一个程序。Windows XP 模式采用虚拟化技术让用户在 Windows 7 中运行 Windows XP 程序。它可以在提供 Windows XP 全功能版本（包括访问所有系统资源）的 Windows 7 桌面上打开一个虚拟机。在 Windows XP 模式下安装某个程序后，您可以在 XP 模式下运行此程序并从 Windows 7“开始”菜单访问此程序。</p>
+          <p></p>
+          <p>
+            <b>注意</b>：使用 Windows XP 模式之前，请先下载并安装 Windows Virtual PC。</p>
+          <p></p>
+          <p>
+            <b>注意</b>：Microsoft 已经正式停用了 Windows XP 模式，在 Windows 7 之后的 Windows 版本中不再有此模式。 </p>
+          <p></p>
+          <p>要访问 Windows 7 中的 XP 模式，请执行以下步骤：</p>
+          <p>
+            <b>第 1 步</b>：单击<b>“开始”></b>单击<b>“所有程序”</b>。</p>
+          <p></p>
+          <p>
+            <b>第 2 步</b>：单击 <b>Windows Virtual PC</b><b>></b> 单击<b>“Windows XP 模式”</b>。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

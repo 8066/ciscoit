@@ -1,0 +1,49 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[<b>主板电源接头的类型</b>]]></text>
+</component>
+
+	<component id="ID_s3_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>ATX 标准</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>主板接头说明</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'><b>ATX</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>20 引脚主要主板接头</li><li>6 引脚辅助接头</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'><b>ATX12V v2.x</b></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>24 引脚主要主板接头</li><li>4 引脚辅助接头</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>AMD GES</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>24 引脚主要主板接头</li><li>8 引脚辅助接头</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'><b>EPS12V</b></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>24 引脚主要主板接头</li><li>提供的 8 引脚辅助接头通常是两组 4 引脚接头</li></ul></textformat></td>
+		</tr>
+		
+		
+		</table>]]></text>
+	</component><!-- Slide 2 --><component id='ID_s2_title'>
+	<text><![CDATA[<b>连接 24 引脚 ATX12V v2.x 主要主板接头</b>]]></text>
+</component><!-- Slide 3 --><component id='ID_s3_title'>
+	<text><![CDATA[<b>连接 4 引脚 ATX12V v2.x 辅助电源接头</b>]]></text>
+</component>
+
+<component id='ID_s4_title'>
+	<text><![CDATA[<b>连接 4 引脚 CPU 风扇</b>]]></text>
+</component>
+
+
+
+</textcomponents>

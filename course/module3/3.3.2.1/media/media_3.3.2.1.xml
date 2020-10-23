@@ -1,0 +1,11 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>安装新驱动器的原因</b>]]></text>
+	</component><!-- Textbox --><component id='ID_titleTxt'>
+		<text><![CDATA[<b>安装新驱动器的原因</b>]]></text>
+	</component>
+	
+	<component id='ID_bodyTxt'>
+		<text><![CDATA[<textformat blockindent='-16'><ul><li>增加存储空间</li><li>增加硬盘驱动器速度</li><li>安装第二个操作系统</li><li>存储系统交换文件</li><li>提供容错能力</li><li>备份原始硬盘驱动器</li></ul></textformat>]]></text>
+	</component><!-- End Textbox --></textcomponents>

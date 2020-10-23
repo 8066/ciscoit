@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>3.2.2.4 BIOS 硬件诊断和监控</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_3.2.2.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>BIOS 硬件诊断和监控</h1>
+        <div>
+          <p>BIOS 硬件监控功能在收集信息和监控主板及相连硬件的活动方面很有用。监控功能的类型和数量因主板型号而异。使用硬件监控页面可查看温度、风扇速度、电压和其他内容。此页面可能还有关于入侵检测设备的信息。</p>
+          <p></p>
+          <p>以下是一些常见的 BIOS 硬件诊断和监控功能：</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>Temperatures（温度）</b> - 主板使用热传感器监控热敏感型硬件。例如，CPU 插槽下的热传感器可监控 CPU 温度。如果 CPU 过热，BIOS 可以增加 CPU 风扇的速度来冷却 CPU，减缓 CPU 速度来降低 CPU 温度，甚至关闭计算机来避免 CPU 损坏。其他热传感器监控机箱或电源内部的温度。此外，热传感器可以监控内存或芯片组的温度。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Fan Speeds（风扇速度）</b> - 一些 BIOS 设置允许您设置配置文件，以设置风扇速度来获得特定的结果。图 1 中的表格介绍了常见的 CPU 风扇速度配置文件。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Voltages（电压）</b> - 如图 2 所示，您可以监控主板上的 CPU 或电压调节器的电压。如果电压太高或太低，可能会损坏计算机组件。如果您发现电压没有达到或接近正确的水平，请确保电源运行正常。如果电源未提供正确的电压，可能是因为主板电压调节器损坏了。在这种情况下，可能需要维修或更换主板。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Clock and Bus Speeds（时钟和总线速度）</b> - 如图 3 所示，在一些 BIOS 设置中，您可以监控 CPU 的速度。一些 BIOS 设置也允许您监控一个或多个总线。您可能需要查看这些项目，以确定 BIOS 是否检测到正确的 CPU 设置，或者是否已由客户或计算机制造者手动输入。不正确的总线速度可能会导致 CPU 和相连硬件的发热量增加，或者导致适配器卡或内存发生故障。 </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Intrusion Detection（入侵检测）</b> - 有些计算机机箱有一个开关，在打开计算机机箱时会触发该开关。您可以将 BIOS 设置为记录此开关被触发的时间，这样所有者就可以辨别机箱是否被篡改过。该开关连接到主板。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Built-in Diagnostics（内置诊断）</b> - 如果您发现连接到计算机的某个设备或某个基本功能（例如风扇或温度和电压控制）出现故障，您可以使用内置诊断功能确定问题所在。通常，该程序会提供问题描述或错误代码，以便进一步排除故障。图 4 中的表格列出了常见的诊断。许多内置诊断程序会保留一个日志，其中包含所遇到的问题的记录。您可以使用此信息调查问题和错误代码。如果设备在保修期内，可以使用此信息将问题报告给产品支持部门。</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

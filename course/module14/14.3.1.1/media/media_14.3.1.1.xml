@@ -1,0 +1,185 @@
+﻿<textcomponents>
+	
+    <component id="ID_s1_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>网络连接方面的高级问题和解决方案</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>识别问题</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>可能的原因</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>可能的解决方案</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>计算机可以通过 IP 地址连接到网络设备，但是不能通过主机名连接。</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>主机名不正确。</li><li>DNS 设置不正确。</li><li>DNS 服务器不运行。</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>重新输入主机名。</li><li>重新输入 DNS 服务器的 IP 地址。</li><li>重新启动 DNS 服务器。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>计算机未获取或更新网络中的 IP 地址。</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>计算机使用了来自不同网络的静态 IP 地址。</li><li>防火墙阻止 DHCP。</li><li>DHCP 服务器不运行。</li><li>无线网卡已禁用。</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>让计算机自动获取 IP 地址。</li><li>更改防火墙设置，以允许 DHCP 流量。</li><li>重新启动 DHCP 服务器。</li><li>启用无线网卡。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>将新的计算机连接到网络时，显示 IP 地址冲突消息。</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>网络中的两个设备被分配了相同的 IP 地址。</li><li>另一台计算机配置了一个静态 IP 地址，而 DHCP 服务器已将该地址分配给其他设备。</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>为每个设备配置唯一的 IP 地址。</li><li>使用 <font face="_typewriter"><b><i> ipconfig /release </i></b></font>和<font face="_typewriter"><b><i> ipconfig /renew </i></b></font>命令配置每个设备。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>计算机具有网络访问，但是没有 Internet 访问。</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>网关 IP 地址不正确。</li><li>路由器配置错误。</li><li>DNS 服务器不运行。</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>重新启动调制解调器。</li><li>重新启动路由器。</li><li>重新配置路由器设置。</li><li>重新启动 DNS 服务器。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>计算机自动获得 IP 地址 169.254.x.x，但无法连接到网络。</td>
+			<td bgcolor='#E9E7E8'>DHCP 服务器不运行。</td>
+			<td bgcolor='#E9E7E8'>重新启动 DHCP 服务器。</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>用户的无线网络传输速度较慢、信号较弱、连接时断时续。</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>未实施无线安全，导致用户未经授权进行访问。</li><li>太多用户连接到接入点。</li><li>用户离接入点太远。</li><li>无线信号受到外部来源的干扰。</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>实施无线安全计划。</li><li>确保接入点在中心位置。</li><li>重新启动接入点。</li><li>移动接入点。</li><li>关闭不需要的相连设备。</li><li>添加另一个接入点或中继器来增强信号。</li><li>升级接入点。</li><li>更改无线网络上的信道。</li></ul></textformat></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b></b>]]></text>
+	</component>	
+	
+	<component id="ID_s2_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>电子邮件故障方面的高级问题和解决方案</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>识别问题</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>可能的原因</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>可能的解决方案</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>计算机无法发送或接收电子邮件。</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>计算机的电子邮件客户端设置不正确。</li><li>电子邮件服务器发生故障。</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>重新配置电子邮件客户端设置。</li><li>重新启动电子邮件服务器或通知您的电子邮件服务提供商。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>计算机可以发送电子邮件，但是无法接收电子邮件。</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>收件箱已满。</li><li>计算机的电子邮件客户端设置不正确。</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>存档或删除电子邮件，以便腾出空间。</li><li>重新配置电子邮件客户端设置。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>计算机无法收到包含附件的特定电子邮件。</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>电子邮件附件太大。</li><li>电子邮件附件包含病毒，已被病毒保护程序阻止。</li><li>电子邮件附件文件类型是不允许的（例如可执行文件），因此正在被拦截。</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>请求发件人将附件拆分为较小的部分，然后在单个电子邮件中重新发送。</li><li>请求发件人在发送附件之前进行扫描。</li><li>请求发件人压缩附件并重新发送。</li></ul></textformat></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b></b>]]></text>
+	</component>	
+	
+	<component id="ID_s3_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>FTP 和安全 Internet 连接方面的高级问题和解决方案</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>识别问题</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>可能的原因</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>可能的解决方案</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>用户无法访问 FTP 服务器。</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>路由器防火墙拦截了 FTP。</li><li>Windows 防火墙拦截了 FTP。</li><li>已达到最大用户数。</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>确保路由器的出站防火墙允许端口 20 和 21 的流量。</li><li>确保 Windows 的出站防火墙允许端口 20 和 21 的流量。</li><li>增加 FTP 服务器上的最大 FTP 用户数量。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>FTP 客户端软件找不到 FTP 服务器。</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>FTP 客户端有一个不正确的服务器/域名或端口设置。</li><li>FTP 服务器不运行或脱机。</li><li>DNS 服务器不运行且不能解析名称。</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>在 FTP 客户端输入正确的服务器/域名和端口设置。</li><li>重新启动 FTP 服务器。</li><li>重新启动 DNS 服务器。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>计算机无法访问特定 HTTPS 站点。</td>
+			<td bgcolor='#E9E7E8'>该站点不在该计算机浏览器的可信站点列表中。</td>
+			<td bgcolor='#E9E7E8'>决定是否在浏览器的可信站点列表中添加安全证书。</td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+	
+	<component id="ID_s4_title">
+	<text><![CDATA[<b></b>]]></text>
+	</component>	
+	
+	
+	<component id="ID_s4_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>使用网络故障排除工具时的高级问题和解决方案</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>识别问题</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>可能的原因</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>可能的解决方案</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>计算机可以 ping 通 IP 地址，但不能 ping 通主机名。</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>主机名不正确。</li><li>计算机的 DNS 设置不正确。</li><li>DNS 服务器不运行。</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>输入正确的主机名。</li><li>输入正确的 DNS 设置。</li><li>重新启动 DNS 服务器。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>一个网络中的计算机无法 ping 通位于其他网络中的计算机。</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>两个网络之间的链路断开。</li><li>路由器拦截了 ICMP。</li><li>Windows 防火墙拦截了 ICMP。</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>使用 tracert 查找已断开的链路并修复中断的链路。</li><li>配置路由器允许 ICMP ping。</li><li>配置 Windows 防火墙允许 ICMP ping。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Nslookup 报告“找不到地址 127.0.0.0 的服务器名称: 超时”。</td>
+			<td bgcolor='#E9E7E8'>DNS 服务器未响应。</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>重新启动 DNS 服务器。</li><li>更改 DNS 服务器设置。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>计算机无法使用 <font face="_typewriter"><b><i>net use</i></b></font> 命令连接到共享网络文件夹。</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>未共享文件夹。</li><li>计算机不在同一个工作组。</li></ul></textformat></td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>使用 net share 命令确保网络文件夹已共享。</li><li>将计算机设置为与具有共享网络文件夹的计算机相同的工作组。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>尝试使用 <font face="_typewriter"><b><i>ipconfig /release</i></b></font> 或 <font face="_typewriter"><b><i>ipconfig /renew</i></b></font> 命令时，您收到消息“适配器上无法执行任何操作，因为其介质已断开连接。”</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>网络电缆已拔出。</li><li>计算机配置了静态 IP 地址。</li></ul></textformat></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>重新连接网线。</li><li>重新配置网卡，以自动获取 IP 地址。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>计算机无法通过 Telnet 连接到远程计算机。</td>
+			<td bgcolor='#F2F2F2'>远程计算机未配置为接受 Telnet 连接，或 Telnet 服务尚未启动。</td>
+			<td bgcolor='#F2F2F2'>启动远程计算机上的 Telnet 服务，并将远程计算机配置为接受 Telnet 连接。</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>通知区域中的网络图标显示黄色感叹号。 尝试使用 <font face="_typewriter"><b><i>ipconfig /release</i></b></font> 或 <font face="_typewriter"><b><i>ipconfig /renew</i></b></font> 命令时，您收到消息“操作失败，因为没有适配器处于此操作允许的状态。”</td>
+			<td bgcolor='#E9E7E8'>已为接口分配了静态 IP 地址。</td>
+			<td bgcolor='#E9E7E8'>重新配置网卡，以自动获取 IP 地址。</td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+
+	
+	
+</textcomponents>

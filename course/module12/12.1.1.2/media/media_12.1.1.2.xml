@@ -1,0 +1,96 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>练习：识别恶意软件类型 </b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[说明]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[请将每种恶意软件类型与其描述相匹配。]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[Rootkit]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[间谍软件]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[蠕虫]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[勒索软件]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[广告软件]]></text>
+	</component>
+	
+	
+	
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[检查]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[重置]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[正确]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[您已成功地将每个恶意软件类型与其描述相匹配。]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[不正确]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[您尚未成功地将每个恶意软件类型与其描述相匹配。 请单击“重置”重试。]]></text>
+	</component>
+
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>恶意软件类型</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>恶意软件描述</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[通常通过下载在线软件的形式分发，以弹出窗口的形式显示，通常难以控制。]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[在未征得用户同意的情况下，收集用户的相关信息并将信息发送到另一个实体。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[黑客用来获取对计算机进行管理员帐户级访问的程序。 很难检测。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[对受感染计算机系统的访问会被拒绝，要求支付赎金才会解除限制。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[此恶意软件是自动扩散的自我复制式程序。 它会减缓或中断网络运行。]]></text>
+	</component> 
+	
+	
+
+	
+	
+</textcomponents>

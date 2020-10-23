@@ -1,0 +1,53 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>强密码指南</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>配置密码要求</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>配置帐户锁定策略</b>]]></text>
+	</component>
+	    <component id="ID_table01">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='150'><font color='#FFFFFF'><b>密码特征</b></font></td>
+                <td bgcolor='#666263'><font color='#FFFFFF'><b>指南</b></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>最短长度</td>
+                <td bgcolor='#E9E7E8'>至少包含八个字符。</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>复杂性</td>
+                <td bgcolor='#F2F2F2'>包括字母、数字、符号和标点符号。 使用键盘上的各种按键，而不仅仅是字母和字符。</td>
+            </tr>
+			
+			<tr>
+                <td bgcolor='#F2F2F2'>多样性</td>
+                <td bgcolor='#F2F2F2'>对您使用的每个站点或计算机使用不同的密码。</td>
+            </tr>
+			
+			<tr>
+                <td bgcolor='#E9E7E8'>到期</td>
+				<td bgcolor='#E9E7E8'>应使密码在一个可接受的时间段内到期。 该时间段越短，计算机越安全。 此外，设置一个提醒，平均每三到四个月更改一次电子邮件、银行和信用卡网站的密码。</td>
+            </tr>
+ 
+
+        </table>]]></text>
+    </component>
+</textcomponents>

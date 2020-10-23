@@ -1,0 +1,202 @@
+﻿<textcomponents>
+
+
+<component id="ID_s1_title">
+  <text><![CDATA[<b>内存模块</b>]]></text> 
+  </component>
+  
+ <component id="ID_s1_btn01">
+  <text><![CDATA[DIP]]></text>
+  </component>
+<component id="ID_s1_btn02">
+  <text><![CDATA[SIMM]]></text> 
+  </component>
+<component id="ID_s1_btn03">
+  <text><![CDATA[DIMM 内存]]></text> 
+  </component>
+<component id="ID_s1_btn04">
+  <text><![CDATA[SODIMM]]></text> 
+  </component>
+  
+ <component id="ID_s1_txt01">
+  <text><![CDATA[双列直插式封装是单个内存芯片。 DIP 有两排用来将其连接到主板的引脚。 ]]></text>
+  </component>
+<component id="ID_s1_txt02">
+  <text><![CDATA[单列直插式内存模块是固定数个内存芯片的小电路板。 SIMM 有 30 引脚配置或 72 引脚配置。]]></text> 
+  </component>
+<component id="ID_s1_txt03">
+  <text><![CDATA[双列直插式内存模块是固定 SDRAM、DDR SDRAM、DDR2 SDRAM 和 DDR 3 SDRAM 芯片的电路板。 有 168 引脚的 SDRAM DIMM、184 引脚的 DDR DIMM 和 240 引脚的 DDR2 和 DDR3 DIMM。]]></text> 
+  </component>
+<component id="ID_s1_txt04">
+  <text><![CDATA[小外形 DIMM 具备支持 32 位传输的 72 引脚和 100 引脚的配置，或支持 64 位传输的 144 引脚、200 引脚和 204 引脚的配置。 这个外形较小、压缩程度更高的 DIMM 版本提供随机访问数据存储，适用于需要节约空间的笔记本电脑、打印机和其他设备。]]></text> 
+  </component> 
+ 
+
+ <component id="ID_s1_title_txt01">
+  <text><![CDATA[<b>DIP</b>]]></text>
+  </component>
+<component id="ID_s1_title_txt02">
+  <text><![CDATA[<b>SIMM</b>]]></text> 
+  </component>
+<component id="ID_s1_title_txt03">
+  <text><![CDATA[<b>DIMM 内存</b>]]></text> 
+  </component>
+<component id="ID_s1_title_txt04">
+  <text><![CDATA[<b>SODIMM</b>]]></text> 
+  </component> 
+  
+
+<component id='ID_s2_table'>
+<text><![CDATA[<table header='none' bordercolor='#DAE17A' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+	<tr class="title">
+			<td colspan='4' bgcolor='#DAE17A' class="title"><font color='#393536'><b>常见内存类型及其特性</b></font></td>
+	</tr>
+	<tr>
+		<td colspan='4' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#DAE17A">.</span></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#A2AA23'  valign="top" width="107"><font color='#ffffff '><b>内存类型</b></font></td>
+		<td bgcolor='#A2AA23'  valign="top" width="100" ><font color='#ffffff '><b>行业名称</b></font></td>
+		<td bgcolor='#A2AA23'  valign="top" width="100"><font color='#ffffff '><b>最大传输率</b></font></td>
+		<td bgcolor='#A2AA23'  valign="top" width="100"><font color='#ffffff '><b>前端总线</b></font></td>
+	</tr>
+	
+	<tr>
+		<td height="30" bgcolor='#F3F5E7' valign="top"><font color='#393536'>PC100 SDRAM</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>PC-100</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>800 MB/s</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>100 MHz</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>PC133 SDRAM</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>PC-133</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>1060 MB/s</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>133 MHz</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>DDR-333</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>PC-2700</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>2700 MB/s</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>166 MHz</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>DDR-400</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>PC-3200</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>3200 MB/s</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>200 MHz</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>DDR2-667</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>PC2-5300</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>5333 MB/s</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>667 MHz</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>DDR3-1600</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>PC3-12800</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>12800 MB/s</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>1600 MHz</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>DDR2-800</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>PC2-6400</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>6400 MB/s</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>400 MHz</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>DDR3-1333</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>PC3-10600</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>10667 MB/s</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>1333 MHz</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>DDR3-1866</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>PC3-14900</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>14933 MB/s</font></td>
+		<td bgcolor='#F3F5E7' valign="top"><font color='#393536'>1867 MHz</font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>DDR3-2133</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font  color='#393536'>PC3-17000</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>17066 MB/s</font></td>
+		<td bgcolor='#FFFFFF' valign="top"><font color='#393536'>2133 MHz</font></td>
+	</tr>
+</table>]]></text>
+</component>  
+  
+  
+<component id="ID_s3_title">
+  <text><![CDATA[<b>缓存内存</b>]]></text> 
+  </component>
+  
+ <component id="ID_s3_btn01">
+  <text><![CDATA[L1]]></text>
+  </component>
+<component id="ID_s3_btn02">
+  <text><![CDATA[L2]]></text> 
+  </component>
+<component id="ID_s3_btn03">
+  <text><![CDATA[L3]]></text> 
+  </component>
+  
+ <component id="ID_s3_txt01">
+  <text><![CDATA[L1 缓存是内部缓存并集成在 CPU 中。]]></text>
+  </component>
+<component id="ID_s3_txt02">
+  <text><![CDATA[L2 缓存是外部缓存，最初安装在 CPU 旁的主板上。 L2 缓存现在集成在 CPU 中。]]></text> 
+  </component>
+<component id="ID_s3_txt03">
+  <text><![CDATA[L3 缓存用于某些高端工作站和服务器 CPU。]]></text> 
+  </component>
+
+   
+ <component id="ID_s3_title_txt01">
+  <text><![CDATA[<b>L1</b>]]></text>
+  </component>
+<component id="ID_s3_title_txt02">
+  <text><![CDATA[<b>L2</b>]]></text> 
+  </component>
+<component id="ID_s3_title_txt03">
+  <text><![CDATA[<b>L3</b>]]></text> 
+  </component>
+  
+  
+<component id="ID_s4_title">
+  <text><![CDATA[<b>内存错误</b>]]></text> 
+  </component>
+  
+ <component id="ID_s4_btn01">
+  <text><![CDATA[非奇偶校验]]></text>
+  </component>
+<component id="ID_s4_btn02">
+  <text><![CDATA[奇偶校验]]></text> 
+  </component>
+<component id="ID_s4_btn03">
+  <text><![CDATA[ECC]]></text> 
+  </component>
+  
+ <component id="ID_s4_txt01">
+  <text><![CDATA[非奇偶校验内存不检查内存中的错误。]]></text>
+  </component>
+<component id="ID_s4_txt02">
+  <text><![CDATA[奇偶校验内存包含八个数据位和一个错误检查位。 错误检查位称为奇偶校验位。]]></text> 
+  </component>
+<component id="ID_s4_txt03">
+  <text><![CDATA[纠错码内存可检测内存中的多位错误并可纠正内存中的一位错误。]]></text> 
+  </component>
+   
+    
+ <component id="ID_s4_title_txt01">
+  <text><![CDATA[<b>非奇偶校验</b>]]></text>
+  </component>
+<component id="ID_s4_title_txt02">
+  <text><![CDATA[<b>奇偶校验</b>]]></text> 
+  </component>
+<component id="ID_s4_title_txt03">
+  <text><![CDATA[<b>ECC</b>]]></text> 
+  </component> 
+  
+<component id="transcript">
+  <text><![CDATA[<b>此处显示脚本</b>]]></text> 
+  </component>
+</textcomponents>

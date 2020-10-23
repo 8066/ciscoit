@@ -1,0 +1,95 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>练习 - 识别术语</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[说明]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[将术语与其描述向匹配。]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[正确]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[您已成功地将每个步骤序号与其描述相匹配。]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[不正确]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[您尚未成功地将每个步骤序号与其描述相匹配。 请单击“重置”重试。]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[检查]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[重置]]></text>
+</component><!--Drag Items--><component id='ID_s1_drag_header'>
+	<text><![CDATA[<font color="#FFFFFF" size="15">网络类型</font>]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[<font color="#393536">CMOS</font>]]></text>
+</component>
+
+<component id='ID_s1_drag05'>
+	<text><![CDATA[<font color="#393536">UEFI</font>]]></text>
+</component>
+
+<component id='ID_s1_drag03'>
+	<text><![CDATA[<font color="#393536">TPM</font>]]></text>
+</component>
+
+<component id='ID_s1_drag04'>
+	<text><![CDATA[<font color="#393536">BIOS</font>]]></text>
+</component>
+
+<component id='ID_s1_drag01'>
+	<text><![CDATA[<font color="#393536">POST</font>]]></text>
+</component>
+
+<component id='ID_s1_drag06'>
+	<text><![CDATA[<font color="#393536">Lojack</font>]]></text>
+</component><!--Questions--><component id='ID_s1_target_header'>
+	<text><![CDATA[<font size="15">术语</font>]]></text>
+</component>
+<component id='ID_s1_text_header'>
+	<text><![CDATA[<font size="15">描述</font>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[存储 BIOS 设置。]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+  <text><![CDATA[提供一个通过鼠标启用的软件界面，而不是传统的 BIOS 屏幕。]]></text> 
+</component>
+
+<component id="ID_s1_txt03">
+  <text><![CDATA[读取 CMOS 中存储的配置设置以确定如何配置硬件的小程序。]]></text> 
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[提供设备信息和位置的安全功能。]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+  <text><![CDATA[计算机主要组件的硬件检查。]]></text> 
+</component>
+
+<component id="ID_s1_txt06">
+  <text><![CDATA[旨在通过存储加密密钥、数字认证、密码和数据来保护硬件的芯片。]]></text> 
+</component>
+
+</textcomponents>

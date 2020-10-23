@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.3.2.9 入侵检测和防御服务</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.3.2.9_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>入侵检测和防御服务</h1>
+        <div>
+          <p>入侵检测系统 (IDS) 会被动地监控网络上的流量。由于人们对入侵防御系统 (IPS) 的青睐，所以独立 IDS 系统大部分已从公众视线中消失。不过 IDS 的检测功能仍然是任何 IPS 实施的一部分。图 1 显示一台已启用 IDS 的设备会复制流量并对已复制的流量进行分析，而不是分析实际已转发的数据包。在脱机工作时，它会将已捕获的流量与已知的恶意签名进行比较，这与检查病毒的软件类似。 </p>
+          <p></p>
+          <p>IPS 基于 IDS 技术而构建。但是，IPS 设备是在内联模式下实施的。这意味着所有入口（入站）和出口（出站）流量必须经过它才能得到处理。如图 2 所示，只有分析数据包之后，IPS 才允许数据包进入网络受信任的一边。它可以检测并立即解决网络问题。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

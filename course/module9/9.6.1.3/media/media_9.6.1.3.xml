@@ -1,0 +1,43 @@
+﻿<textcomponents>
+
+<component id='ID_table01'>
+	<text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>第 3 步：验证推测以确定原因</b></font></td>
+			</tr>
+	
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+	
+			<tr>
+				<td bgcolor='#E9E7E8' width="200">确定笔记本电脑故障原因的常见步骤</td>
+				
+				<td bgcolor='#E9E7E8'><ul><textformat blockindent='-18'>
+					<li>使用笔记本电脑的交流适配器</li>
+					<li>更换电池</li>
+					<li>重启笔记本电脑</li>
+					<li>检查 BIOS 设置</li>
+					<li>断开并重新连接电缆</li>
+					<li>断开外围设备</li><li>切换数字锁定键</li>
+					<li>取下并重新安装 RAM</li><li>大写锁定键打开</li>
+					<li>检查启动设备中是否有不可启动的介质</li>
+				</textformat></ul></td> 
+			</tr>
+			
+			<tr>
+				<td bgcolor='#E9E7E8' width="200">确定移动设备故障原因的常见步骤</td>
+				
+				<td bgcolor='#E9E7E8'><ul><textformat blockindent='-18'>
+					<li>重新启动移动设备。</li>
+					<li>将移动设备插入交流电源插座。</li>
+					<li>更换移动设备电池。</li>
+					<li>取下所有可拆卸电池并重新安装。</li>
+					<li>清洁扬声器、麦克风、充电端口或其他连接端口。</li>
+				</textformat></ul></td> 
+			</tr>
+	</table>]]></text>
+</component>
+
+</textcomponents>

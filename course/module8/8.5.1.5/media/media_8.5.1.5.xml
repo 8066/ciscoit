@@ -1,0 +1,24 @@
+﻿<textcomponents>
+	<component id='ID_table'>
+		<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>第 5 步：检验完整的系统功能，如果适用，并实施预防措施</b></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td width="200" bgcolor='#F2F2F2'>检验完整功能</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>使用 ipconfig /all 命令显示所有网络适配器的 IP 地址信息。</li>
+				<li>使用 Ping 命令检查网络连接。 它会向指定地址发送一个数据包，并显示响应信息。</li>
+				<li>使用 NSLookup 查询 Internet 域名服务器。 它将返回域中的主机列表或一台主机的信息。</li>
+				<li>使用 Tracert 确定数据包通过网络传输时所采用的路由。 它将显示您的计算机和另一台计算机通信时在什么地方遇到了问题。</li>
+				<li>使用 Net View 显示工作组中的计算机列表。 它将显示网络上可用的共享资源。</li></ul></textformat>
+			</td> 
+		</tr>	
+	</table>]]></text>
+	</component>
+	
+</textcomponents>

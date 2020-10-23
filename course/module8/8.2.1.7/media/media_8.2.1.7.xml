@@ -1,0 +1,100 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>练习 – 识别 ISP 连接类型</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[说明]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[将术语与其描述相匹配。]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[移动电话]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[卫星]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[WiMAX]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[DSL]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[拨号]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[电缆]]></text>
+	</component>
+	
+	
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[检查]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[重置]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[正确]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[您已成功地将每个术语与其描述相匹配。]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[不正确]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[您尚未成功地将每个术语与其描述相匹配。 请单击“重置”重试。]]></text>
+	</component>
+
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>术语</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>描述</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[客户是大部分时间都在旅途中的销售人员。 几乎每天 24 小时都需要与总部连接。]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[客户在家中工作，需要以尽可能最快的上传和下载速度访问公司的 FTP 服务器，而且生活在 DSL 和电缆不可用的偏远地区。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[客户在大型城市的市中心工作，需要不会轻易被大型建筑物干扰的快速可靠连接。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[客户只能使用卫星接收电视信号，但居住在提供高速 Internet 访问的地区。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[客户生活在偏远深山地区，而且无力承担宽带成本。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[客户希望通过同一家公司绑定电视、Internet 访问和电话，但本地电话公司不提供所有这些服务。]]></text>
+	</component> 
+
+	
+	
+</textcomponents>

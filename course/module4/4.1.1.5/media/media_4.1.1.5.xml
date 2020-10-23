@@ -1,0 +1,23 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+<text><![CDATA[<b>温度和湿度</b>]]></text>
+</component>
+
+<component id="ID_titleTxt01">
+<text><![CDATA[最佳的工作条件]]></text>
+</component>
+
+<component id="ID_bodyTxt01">
+<text><![CDATA[<textformat blockindent="-18"><li>湿度在 10% 至 80% 之间</li><li>45 至 90 华氏度（7.2 至 32.2 摄氏度之间）</li></textformat>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[温度]]></text>
+</component>
+
+<component id="ID_txt02">
+<text><![CDATA[湿度]]></text>
+</component>
+
+</textcomponents>

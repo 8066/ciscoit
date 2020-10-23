@@ -1,0 +1,75 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[<b>购买新的适配器卡</b>]]></text>
+</component>
+
+<component id="ID_s1_titleTxt01">
+		<text><![CDATA[<b>有关新适配器卡的问题</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_bodyTxt01">
+		<text><![CDATA[<textformat blockindent='-18'><ul><li>是否有开放扩展槽？</li><li>适配器卡是否与开放槽兼容？</li><li>客户当前和未来的需求是什么？</li><li>可能的配置选项有哪些？</li></ul></textformat>]]></text>
+	</component><!-- Slide 2 --><component id='ID_s2_title'>
+	<text><![CDATA[<b>购买新的显卡</b>]]></text>
+</component>
+
+<component id="ID_s2_titleTxt01">
+		<text><![CDATA[<b>新显卡的规格</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_bodyTxt01">
+		<text><![CDATA[<textformat blockindent='-18'><ul><li>插槽类型</li><li>端口类型</li><li>视频 RAM (VRAM) 的数量和速度</li><li>图形处理单元 (GPU)</li><li>最大分辨率</li></textformat>]]></text>
+	</component><!-- Slide 3 --><component id='ID_s3_title'>
+	<text><![CDATA[<b>购买新的声卡</b>]]></text>
+</component>
+
+<component id="ID_s3_titleTxt01">
+		<text><![CDATA[<b>新声卡的规格</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_bodyTxt01">
+		<text><![CDATA[<textformat blockindent='-18'><ul><li>插槽类型</li><li>数字信号处理器 (DSP)</li><li>采样率</li><li>端口和连接类型</li><li>硬件解码器</li><li>信噪比</li></textformat>]]></text>
+	</component><!-- Slide 4 --><component id='ID_s4_title'>
+	<text><![CDATA[<b>购买新的存储卡</b>]]></text>
+</component>
+
+<component id="ID_s4_titleTxt01">
+		<text><![CDATA[<b>新存储卡的规格</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_bodyTxt01">
+		<text><![CDATA[<textformat blockindent='-18'><ul><li>插槽类型</li><li>接头数</li><li>内部或外部接头</li><li>卡的大小</li><li>控制器卡 RAM</li><li>控制器卡处理器</li><li>RAID 类型</li></textformat>]]></text>
+	</component><!-- Slide 5 --><component id='ID_s5_title'>
+	<text><![CDATA[<b>购买新的输入/输出卡</b>]]></text>
+</component>
+
+<component id="ID_s5_titleTxt01">
+		<text><![CDATA[<b>新 I/O 卡的规格</b>]]></text>
+	</component>
+	
+	<component id="ID_s5_bodyTxt01">
+		<text><![CDATA[<textformat blockindent='-18'><ul><li>插槽类型</li><li>I/O 端口类型</li><li>I/O 端口数量</li><li>额外功率要求</li></textformat>]]></text>
+	</component><!-- Slide 6 --><component id='ID_s6_title'>
+	<text><![CDATA[<b>购买新的网卡</b>]]></text>
+</component>
+
+<component id="ID_s6_titleTxt01">
+		<text><![CDATA[<b>新网卡的规格</b>]]></text>
+	</component>
+	
+	<component id="ID_s6_bodyTxt01">
+		<text><![CDATA[<textformat blockindent='-18'><ul><li>插槽类型</li><li>速度</li><li>接头类型</li><li>有线或无线连接</li><li>标准兼容性</li></textformat>]]></text>
+	</component><!-- Slide 7 --><component id='ID_s7_title'>
+	<text><![CDATA[<b>购买新的采集卡</b>]]></text>
+</component>
+
+<component id="ID_s7_titleTxt01">
+		<text><![CDATA[<b>新采集卡的规格</b>]]></text>
+	</component>
+	
+	<component id="ID_s7_bodyTxt01">
+		<text><![CDATA[<textformat blockindent='-18'><ul><li>插槽类型</li><li>分辨率和帧率</li><li>I/O 端口</li><li>格式标准</li></textformat>]]></text>
+	</component>
+
+
+
+</textcomponents>

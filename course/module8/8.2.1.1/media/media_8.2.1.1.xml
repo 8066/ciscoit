@@ -1,0 +1,16 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>宽带技术</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+	<text><![CDATA[卫星接收装置]]></text>
+	</component>
+	<component id="ID_txt02">
+	<text><![CDATA[DSL 调制解调器]]></text>
+	</component>
+	<component id="ID_txt03">
+	<text><![CDATA[电缆调制解调器]]></text>
+	</component>
+	
+</textcomponents>

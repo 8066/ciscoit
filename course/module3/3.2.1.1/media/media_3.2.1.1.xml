@@ -1,0 +1,85 @@
+﻿<textcomponents>
+
+
+<component id="ID_s1_title">
+<text><![CDATA[<b>POST</b>]]></text>
+</component>
+<component id="ID_s2_title">
+<text><![CDATA[<b>常见蜂鸣声代码</b>]]></text>
+</component>
+
+<component id='ID_s2_table'>
+		<text><![CDATA[
+				<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>			
+				<tr>
+					<td bgcolor='#666263' width='170' valign="top"><font size='12' color='#ffffff'><b>蜂鸣声代码</b></font></td>
+					<td bgcolor='#666263' width='170' valign="top"><font size='12' color='#ffffff'><b>含义</b></font></td>
+					<td bgcolor='#666263' valign="top"><font size='12' color='#ffffff'><b>原因</b></font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12'color='#393536'>1 声蜂鸣声（无视频）</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>内存更新故障</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>故障存储器</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>2 声蜂鸣声</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>内存奇偶校验错误</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>故障存储器</font></td>
+				</tr>				
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>3 声蜂鸣声</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>基本 64 位内存故障</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>故障存储器</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>4 声蜂鸣声</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>不可操作的计时器</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>故障主板</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>5 声蜂鸣声</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>处理器错误</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>故障处理器</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>6 声蜂鸣声</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>8042 Gate A20 故障</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>故障 CPU 或主板</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>7 声蜂鸣声</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>处理器异常</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>故障处理器</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>8 声蜂鸣声</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>视频内存错误</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>故障显卡或内存</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>9 声蜂鸣声</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>ROM 校验和错误</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>故障 BIOS</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>10 声蜂鸣声</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>CMOS 校验和错误</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>故障主板</font></td>
+				</tr>		
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12'color='#393536'>11 声蜂鸣声</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>高速缓存错误</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>故障 CPU 或主板</font></td>
+				</tr>
+			</table>]]>
+		</text>
+	</component>
+
+</textcomponents>

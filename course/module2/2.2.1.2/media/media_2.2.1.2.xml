@@ -1,0 +1,8 @@
+﻿<textcomponents>
+	<component id="ID_s1_caption">
+		<text><![CDATA[防静电腕带用于防止 ESD 损坏计算机设备。]]></text>
+	</component>
+	<component id="ID_s2_caption">
+		<text><![CDATA[防静电垫用来垫在脚下或将硬件置于其上以防止产生静电。]]></text>
+	</component>
+</textcomponents>

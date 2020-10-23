@@ -1,0 +1,26 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>PCI 扩展插槽</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>PCIe x1 扩展插槽</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>PCIe x16 扩展插槽</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_title">
+		<text><![CDATA[<b>适配器卡</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_txt01">
+		<text><![CDATA[无线网卡 PCI]]></text>
+	</component>
+	
+	<component id="ID_s4_txt02">
+		<text><![CDATA[显卡 PCIe x16]]></text>
+	</component>
+	
+</textcomponents>

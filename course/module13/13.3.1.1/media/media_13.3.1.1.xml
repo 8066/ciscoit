@@ -1,0 +1,133 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+
+
+    
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+
+
+
+
+  <component id="ID_s2_btn01">
+<text><![CDATA[记录并跟踪事件]]></text>
+</component>
+<component id="ID_s2_btn02">
+<text><![CDATA[记录联系人信息]]></text>
+</component>
+<component id="ID_s2_btn03">
+<text><![CDATA[研究产品信息]]></text>
+</component>
+<component id="ID_s2_btn04">
+<text><![CDATA[运行诊断实用程序]]></text>
+</component>
+<component id="ID_s2_btn05">
+<text><![CDATA[研究知识库]]></text>
+</component>
+<component id="ID_s2_btn06">
+<text><![CDATA[收集客户反馈]]></text>
+</component>
+
+
+
+  <component id='ID_s2_titleTxt01'>
+    <text><![CDATA[记录并跟踪事件]]></text>
+  </component>
+   <component id='ID_s2_titleTxt02'>
+    <text><![CDATA[记录联系人信息]]></text>
+  </component>
+
+    <component id='ID_s2_titleTxt03'>
+    <text><![CDATA[研究产品信息]]></text>
+  </component>
+
+    <component id='ID_s2_titleTxt04'>
+    <text><![CDATA[运行诊断实用程序]]></text>
+   </component>
+
+    <component id='ID_s2_titleTxt05'>
+    <text><![CDATA[研究知识库]]></text>
+  </component>
+
+   <component id='ID_s2_titleTxt06'>
+    <text><![CDATA[收集客户反馈]]></text>
+  </component>
+
+
+  
+
+
+
+  <component id="ID_s2_bodyTxt01">
+<text><![CDATA[该软件可以管理呼叫队列、设置呼叫优先级、分配呼叫和上报呼叫。]]></text>
+</component>
+<component id="ID_s2_bodyTxt02">
+<text><![CDATA[该软件可以在数据库中存储、编辑和撤消客户名称、电子邮件地址、电话号码、位置、网站、传真号码和其他信息。]]></text>
+</component>
+<component id="ID_s2_bodyTxt03">
+<text><![CDATA[该软件可以为技术人员提供有关支持产品的信息，包括功能、限制、新版本、配置限制、已知漏洞、产品可用性、联机帮助文件链接和其他信息。]]></text>
+</component>
+<component id="ID_s2_bodyTxt04">
+<text><![CDATA[该软件可以有多个诊断实用程序，包括远程诊断软件，技术人员可以坐在呼叫中心的桌子前接管客户的计算机。]]></text>
+</component>
+<component id="ID_s2_bodyTxt05">
+<text><![CDATA[该软件可能包含的知识数据库中有预先制定好的常见问题及其解决方案。 随着技术人员添加他们自己的问题和解决方案，他们的数据库可能会增长。]]></text>
+</component>
+<component id="ID_s2_bodyTxt06">
+<text><![CDATA[该软件可以收集有关对呼叫中心产品和服务满意度的客户反馈。]]></text>
+</component>
+
+    
+<component id="ID_s3_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>呼叫优先级</b></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="3" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+           <tr>
+              <td bgcolor='#666263' width="125"><font color='#ffffff'><b>名称</b></font></td>
+              <td bgcolor='#666263'><font color='#ffffff'><b>定义</b></font></td>
+              <td bgcolor='#666263' width="175"><font color='#ffffff'><b>优先级</b></font></td>
+
+            </tr>
+            <tr>
+              <td bgcolor='#E9E7E8'><font color='#393536'>关闭</font></td>
+              <td bgcolor='#E9E7E8'><font color='#393536'>公司无法运行其任何计算机设备。</font></td>
+              <td bgcolor='#E9E7E8'><font color='#393536'>1（最紧急）</font></td>
+            </tr>
+            <tr>
+              <td bgcolor='#F2F2F2'><font color='#393536'>硬件</font></td>
+              <td bgcolor='#F2F2F2'><font color='#393536'>一个（或多个）公司计算机无法正常运行。</font></td>
+              <td bgcolor='#F2F2F2'><font color='#393536'>2（紧急）</font></td>
+            </tr>
+            <tr>
+              <td bgcolor='#E9E7E8'><font color='#393536'>软件</font></td>
+              <td bgcolor='#E9E7E8'><font color='#393536'>一个（或多个）公司计算机遭遇软件或操作系统错误。</font></td>
+              <td bgcolor='#E9E7E8'><font color='#393536'>2（紧急）</font></td>
+            </tr>
+            <tr>
+              <td bgcolor='#F2F2F2'><font color='#393536'>网络</font></td>
+              <td bgcolor='#F2F2F2'><font color='#393536'>一个（或多个）公司计算机无法访问网络。</font></td>
+              <td bgcolor='#F2F2F2'><font color='#393536'>2（紧急）</font></td>
+            </tr>
+            <tr>
+              <td bgcolor='#E9E7E8'><font color='#393536'>增强功能</font></td>
+              <td bgcolor='#E9E7E8'><font color='#393536'>公司已请求增加更多的计算机功能。</font></td>
+              <td bgcolor='#E9E7E8'><font color='#393536'>3（重要）</font></td>
+            </tr>
+               
+           
+        </table>]]></text>
+    </component>	
+	
+	
+	
+</textcomponents>

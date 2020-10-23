@@ -1,0 +1,77 @@
+﻿<textcomponents>
+  <component id="ID_s1_title">
+    <text><![CDATA[<b></b>]]></text>
+  </component>
+  
+   <component id='ID_table'>
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+				<td colspan="3" bgcolor='#FFFFFF'><font size="16" color='#393536'><b>双绞线电缆功能</b></font></td>
+			</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263'  valign="top" width="100"><font color='#FFFFFF' ><b></b></font></td>
+			<td bgcolor='#666263'  valign="top" width="150"><font color='#FFFFFF' ><b>速度</b></font></td>
+			<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>功能</b></font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'>3 类 UTP</td>
+			<td bgcolor='#E9E7E8'>在 16 MHz 下为 10 Mb/s</td>
+			<td bgcolor='#E9E7E8'><ul><textformat blockindent="-18"><li>适用于以太网 LAN。</li><li>最常用于电话线路。</li></textformat></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>5 类 UTP</td>
+			<td bgcolor='#F2F2F2'>在 100 MHz 下为 100 Mb/s</td>
+			<td bgcolor='#F2F2F2'>采用比 3 类更高的标准制造，以实现更高的数据传输速率。</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>5e 类 UTP</td>
+			<td bgcolor='#E9E7E8'>在 100 MHz 下为 1000 Mb/s</td>
+			<td bgcolor='#E9E7E8'><ul><textformat blockindent="-18"><li>采用比 5 类更高的标准制造，以实现更高的数据传输速率。</li><li>每英尺比 5 类电缆提供更多的绞合，从而更好地阻止外部来源的 EMI 和 RFI。</li></textformat></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>6 类 UTP</td>
+			<td bgcolor='#F2F2F2'>在 250 MHz 下为 1000 Mb/s</td>
+			<td rowspan='10' bgcolor='#F2F2F2'><ul><textformat blockindent="-18"><li>比 5e 类采用更高的标准制造。</li><li>每英尺比 5e 类电缆提供更多的绞合，从而更好地阻止外部来源的 EMI 和 RFI。</li><li>6a 类的绝缘性和性能都比 6 类更出色。</li><li>可能会使用塑料分隔电缆内的各个电线对，以更好地阻止 EMI 和 RFI。</li><li>对于使用需要大量带宽的应用（比如视频会议或游戏）的客户而言，是非常不错的选择。</li><li>ScTP（屏蔽双绞线）极为昂贵，而且没有 UTP 那样灵活。</li></textformat></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>6a 类 UTP</td>
+			<td bgcolor='#E9E7E8'>在 500 MHz 下为 1000 Mb/s</td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#F2F2F2' rowspan="8">7 类 ScTP</td>
+			<td bgcolor='#F2F2F2' rowspan="8">在 600 MHz 下为 10 Gb/s</td>
+		</tr>
+		<tr> 
+	</tr>
+	<tr> 
+	</tr>
+	<tr> 
+	</tr>
+	<tr> 
+	</tr>
+	<tr> 
+	</tr>
+	<tr> 
+	</tr>
+	<tr> 
+	</tr>
+		
+		
+
+</table>]]></text>
+</component>
+
+  
+    <component id="ID_s2_title">
+    <text><![CDATA[<b>RJ-11 和 RJ-45 接头</b>]]></text>
+  </component>
+  
+  
+</textcomponents>

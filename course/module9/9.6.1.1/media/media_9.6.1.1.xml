@@ -1,0 +1,40 @@
+<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_table01'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>第 1 步：识别问题</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+        <tr>
+			<td colspan='2' bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>识别笔记本电脑的问题</b></font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' width='145'>开放式问题</td>
+  <td bgcolor='#E9E7E8'><ul><li>您遇到了哪些笔记本电脑问题？</li><li>最近安装了什么软件？</li><li>发现问题时您正在执行什么操作？</li><li>您收到了什么错误消息？</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>封闭式问题</td>
+  <td bgcolor='#F2F2F2'><ul><li>笔记本电脑是否在保修期内？</li><li>笔记本电脑当前是否正在使用电池？ 笔记本电脑能否使用交流适配器运行？ 笔记本电脑能否启动并显示操作系统桌面？</li></ul></td>		
+	</tr>	
+
+    <tr>
+			<td colspan='2' bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>识别移动设备的问题</b></font></td>
+		</tr>
+    <tr>
+		<td bgcolor='#E9E7E8' width='145'>开放式问题</td>
+  <td bgcolor='#E9E7E8'><ul><li>您遇到了什么问题？</li><li>移动设备的构造和型号是什么？</li><li>您使用哪个服务提供商？</li></ul></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>封闭式问题</td>
+  <td bgcolor='#F2F2F2'><ul><li>过去发生过这个问题吗？</li><li>其他人是否用过此移动设备？</li><li>您的移动设备是否在保修期内？ </li></ul></td>		
+	</tr>
+</table>]]></text>
+</component>
+</textcomponents>

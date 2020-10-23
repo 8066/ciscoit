@@ -1,0 +1,127 @@
+<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>练习 - 识别磁盘术语</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[说明]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[将每个术语与其描述匹配。]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[正确]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[您已将每个术语与其定义成功匹配。]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[不正确]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[您尚未成功地将每个术语与其描述相匹配。 请单击“重置”重试。]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[检查]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[重置]]></text>
+</component><!--Drag Items--><component id='ID_s1_drag_headerX'>
+	<text><![CDATA[<b>步骤</b>]]></text>
+</component>
+
+<component id='ID_s1_drag01'>
+	<text><![CDATA[逻辑驱动器]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[扩展分区]]></text>
+</component>
+
+<component id='ID_s1_drag03'>
+	<text><![CDATA[主分区]]></text>
+</component>
+
+<component id='ID_s1_drag04'>
+	<text><![CDATA[格式化]]></text>
+</component>
+
+<component id='ID_s1_drag05'>
+	<text><![CDATA[SSD]]></text>
+</component>
+
+<component id='ID_s1_drag06'>
+	<text><![CDATA[活动分区]]></text>
+</component>
+
+<component id='ID_s1_drag07'>
+	<text><![CDATA[基本磁盘]]></text>
+</component>
+
+<component id='ID_s1_drag08'>
+	<text><![CDATA[动态磁盘]]></text>
+</component>
+
+<component id='ID_s1_drag09'>
+	<text><![CDATA[闪存]]></text>
+</component>
+
+<component id='ID_s1_drag10'>
+	<text><![CDATA[SSHD]]></text>
+</component><!--Questions--><component id='ID_s1_target_header'>
+	<text><![CDATA[<b>术语</b>]]></text>
+</component>
+
+<component id='ID_s1_text_header'>
+	<text><![CDATA[<b>描述</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[其中包含操作系统文件。 每个硬盘驱动器可以拥有多达 4 个分区，但不能进一步分为更小的部分。]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+  <text><![CDATA[扩展分区的一部分。]]></text> 
+</component>
+
+<component id="ID_s1_txt03">
+  <text><![CDATA[使用硬盘驱动器和固态驱动器技术。]]></text> 
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[可以创建多个卷，而一个卷可以位于多个磁盘上。 卷在创建后可以更改其大小。]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+  <text><![CDATA[此过程可在分区中准备一个文件系统，以便存储文件。]]></text> 
+</component>
+
+<component id="ID_s1_txt06">
+  <text><![CDATA[用于启动计算机，并且包含启动文件和系统文件。 每个磁盘中只能有一个。]]></text> 
+</component>
+
+<component id="ID_s1_txt07">
+  <text><![CDATA[使用高性能闪存实现快速数据存储，没有 HDD 的活动部件。]]></text> 
+</component>
+
+<component id="ID_s1_txt08">
+  <text><![CDATA[每个硬盘中只能有一个，但是可以进一步将其划分为更小的部分。]]></text> 
+</component>
+
+<component id="ID_s1_txt09">
+  <text><![CDATA[可用电子方式擦除和重写的数据存储介质。]]></text> 
+</component>
+
+<component id="ID_s1_txt10">
+  <text><![CDATA[包含主分区和扩展分区，以及逻辑驱动器。 仅限四个分区。]]></text> 
+</component>
+</textcomponents>

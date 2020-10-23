@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.3.3.1 电子邮件简介</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.3.3.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>电子邮件简介</h1>
+        <div>
+          <p>电子邮件结构依赖于服务器和客户端。电子邮件服务器负责转发其用户发送的电子邮件。用户使用电子邮件客户端撰写、阅读并管理他们的邮件。电子邮件客户端可以是基于 Web 的应用或独立应用。独立的电子邮件客户端与平台无关。本部分着重介绍移动设备的电子邮件客户端。</p>
+          <p></p>
+          <p>设置电子邮件帐户时，需要以下信息：</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>显示名称</b> - 可以是您的真名、昵称或您希望人们看到的任何名称。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>电子邮件地址</b> - 人们向您发送电子邮件时所需的地址。电子邮件地址是用户名后跟 @ 符号和电子邮件服务器的域 (user@example.net)。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>传入邮件服务器使用的电子邮件协议</b> - 不同的协议提供不同的电子邮件服务。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>传入和传出邮件服务器名称</b> - 这些名称由网络管理员或 ISP 提供。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>用户名</b> - 用于登录邮件服务器。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>帐户密码</b> - 密码应为强密码，因为邮件帐户通常由网站提供。</li>
+            </ul>
+          </p>
+          <p>用于电子邮件的协议包括：</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>邮局协议第 3 版 (POP3)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>互联网消息访问协议 (IMAP)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>简单邮件传输协议 (SMTP)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>多用途互联网邮件扩展 (MIME)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>安全套接字层 (SSL)</li>
+            </ul>
+          </p>
+          <p>您需要了解如何配置设备接收正确的传入邮件格式。您可以使用向导配置电子邮件客户端软件。</p>
+          <p></p>
+          <p>
+            <b>POP3</b>
+          </p>
+          <p></p>
+          <p>邮局协议第 3 版 (POP3) 通过 TCP/IP 从远程服务器检索电子邮件。POP3 不会将电子邮件的副本保留在服务器上；但是，一些实施方法允许用户指定保存邮件的时间。POP3 支持具有间歇性连接（例如拨号）的最终用户。POP3 用户可以连接服务器，从服务器下载电子邮件，然后断开连接。POP3 通常使用端口 110。</p>
+          <p></p>
+          <p>
+            <b>IMAP</b>
+          </p>
+          <p></p>
+          <p>互联网消息访问协议 (IMAP) 允许本地电子邮件客户端从服务器检索电子邮件。与 POP3 类似，IMAP 允许您使用电子邮件客户端从电子邮件服务器下载电子邮件。区别在于 IMAP 允许用户组织网络电子邮件服务器上的电子邮件，并下载电子邮件的副本。原始电子邮件保留在网络电子邮件服务器上。与 POP3 不同，IMAP 通常将原始电子邮件保留在服务器上，直到您将电子邮件移动到您的电子邮件应用的个人文件夹中。IMAP 可同步服务器和客户端之间的电子邮件文件夹。IMAP 比 POP3 更快，但是，IMAP 需要服务器上有更多的磁盘空间和更多的 CPU 资源。IMAP 的最新版本是 IMAP4。IMAP4 通常用于大型网络，例如大学校园网络。IMAP 通常使用端口 143。</p>
+          <p></p>
+          <p>
+            <b>SMTP</b>
+          </p>
+          <p></p>
+          <p>简单邮件传输协议 (SMTP) 是通过 TCP/IP 网络传输电子邮件的、基于文本的协议。这种文本电子邮件格式仅使用 ASCII 编码。必须实施 SMTP 才能发送电子邮件。SMTP 将电子邮件从电子邮件客户端发送到电子邮件服务器或从一台电子邮件服务器发送到另一台电子邮件服务器。确认并验证收件人后即可发送邮件。SMTP 通常使用端口 25。</p>
+          <p></p>
+          <p>
+            <b>MIME</b>
+          </p>
+          <p></p>
+          <p>多用途互联网邮件扩展 (MIME) 将电子邮件格式扩展到包括 ASCII 标准及其他格式的文本，例如图片和字处理程序文档。MIME 通常与 SMTP 配合使用。</p>
+          <p></p>
+          <p>
+            <b>SSL</b>
+          </p>
+          <p></p>
+          <p>开发安全套接字层 (SSL) 的目的是为了安全地传输文件。电子邮件客户端和电子邮件服务器之间交换的所有数据均已加密。配置电子邮件客户端使用 SSL 时，确保为电子邮件服务器使用正确的端口号。</p>
+          <p></p>
+          <p>
+            <b>Exchange </b>
+          </p>
+          <p></p>
+          <p>Exchange 是 Microsoft 开发的电子邮件服务器、联系人管理器和日程软件。Exchange 使用名为消息传送应用程序编程接口 (MAPI) 的专用消息传递架构。Microsoft Office Outlook 使用 MAPI 连接到 Exchange 服务器，以提供电子邮件、日历和联系人管理。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

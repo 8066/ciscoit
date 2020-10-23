@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.1.1.5 TCP/IP 攻击</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.1.1.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>TCP/IP 攻击</h1>
+        <div>
+          <p>要想控制在 Internet 上的通信，您的计算机要使用 TCP/IP 协议簇。遗憾的是，TCP/IP 的某些功能会受到操纵，从而导致网络漏洞。</p>
+          <p></p>
+          <p>如图 1 所示，TCP/IP 很容易遭受以下类型的攻击：</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>拒绝服务 (DoS) -</b>（图 2）DoS 是一种将数量异常庞大的请求发送到网络服务器（例如电子邮件或 Web 服务器）的攻击类型。其攻击目的是利用错误的请求彻底击垮服务器，让服务器无法为合法用户提供服务。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>分布式 DoS (DDoS) -</b>（图 3）DDoS 攻击类似于 DoS 攻击，但要使用更多的计算机来创建错误的请求（有时需要数千台），以发动攻击。计算机首先感染 DDoS 恶意软件，然后会成为僵尸计算机、一大群僵尸计算机或僵尸网络。计算机感染额外软件后，它们会处于休眠状态，直到需要创建 DDoS 攻击。僵尸计算机位于不同地理位置，因此很难跟踪攻击源。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>SYN 泛洪 -</b>（图 4）SYN 请求是建立 TCP 连接时所发送的初始通信内容。SYN 泛洪攻击会在攻击源随机打开 TCP 端口，并利用大量错误的 SYN 请求阻塞网络设备或计算机。这会导致与其他设备的会话遭到拒绝。SYN 泛洪攻击是 DoS 攻击的一种类型。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>欺骗 - </b>在欺骗攻击中，计算机伪装成可信赖的计算机，以获取访问资源的权限。计算机使用伪造的 IP 或 MAC 地址冒充网络中可信赖的计算机。 </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>中间人 -</b>（图 5）攻击者通过拦截计算机之间的通信来执行中间人 (MitM) 攻击，以窃取通过网络传输的信息。MitM 攻击也可用于操纵信息并在主机之间传递错误信息，因为主机不会意识到消息已被修改。 </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>重播 - </b>为了执行重播攻击，攻击者会拦截并记录数据传输。然后会将这些传输重播到目的计算机。目的计算机会将这些重播的传输当做是真实的和由原始源发送的。 </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>DNS 中毒 - </b>系统上的 DNS 记录被更改，而指向冒名顶替的服务器。用户试图访问合法网站，但是流量却被转移到冒名顶替的站点。冒名顶替的站点用于获取保密信息，如用户名和密码。接着，攻击者会从该位置检索数据。</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

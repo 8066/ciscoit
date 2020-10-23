@@ -1,0 +1,245 @@
+﻿<textcomponents><!-- Slide 1 --><component id="ID_s1_title">
+		<text><![CDATA[<b>TCP/IP 攻击类型</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt01">
+		<text><![CDATA[拒绝服务 (DoS)]]></text>
+	</component>
+	
+	<component id="ID_s1_txt02">
+		<text><![CDATA[分布式 DoS]]></text>
+	</component>
+	
+	<component id="ID_s1_txt03">
+		<text><![CDATA[SYN 泛洪]]></text>
+	</component>
+	
+	<component id="ID_s1_txt04">
+		<text><![CDATA[欺骗]]></text>
+	</component>
+	
+	<component id="ID_s1_txt05">
+		<text><![CDATA[中间人]]></text>
+	</component>
+
+	<component id="ID_s1_txt06">
+		<text><![CDATA[重放]]></text>
+	</component>
+	
+	<component id="ID_s1_txt07">
+		<text><![CDATA[域名服务器中毒]]></text>
+	</component>
+
+	<component id="ID_s1_txt08">
+		<text><![CDATA[<b>TCP/IP 攻击</b>]]></text>
+	</component><!-- Slide 2 --><component id="ID_s2_title">
+		<text><![CDATA[<b>DoS 攻击</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt01">
+	<text><![CDATA[Internet]]></text>
+	</component>
+
+	<component id="ID_s2_txt02">
+	<text><![CDATA[<b>WWW.XYZCORP.COM</b><br/>Web 服务器]]></text>
+	</component>
+
+	<component id="ID_s2_txt03">
+	<text><![CDATA[DoS 攻击者]]></text>
+	</component>
+
+	<component id="ID_s2_txt04">
+	<text><![CDATA[<font color="#FFFFFF">这个网站今天特别慢！</font>]]></text>
+	</component>
+
+	<component id="ID_s2_txt05">
+	<text><![CDATA[<font color="#FFFFFF">我将发送大量 ping 命令，让该服务器没办法响应其他人的请求。</font>]]></text>
+	</component>
+
+	<component id="ID_s2_txt06">
+	<text><![CDATA[<font color="#FFFFFF">求助，我无法进行任何工作！</font>]]></text>
+	</component><!-- controller --><component id="end02">
+		<text><![CDATA[结束]]></text>
+		</component>
+		
+		<component id="fforward02">
+		<text><![CDATA[快进]]></text>
+		</component>
+		
+		<component id="pause02">
+		<text><![CDATA[暂停]]></text>
+		</component>
+		
+		<component id="play02">
+		<text><![CDATA[播放]]></text>
+		</component>
+		
+		<component id="rewind02">
+		<text><![CDATA[快退]]></text>
+		</component>
+		
+		<component id="start02">
+		<text><![CDATA[开始]]></text>
+		</component><!-- Slide 3 --><component id="ID_s3_title">
+		<text><![CDATA[<b>DDoS 攻击</b>]]></text>
+	</component>
+	
+	<component id="ID_s3_txt02">
+	<text><![CDATA[DDoS 代码已激活。]]></text> 
+	</component>
+
+	<component id="ID_s3_txt03">
+	<text><![CDATA[<b>WWW.ABCBANK.COM</b></br>DDoS 代码已激活。]]></text> 
+	</component>
+
+	<component id="ID_s3_txt04">
+	<text><![CDATA[DDoS 攻击者]]></text> 
+	</component>
+
+	<component id="ID_s3_txt05">
+	<text><![CDATA[Internet]]></text> 
+	</component>
+	
+	<component id="ID_s3_txt06">
+	<text><![CDATA[<font color="#FFFFFF">我已使用 DDoS 代码并通过 Internet 感染了一些计算机。 我会立即激活这些代码。</font>]]></text> 
+
+	</component>
+	<component id="ID_s3_txt07">
+	<text><![CDATA[<font color="#FFFFFF">流量太多，我已不堪重负。</font>]]></text> 
+	</component>
+
+	<component id="ID_s3_txt08">
+	<text><![CDATA[<font color="#393536">DDoS 代码已激活。</font>]]></text> 
+	</component>
+	
+	<component id="ID_s3_txt09">
+	<text><![CDATA[<font color="#393536">DDoS 代码已激活。</font>]]></text> 
+	</component><!-- controller --><component id="end03">
+		<text><![CDATA[结束]]></text>
+		</component>
+		
+		<component id="fforward03">
+		<text><![CDATA[快进]]></text>
+		</component>
+		
+		<component id="pause03">
+		<text><![CDATA[暂停]]></text>
+		</component>
+		
+		<component id="play03">
+		<text><![CDATA[播放]]></text>
+		</component>
+		
+		<component id="rewind03">
+		<text><![CDATA[快退]]></text>
+		</component>
+		
+		<component id="start03">
+		<text><![CDATA[开始]]></text>
+		</component><!-- Slide 4 --><component id="ID_s4_title">
+		<text><![CDATA[<b>TCP SYN 泛洪攻击示例</b>]]></text>
+	</component>
+	<component id="ID_s4_txt01">
+		<text><![CDATA[<b>攻击者向 Web 服务器发出大量 SYN 请求。</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_txt02">
+		<text><![CDATA[<b>有效用户发送 SYN 请求。</b>]]></text>
+	</component>
+	
+		<component id="ID_s4_txt03">
+		<text><![CDATA[Web 服务器]]></text>
+	</component>
+	
+	<component id="ID_s4_txt04">
+		<text><![CDATA[<b>Web 服务器发送 SYN-ACK 应答。</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_txt05">
+		<text><![CDATA[<b>Web 服务器等待完成三次握手。</b>]]></text>
+	</component>
+	
+	<component id="ID_s4_txt06">
+		<text><![CDATA[<b>Web 服务器不可用。</b>]]></text>
+	</component>
+
+	<component id="ID_s4_txt07">
+		<text><![CDATA[Web 服务器]]></text>
+	</component>
+	<component id="ID_s4_txt08">
+		<text><![CDATA[Web 服务器]]></text>
+	</component><!-- Slide 5 --><component id="ID_s5_title">
+		<text><![CDATA[<b>中间人攻击示例</b>]]></text>
+	</component>
+	
+	<component id="ID_s5_txt01">
+		<text><![CDATA[受害者]]></text>
+	</component>
+	
+	<component id="ID_s5_txt02">
+		<text><![CDATA[Web 服务器]]></text>
+	</component>
+	
+	<component id="ID_s5_titleTxt01">
+		<text><![CDATA[<b>第 1 步</b>]]></text>
+	</component>
+	
+	<component id="ID_s5_titleTxt02">
+		<text><![CDATA[<b>第 2 步</b>]]></text>
+	</component>
+	
+	<component id="ID_s5_titleTxt03">
+		<text><![CDATA[<b>第 3 步</b>]]></text>
+	</component>
+	
+	<component id="ID_s5_titleTxt04">
+		<text><![CDATA[<b>第 4 步</b>]]></text>
+	</component>
+
+	<component id="ID_s5_bodyTxt01">
+		<text><![CDATA[受害者请求网页时，该请求将被定向到攻击者的计算机。]]></text>
+	</component>
+	
+	<component id="ID_s5_bodyTxt02">
+		<text><![CDATA[攻击者的计算机接收到请求，从合法网站获取实际页面。]]></text>
+	</component>
+	
+	<component id="ID_s5_bodyTxt03">
+		<text><![CDATA[攻击者可以篡改该合法网页并转换数据。]]></text>
+	</component>
+	
+	<component id="ID_s5_bodyTxt04">
+		<text><![CDATA[攻击者随后将所请求的网页转发给受害者。]]></text>
+	</component>
+	
+	<component id="ID_inst">
+		<text><![CDATA[单击数字以了解详细信息。]]></text>
+	</component>
+	
+
+	<component id="end">
+		<text><![CDATA[结束]]></text>
+		</component>
+		
+		<component id="fforward">
+		<text><![CDATA[快进]]></text>
+		</component>
+		
+		<component id="pause">
+		<text><![CDATA[暂停]]></text>
+		</component>
+		
+		<component id="play">
+		<text><![CDATA[播放]]></text>
+		</component>
+		
+		<component id="rewind">
+		<text><![CDATA[快退]]></text>
+		</component>
+		
+		<component id="start">
+		<text><![CDATA[开始]]></text>
+		</component>
+	
+
+</textcomponents>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.3.2.1 DHCP 服务</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.3.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>DHCP 服务</h1>
+        <div>
+          <p>网络中的主机会扮演某种角色。其中有些主机执行安全任务，而有些提供 Web 服务。还有许多执行文件或打印服务等特定任务的传统或嵌入式系统。</p>
+          <p></p>
+          <p>一台主机需要拥有 IP 地址信息才能在网络上发送数据。两种重要的 IP 地址服务是动态主机配置协议 (DHCP) 和域名服务 (DNS)。 </p>
+          <p></p>
+          <p>DHCP 是由 ISP、网络管理员和无线路由器用于向主机自动分配 IP 寻址信息的服务，如图 1 所示。 </p>
+          <p></p>
+          <p>如图 2 所示，配置了 DHCP 的 IPv4 设备在启动或连接到网络时，客户端将广播一条 DHCP 发现 (DHCPDISCOVER) 消息以确定网络上是否有可用 DHCP 服务器。DHCP 服务器回复 DHCP 服务 (DHCPOFFER) 消息，为客户端提供租赁服务。该服务消息包含为其分配的 IPv4 地址和子网掩码、DNS 服务器的 IPv4 地址和默认网关的 IPv4 地址。租赁服务还包括租用期限。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.4.1 多重启动过程</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.4.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>多重启动过程</h1>
+        <div>
+          <p>您可以在一台计算机上安装多个操作系统。某些软件应用可能需要最新版本的操作系统，而其他应用可能需要较旧版本。一台计算机上的多个操作系统可以执行双重启动过程。在启动过程中，如果 Windows 启动管理器 (BOOTMGR) 确定存在多个操作系统，它将提示您选择要加载哪个操作系统。图 1 显示了 Windows 8.x 中的 BOOTMGR。图 2 显示了 Windows 7.x 和 Vista 中的 BOOTMGR。</p>
+          <p></p>
+          <p>要在 Microsoft Windows 中创建双重启动系统，硬盘驱动器必须包含多个分区。</p>
+          <p></p>
+          <p>最旧的操作系统应安装在主分区上或标记为活动分区的第一个硬盘驱动器上。在第二个分区或硬盘驱动器上安装第二个操作系统。启动文件被自动安装在活动分区中。</p>
+          <p></p>
+          <p>
+            <b>BOOTMGR 文件</b>
+          </p>
+          <p>在安装过程中，会在活动分区上创建 BOOTMGR 文件，以选择在引导时将启动的操作系统。您可以编辑 BOOTMGR 文件，以更改操作系统的顺序。也可以更改在启动阶段允许选择操作系统的时间长度。一般来说，默认时间为 30 秒。此时间段会将计算机的启动时间延迟指定的时间，除非用户进行干预，选择特定的操作系统。如果磁盘上只有一个操作系统，可将时间更改为 5 或 10 秒，以更快速启动计算机。</p>
+          <p></p>
+          <p>要更改显示操作系统列表的时间，请使用以下路径：</p>
+          <p></p>
+          <p>选择“<b>开始 > 控制面板 > 系统和安全 > 系统 > 高级系统设置</b>”，单击“<b>高级</b>”选项卡，<b></b>在“<b>启动和故障恢复</b>”区域中，选择“<b>设置</b>”</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

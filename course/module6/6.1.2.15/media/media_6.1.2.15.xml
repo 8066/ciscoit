@@ -1,0 +1,21 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Windows 8 区域工具</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Windows 8 语言工具</b>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>Windows 7和 Vista 区域和语言工具</b>]]></text>
+	</component>
+    
+    <component id="ID_s4_title">
+        <text><![CDATA[<b>Windows 8 疑难解答工具</b>]]></text>
+	</component>
+    
+    <component id="ID_s5_title">
+        <text><![CDATA[<b>Windows 7 疑难解答工具</b>]]></text>
+	</component>
+</textcomponents>

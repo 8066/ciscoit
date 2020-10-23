@@ -1,0 +1,17 @@
+﻿<textcomponents>
+	 <component id="ID_s1_title">
+        <text><![CDATA[<b>家庭组、网络和共享中心</b>]]></text> 
+    </component>
+	<component id="ID_s2_title">
+        <text><![CDATA[<b>工作组和域配置</b>]]></text> 
+    </component>
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>Windows 8 网络和共享中心</b>]]></text> 
+    </component>
+    <component id="ID_s4_title">
+        <text><![CDATA[<b>Windows 7 网络和共享中心</b>]]></text> 
+    </component>
+    <component id="ID_s5_title">
+        <text><![CDATA[<b>Windows Vista 网络和共享中心</b>]]></text> 
+    </component>
+</textcomponents>

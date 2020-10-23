@@ -1,0 +1,31 @@
+﻿<textcomponents>
+
+
+
+ <component id='ID_table'>
+
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable"><!--<tr>
+		<td bgcolor='#98D3D1' valign="top"><font color='#1C3635'><b>Bit Value</b></font></td>
+	</tr>--><tr>
+		<td  bgcolor='#FFFFFF' valign="top"><font size='16' class="mtitle"><b>第 5 步：检验完整的系统功能，如果适用，并实施预防措施</b></font></td>
+			
+	</tr>
+	<tr class="mtable_top">
+		<td bgcolor='#4E4C4D' class="mtable_top" ><font size='2' color='#4E4C4D'><span style="color:#ffffff">.</span></font></td>
+	</tr>
+	
+	<tr>  
+		<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'><textformat blockindent='-18'><li>重启计算机。</li>
+			<li>确保多个应用工作正常。</li>
+			<li>验证网络和 Internet 连接。</li>
+			<li>从一个应用中打印文档。</li>
+			<li>确保所有已连接设备工作正常。</li>
+			<li>确保未收到任何错误消息。</li></textformat></font></td>		 
+	</tr>
+
+	</table>]]></text>
+</component>
+ 
+
+
+</textcomponents>

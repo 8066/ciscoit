@@ -1,0 +1,54 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>ROM 类型</b>]]></text>
+    </component>
+  
+    <component id="ID_s1_btn01">
+        <text><![CDATA[ROM]]></text>
+    </component>
+    
+    <component id="ID_s1_btn02">
+        <text><![CDATA[PROM]]></text> 
+    </component>
+    
+    <component id="ID_s1_btn03">
+        <text><![CDATA[EPROM]]></text> 
+    </component>
+    
+    <component id="ID_s1_btn04">
+        <text><![CDATA[EEPROM]]></text>
+    </component>
+    
+    <component id="ID_s1_titleTxt01">
+        <text><![CDATA[<b>ROM</b>]]></text>
+    </component>
+    
+    <component id="ID_s1_titleTxt02">
+        <text><![CDATA[<b>PROM</b>]]></text> 
+    </component>
+    
+    <component id="ID_s1_titleTxt03">
+        <text><![CDATA[<b>EPROM</b>]]></text> 
+    </component>
+    
+    <component id="ID_s1_titleTxt04">
+        <text><![CDATA[<b>EEPROM</b>]]></text>
+    </component>
+
+    <component id="ID_s1_txt01">
+        <text><![CDATA[只读内存芯片。 信息在制造 ROM 芯片时写入。 ROM 芯片不可删除或重写，现已不再使用。]]></text>
+    </component>
+    
+    <component id="ID_s1_txt02">
+        <text><![CDATA[可编程只读存储器。 信息在制造 PROM 芯片时写入。 PROM 芯片不可删除或重写。]]></text> 
+    </component>
+    
+    <component id="ID_s1_txt03">
+        <text><![CDATA[可擦写可编程只读存储器 信息在制造 EPROM 芯片时写入。 EPROM 芯片可用紫外线擦除。 须使用特殊设备。]]></text> 
+    </component>
+    
+    <component id="ID_s1_txt04">
+        <text><![CDATA[电可擦可编程只读存储器。 信息在制造 EEPROM 芯片时写入。 EEPROM 芯片也称作闪存 ROM。 EEPROM 芯片无需从计算机上取下即可擦除和重写。]]></text>
+    </component>
+
+</textcomponents>

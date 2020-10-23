@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>8.1.2.8 测试与 Windows CLI 的连接</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_8.1.2.8_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>测试与 Windows CLI 的连接</h1>
+        <div>
+          <p>您可使用几个 CLI 命令来测试网络连接。可从命令提示符窗口执行 CLI 命令。 </p>
+          <p></p>
+          <p>要打开 Windows 8.x 中的命令提示符窗口，请打开“开始”屏幕，键入 <b>command</b>，并选择<b>“命令提示符”</b>。</p>
+          <p></p>
+          <p>要打开 Windows 7 和 Windows Vista 中的命令提示符窗口，请选择<b>“开始”</b>并键入 <b>command</b>。 </p>
+          <p></p>
+          <p>作为技术人员，您必须了解以下命令：</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>ipconfig</b> - 该命令显示所有网络适配器的基本配置信息。图中的表格显示了可用的命令选项。要使用命令选项，请输入 <b>ipconfig /</b><i>option</i>（比如 ipconfig /all）。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>ping</b> – 该命令用于测试设备之间的基本连接性。对连接问题进行故障排除时，可以对您的计算机、默认网关和 Internet IP 地址执行 ping 操作。还可以对一个常用网址执行 ping 操作来测试 Internet 连接和 DNS。在命令提示符下，输入 <b>ping </b><i>destination_name</i>（比如 ping www.cisco.com）。要执行其他特定任务，您可以在 ping 命令中添加选项。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>net</b> – 该命令用于管理网络计算机、服务器以及驱动器和打印机等资源。在 Windows 中，Net 命令使用 NetBIOS 协议。这些命令用于启动、停止和配置网络服务。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>netdom</b> – 该命令用于管理计算机帐户，将计算机加入域和执行其他域特定任务。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>nbtstat</b> – 该命令用于显示本地和远程计算机上的统计信息、当前连接和正在运行的服务。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>tracert</b> – 该命令会跟踪数据包从您的计算机传输到目的主机所采用的路由。在命令提示符下，输入 <b>tracert </b><i>hostname</i>。结果中的第一项就是您的默认网关。之后的每一项就是数据包到达目的地之前所经过的路由器。Tracert 将为您显示数据包在哪里停止，从而指示哪里出现了问题。如果默认网关之后所列的某项显示问题，可能意味着问题出在 ISP、Internet 或目的服务器。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>nslookup</b> – 该命令用于测试 DNS 服务器并对其进行故障排除。它会查询 DNS 服务器以发现 IP 地址或主机名。在命令提示符下，输入 <b>nslookup </b><i>hostname</i>。Nslookup 会返回所输入的主机名的 IP 地址。反向 nslookup 命令 <b>nslookup </b><i>IP_address</i> 可用于返回所输入的 IP 地址对应的主机名。 </li>
+            </ul>
+          </p>
+          <p>
+            <b>注意</b>：以上每个命令都有许多命令选项。请记得使用帮助选项 ( /?) 来显示命令选项。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

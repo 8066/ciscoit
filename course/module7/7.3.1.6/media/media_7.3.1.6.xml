@@ -1,0 +1,119 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>练习 - 识别网络设备</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[说明]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[将每种设备与描述相匹配。]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[路由器]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[调制解调器]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[防火墙]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[配线面板]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[交换机]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[无线接入点]]></text>
+	</component>
+	<component id='ID_s1_drag07'>
+		<text><![CDATA[中继器]]></text>
+	</component>
+	<component id='ID_s1_drag08'>
+		<text><![CDATA[集线器]]></text>
+	</component>
+	<component id='ID_s1_drag09'>
+		<text><![CDATA[PoE 交换机]]></text>
+	</component>
+
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[检查]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[重置]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[正确]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[您已成功地将每种设备与其描述相匹配。]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[不正确]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[您尚未成功地将每种设备与其描述相匹配。 请单击“重置”重试。]]></text>
+	</component>
+
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>设备</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>描述</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[重新生成微弱信号，以有效延伸信号可以传输的距离。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[驻留在两个或多个网络之间，可保护网络中的数据和设备免遭未经授权的访问。 ]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[使用 IP 地址将流量转发到其他网络。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[将计算机的数字数据转换为可在 ISP 网络上传输的格式。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[在以太网电缆中将少量的直流电流连同数据一起传输，从而为特殊设备供电。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[通过只将数据发送到目的设备来过滤网络流量并对网络流量进行分段。]]></text>
+	</component> 
+
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[在一个端口上接收数据，然后从所有其他端口上将数据发送出去。]]></text>
+	</component> 
+
+	<component id='ID_s1_txt08'>
+		<text><![CDATA[为使用无线电波与其他设备进行通信的设备提供网络访问。]]></text>
+	</component> 
+
+	<component id='ID_s1_txt09'>
+		<text><![CDATA[收集整个设施中连入各个网络设备的传入电缆的地方。]]></text>
+	</component> 
+
+
+
+</textcomponents>

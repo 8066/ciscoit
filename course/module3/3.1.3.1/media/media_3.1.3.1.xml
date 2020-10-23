@@ -1,0 +1,55 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<b>驱动器槽位类型</b>]]></text>
+	</component>
+	
+	
+	<component id="ID_s2_title">
+	<text><![CDATA[<b>将 HDD 插入槽位</b>]]></text>
+	</component>	
+	
+	<component id="ID_txt01">
+	<text><![CDATA[机箱内的螺纹孔]]></text>
+	</component>
+	<component id="ID_txt02">
+	<text><![CDATA[HDD 上的螺纹孔]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+	<text><![CDATA[<b>固定 HDD</b>]]></text>
+	</component>
+
+	<component id="ID_s3_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>驱动器槽位宽度</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>描述</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8'>13.34 厘米<br/>（5.25 英寸）</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>通常用于光驱。</li><li>大多数全塔机箱有两个或更多槽位。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>8.9 厘米<br/>（3.5 英寸）</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-16'><ul><li>常用于 3.5 英寸 HDD。</li><li>提供额外的 USB 端口或智能卡读卡器。</li><li>大多数全塔机箱有两个或更多内部槽位。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>6.35 厘米<br/>（2.5 英寸）</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-16'><ul><li>用于较小的 2.5 英寸 HDD 和 SSD。</li><li>最小宽度槽位。</li><li>在新机箱中使用得越来越普遍。</li></ul></textformat></td>
+		</tr>
+		
+		
+		</table>]]></text>
+	</component>
+	
+	
+	
+</textcomponents>

@@ -1,0 +1,21 @@
+﻿<textcomponents>
+
+<component id="ID_title">
+<text><![CDATA[<b>DSL 连接</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+<text><![CDATA[家用计算机或网络]]></text>
+</component>
+<component id="ID_txt02">
+  <text><![CDATA[DSL 调制解调器]]></text> 
+  </component>
+<component id="ID_txt03">
+  <text><![CDATA[双绞线]]></text> 
+  </component>
+
+<component id="ID_txt05">
+  <text><![CDATA[ISP]]></text> 
+  </component>
+  
+</textcomponents>

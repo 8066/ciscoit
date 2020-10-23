@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.3.1.2 集线器、网桥和交换机</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.3.1.2_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>集线器、网桥和交换机</h1>
+        <div>
+          <p>用于在 LAN 中连接各种设备的器材已经从集线器演变为网桥，再到交换机。</p>
+          <p></p>
+          <p>
+            <b>集线器</b>
+          </p>
+          <p></p>
+          <p>集线器（如图 1 所示）在一个端口上接收数据，然后从所有其他端口上将数据发送出去。集线器会扩大网络的到达范围，因为它会重新生成电信号。集线器也可以连接到另一台网络设备上，比如交换机或路由器，而该网络设备可连接到网络的其他部分。</p>
+          <p></p>
+          <p>由于缺乏效率，而且交换机的成本更低，所以现在已很少使用集线器。集线器不会对网络流量进行分段。一台设备发送流量时，集线器会将此流量泛洪到与该集线器相连的所有其他设备。这些设备共享带宽。</p>
+          <p></p>
+          <p>
+            <b>网桥</b>
+          </p>
+          <p></p>
+          <p>网桥的作用是将 LAN 划分成多个网段。网桥会保留每个网段上所有设备的记录。然后网桥就可以过滤 LAN 网段之间的网络流量。这有助于减少设备之间的流量。例如在图 2 中，如果 PC-A 需要将一个作业发送给打印机，那么该流量不会被转发到网段 2。但是，服务器也会收到此打印作业流量。</p>
+          <p></p>
+          <p>
+            <b>交换机</b>
+          </p>
+          <p></p>
+          <p>由于交换机所带来的优势和低成本，所以网桥和集线器现在已被视为过时设备。如图 3 所示，一台交换机将一个 LAN 进行微分段。微分段意味着交换机通过只将数据发送到目的设备来过滤网络流量并对网络流量进行分段。这会为网络中的每个设备提供更高的专用带宽。如果只有一台设备连接到交换机上的每个端口，那么它会在全双工模式下运行。而集线器的情况并非如此。当 PC-A 向打印机发送一个作业时，只有打印机会收到此流量。</p>
+          <p></p>
+          <p>交换机会维护一个交换表。交换表包含网络上所有 MAC 地址的一个列表，以及一个交换机端口列表，使用该列表可到达具有给定 MAC 地址的设备。交换表会检查每个传入帧的源 MAC 地址以及该帧到达的端口，从而记录 MAC 地址。然后交换机创建一个将 MAC 地址映射到传出端口的交换表。到达的流量指向某个特定 MAC 地址时，交换机使用交换表来确定应使用哪个端口才能到达 MAC 地址。然后将流量从此端口转发到目的设备。流量只从一个端口发往目的地，因此其他端口不受影响。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

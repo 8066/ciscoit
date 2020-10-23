@@ -1,0 +1,125 @@
+﻿<textcomponents><!--slide 1--><component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_s1_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>硬件方面的高级问题和解决方案</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>识别问题</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>可能的原因</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>可能的解决方案</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>无法找到 RAID。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>外部 RAID 控制器未接通电源。</li><li>BIOS 设置错误。</li><li>RAID 控制器发生故障。</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>检查 RAID 控制器的电源连接。</li><li>重新配置 RAID 控制器的 BIOS 设置。</li><li>更换 RAID 控制器。</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>RAID 停止工作。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>外部 RAID 控制器未接通电源。</li><li>RAID 控制器发生故障。</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>检查 RAID 控制器的电源连接。</li><li>更换 RAID 控制器。</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>计算机性能缓慢。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>计算机的 RAM 不足。</li><li>计算机过热。</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>安装额外的 RAM。</li><li>清洁风扇或安装额外的风扇。</li></ul></textformat></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>计算机无法识别可移动外部驱动器。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>操作系统没有用于可移动外部驱动器的正确驱动程序。</li><li>USB 端口连接了太多需供电的设备。</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>下载用于驱动器的正确驱动程序。</li><li>将外部电源连接到设备或去除某些 USB 设备。</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>更新 CMOS 固件后，计算机无法启动。</td>
+		<td bgcolor='#E9E7E8'>CMOS 固件更新没有正确安装。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>通过板载备份还原原始固件（如果可用）。</li><li>如果主板有两个 CMOS 芯片，可使用第二个 CMOS 芯片。</li><li>请与主板制造商联系，以获取新的 CMOS 芯片。</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>计算机无警告重启、锁定或显示错误消息或 BSOD。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>RAM 发生故障。</li><li>前端总线设置太高。</li><li>CPU 倍频设置太高。</li><li>CPU 电压设置太高。</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>测试每个 RAM 模块，以确定他们是否正确运行。</li><li>重置为主板的出厂默认设置。</li><li>降低 FSB 设置。</li><li>降低倍频设置。</li><li>降低 CPU 电压设置。</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>从单核 CPU 升级到多核 CPU 后，计算机运行变慢，并且任务管理器中仅显示一个 CPU 图形。</td>
+		<td bgcolor='#E9E7E8'>BIOS 无法识别多核 CPU。</td>
+		<td bgcolor='#E9E7E8'>更新 CMOS 固件，以支持多核 CPU。</td>
+	</tr>
+		
+</table>]]></text>
+</component><!--end slide 1--><!--slide 2--><component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_s2_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>打印机方面的高级问题和解决方案</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>识别问题</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>可能的原因</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>可能的解决方案</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>打印机打印未知字符。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>安装了错误的打印驱动程序。</li><li>打印机电缆松动。</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>卸载错误的打印驱动程序并安装适当的驱动程序。</li><li>固定打印机电缆。</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>打印机不打印大型或复杂图像。</td>
+		<td bgcolor='#F2F2F2'>打印机内存不足。</td>		
+		<td bgcolor='#F2F2F2'>为打印机添加更多内存。</td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>激光打印机在每页上打印垂直线或条纹。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>成像鼓损坏。</li><li>墨粉在墨盒中没有均匀分布。</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>请更换成像鼓或更换墨粉盒（如果它包含成像鼓）。</li><li>取下并摇动墨粉盒。</li></ul></textformat></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>打印出的页面显示重影。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>成像鼓被划伤或弄脏。</li><li>成像鼓刮片已磨损。</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'>请更换成像鼓或更换墨粉盒（如果它包含成像鼓）。</td>
+	</tr>	
+
+	<tr>
+		<td bgcolor='#E9E7E8'>墨粉无法在纸张上熔结。</td>
+		<td bgcolor='#E9E7E8'>热熔器存在缺陷。</td>
+		<td bgcolor='#E9E7E8'>更换热熔器。</td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>纸张在打印后变皱。</td>
+		<td bgcolor='#F2F2F2'>拾取辊阻塞、损坏或弄脏。</td>		
+		<td bgcolor='#F2F2F2'>清洁或更换拾取辊。</td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>纸张没有进入打印机。</td>
+		<td bgcolor='#E9E7E8'>拾取辊阻塞、损坏或弄脏。</td>
+		<td bgcolor='#E9E7E8'>清洁或更换拾取辊。</td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>每次重新启动网络打印机时，用户会收到“文档无法打印”的消息。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>打印机的 IP 配置设置为 DHCP。</li><li>网络中的一个设备与网络打印机的 IP 地址相同。</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>为打印机分配静态 IP 地址。</li><li>为打印机分配不同的静态 IP 地址。</li></ul></textformat></td>
+	</tr>
+</table>]]></text>
+</component><!--end slide 2--></textcomponents>

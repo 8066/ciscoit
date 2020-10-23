@@ -1,0 +1,45 @@
+﻿<textcomponents><!-- slide 1 --><component id="ID_s1_title">
+		<text><![CDATA[<b>网络电缆</b>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt01">
+		<text><![CDATA[双绞线电缆]]></text>
+	</component>
+	
+	<component id="ID_s1_txt02">
+		<text><![CDATA[同轴电缆]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt03">
+		<text><![CDATA[光缆]]></text> 
+	</component><!-- end slide 1 --><!-- slide 2 --><component id="ID_s2_txt01">
+		<text><![CDATA[外套]]></text>
+	</component>
+	
+	<component id="ID_s2_txt02">
+		<text><![CDATA[铜网屏蔽]]></text>
+	</component>
+	
+	<component id="ID_s2_txt03">
+		<text><![CDATA[塑料绝缘层]]></text>
+	</component>
+	
+	<component id="ID_s2_txt04">
+		<text><![CDATA[铜质导线]]></text>
+	</component>
+	
+	<component id="ID_s2_txt05">
+		<text><![CDATA[<b>同轴连接器</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_txt06">
+		<text><![CDATA[BNC]]></text>
+	</component>
+	
+	<component id="ID_s2_txt07">
+		<text><![CDATA[N 型]]></text>
+	</component>
+	
+	<component id="ID_s2_txt08">
+		<text><![CDATA[F 型]]></text>
+	</component><!-- end slide 2 --></textcomponents>

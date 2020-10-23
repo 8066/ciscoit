@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.2.1.4 帐户策略的安全设置</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.2.1.4_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>帐户策略的安全设置</h1>
+        <div>
+          <p>指定密码时，密码的控制级别应与所需的保护级别相符。尽可能指定强密码。图 1 显示了创建强密码的指南。</p>
+          <p></p>
+          <p>使用<b>“帐户策略”</b>中的<b>“密码策略”</b>指定密码要求。图 2 中的配置满足以下要求：</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>强制密码历史</b> - 在保存 24 个独特的密码后，用户可以重用一个密码。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>密码最长存留期</b> - 用户必须在 90 天后更改密码。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>密码最短存留期</b> - 用户再次更改密码之前必须等待一天。这可以防止用户为了使用之前的密码而输入一个不同的密码 24 次。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>密码长度最小值</b> - 密码必须至少为 8 个字符。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>密码必须符合复杂性要求</b> - 密码不能包含两个连续字符以上的用户帐户名称或用户全称的一部分。密码必须包含以下四种类别中的三种：大写字母、小写字母、数字和符号。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>使用可逆的加密存储密码</b> - 使用可逆的加密存储密码本质上与存储密码的明文版密码是相同的。因此，除非应用要求比保护密码信息更重要，否则切勿启用此策略。</li>
+            </ul>
+          </p>
+          <p>在<b>“帐户策略”</b>中使用<b>“帐户锁定策略”</b>，防止他人暴力登录尝试。例如，图 3 所示的配置允许用户输入错误的用户名和/或密码五次。五次尝试之后，该帐户会锁定 30 分钟。30 分钟后，尝试次数重置为零，用户可以尝试重新登录。此策略还将防止词典式攻击，即将词典中的每个单词输入一次，尝试获取访问权限。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

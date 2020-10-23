@@ -1,0 +1,15 @@
+﻿<textcomponents><!--Slide 1--><component id='ID_s1_caption'>
+	<text><![CDATA[平头螺丝刀用于拧松或拧紧有槽螺钉。]]></text>
+</component><!--Slide 2--><component id='ID_s2_caption'>
+	<text><![CDATA[十字头螺丝刀用于拧紧或拧松十字头螺钉。]]></text>
+</component><!--Slide 3--><component id='ID_s3_caption'>
+	<text><![CDATA[梅花螺丝刀用于拧紧或拧松顶部有星形凹槽的螺钉（这种螺钉主要用于笔记本电脑）。]]></text>
+</component><!--Slide 4--><component id='ID_s4_caption'>
+	<text><![CDATA[六角扳手有时称为螺母扳手，与用螺丝刀拧紧螺钉一样，六角扳手用于拧紧螺母。]]></text>
+</component><!--Slide 5--><component id='ID_s5_caption'>
+	<text><![CDATA[零件捡拾器用于从手无法触及的狭小位置捡拾零件。]]></text>
+</component><!--Slide 6--><component id='ID_s6_caption'>
+	<text><![CDATA[手电筒用于照亮您看不清的区域。]]></text>
+</component>
+
+</textcomponents>

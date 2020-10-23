@@ -1,0 +1,55 @@
+<textcomponents><!--slide 1--><component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>OSI 模型</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' width='105'><font color='#F2F2F2'><b>OSI 模型</b></font></td>
+		<td bgcolor='#666263' width='65'><font color='#F2F2F2'><b>层</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>描述</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>应用层</td>
+		<td bgcolor='#E9E7E8'>7</td>
+		<td bgcolor='#E9E7E8'>负责向应用提供网络服务</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>表示层</td>
+		<td bgcolor='#F2F2F2'>6</td>		
+		<td bgcolor='#F2F2F2'>转换数据格式，以便为应用层提供标准接口</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>会话层</td>
+		<td bgcolor='#E9E7E8'>5</td>
+		<td bgcolor='#E9E7E8'>建立、管理和终止本地和远程应用之间的连接</td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>传输层</td>
+		<td bgcolor='#F2F2F2'>4</td>
+		<td bgcolor='#F2F2F2'>在网络中提供可靠传输和流量控制</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>网络层</td>
+		<td bgcolor='#E9E7E8'>3</td>
+		<td bgcolor='#E9E7E8'>负责逻辑寻址和路由域</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>数据链路层</td>
+		<td bgcolor='#F2F2F2'>2</td>
+		<td bgcolor='#F2F2F2'>提供物理寻址和介质访问程序</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>物理层</td>
+		<td bgcolor='#E9E7E8'>1</td>
+		<td bgcolor='#E9E7E8'>定义设备的所有电气规格和物理规格</td>
+	</tr>
+</table>]]></text>
+</component><!--end slide 1--></textcomponents>

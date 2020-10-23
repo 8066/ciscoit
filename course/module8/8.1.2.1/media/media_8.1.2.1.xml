@@ -1,0 +1,5 @@
+<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>网卡链路指示灯</b>]]></text>
+	</component>
+</textcomponents>

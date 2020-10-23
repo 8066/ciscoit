@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.4.1.6 磁盘实用程序概述</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.4.1.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>磁盘实用程序概述</h1>
+        <div>
+          <p>大多数操作系统都非常可靠，但是问题仍可能发生并会损坏系统。已损坏或有坏扇区的磁盘可能会丢失数据或导致操作系统发生故障。大多数磁盘问题都是相同的，无论使用的是什么操作系统。为了帮助您诊断和解决与磁盘有关的问题，大多数现代操作系统都包含磁盘实用程序工具。以下是可以使用磁盘实用程序软件执行的几种常见维护任务。</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>分区管理 -</b> 使用计算机磁盘进行工作时，可能需要创建分区、删除分区或调整分区大小。如果操作系统即将用尽某个分区，在系统分区上执行任何工作之前，应通过外部磁盘启动计算机。 </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>安装或删除磁盘分区 -</b> 在类 Unix 系统中，安装分区涉及到将磁盘分区或磁盘映像文件（通常为 .iso）绑定到文件夹位置。这是类 Unix 系统中的常见任务。 </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>磁盘格式 -</b> 用户或系统使用分区之前必须对其进行格式化。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>坏扇区检查 - </b>现代磁盘可以检测并标记坏扇区。某个磁盘扇区被标记为坏扇区时，它不会损坏操作系统，因为系统不会用它存储数据。虽然任何磁盘中有几个坏扇区很常见，但是大量的坏扇区可能表示磁盘发生了故障。磁盘实用程序不仅可以搜索、检测和标记坏扇区，还可以通过将坏扇区上存储的数据移动到正常的磁盘扇区来尝试恢复这些数据。 </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>查询 S.M.A.R.T. 属性 - </b>S.M.A.R.T. 是自我监控、分析和报告技术的缩写，这是添加到现代磁盘中的一项强大功能。S.M.A.R.T. 包含在磁盘的控制器中，可以检测并报告有关磁盘运行状况的许多属性。S.M.A.R.T. 的目标是预测磁盘故障，使用户在故障磁盘无法访问之前将数据移到正常磁盘上。现代磁盘实用程序可以查询 S.M.A.R.T. 属性、警告用户并建议维护操作。</li>
+            </ul>
+          </p>
+          <p>Ubuntu Linux 包括 Disks 程序，如图 1 所示。借助 Disks，用户能够执行与磁盘相关的最常见任务，包括分区管理、安装或卸载、格式化磁盘和查询 S.M.A.R.T.。</p>
+          <p></p>
+          <p>要访问 Disks，请使用以下路径：</p>
+          <p></p>
+          <p>单击启动器顶部的“Ubuntu”按钮 <b>></b> 键入<b> Disks></b>单击 Disks 图标</p>
+          <p></p>
+          <p>OS X 包括 Disks 实用程序，如图 2 所示。除了支持主要的磁盘维护任务，Disks 实用程序还支持“验证磁盘权限”和“修复磁盘权限”。“修复磁盘权限”是 OS X 中常见的故障排除步骤，Disks 实用程序也可用于将磁盘内容备份到映像文件，并通过映像文件对磁盘执行映像恢复。这些文件包含磁盘的全部内容。</p>
+          <p></p>
+          <p>要在 OS X 上启动 Disks 实用程序，请使用以下路径：</p>
+          <p></p>
+          <p>
+            <b>应用>实用程序>Disks 实用程序</b>
+          </p>
+          <p></p>
+          <p>
+            <b>多重引导</b>
+          </p>
+          <p></p>
+          <p>有时，可能有必要在计算机上安装多个操作系统。在这些情况下，用户必须执行一个操作系统的安装，安装引导管理器，然后安装第二个操作系统。引导管理器是引导扇区中的一个程序，允许用户选择在引导时使用哪个操作系统。通过跟踪已安装特定操作系统的分区，引导管理器可将 BIOS 指向正确的分区，以便能够加载所需的操作系统。 </p>
+          <p></p>
+          <p>一个很受欢迎的 Linux 引导管理器是 <b>Grub</b>。<b> </b>对于 OS X，常见的引导管理器是 <b>Boot Camp</b>。</p>
+          <p></p>
+          <p>最多允许安装多少个操作系统取决于磁盘大小，而且虽然引导管理器技术允许在计算机上安装多个操作系统，但是一次只能使用一个操作系统。要从一个操作系统切换到另一个操作系统，必须重新引导。</p>
+          <p></p>
+          <p>
+            <b>注意：</b>在操作其中包含重要数据的磁盘前，建议您进行完整的磁盘备份，这也被视为最佳实践。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

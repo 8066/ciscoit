@@ -1,0 +1,64 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[<b>验证插槽兼容性</b>]]></text>
+</component><!-- Slide 2 --><component id='ID_s2_title'>
+	<text><![CDATA[<b>CPU 插槽架构</b>]]></text>
+</component>
+
+
+ <component id="ID_s2_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>CPU 架构</b></font></td>
+			<td bgcolor='#666263'  valign="top"><font color='#FFFFFF' ><b>安装说明</b></font></td>
+			
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'><b>单边接头 (SEC)</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'>将 CPU 上的槽口与 SEC 插槽中的凸起对齐。</textformat></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>低插拔力 (LIF)</b></td>
+			<td bgcolor='#E9E7E8' rowspan="3"><textformat blockindent='-14'>调整 CPU，以便将连接 1 指示器与 CPU 插槽中的引脚 1 对齐。</textformat></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>零插拔力 (ZIF)</b></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>引脚栅格阵列 (PGA)</b></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>平面栅格阵列 (LGA)</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'>调整 CPU，使 CPU 上的两个槽口插入两个插槽扩展中。</textformat></td>
+			
+		</tr>
+		
+		
+	</table>]]></text> 
+</component><!-- Slide 3 --><component id='ID_s3_title'>
+	<text><![CDATA[<b>CPU 安装</b>]]></text>
+</component><!-- Slide 4 --><component id='ID_s4_title'>
+	<text><![CDATA[<b>合上插销板</b>]]></text>
+</component><!-- Slide 5 --><component id='ID_s5_title'>
+	<text><![CDATA[<b>关闭负载锁杆</b>]]></text>
+</component><!-- Slide 6 --><component id='ID_s6_title'>
+	<text><![CDATA[<b>将负载锁杆固定在固定卡舌下</b>]]></text>
+</component><!-- Slide 7 --><component id='ID_s7_title'>
+	<text><![CDATA[<b>涂抹散热膏</b>]]></text>
+</component><!-- Slide 8 --><component id='ID_s8_title'>
+	<text><![CDATA[<b>安装散热器和风扇组件</b>]]></text>
+</component>
+
+</textcomponents>

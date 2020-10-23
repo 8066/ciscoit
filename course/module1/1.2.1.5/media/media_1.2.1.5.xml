@@ -1,0 +1,127 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>Intel 和 AMD 插槽</b>]]></text> 
+    </component>
+
+
+    <component id="ID_s1_table1">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#666263' width="111"><font color='#FFFFFF' ><b>Intel 插槽</b></font></td>
+                <td bgcolor='#666263' width='124'><font color='#FFFFFF' ><b>架构</b></font></td>
+            </tr>
+           
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>775</font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'>平面栅格阵列 (LGA)</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>1155</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>LGA</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>1156</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>LGA</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>1150</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>LGA</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>1366</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>LGA</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>2011</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>LGA</font></td>
+            </tr>
+        </table>]]></text>
+    </component>
+    
+    <component id="ID_s1_table2">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+            <tr class="mtable_title">
+                <td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#666263' width="111"><font color='#FFFFFF' ><b>AMD 插槽</b></font></td>
+                <td bgcolor='#666263' width='124'><font color='#FFFFFF' ><b>架构</b></font></td>
+            </tr>
+
+           
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'>AM3</font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'>引脚栅格阵列 (PGA)</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>AM3+</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>PGA</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>FM1</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>PGA</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>FM2</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>PGA</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font color='#393536'>FM2+</font></td>
+                <td bgcolor='#E9E7E8'><font color='#393536'>PGA</font></td>
+            </tr>
+        </table>]]></text>
+    </component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>选择 CPU 冷却系统</b>]]></text> 
+    </component>
+    
+    <component id="ID_s2_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#666263' width="150"><font color='#FFFFFF' ><b>规格</b></font></td>
+                <td bgcolor='#666263' width='430'><font color='#FFFFFF' ><b>需要考虑...</b></font></td>
+            </tr>
+
+            
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'><b>插槽类型</b></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'>散热器或风扇类型必须与主板上的插槽类型相匹配。</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'><b>主板物理规格 </b></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'>散热器或风扇不得干扰连接到主板上的任何组件。</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'><b>机箱大小 </b></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'>散热器或风扇必须适合置于机箱内。</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'><font color='#393536'><b>物理环境 </b></font></td>
+                <td bgcolor='#F2F2F2'><font color='#393536'>散热器或风扇必须能够驱散足够的热量以保持温暖环境中的 CUP 散热良好。</font></td>
+            </tr>
+        </table>]]></text>
+    </component>
+</textcomponents>

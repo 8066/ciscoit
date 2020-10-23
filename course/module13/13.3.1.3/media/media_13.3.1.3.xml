@@ -1,0 +1,155 @@
+﻿<textcomponents><!-- slide 1 --><component id="ID_s1_title">
+	<text><![CDATA[<b>上报的工作订单</b>]]></text>
+	</component><!-- grey text --><component id="ID_s1_txt01">
+	<text><![CDATA[Cisco Systems, Inc.]]></text>
+	</component>
+	
+	<component id="ID_s1_txt02">
+	<text><![CDATA[办公室经理]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt03">
+	<text><![CDATA[170 West Tasman Drive, San Jose, CA 95134]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt04">
+	<text><![CDATA[408-526-4000]]></text>
+	</component>
+	
+	<component id="ID_s1_txt05">
+	<text><![CDATA[硬件]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt06">
+	<text><![CDATA[开放]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt07">
+	<text><![CDATA[笔记本电脑]]></text>
+	</component>
+	
+	<component id="ID_s1_txt08">
+	<text><![CDATA[Y]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt09">
+	<text><![CDATA[笔记本电脑]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt10">
+	<text><![CDATA[不启动]]></text>
+	</component>
+	
+	<component id="ID_s1_txt11">
+	<text><![CDATA[Cisco001]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt12">
+	<text><![CDATA[无线网络连接]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt13">
+	<text><![CDATA[介质]]></text>
+	</component>
+	
+	<component id="ID_s1_txt14">
+	<text><![CDATA[移动]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt15">
+	<text><![CDATA[Windows 7]]></text> 
+	</component>
+	
+	<component id="ID_s1_txt16">
+	<text><![CDATA[<font color='#000000'>问题描述</font><br><textformat blockindent='15'><span class="indentText">用户抱怨笔记本电脑无法启动。</span><br><span class="indentText">最近没有添加任何软件。 没有更改操作系统。</span><br><span class="indentText">没有添加外围设备。</span></textformat><br><br><font color='#000000'>问题解决方案</font><br/><textformat blockindent='15'><span class="indentText">1 级技术人员无法在 10 分钟内解决问题。</span><br/><span class="indentText">正在将工作订单上报给 2 级技术人员。</span></textformat>]]></text>
+	</component><!-- end grey text --><!-- black text --><component id="ID_s1_txt18">
+	<text><![CDATA[工作订单]]></text>
+	</component>
+	
+	<component id="ID_s1_txt19">
+	<text><![CDATA[<font color='#FFFFFF' size='11'><b>生成新申请单</b></font>]]></text>
+	</component>
+	
+	<component id="ID_s1_txt20">
+	<text><![CDATA[公司名称：]]></text>
+	</component>
+	
+	<component id="ID_s1_txt21">
+	<text><![CDATA[联系人：]]></text>
+	</component>
+	
+	<component id="ID_s1_txt22">
+	<text><![CDATA[公司地址：]]></text>
+	</component>
+	
+	<component id="ID_s1_txt23">
+	<text><![CDATA[公司电话：]]></text>
+	</component>
+	
+	<component id="ID_s1_txt24">
+	<text><![CDATA[类别]]></text>
+	</component>
+	
+	<component id="ID_s1_txt25">
+	<text><![CDATA[类型]]></text>
+	</component>
+	
+	<component id="ID_s1_txt26">
+	<text><![CDATA[项目]]></text>
+	</component>
+	
+	<component id="ID_s1_txt27">
+	<text><![CDATA[关闭代码：]]></text>
+	</component>
+	
+	<component id="ID_s1_txt28">
+	<text><![CDATA[上报：]]></text>
+	</component>
+	
+	<component id="ID_s1_txt29">
+	<text><![CDATA[状态]]></text>
+	</component>
+	
+	<component id="ID_s1_txt30">
+	<text><![CDATA[待处理]]></text>
+	</component>
+	
+	<component id="ID_s1_txt31">
+	<text><![CDATA[待处理截止日期：]]></text>
+	</component>
+	
+	<component id="ID_s1_txt32">
+	<text><![CDATA[业务影响：]]></text>
+	</component>
+	
+	<component id="ID_s1_txt33">
+	<text><![CDATA[是]]></text>
+	</component>
+	
+	<component id="ID_s1_txt34">
+	<text><![CDATA[否]]></text>
+	</component>
+	
+	<component id="ID_s1_txt35">
+	<text><![CDATA[小结]]></text>
+	</component>
+	
+	<component id="ID_s1_txt36">
+	<text><![CDATA[案例 ID]]></text>
+	</component>
+	
+	<component id="ID_s1_txt37">
+	<text><![CDATA[优先级]]></text>
+	</component>
+	
+	<component id="ID_s1_txt38">
+	<text><![CDATA[用户平台]]></text>
+	</component>
+	
+	<component id="ID_s1_txt39">
+	<text><![CDATA[连接类型]]></text>
+	</component>
+	
+	<component id="ID_s1_txt40">
+	<text><![CDATA[环境]]></text>
+	</component><!-- end black text --><!-- end slide 1 --></textcomponents>

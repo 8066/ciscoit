@@ -1,0 +1,96 @@
+<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>练习 - 安装主板</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[<b>说明</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[将步骤序号与其描述相匹配。]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[<b>正确</b>]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[您已成功地将每个步骤序号与其描述相匹配。]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[<b>不正确</b>]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[您尚未成功地将每个步骤序号与其描述相匹配。 请单击<b>“重置”</b>重试。]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[<b>检查</b>]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[<b>重置</b>]]></text>
+</component><!--Drag Items--><component id='ID_s1_text_header01'>
+	<text><![CDATA[<b>步骤</b>]]></text>
+</component>
+
+<component id='ID_s1_text_header02'>
+	<text><![CDATA[<b>描述</b>]]></text>
+</component>
+
+<component id='ID_s1_drag01'>
+	<text><![CDATA[<font color="#393536"><b>1</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[<font color="#393536"><b>2</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag03'>
+	<text><![CDATA[<font color="#393536"><b>3</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag04'>
+	<text><![CDATA[<font color="#393536"><b>4</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag05'>
+	<text><![CDATA[<font color="#393536"><b>5</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag06'>
+	<text><![CDATA[<font color="#393536"><b>6</b></font>]]></text>
+</component><!--Questions--><component id='ID_s1_text_header'>
+	<text><![CDATA[<b>描述</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[将支架安装在计算机机箱内的主板安装孔处。]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+  <text><![CDATA[将主板的螺钉孔与支架对齐。]]></text> 
+</component>
+
+<component id="ID_s1_txt03">
+  <text><![CDATA[在计算机机箱背面安装 I/O 接线板。]]></text> 
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[插入所有主板螺钉并用手拧紧，然后用螺丝刀拧紧所有螺钉。]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+  <text><![CDATA[为机箱选择适当的主板支架。]]></text> 
+</component>
+
+<component id="ID_s1_txt06">
+  <text><![CDATA[将主板背面的 I/O 接头与 I/O 接线板中的开口对齐。]]></text> 
+</component>
+
+</textcomponents>

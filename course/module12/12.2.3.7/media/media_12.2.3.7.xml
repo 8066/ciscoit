@@ -1,0 +1,59 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>消磁棒</b>]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>清除硬盘驱动器的数据</b>]]></text>
+	</component>
+		
+	    <component id="ID_table01">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='150'><font color='#FFFFFF'><b>数据清除方法</b></font></td>
+                <td bgcolor='#666263'><font color='#FFFFFF'><b>描述</b></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>数据擦除</td>
+				
+                <td bgcolor='#E9E7E8'>
+					<textformat blockindent='-18'><ul><li>需要定期清除驱动器时非常有用。</li>
+					<li>软件工具清除磁盘需要很长时间。</li>
+					<li>工具可提供多种数据覆盖选择，包括使用由 1 和 0、数学算法和随机位组成的特殊内容形式。</li>
+					<li>数据擦除工具是免费提供的。</li></ul></textformat>
+				</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>消磁棒</td>
+                <td bgcolor='#F2F2F2'>
+				<textformat blockindent='-18'><ul><li>需要定期清除驱动器时非常有用。</li>
+				<li>硬盘驱动器盘片必须在消磁棒上放置大约 2 分钟。</li>
+				<li>成本低于电磁消磁设备。</li></ul></textformat>
+				</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#E9E7E8'>电磁消磁设备</td>
+                <td bgcolor='#E9E7E8'>
+				<textformat blockindent='-18'><ul><li>可用于批量清除多个驱动器。</li>
+				<li>消磁设备擦除硬盘驱动器需要很少的时间（例如 10 秒）。</li>
+				<li>消磁工具可能非常昂贵（例如 20,000 美元）。</li></ul></textformat>
+				</td>
+            </tr>
+ 
+
+        </table>]]></text>
+    </component>
+</textcomponents>

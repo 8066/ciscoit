@@ -1,0 +1,256 @@
+﻿<textcomponents><!--slide 1--><component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_s1_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>笔记本电脑的常见问题和解决方案</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>识别问题</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>可能的原因</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>可能的解决方案</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>笔记本电脑未加电</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>笔记本电脑未插入电源</li><li>电池未充电</li><li>电池无法储存电量</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>将笔记本电脑插入交流电源</li><li>取下并重新安装电池</li><li>如果无法充电，请更换电池</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>笔记本电脑电池支持系统的时间变短</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>没有遵循正确的充电和放电做法</li><li>额外的外围设备耗尽电池的电量</li><li>未正确配置电源计划</li><li>电池不能长时间储存电量</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>遵循手册中介绍的充电过程</li><li>取下不需要的外围设备并尽可能禁用无线网卡</li><li>修改电源计划，以减少电池使用</li><li>更换电池</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>外部显示屏有电，但屏幕上不显示图像</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>视频电缆松动或损坏</li><li>笔记本电脑不向外部显示屏发送视频信号 </li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>重新连接或更换视频电缆</li><li>同时使用 Fn 键和多功能键切换到外部显示屏 </li></ul></textformat></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>笔记本电脑通电，但是重新打开笔记本电脑机盖时，显示屏上不显示任何内容</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>屏幕切断开关变脏或已损坏</li><li>笔记本电脑进入休眠模式 </li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>查阅笔记本电脑维修手册，了解有关清洁或更换 LCD 切断开关的说明</li><li>按键盘上的某个键，使计算机退出休眠模式 </li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>笔记本电脑屏幕上的图像看起来枯燥无味</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>未正确调节 LCD 背光</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>查阅笔记本电脑维修手册，了解有关校准 LCD 背光的说明</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>笔记本电脑显示屏上的图像失常</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>显示屏属性不正确</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>将显示屏设置为本机分辨率</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>笔记本电脑显示屏闪烁</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>屏幕上的图像刷新速度不够快</li>
+<li>逆变器已损坏或发生故障 </li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>调整屏幕刷新率</li><li>拆开显示屏并更换逆变器 </li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>用户发现虚影光标自行移动</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>触控板脏了</li>
+<li>同时使用触控板和鼠标</li><li>在键入时手指或手触碰到触控板 </li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>清洁触控板</li><li>断开鼠标连接</li><li>在键入时尽量不要触碰触控板 </li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>屏幕上的像素停止或不显示颜色</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>像素电源已切断</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>联系制造商</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>屏幕上的图像似乎闪烁不同颜色和大小的线条或模式（伪影）</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>显示屏连接不正确</li><li>GPU 过热</li><li>GPU 出现故障或错误 </li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>拆开笔记本电脑，检查显示屏连接</li><li>拆开并清洁计算机，检查灰尘和碎屑</li><li>更换 GPU </li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>屏幕上的色彩模式不正确</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>显示屏连接不正确</li><li>GPU 过热</li><li>GPU 出现故障或错误 </li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>拆开笔记本电脑，检查显示屏连接</li><li>拆开并清洁计算机，检查灰尘和碎屑</li><li>更换 GPU </li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>显示屏上的图像失真</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>显示屏设置已更改</li><li>显示屏连接不正确</li><li>GPU 过热</li><li>GPU 出现故障或错误 </li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>将显示屏设置还原到原始出厂设置</li><li>拆开计算机，直到可以检查显示屏连接</li><li>拆开并清洁计算机，检查灰尘和碎屑</li><li>更换 GPU </li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>网络运行完全正常，且无线连接已启用，但笔记本电脑无法连接到网络</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Wi-Fi 关闭</li><li>超出无线覆盖范围 </li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>使用无线网卡属性或使用 Fn 键和相应的多功能键打开 Wi-Fi</li><li>移动到更靠近无线接入点的地方 </li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>通过蓝牙进行连接的输入设备无法正常工作</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>蓝牙已关闭</li><li>输入设备中的电池没电</li><li>输入设备超出范围 </li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>使用蓝牙设置小程序或使用 Fn 键和相应的多功能键打开蓝牙</li><li>更换电池</li><li>将输入设备移动到更靠近笔记本电脑蓝牙接收器的位置</li><li>验证蓝牙已打开 </li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>键盘插入数字而不插入字母</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>数字锁定已启用</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>使用数字锁定键或使用 Fn 键和相应的多功能键关闭数字锁定</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>电池胀大</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>电池过度充电</li><li>使用了不兼容的充电器</li><li>电池有缺陷</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'>用该制造商生产的新电池更换该电池</td>
+	</tr>
+	
+</table>]]></text>
+</component><!--end slide 1--><!--slide 2--><component id="ID_title">
+<text><![CDATA[<b></b>]]></text>
+</component>
+    
+<component id='ID_s2_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><b>移动设备的常见问题和解决方案</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>识别问题</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>可能的原因</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>可能的解决方案</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>移动设备无法连接到 Internet。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Wi-Fi 无法使用。</li><li>范围内没有运营商数据网络。</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>移动到 Wi-Fi 网络的范围内。</li>
+<li>移动到运营商数据网络的范围内。</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>无法开启移动设备。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>电池耗尽。</li><li>电源按钮损坏。</li><li>设备发生故障。</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>为移动设备充电或换用已充好电的电池。</li><li>请与客户支持联系，以确定下一步操作。</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>连接到交流电源时，平板电脑无法充电或充电很慢。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>在充电时正在使用平板电脑。</li><li>交流适配器没有足够的电流。</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>在充电时，请关闭平板电脑。</li><li>使用平板电脑随附的交流适配器。</li><li>使用具有正确电流额度值的交流适配器。</li></ul></textformat></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>智能手机无法连接到运营商的网络。</td>
+		<td bgcolor='#F2F2F2'>未安装 SIM 卡。</td>
+		<td bgcolor='#F2F2F2'>安装 SIM 卡。</td>
+	</tr>	
+
+	<tr>
+		<td bgcolor='#E9E7E8'>移动设备未通电</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>电池未充电。</li>
+<li>电池无法储存电量。</li><li>电源按钮损坏。</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>将设备插入交流电源，以便为电池充电。</li>
+<li>换用已知良好的电池。</li><li>请与客户支持联系，以确定下一步操作。</li>
+<li>使用具有正确电流额定值的交流适配器。</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>移动设备电池支持系统的时间变短。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>设备设置配置错误。</li><li>电池无法储存电量。</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>修改电源计划，以减少电池使用。</li><li>更换电池。</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>移动设备无法连接到 Internet。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Wi-Fi 无法使用。</li><li>Wi-Fi 关闭。</li><li>Wi-Fi 设置不正确。</li><li>范围内没有运营商数据网络。</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>打开 Wi-Fi。</li><li>关闭飞行模式。</li>
+<li>配置正确的 Wi-Fi 设置。</li><li>移动到 Wi-Fi 网络的范围内。</li><li>移动到运营商数据网络的范围内。</li></ul></textformat></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>移动设备无法通过蓝牙连接。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>蓝牙已关闭。</li><li>设备没有配对。</li><li>设备不在范围内。</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>打开蓝牙。</li><li>配对设备。</li><li>将设备放入范围内。</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>电池胀大</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>电池过度充电</li><li>使用了不兼容的充电器</li><li>电池有缺陷</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'>用该制造商生产的新电池更换该电池</td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>触摸屏没有响应</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>触摸屏脏了</li><li>触摸屏由于损坏或进水而短路</li><li>触摸屏发生故障</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>清洁触摸屏</li><li>更换触摸屏</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>设备的电池寿命非常短</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>电池循环充电多次，无法储存大量电量</li><li>电池有缺陷</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'>更换电池</td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>设备过热</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>在设备充电时运行电源密集型应用</li><li>在设备充电时打开了许多无线应用</li><li>电池有缺陷</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>关闭所有不必要的应用或从充电器取下设备</li><li>关闭所有不必要的无线应用或从充电器取下设备</li><li>更换电池</li></ul></textformat></td>
+	</tr>
+	
+	
+</table>]]></text>
+</component><!--end slide 2--><!--slide 3--><component id="ID_s3_title">
+<text><![CDATA[<b>移动设备的常见问题和解决方案</b>]]></text>
+</component>
+    
+<component id='ID_s3_table'>
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'><!--<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>Common Problems and Solutions for Mobile Devices</b></font></td>
+		</tr>--><tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>识别问题</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>可能的原因</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>可能的解决方案</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>移动设备未通电</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>电池未充电。</li>
+<li>电池无法储存电量。</li><li>电源按钮损坏。</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>将设备插入交流电源，以便为电池充电。</li>
+<li>换用已知良好的电池。</li><li>请与客户支持联系，以确定下一步操作。</li>
+<li>使用具有正确电流额定值的交流适配器。</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#F2F2F2'>移动设备电池支持系统的时间变短。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>设备设置配置错误。</li><li>电池无法储存电量。</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>修改电源计划，以减少电池使用。</li><li>更换电池。</li></ul></textformat></td>
+	</tr>
+	
+	<tr>
+		<td bgcolor='#E9E7E8'>移动设备无法连接到 Internet。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>Wi-Fi 无法使用。</li><li>Wi-Fi 关闭。</li><li>Wi-Fi 设置不正确。</li><li>范围内没有运营商数据网络。</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent="-18"><ul><li>打开 Wi-Fi。</li><li>关闭飞行模式。</li>
+<li>配置正确的 Wi-Fi 设置。</li><li>移动到 Wi-Fi 网络的范围内。</li><li>移动到运营商数据网络的范围内。</li></ul></textformat></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>移动设备无法通过蓝牙连接。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>蓝牙已关闭。</li><li>设备没有配对。</li><li>设备不在范围内。</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent="-18"><ul><li>打开蓝牙。</li><li>配对设备。</li><li>将设备放入范围内。</li></ul></textformat></td>
+	</tr>	
+	
+</table>]]></text>
+</component><!--end slide 3--></textcomponents>

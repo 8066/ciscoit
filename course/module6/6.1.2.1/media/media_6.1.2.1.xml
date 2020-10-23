@@ -1,0 +1,9 @@
+﻿<textcomponents>
+	 <component id="ID_s1_title">
+        <text><![CDATA[<b>Windows 8 分类视图下的控制面板</b>]]></text> 
+    </component>
+	<component id="ID_s2_title">
+        <text><![CDATA[<b>Windows 8 小图标显示的控制面板</b>]]></text> 
+    </component>
+    
+</textcomponents>

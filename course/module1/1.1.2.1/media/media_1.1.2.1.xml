@@ -1,0 +1,115 @@
+﻿<textcomponents><!--SLIDE 1--><component id="ID_s1_title">
+		<text><![CDATA[<b>主板印刷电路板</b>]]></text>
+	</component><!--SLIDE 2--><component id="ID_s2_title">
+		<text><![CDATA[<b>主板连接</b>]]></text>
+	</component>
+	<component id="ID_s2_txt01">
+		<text><![CDATA[内存]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+		<text><![CDATA[芯片组]]></text>
+	</component>
+	<component id="ID_s2_txt03">
+		<text><![CDATA[BIOS/UEFI<br/> 芯片]]></text>
+	</component>
+	<component id="ID_s2_txt04">
+		<text><![CDATA[CPU]]></text>
+	</component>
+	<component id="ID_s2_txt05">
+		<text><![CDATA[扩展槽]]></text>
+	</component><!--SLIDE 3--><component id="ID_s3_title">
+		<text><![CDATA[<b>安装了组件的主板</b>]]></text>
+	</component><!--SLIDE 4--><component id="ID_s4_title">
+		<text><![CDATA[<b>主板组件连接</b>]]></text>
+	</component>
+  
+	<component id="ID_s4_txt01">
+        <text><![CDATA[PCI Express 图形适配器插槽]]></text>
+	</component>  
+	
+	<component id="ID_s4_txt02">
+        <text><![CDATA[硬盘驱动器]]></text>
+	</component>
+	
+	<component id="ID_s4_txt03">
+        <text><![CDATA[南桥]]></text>
+	</component>
+	
+	<component id="ID_s4_txt04">
+        <text><![CDATA[32 位 PCI 插槽]]></text>
+	</component>	
+	<component id="ID_s4_txt05">
+        <text><![CDATA[32 位 PCI 插槽]]></text>
+	</component>	
+	<component id="ID_s4_txt06">
+        <text><![CDATA[64 位 PCI 插槽]]></text>
+	</component>	
+	<component id="ID_s4_txt07">
+        <text><![CDATA[64 位 PCI 插槽]]></text>
+	</component>	
+	
+	<component id="ID_s4_txt08">
+        <text><![CDATA[键盘鼠标 USB]]></text>
+	</component>
+	
+	<component id="ID_s4_txt09">
+        <text><![CDATA[BIOS UEFI]]></text>
+	</component>	
+	
+	<component id="ID_s4_txt10">
+        <text><![CDATA[内存]]></text>
+	</component>
+	<component id="ID_s4_txt11">
+        <text><![CDATA[内存]]></text>
+	</component>
+	<component id="ID_s4_txt12">
+        <text><![CDATA[内存]]></text>
+	</component>
+	<component id="ID_s4_txt13">
+        <text><![CDATA[内存]]></text>
+	</component>	
+	
+	<component id="ID_s4_txt14">
+        <text><![CDATA[北桥]]></text>
+	</component>	
+	<component id="ID_s4_txt15">
+        <text><![CDATA[CPU]]></text>
+	</component>
+	<component id="ID_s4_txt16">
+        <text><![CDATA[PCI 适配器插槽]]></text>
+	</component><!--SLIDE 5--><component id="ID_s5_title">
+		<text><![CDATA[<b>主板外形规格</b>]]></text>
+	</component>
+      
+    <component id="ID_s5_table"><text><![CDATA[
+		<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+			</tr>
+			<tr class="mtable_top">
+				<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+			</tr>
+			<tr>
+				<td bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>外形规格</b></font></td>
+				<td bgcolor='#666263' ><font color='#FFFFFF' ><b>描述</b></font></td>
+			</tr>
+	
+			<tr>
+				<td bgcolor='#E9E7E8'>ATX</td>
+				<td bgcolor='#E9E7E8'><ul><li>Advanced Technology eXtended</li><li>最受欢迎的外形规格。</li><li>30.5 厘米 X 24.4 厘米（12 英寸 X 9.6 英寸）</li></ul></td>
+			</tr>
+			<tr>
+				<td bgcolor='#F2F2F2'>Micro-ATX</td>
+				<td bgcolor='#F2F2F2'><ul><li>比 ATX 空间更小。</li><li>常见于桌面和小尺寸计算机。</li><li>24.4 厘米 X 24.4 厘米（9.6 英寸 X 9.6 英寸）</li></ul></td>
+			</tr>
+			<tr>
+				<td bgcolor='#E9E7E8'>Mini-ITX</td>
+				<td bgcolor='#E9E7E8'><ul><li>专为小型设备（如瘦客户端和机顶盒）设计。</li><li>17 厘米 X 17 厘米（6.7 英寸 X 6.7 英寸）</li></ul></td>
+			</tr>
+			<tr>
+				<td bgcolor='#F2F2F2'>ITX</td>
+				<td bgcolor='#F2F2F2'><ul><li>外形规格可与 Micro-ATX 相媲美。</li><li>21.5 厘米 X 19.1厘米（8.5 英寸 X 7.5 英寸）</li></ul></td>
+			</tr>	
+		</table>]]></text> 
+	</component>
+</textcomponents>

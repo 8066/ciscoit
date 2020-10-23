@@ -1,0 +1,165 @@
+﻿<textcomponents><!-- Slide 1--><component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>练习 - 第 1 部分：让客户持机等待</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[<b>说明</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[请将标有<b>建议</b>和<b>不建议</b>的方块拖至陈述左侧的投件箱。]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[建议]]></text>
+	</component>
+
+	<component id='ID_s1_drag02'>
+		<text><![CDATA[不建议]]></text>
+	</component>
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[<b>检查</b>]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[<b>重置</b>]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[<b>正确</b>]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[正确。 单击“按钮 2”继续。]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[<b>不正确</b>]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[不正确。 请单击“重置”重试。]]></text>
+	</component>
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>标识符</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>交付内容</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt01'>
+	<text><![CDATA[解释您为什么必须让客户持机等待。]]></text> <!--Do--></component>
+
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[让客户持机等待，而不告诉客户您要去做什么。]]></text> <!--Do Not--></component>
+
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[请求客户允许持机等待。]]></text> <!--Do--></component>
+
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[在客户说话时说话。]]></text><!--Do Not--></component>
+
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[客户还没说完就开始回答问题。]]></text><!--Do Not--></component>
+
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[告诉客户您回来的大致时间。]]></text><!--Do--></component>
+
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[解释您必须让客户持机等待。]]></text><!--Do--></component>
+
+	<component id='ID_s1_txt08'>
+		<text><![CDATA[让客户持机等待，而不征求客户同意。]]></text><!--Do Not--></component>
+
+	<component id='ID_s1_txt09'>
+		<text><![CDATA[让客户说完。]]></text><!--Do--></component><!-- Slide 2 --><component id="ID_s2_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>练习 - 第 2 部分：转接呼叫</b></font>]]></text>
+	</component>
+
+	<component id='ID_s2_instr_title'>
+	<text><![CDATA[<b>说明</b>]]></text>
+	</component>
+
+	<component id='ID_s2_instr_body'>
+	<text><![CDATA[请将标有<b>建议</b>和<b>不建议</b>的方块拖至陈述左侧的投件箱。]]></text>
+	</component><!--Drag and Drop--><component id='ID_s2_drag01'>
+		<text><![CDATA[建议]]></text>
+	</component>
+
+	<component id='ID_s2_drag02'>
+		<text><![CDATA[不建议]]></text>
+	</component>
+
+	
+
+
+	<component id='ID_s2_CHECK'>
+		<text><![CDATA[<b>检查</b>]]></text>
+	</component>
+
+	<component id='ID_s2_RESET'>
+		<text><![CDATA[<b>重置</b>]]></text>
+	</component>
+	
+	<component id='ID_s2_CORRECT_TITLE'>
+		<text><![CDATA[<b>正确</b>]]></text>
+	</component>
+
+	<component id='ID_s2_CORRECT_BODY'>
+		<text><![CDATA[正确。]]></text>
+	</component>
+
+	<component id='ID_s2_INCORRECT_TITLE'>
+		<text><![CDATA[<b>不正确</b>]]></text>
+	</component>
+
+	<component id='ID_s2_INCORRECT_BODY'>
+		<text><![CDATA[不正确。]]></text>
+	</component>
+	
+	<component id='ID_s2_text_header'>
+		<text><![CDATA[<b>标识符</b>]]></text>
+	</component> 
+	
+	<component id='ID_s2_target_header'>
+		<text><![CDATA[<b>交付内容</b>]]></text>
+	</component> 
+	
+	<component id='ID_s2_txt01'>
+	<text><![CDATA[请求客户允许转接呼叫。]]></text> <!--Do--></component>
+
+	<component id='ID_s2_txt02'>
+		<text><![CDATA[解释您必须转接呼叫，并解释原因。]]></text> <!--Do Not--></component>
+
+	<component id='ID_s2_txt03'>
+		<text><![CDATA[客户还没说完就开始回答问题。]]></text> <!--Do--></component>
+
+	<component id='ID_s2_txt04'>
+		<text><![CDATA[将客户的姓名和故障通知单号告诉转接呼叫的新技术人员。]]></text><!--Do Not--></component>
+
+	<component id='ID_s2_txt05'>
+		<text><![CDATA[转接客户的呼叫，而不征求客户同意。]]></text><!--Do Not--></component>
+
+	<component id='ID_s2_txt06'>
+		<text><![CDATA[转接客户的呼叫，而不告诉客户您要去做什么。]]></text><!--Do--></component>
+
+	<component id='ID_s2_txt07'>
+		<text><![CDATA[在客户说话时说话。]]></text><!--Do--></component>
+
+	<component id='ID_s2_txt08'>
+		<text><![CDATA[将接收呼叫转接的人员的电话或分机告诉客户。]]></text><!--Do Not--></component>
+
+	<component id='ID_s2_txt09'>
+		<text><![CDATA[将接收呼叫转接的人员的姓名告诉客户。]]></text><!--Do--></component>
+
+	<component id='ID_s2_txt10'>
+		<text><![CDATA[转接呼叫，而不征求接收呼叫的技术人员的允许。]]></text><!--Do--></component>
+
+	<component id='ID_s2_txt11'>
+		<text><![CDATA[让客户说完。]]></text><!--Do--></component>
+	
+	
+</textcomponents>

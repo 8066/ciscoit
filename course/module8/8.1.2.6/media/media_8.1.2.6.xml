@@ -1,0 +1,105 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>典型网络模式</b>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[]]></text>
+	</component>
+    
+    <component id="ID_s4_title">
+        <text><![CDATA[<b>无线安全模式</b>]]></text>
+	</component>
+
+    <component id="ID_s2_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' width="165" valign="top"><font color='#FFFFFF' ><b>网络模式</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>描述</b></font></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>混合</td>
+			<td bgcolor='#E9E7E8'><ul><li>默认模式。</li><li>您拥有 802.11n (2.4 GHz)、802.11g 和 802.11b 设备时选择。</li></ul></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Wireless-B/G Only</td>
+			<td bgcolor='#F2F2F2'>您同时拥有 802.11b 和 802..11g (2.4 GHz) 设备时选择。</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Wireless-B Only</td>
+			<td bgcolor='#E9E7E8'>您仅拥有 802.11b 设备时选择。</td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Wireless-G Only</td>
+			<td bgcolor='#F2F2F2'>您仅拥有 802.11g 设备时选择。</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Wireless-N</td>
+			<td bgcolor='#E9E7E8'>您仅拥有 802.11n 设备时选择。</td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>禁用</td>
+			<td bgcolor='#F2F2F2'>选择禁用无线电波。</td>
+		</tr>
+		
+	</table>]]></text> 
+</component>
+
+<component id="ID_s4_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+         <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' width="165" valign="top"><font color='#FFFFFF' ><b>安全模式</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF' ><b>描述</b></font></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>有线等效保密 <br/>(WEP)</td>
+			<td bgcolor='#E9E7E8'>使用 64 位或 128 位加密密钥加密无线接入点与客户端之间的广播数据。</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>临时密钥完整性协议 <br/>(TKIP)</td>
+			<td bgcolor='#F2F2F2'><ul><li>这种 WEP 补丁会每隔几分钟自动协商一个新的密钥。</li><li>TKIP 有助于防止攻击者通过获取足够的数据而破解加密密钥。</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>高级加密标准 <br/>(AES)</td>
+			<td bgcolor='#E9E7E8'><ul><li>一个比 TKIP 更安全的加密系统。</li><li>AES 还需要更高的计算能力才能运行更强大的加密算法。</li></ul></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>Wi-Fi 保护访问 <br/>(WPA)</td>
+			<td bgcolor='#F2F2F2'><ul><li>在 802.11i 获得批准之前，作为一种临时解决方案创建的 WEP 的改进版本。</li><li>由于 802.11i 已获批准，所以 WPA2 已发布。 它涵盖整个 802.11i 标准。</li><li>WPA 比 WEP 加密使用更强的加密算法。</li></ul></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>Wi-Fi 保护访问 2<br/>(WPA2)</td>
+			<td bgcolor='#E9E7E8'><ul><li>WPA 的一个改进版本，支持强大的加密，可提供政府级别的安全性。</li><li>可通过密码身份验证（个人）或服务器身份验证（企业）来启用 WPA2。</li></ul></td>
+			
+		</tr>
+		
+		
+	</table>]]></text> 
+</component>
+</textcomponents>

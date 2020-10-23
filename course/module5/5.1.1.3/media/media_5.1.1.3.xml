@@ -1,0 +1,35 @@
+<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+    
+    <component id="ID_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='150'><font color='#FFFFFF'><b>架构</b></font></td>
+                <td bgcolor='#666263'><font color='#FFFFFF'><b>描述</b></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'><b>32 位 (x86-32)</b></td>
+                <td bgcolor='#E9E7E8'><ul><li>使用 32 位地址空间处理多个指令</li><li>支持 32 位操作系统</li><li>支持最大 4 GB 的内存</li></ul></td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'><b>64 位 (x86-64)</b></td>
+                <td bgcolor='#F2F2F2'><ul><li>专门为使用 64 位地址空间的指令添加了额外的寄存器</li><li>与 32 位处理器向后兼容</li><li>支持 32 位和 64 位操作系统</li></ul></td>
+            </tr>
+ 
+        </table>]]></text>
+    </component>
+</textcomponents>

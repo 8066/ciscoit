@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.3.1 Windows 启动过程</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.3.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>Windows 启动过程</h1>
+        <div>
+          <p>了解 Windows 启动过程有助于技术人员排除启动故障。</p>
+          <p></p>
+          <p>
+            <b>Windows 启动过程</b>
+          </p>
+          <p></p>
+          <p>要开始启动过程，请开启计算机。这种方式称为冷启动。计算机启动时会执行加电自检 (POST)。由于显卡尚未初始化，如果此时在启动过程中出现错误，计算机会发出一系列提示音，称为蜂鸣声代码。</p>
+          <p></p>
+          <p>完成 POST 过程后，BIOS 会查找并读取 CMOS 内存中保存的配置设置。启动设备优先级（如图所示）是指按什么顺序检查设备，以查找可启动分区。启动设备优先级在 BIOS 中设置，并可以按任意顺序排列。BIOS 使用包含有效启动扇区的第一个驱动器启动计算机。</p>
+          <p></p>
+          <p>硬盘驱动器、网络驱动器、USB 驱动器甚至可移动介质都可用于启动顺序，具体取决于主板的功能。某些 BIOS 还有一个启动设备优先级菜单，在计算机启动过程中使用特定按键即可访问该菜单。您可使用此菜单选择要启动的设备。</p>
+          <p></p>
+          <p>
+            <b>Windows 引导加载程序和 Windows 启动管理器</b>
+          </p>
+          <p></p>
+          <p>此时将会执行引导扇区中的代码，而启动过程将由 Windows 启动管理器 (BOOTMGR) 来控制。BOOTMGR 控制多个启动步骤： </p>
+          <p></p>
+          <p>1.WinLoad (WINLOAD.EXE) 使用 BOOTMGR 中指定的路径查找启动分区。</p>
+          <p>2.WinLoad 加载构成 Windows 核心的两个文件：NTOSKRNL.EXE 和 HAL.DLL。</p>
+          <p>3.WinLoad 读取注册表文件，选择硬件配置文件，并加载设备驱动程序。</p>
+          <p></p>
+          <p>
+            <b>Windows 内核</b>
+          </p>
+          <p></p>
+          <p>此时，Windows 内核将接管此进程。此文件的名称为 NTOSKRNL.EXE。它将启动名为 WINLOGON.EXE 的登录文件并显示 Windows 欢迎屏幕。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

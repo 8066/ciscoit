@@ -1,0 +1,48 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>销毁硬盘驱动器</b>]]></text> 
+    </component>
+
+
+   <component id="ID_s1_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="2" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+             <tr>
+                <td bgcolor='#666263' width='150'><font color='#F2F2F2'><b>数据清除方法</b></font></td>
+                <td bgcolor='#666263'><font color='#F2F2F2'><b>描述</b></font></td>
+                
+             </tr>
+
+             <tr>
+                <td bgcolor='#E9E7E8'>标准格式化</td>
+                <td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>也称为高级格式化。</li>
+<li>在磁盘上创建一个启动扇区并安装一个文件系统。 只有完成低级格式化后，才能执行标准格式化。</li></ul></textformat></td>
+                
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'>低级格式化</td>
+                <td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>磁盘的表面标有扇区标记，表明数据将存储在磁盘上，并且会创建磁轨。</li><li>制作好硬盘驱动器后，通常会在出厂时执行低级格式化。</li></ul></textformat></td>
+            </tr>
+
+        </table>]]></text>
+    </component>
+    
+
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>销毁硬盘驱动器</b>]]></text> 
+    </component>
+
+     <component id="ID_s3_title">
+        <text><![CDATA[<b>InPrivate 浏览网页</b>]]></text> 
+    </component>
+
+    <component id="ID_s4_title">
+        <text><![CDATA[<b>从 Internet Explorer 11 中启动 InPrivate 浏览</b>]]></text> 
+    </component>
+</textcomponents>

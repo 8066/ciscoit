@@ -1,0 +1,23 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>打开锁定钮</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[锁定钮]]></text>
+	</component>
+	
+	<component id="ID_s2_title">
+		<text><![CDATA[<b>将槽口对齐</b>]]></text>
+	</component>
+	<component id="ID_s2_txt01">
+		<text><![CDATA[内存插槽凸起]]></text>
+	</component>
+	<component id="ID_s2_txt02">
+		<text><![CDATA[内存槽口]]></text>
+	</component>
+	
+	<component id="ID_s3_title">
+		<text><![CDATA[<b>安装内存</b>]]></text>
+	</component>
+	
+</textcomponents>

@@ -1,0 +1,53 @@
+<textcomponents>
+<component id="ID_title">
+<text><![CDATA[<b>胖客户端与瘦客户端</b>]]></text> 
+</component>
+
+
+<component id="ID_table">
+<text><![CDATA[
+<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+        <tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+        <tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+        <tr>
+            <td bgcolor='#666263' width='200'><br/><font size="16" color='#393536'></font></td>
+			<td bgcolor='#666263' width="200"><font color='#FFFFFF' ><b>胖客户端</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>瘦客户端</b></font></td>
+		</tr>
+		<tr>
+  <td bgcolor='#F2F2F2'><b>所需资源</b></td>
+		<td bgcolor='#F2F2F2'>显示器、鼠标、键盘、塔式机箱（含 CPU 和内存）、内部存储</td>
+		<td bgcolor='#F2F2F2'>显示器、鼠标、键盘、小尺寸计算机</td>
+	</tr>
+	<tr>
+  <td bgcolor='#E9E7E8'><b>占地</b></td>
+		<td bgcolor='#E9E7E8'>大</td>
+		<td bgcolor='#E9E7E8'>小</td>
+	</tr>
+	<tr>
+  <td bgcolor='#F2F2F2'><b>网络接入</b></td>
+		<td bgcolor='#F2F2F2'>可选</td>
+		<td bgcolor='#F2F2F2'>必需</td>
+	</tr>
+	<tr>
+  <td bgcolor='#E9E7E8'><b>执行的数据处理</b></td>
+		<td bgcolor='#E9E7E8'>在本地计算机上</td>
+		<td bgcolor='#E9E7E8'>在远程服务器上</td>
+	</tr>
+	<tr>
+  <td bgcolor='#E9E7E8'><b>协同部署所需工作量</b></td>
+		<td bgcolor='#E9E7E8'>更多</td>
+		<td bgcolor='#E9E7E8'>更少</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'><b>协同部署的成本</b></td>
+		<td bgcolor='#E9E7E8'>更多</td>
+		<td bgcolor='#E9E7E8'>更少</td>
+	</tr>
+</table>]]></text>
+</component>
+</textcomponents>

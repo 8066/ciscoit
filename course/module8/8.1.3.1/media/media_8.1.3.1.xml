@@ -1,0 +1,5 @@
+﻿<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>域或工作组名称</b>]]></text>
+	</component>
+</textcomponents>

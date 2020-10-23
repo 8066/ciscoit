@@ -1,0 +1,11 @@
+<textcomponents>
+	<component id="ID_title">
+		<text><![CDATA[<b>可穿戴设备</b>]]></text>
+	</component>
+	<component id="ID_txt01">
+		<text><![CDATA[健康监控]]></text>
+	</component>
+	<component id="ID_txt02">
+		<text><![CDATA[智能手表]]></text>
+	</component>
+</textcomponents>

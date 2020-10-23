@@ -1,0 +1,111 @@
+﻿<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>练习 – 识别云术语</b>]]></text>
+</component>
+
+<component id='ID_instr_title'>
+	<text><![CDATA[说明]]></text>
+</component>
+
+<component id='ID_instr_body'>
+	<text><![CDATA[将术语与其描述相匹配。]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[正确]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[您已成功地将每个术语与其描述相匹配。]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[不正确]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[您尚未成功地将每个术语与其描述相匹配。 请单击“重置”重试。]]></text>
+</component>
+
+<component id='ID_CHECK'>
+	<text><![CDATA[检查]]></text>
+</component>
+
+<component id='ID_RESET'>
+	<text><![CDATA[重置]]></text>
+</component><!--Drag Items--><component id='ID_drag_header'>
+	<text><![CDATA[<font color="#FFFFFF"><b>术语</b></font>]]></text>
+</component>
+
+<component id='ID_drag04'>
+	<text><![CDATA[<font color="#393536">ITaaS</font>]]></text>
+</component>
+
+<component id='ID_drag06'>
+	<text><![CDATA[<font color="#393536">公共</font>]]></text>
+</component>
+
+<component id='ID_drag02'>
+	<text><![CDATA[<font color="#393536">PaaS</font>]]></text>
+</component>
+
+<component id='ID_drag01'>
+	<text><![CDATA[<font color="#393536">SaaS</font>]]></text>
+</component>
+
+<component id='ID_drag07'>
+	<text><![CDATA[<font color="#393536">社区</font>]]></text>
+</component>
+
+<component id='ID_drag08'>
+	<text><![CDATA[<font color="#393536">混合</font>]]></text>
+</component>
+
+<component id='ID_drag05'>
+	<text><![CDATA[<font color="#393536">私有</font>]]></text>
+</component>
+
+<component id='ID_drag03'>
+	<text><![CDATA[<font color="#393536">IaaS</font>]]></text>
+</component><!--Questions--><component id='ID_target_header'>
+	<text><![CDATA[<b>术语</b>]]></text>
+</component>
+<component id='ID_text_header'>
+	<text><![CDATA[<b>描述</b>]]></text>
+</component>
+
+<component id="ID_txt01">
+	<text><![CDATA[这种云类型由托管云基础设施的服务提供商向公众提供。]]></text>
+</component>
+
+<component id="ID_txt02">
+  <text><![CDATA[云提供商提供网络设备、虚拟化网络服务和支持网络基础设施。]]></text> 
+</component>
+
+<component id="ID_txt03">
+  <text><![CDATA[这种云类型在多个组织之间共享。]]></text> 
+</component>
+
+<component id="ID_txt04">
+	<text><![CDATA[这种云基础设施由特定组织管理和使用。]]></text>
+</component>
+
+<component id="ID_txt05">
+  <text><![CDATA[云提供商通过 Internet 来管理并提供最终用户应用。]]></text> 
+</component>
+
+<component id="ID_txt06">
+  <text><![CDATA[这种云基础设施是两种或更多云类型的结合：公共云、私有云或社区云。]]></text> 
+</component>
+
+<component id="ID_txt07">
+  <text><![CDATA[云提供商管理硬件和操作系统等基础设施。]]></text> 
+</component>
+
+<component id="ID_txt08">
+  <text><![CDATA[一种为 SaaS、PaaS 和 IaaS 提供 IT 支持的运营模式。]]></text> 
+</component>
+   
+</textcomponents>

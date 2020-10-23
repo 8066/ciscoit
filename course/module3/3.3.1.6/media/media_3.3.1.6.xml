@@ -1,0 +1,10 @@
+﻿<textcomponents>
+	
+	<component id="ID_type">
+		<text><![CDATA[实验]]></text>
+	</component>
+	<component id="ID_title">
+		<text><![CDATA[BIOS 文件搜索]]></text>
+	</component>
+	
+</textcomponents>

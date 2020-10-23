@@ -1,0 +1,199 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>Unix 文件权限</b>]]></text> 
+    </component>
+
+     <component id="ID_s1_txt01">
+        <text><![CDATA[用户]]></text> 
+    </component>
+
+     <component id="ID_s1_txt02">
+        <text><![CDATA[组]]></text> 
+    </component>
+     <component id="ID_s1_txt03">
+        <text><![CDATA[其他]]></text> 
+    </component>
+
+    <component id="ID_s1_txt04">
+        <text><![CDATA[文件或目录位：<br/>- 表示它是文件，d 表示它是目录]]></text> 
+    </component>    
+	
+    <component id="ID_s1_txt05">
+        <text><![CDATA[<b>使用八进制值定义权限：</b>]]></text> 
+    </component> 
+
+    <component id="ID_s1_table01">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+          
+            <tr>
+                <td bgcolor='#666263' width='70' ><font color='#F2F2F2'><b>- 或 d</b></font></td>
+                <td bgcolor='#666263' width='42' class="align"><font color='#F2F2F2'><b>r</b></font></td>
+                <td bgcolor='#666263' width='42' class="align"><font color='#F2F2F2'><b>w</b></font></td>
+                <td bgcolor='#666263' width='42' class="align"><font color='#F2F2F2'><b>x</b></font></td>
+                <td bgcolor='#666263' width='42' class="align"><font color='#F2F2F2'><b>r</b></font></td>
+                <td bgcolor='#666263' width='42' class="align"><font color='#F2F2F2'><b>w</b></font></td>
+                <td bgcolor='#666263' width='42' class="align"><font color='#F2F2F2'><b>x</b></font></td>
+                <td bgcolor='#666263' width='42' class="align"><font color='#F2F2F2'><b>r</b></font></td>
+                <td bgcolor='#666263' width='42' class="align"><font color='#F2F2F2'><b>w</b></font></td>
+                <td bgcolor='#666263'><font color='#F2F2F2'><b>x</b></font></td>
+               
+             </tr>
+        </table>]]></text>
+    </component>
+
+    
+    <component id="ID_s1_table02">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="4" bgcolor='#FFFFFF'><font size="16"></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="4" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+             <tr>
+                <td bgcolor='#666263' width='80'><font color='#F2F2F2'><b>二进制</b></font></td>
+                <td bgcolor='#666263' width='80'><font color='#F2F2F2'><b>八进制</b></font></td>
+                <td bgcolor='#666263' width='110'><font color='#F2F2F2'><b>权限</b></font></td>
+                <td bgcolor='#666263' ><font color='#F2F2F2'><b>描述</b></font></td>
+             </tr>
+
+            
+
+             <tr>
+                <td bgcolor='#E9E7E8'>000</td>
+                <td bgcolor='#E9E7E8'>0</td>
+                <td bgcolor='#E9E7E8'>---</td>
+                <td bgcolor='#E9E7E8'>无访问权限</td>
+
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'>001</td>
+                <td bgcolor='#F2F2F2'>1</td>   
+                <td bgcolor='#F2F2F2'>--x</td>     
+                <td bgcolor='#F2F2F2'>仅执行</td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>010</td>
+                <td bgcolor='#E9E7E8'>2</td>
+                <td bgcolor='#E9E7E8'>-w-</td>
+                <td bgcolor='#E9E7E8'>仅写入</td>
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'>011</td>
+                <td bgcolor='#F2F2F2'>3</td>
+                <td bgcolor='#F2F2F2'>-wx</td>        
+                <td bgcolor='#F2F2F2'>写入和执行</td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>100</td>
+                <td bgcolor='#E9E7E8'>4</td>
+                <td bgcolor='#E9E7E8'>r--</td>
+                <td bgcolor='#E9E7E8'>只读</td>
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'>101</td>
+                <td bgcolor='#F2F2F2'>5</td>
+                <td bgcolor='#F2F2F2'>r-x</td>        
+                <td bgcolor='#F2F2F2'>读取和执行</td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'>110</td>
+                <td bgcolor='#E9E7E8'>6</td>
+                <td bgcolor='#E9E7E8'>rw-</td>
+                <td bgcolor='#E9E7E8'>读取和写入</td>
+            </tr>
+             <tr>
+                <td bgcolor='#F2F2F2'>111</td>
+                <td bgcolor='#F2F2F2'>7</td>
+                <td bgcolor='#F2F2F2'>rwx</td>
+                <td bgcolor='#F2F2F2'>读取、写入和执行</td>
+            </tr>
+
+
+        </table>]]></text>
+    </component>
+
+     <component id="ID_s2_title">
+        <text><![CDATA[<b>管理命令行工具</b>]]></text> 
+    </component>
+
+     <component id="ID_s2_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="2" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+			
+             <tr>
+                <td bgcolor='#666263' width='200'><font color='#F2F2F2'><b>命令</b></font></td>
+                <td bgcolor='#666263'><font color='#F2F2F2'><b>描述</b></font></td>
+             </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font face='_typewriter'><b>mv</b></font></td>
+                <td bgcolor='#E9E7E8'>移动或重命名文件和目录</td>
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'><font face='_typewriter'><b>chmod</b></font></td>
+                <td bgcolor='#F2F2F2'>修改文件权限</td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font face='_typewriter'><b>chown</b></font></td>
+                <td bgcolor='#E9E7E8'>更改文件的所有权</td>   
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'><font face='_typewriter'><b>dd</b></font></td>
+                <td bgcolor='#F2F2F2'>将输入中的数据复制到输出</td>
+            </tr>
+			
+            <tr>
+                <td bgcolor='#E9E7E8'><font face='_typewriter'><b>shutdown</b></font></td>
+                <td bgcolor='#E9E7E8'>关闭系统</td>   
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'><font face='_typewriter'><b>pwd</b></font></td>
+                <td bgcolor='#F2F2F2'>显示当前目录的名称</td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font face='_typewriter'><b>passwd</b></font></td>
+                <td bgcolor='#E9E7E8'>更改用户密码</td>   
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'><font face='_typewriter'><b>ps</b></font></td>
+                <td bgcolor='#F2F2F2'>列出系统中当前正在运行的进程</td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font face='_typewriter'><b>su</b></font></td>
+                <td bgcolor='#E9E7E8'>作为另一个用户模拟登录或成为超级用户</td>   
+            </tr>
+
+             <tr>
+                <td bgcolor='#F2F2F2'><font face='_typewriter'><b>sudo</b></font></td>
+                <td bgcolor='#F2F2F2'>作为另一个用户运行命令</td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font face='_typewriter'><b>ifconfig</b></font></td>
+                <td bgcolor='#E9E7E8'>显示或配置网卡相关信息</td>   
+            </tr>
+
+             <tr>
+                <td bgcolor='#F2F2F2'><font face='_typewriter'><b>apt-get</b></font><br/>（默认情况下 OS X 上不可用）</td>
+                <td bgcolor='#F2F2F2'>这是 Ubuntu Linux 包管理器，用于安装、配置和删除 Ubuntu 中的包</td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8'><font face='_typewriter'><b>iwconfig</b></font><br/>（默认情况下 OS X 上不可用）</td>
+                <td bgcolor='#E9E7E8'>显示或配置无线网卡相关信息</td>   
+            </tr>
+
+        </table>]]></text>
+    </component>
+</textcomponents>

@@ -1,0 +1,49 @@
+<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b>选择电源</b>]]></text> 
+    </component>
+    
+    <component id="ID_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+ 
+            <tr class="mtable_title">
+                <td bgcolor='#666263' width='150'><font color='#FFFFFF'><b>规格</b></font></td>
+                <td bgcolor='#666263'><font color='#FFFFFF'><b>需要考虑...</b></font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>主板类型</td>
+                <td bgcolor='#E9E7E8'>电源必须与主板兼容。</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>所需功率</td>
+                <td bgcolor='#F2F2F2'>为每个组件添加功率。 如果组件上没有列出功率，请用其电压乘以电流进行计算。 如果组件需要几种不同的功率级别，请使用最高要求。 </td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#E9E7E8'>组件数量</td>
+                <td bgcolor='#E9E7E8'>确保电源提供的功率除了足够支持组件的数量和类型外，至少还要多出 25%。</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>组件类型</td>
+                <td bgcolor='#F2F2F2'>确保电源提供正确的电源接头类型。</td>
+            </tr>
+			
+            <tr>
+                <td bgcolor='#E9E7E8'>机箱类型</td>
+                <td bgcolor='#E9E7E8'>确保电源可以安装在所需的机箱中。</td>
+            </tr>
+        </table>]]></text>
+    </component>
+</textcomponents>

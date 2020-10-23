@@ -1,0 +1,100 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>练习：识别连接类型</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[说明]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[将连接类型与其描述相匹配。]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[红外线]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[蓝牙]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[Tether]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[微型/迷你 USB ]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[闪电（Lightning）]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[NFC]]></text>
+	</component>
+	
+	
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[检查]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[重置]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[正确]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[您已成功地将每个连接类型与其描述相匹配。]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[不正确]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[您尚未成功地将每个连接类型与其描述相匹配。 请单击“重置”重试。]]></text>
+	</component>
+
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>连接类型</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>描述</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[移动设备互相接触时即可互相通信。]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[将移动电话用作另一个设备（例如平板电脑或笔记本电脑）的调制解调器。 通过 USB 线或蓝牙建立连接。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[设备使用此有线连接进行充电和传输数据。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[此无线连接可以在最远 10 米（33 英尺）的距离内交换数据。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[此有线连接可以让 Apple 设备连接到主机和其他外围设备。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[此连接可以让移动设备远程控制设备，例如电视或音频设备。]]></text>
+	</component> 
+
+	
+	
+</textcomponents>

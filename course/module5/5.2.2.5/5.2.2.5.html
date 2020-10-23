@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>5.2.2.5 系统恢复选项</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_5.2.2.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>系统恢复选项</h1>
+        <div>
+          <p>系统发生故障时，用户可以使用以下恢复工具：</p>
+          <p>
+            <ul>
+              <li>Windows 高级启动选项 (Windows 8.x)</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>系统恢复选项（Windows 7 和 Windows Vista）</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>出厂恢复分区</li>
+            </ul>
+          </p>
+          <p>
+            <b>Windows 8.x 高级启动选项</b>
+          </p>
+          <p>高级启动选项是一系列 Windows 8.x 工具，允许用户在操作系统无法启动时排除故障、恢复或还原操作系统。“高级选项”是 Windows 恢复环境 (WinRE) 的一部分。WinRE 是基于 Windows 预安装环境 (PE) 的一个恢复平台。要访问高级工具，请在启动过程中按 F8 中断启动过程。在“选择一个选项”窗口中（图 1），选择“<b>疑难解答</b>”。在“疑难解答”窗口中（图 2），选择“<b>高级选项</b>”。图 3 显示的“高级选项”窗口中包含以下工具：</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>系统还原</b> - 此工具可将计算机还原到早期的还原点状态。这与 Windows 中的系统还原功能是相同的。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>系统映像恢复</b> - 此工具使用系统映像文件还原计算机。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>自动修复</b> - 此工具可扫描系统并尝试自动修复那些阻止 Windows 正确启动的问题。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>命令提示符</b> - 打开恢复环境命令提示符，授予对多个命令行故障排除工具的访问权限。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>UEFI 固件设置</b> - 仅当计算机支持 UEFI 时才会显示此工具。使用此工具可更改计算机的 UEFI 设置。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Windows 启动设置</b> -“启动设置”选项允许您启用安全模式。您也可以禁止在发生故障后自动重启，这样可以看到蓝屏上显示的错误消息。</li>
+            </ul>
+          </p>
+          <p>
+            <b>Windows 7 和 Windows Vista</b>
+          </p>
+          <p>与 Windows 8.x 高级选项类似，系统恢复选项是 Windows 7 和 Windows Vista 的一组故障排除工具。如图 4 所示，系统恢复选项也是 Windows 恢复环境的一部分。</p>
+          <p>与 Windows 8.x 中一样，在 Windows 7 和 Windows Vista 中，在计算机启动过程中按住 <b>F8</b> 键即可访问 Windows 恢复环境。出现“高级启动选项”屏幕时，突出显示“<b>修复计算机</b>”并按 <b>Enter</b> 键访问系统恢复选项。随后您可使用系统恢复工具修复那些阻止系统启动的错误。“系统恢复选项”菜单提供了以下工具：</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>启动修复</b> - 此工具可扫描硬盘驱动器中的问题，并可自动修复那些阻止 Windows 启动的已丢失或已损坏的系统文件。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>系统还原</b> - 此工具可使用还原点将 Windows 系统文件还原到早期的时间点状态。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>系统映像恢复</b> - 此工具可将之前创建的映像还原到磁盘。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Windows 内存诊断</b> - 此工具可检查计算机的内存，以检测故障和诊断问题。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>命令提示符</b> - 此工具可打开一个命令提示符窗口，其中 bootrec.exe 工具可以用来修复和排除 Windows 启动问题。</li>
+            </ul>
+          </p>
+          <p>使用恢复光盘时，确保它与要恢复的操作系统使用相同的架构。例如，如果计算机运行的是 64 位版本的 Windows 7，则恢复光盘必须使用 64 位架构。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

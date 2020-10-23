@@ -1,0 +1,36 @@
+﻿<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+	<text><![CDATA[]]></text>
+</component>
+
+	
+<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+    <tr class="mtable_title">
+		<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>第 1 步：识别问题。</b></font></td>
+	</tr>
+    <tr class="mtable_top">
+		<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#E9E7E8' width="180" valign="top"><font  color='#393536'>开放式问题</font></td>
+		<td bgcolor='#E9E7E8' valign="top"><font  color='#393536'><textformat blockindent='-18'><ul><li>您遇到了什么问题？</li>
+			<li>计算机上安装了什么操作系统？</li>
+			<li>您最近执行了哪些更新？</li>
+			<li>您最近安装了哪些程序？</li>
+			<li>发现问题时您正在执行什么操作？</li></ul></textformat></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top"><font color='#393536'>封闭式问题</font></td>
+		<td bgcolor='#F2F2F2' valign="top"><font  color='#393536'><textformat blockindent='-18'><ul><li>您是否能启动操作系统？</li>
+			<li>您能否在安全模式下启动操作系统？</li>
+			<li>您最近是否更改了您的密码？</li>
+			<li>您在计算机上是否看到了任何错误消息？</li>
+			<li>最近有其他人使用过计算机吗？</li>
+			<li>最近是否添加过任何硬件？</li></ul></textformat></font></td>
+	</tr>
+	</table>]]></text> 
+</component>
+
+
+</textcomponents>

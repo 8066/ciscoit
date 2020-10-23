@@ -1,0 +1,165 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>磁盘阵列</b>]]></text>
+	</component><!-- Group A - Spanned Volume --><component id="ID_s1_caption_A">
+		<text><![CDATA[<b>跨区卷</b> - 数据依次写入。 需要更多存储空间时，每个卷会跨多个磁盘。]]></text>
+	</component>
+
+
+	<component id="ID_s1_txt_A01">
+        <text><![CDATA[<b>磁盘 1</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_A02">
+		<text><![CDATA[<b>卷 1</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_A03">
+		<text><![CDATA[<b>卷 2</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_A04">
+		<text><![CDATA[<b>卷 3</b>]]></text>
+	</component>
+
+
+
+	<component id="ID_s1_txt_A05">
+        <text><![CDATA[<b>磁盘 2</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_A06">
+		<text><![CDATA[<b>卷 2</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_A07">
+		<text><![CDATA[<b>卷 3</b>]]></text>
+	</component>
+	
+	
+	
+	<component id="ID_s1_txt_A08">
+        <text><![CDATA[<b>磁盘 3</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_A09">
+		<text><![CDATA[<b>卷 3</b>]]></text>
+	</component><!-- Group B - Striped Volume --><component id="ID_s1_caption_B">
+		<text><![CDATA[<b>条带化卷</b> - 为了进行更快的读取和写入访问，数据被分开并存储在多个磁盘上。]]></text>
+	</component>
+
+
+	<component id="ID_s1_txt_B01">
+        <text><![CDATA[<b>磁盘 1</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_B02">
+		<text><![CDATA[<b>卷 1</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_B03">
+		<text><![CDATA[<b>卷 2</b>]]></text>
+	</component>
+
+
+	<component id="ID_s1_txt_B04">
+        <text><![CDATA[<b>磁盘 2</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_B05">
+		<text><![CDATA[<b>卷 1</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_B06">
+		<text><![CDATA[<b>卷 2</b>]]></text>
+	</component>
+	
+	
+	<component id="ID_s1_txt_B07">
+        <text><![CDATA[<b>磁盘 3</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_B08">
+		<text><![CDATA[<b>卷 1</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_B09">
+		<text><![CDATA[<b>卷 2</b>]]></text>
+	</component><!-- Group C - Mirrored Volume --><component id="ID_s1_caption_C">
+		<text><![CDATA[<b>镜像卷</b> - 将数据同时写入多个磁盘，确保具有容错能力。]]></text>
+	</component>
+
+
+	<component id="ID_s1_txt_C01">
+        <text><![CDATA[<b>磁盘 1</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_C02">
+		<text><![CDATA[<b>卷 1</b>]]></text>
+	</component>
+
+
+	<component id="ID_s1_txt_C03">
+        <text><![CDATA[<b>磁盘 2</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_C04">
+		<text><![CDATA[<b>卷 1<br>（副本）</b>]]></text>
+	</component><!-- Group D - Raid 5 Volume --><component id="ID_s1_caption_D">
+		<text><![CDATA[<b>RAID 5 卷</b> - 对数据进行拆分并将其存储在多个磁盘上，利用奇偶校验确保容错能力。]]></text>
+	</component>
+
+
+	<component id="ID_s1_txt_D01">
+        <text><![CDATA[<b>磁盘 1</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_D02">
+		<text><![CDATA[<b>奇偶校验</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_D03">
+		<text><![CDATA[<b>数据</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_D04">
+		<text><![CDATA[<b>数据</b>]]></text>
+	</component>
+
+
+	<component id="ID_s1_txt_D05">
+        <text><![CDATA[<b>磁盘 2</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_D06">
+		<text><![CDATA[<b>奇偶校验</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_D07">
+		<text><![CDATA[<b>数据</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_D08">
+		<text><![CDATA[<b>数据</b>]]></text>
+	</component>
+
+
+	<component id="ID_s1_txt_D09">
+        <text><![CDATA[<b>磁盘 3</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_D10">
+		<text><![CDATA[<b>奇偶校验</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_D11">
+		<text><![CDATA[<b>数据</b>]]></text>
+	</component>
+
+	<component id="ID_s1_txt_D12">
+		<text><![CDATA[<b>数据</b>]]></text>
+	</component>
+
+
+</textcomponents>

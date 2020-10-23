@@ -1,0 +1,82 @@
+<textcomponents>
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>Cron 表格格式</b>]]></text> 
+    </component>
+
+
+    <component id="ID_s1_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="6" bgcolor='#FFFFFF'><font size="16"></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="6" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#666263' width='96'><font color='#F2F2F2'><b>分钟</b></font></td>
+                <td bgcolor='#666263' width='96'><font color='#F2F2F2'><b>小时</b></font></td>
+                <td bgcolor='#666263' width='96'><font color='#F2F2F2'><b>天</b></font></td>
+                <td bgcolor='#666263' width='96'><font color='#F2F2F2'><b>月数</b></font></td>
+                <td bgcolor='#666263' width='96'><font color='#F2F2F2'><b>工作日</b></font></td>
+                <td bgcolor='#666263'><font color='#F2F2F2'><b>命令</b></font></td>
+             </tr>
+        </table>]]></text>
+    </component>
+    
+    
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Cron 表格字段</b>]]></text> 
+    </component>
+    
+    <component id="ID_s2_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="3" bgcolor='#FFFFFF'><font size="16"></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="3" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+            <tr>
+                <td bgcolor='#E9E7E8' width='110'>分钟</td>
+                <td bgcolor='#E9E7E8' width='80'>0-59</td>
+                <td bgcolor='#E9E7E8'>命令执行时间：分钟。</td>
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'>小时</td>
+                <td bgcolor='#F2F2F2'>0-23</td>        
+                <td bgcolor='#F2F2F2'>命令执行时间：小时。</td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>天</td>
+                <td bgcolor='#E9E7E8'>1-31</td>
+                <td bgcolor='#E9E7E8'>命令执行时间：日。</td>
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'>月</td>
+                <td bgcolor='#F2F2F2'>1-12</td>        
+                <td bgcolor='#F2F2F2'>命令执行时间：月。</td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'>工作日</td>
+                <td bgcolor='#E9E7E8'>0-6</td>
+                <td bgcolor='#E9E7E8'>命令执行时间：工作日。<br/>0 = 星期天，<br/>1 = 星期一，<br/>等等。</td>
+            </tr>
+            <tr>
+                <td bgcolor='#F2F2F2'>命令</td>
+                <td bgcolor='#F2F2F2'>答案视情况而定</td>        
+                <td bgcolor='#F2F2F2'>命令或命令组。 必须与外壳和用途兼容。</td>
+            </tr>
+
+        </table>]]></text>
+    </component>
+
+     <component id="ID_s3_title">
+        <text><![CDATA[<b>定时任务示例</b>]]></text> 
+    </component>
+</textcomponents>

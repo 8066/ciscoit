@@ -1,0 +1,16 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>加密磁盘卷</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>验证 BitLocker 处于活动状态</b>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>查看 TPM 详细信息</b>]]></text>
+	</component>
+
+	
+
+</textcomponents>

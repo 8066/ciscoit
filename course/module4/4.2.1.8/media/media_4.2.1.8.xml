@@ -1,0 +1,31 @@
+<textcomponents>
+
+
+
+ <component id='ID_table'>
+
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+
+	<tr>
+		<td  bgcolor='#FFFFFF' valign="top"><font size='16' class="msubtitle"><b>第 6 步：记录调查结果、措施和结果</b></font></td>
+			
+	</tr>
+	<tr class="mtable_top">
+		<td bgcolor='#4E4C4D' class="mtable_top" ><font size='2' color='#4E4C4D'><span style="color:#ffffff">.</span></font></td>
+	</tr>
+	
+	<tr>  
+		<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'><textformat blockindent='-18'><ul><li>与客户讨论已实施的解决方案。</li>
+			<li>让客户验证问题已得到解决。</li>
+			<li>为客户提供所有文书。</li>
+			<li>按工作顺序记录解决问题所采取的步骤，并记录在技术人员日志中。</li>
+			<li>记录修复工作中使用的所有组件。</li>
+			<li>记录解决问题所花费的时间。</li></ul></textformat></font></td>		 
+	</tr>
+
+	</table>]]></text>
+</component>
+ 
+
+
+</textcomponents>

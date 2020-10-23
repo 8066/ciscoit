@@ -1,0 +1,49 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+
+	<component id="ID_table">
+	  <text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16" color='#393536'><b>多核处理器</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#434321' class="liner_top"><font size='1' color='#434321'><span style="color:#FFFFFF">.</span></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263'  valign="top"  width="160"><font color='#FFFFFF' ><b>核心数量</b></font></td>
+			<td bgcolor='#666263'  valign="top" ><font color='#FFFFFF' ><b>描述</b></font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536' >单核 CPU</font></td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536' >一个 CPU 中有一个进行所有处理的核心。 一个主板可以有多个处理器插槽，从而构建强大的多处理器计算机。</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' >双核 CPU</font></td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' >一个 CPU 中有两个核心，两个核心可以同时处理信息。</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536' >三核 CPU</font></td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536' >一个 CPU 中有三个核心。 这是禁用了其中一个核心的四核处理器。</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' >四核 CPU</font></td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' >一个 CPU 中有四个核心。</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536' >六核 CPU</font></td>
+			<td bgcolor='#E9E7E8' valign="top"><font color='#393536' >一个 CPU 中有六个核心。</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' >八核 CPU</font></td>
+			<td bgcolor='#F2F2F2' valign="top"><font color='#393536' >一个 CPU 中有八个核心。</font></td>
+		</tr>
+		
+		</table>]]></text>
+	</component>
+
+
+</textcomponents>

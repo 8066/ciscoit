@@ -1,0 +1,60 @@
+<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>练习 - 识别外部接头</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[说明]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[将接头类型与其图片相匹配。]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[正确]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[您已成功地将每个外部接头与其图片相匹配。]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[不正确]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[您尚未成功地将每个外部接头与其图片相匹配。 请单击“重置”重试。]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[检查]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[重置]]></text>
+</component><!--Drag Items--><component id='ID_drag_header'>
+	<text><![CDATA[<b>接头类型</b>]]></text>
+</component>
+
+
+<component id='ID_s1_drag01'>
+	<text><![CDATA[键盘]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[显示器]]></text>
+</component>
+
+<component id='ID_s1_drag03'>
+	<text><![CDATA[鼠标]]></text>
+</component>
+
+<component id='ID_s1_drag04'>
+	<text><![CDATA[USB]]></text>
+</component>
+
+
+</textcomponents>

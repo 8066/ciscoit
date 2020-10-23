@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>3.2.2.3 BIOS 安全配置</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_3.2.2.3_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>BIOS 安全配置</h1>
+        <div>
+          <p>如果计算机被盗，BIOS 通常支持许多安全功能来保护 BIOS 设置、硬盘驱动器上的数据，并提供了多个恢复选项。 </p>
+          <p></p>
+          <p>以下是 BIOS 中提供的一些常见安全功能：</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>BIOS passwords（BIOS 密码）</b> - 如图 1 所示，密码允许您对 BIOS 设置进行不同级别的访问。注意，可以修改两个密码设置。“Supervisor Password”（管理引擎密码）可以访问所有用户访问密码和所有 BIOS 屏幕与设置。“User Password”（用户密码）可以根据既定的级别访问 BIOS 设置。图 2 中的表格显示了 BIOS 的常见用户访问级别。必须先设置管理引擎密码，然后才能设置用户密码。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Drive encryption（驱动器加密）</b> - 可对硬盘驱动器进行加密，防止数据被窃。加密可将驱动器上的数据变为代码。没有正确的密码，将无法启动计算机，并且无法理解从硬盘驱动器读取的数据。即使将该硬盘驱动器放入另一台计算机中，数据仍是加密的。 </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>LoJack</b> - 这项安全功能包括两个程序：一个是 Persistence Module，嵌入在 BIOS 中；另一个是 Application Agent，由用户安装。在安装时，BIOS 中的 Persistence Module 将会被激活，并且无法关闭。Application Agent 通过 Internet 定期与监控中心联系，以报告设备信息和位置。所有者可以执行图 3 中介绍的功能。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Trusted Platform Module（可信平台模块，TPM）</b> - 这种芯片旨在通过存储加密密钥、数字证书、密码和数据来保护硬件的安全。Windows 使用 TPM 来支持 BitLocker 全磁盘加密。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Secure boot（安全启动）</b> - 安全启动是一项 UEFI 安全标准，可确保计算机只启动主板制造商所信任的操作系统。安全启动可防止在启动时加载“未经授权的”操作系统。</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+﻿<textcomponents>
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>组装计算机</b>]]></text>
+	</component>
+
+ <component id="ID_s1_titleTxt01">
+  <text><![CDATA[<b>新计算机</b>]]></text>
+  </component>
+
+<component id="ID_s1_bodyTxt01">
+  <text><![CDATA[<textformat blockindent='-14'><ul><li>它有何用途？</li><li>我想将何种组件连接到此计算机？</li><li>我需要花费多少资金？</li></ul></textformat>]]></text> 
+  </component> 
+</textcomponents>

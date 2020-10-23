@@ -1,0 +1,38 @@
+<textcomponents> 
+	<component id='ID_table'>
+		<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3"><font size="16"><b>以太网标准</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'  valign="top" ><font color='#F2F2F2' size="11"><b>以太网标准</b></font></td>
+		<td bgcolor='#666263'  valign="top" ><font color='#F2F2F2' size="11"><b>介质</b></font></td>
+		<td bgcolor='#666263'  valign="top" ><font color='#F2F2F2' size="11"><b>传输速率</b></font></td>	
+	</tr>
+				<tr>
+					<td bgcolor='#E9E7E8' width="150px" valign="top"><font size='12'color='#393536'>10BASE-T</font></td>
+					<td bgcolor='#E9E7E8' width="150px"><font size='12' color='#393536' >3 类</font></td> 
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>以 10 Mb/s 的速率传输数据。</font></td>
+				</tr>
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>100BASE-TX</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>5 类</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>100BASE-TX 的传输速率为 100 Mb/s，是 10BASE-T 传输速率的十倍。</font></td>
+				</tr>				
+				<tr>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>1000BASE-T</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>5e 类、6 类</font></td>
+					<td bgcolor='#E9E7E8' valign="top"><font size='12' color='#393536'>1000BASE-T 架构支持 1 Gb/s 的数据传输速率。</font></td>
+				</tr>							
+				<tr>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>10GBASE-T</font></td>			
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>6a 类、7 类</font></td>
+					<td bgcolor='#F2F2F2' valign="top"><font size='12' color='#393536'>10GBASE-T 架构支持 10 Gb/s 的数据传输速率。</font></td>
+				</tr>	 
+			</table>]]>
+		</text>
+	</component> 
+</textcomponents>

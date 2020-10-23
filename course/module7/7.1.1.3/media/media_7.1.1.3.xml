@@ -1,0 +1,25 @@
+﻿<textcomponents>
+<component id='ID_s1_title'>
+	<text><![CDATA[<b>中间设备图标</b>]]></text>
+</component>
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[交换机]]></text>
+</component>
+
+<component id='ID_s1_txt02'>
+	<text><![CDATA[路由器]]></text>
+</component>
+
+<component id='ID_s1_txt03'>
+	<text><![CDATA[接入点]]></text>
+</component>
+
+<component id='ID_s1_txt04'>
+	<text><![CDATA[无线路由器]]></text>
+</component>
+
+<component id='ID_s1_txt05'>
+	<text><![CDATA[调制解调器]]></text>
+</component>
+</textcomponents>

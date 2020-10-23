@@ -1,0 +1,49 @@
+﻿<textcomponents> 
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>SPI 防火墙保护</b>]]></text>
+</component>
+<component id="ID_s2_title">
+	<text><![CDATA[<b>硬件和软件防火墙比较</b>]]></text>
+</component> 
+
+<component id='ID_s1_table'>
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#F2F2F2'><font size="16"><b></b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>硬件防火墙</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>软件防火墙</b></font></td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">专用硬件组件</td>
+		<td bgcolor='#E9E7E8' valign="top">作为第三方软件提供，成本各不相同</td>		
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">硬件和软件更新的最初成本可能会非常高</td>
+		<td bgcolor='#F2F2F2' valign="top">Windows 操作系统包括免费版本</td>
+		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8' valign="top">可以保护多台计算机</td>
+		<td bgcolor='#E9E7E8' valign="top">通常仅保护安装了防火墙的计算机</td>
+		 
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2' valign="top">不影响计算机性能</td>
+		<td bgcolor='#F2F2F2' valign="top">使用计算机资源，因而可能影响性能</td>
+		 
+	</tr>
+	
+</table>]]></text>
+</component>
+
+
+
+
+</textcomponents>

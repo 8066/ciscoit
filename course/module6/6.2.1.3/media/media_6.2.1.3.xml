@@ -1,0 +1,66 @@
+<textcomponents><!-- Slide 1 --><component id='ID_s1_title'>
+    <text><![CDATA[<b>Windows 8 中的 Windows Hyper-V 要求</b>]]></text>
+</component>
+
+	
+<component id="ID_s1_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8' width="200">主机 OS</td>
+			<td bgcolor='#E9E7E8'>Windows 8 专业版或企业版 64 位操作系统</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>处理器</td>
+			<td bgcolor='#E9E7E8'>包含二级地址转换的 64 位处理器</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>BIOS</td>
+			<td bgcolor='#F2F2F2'>BIOS 级别的硬件虚拟化支持</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>内存</td>
+			<td bgcolor='#E9E7E8'>至少 4GB 系统 RAM</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>硬盘空间</td>
+			<td bgcolor='#F2F2F2'>每个虚拟操作系统至少 15GB</td>
+		</tr>
+	</table>]]></text> 
+</component><!-- Slide 2 --><component id='ID_s2_title'>
+    <text><![CDATA[<b>Windows 7 中的 Windows Virtual PC 要求</b>]]></text>
+</component>
+    
+    <component id="ID_s2_table">
+	<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#E9E7E8' width="200">处理器</td>
+            <td bgcolor='#E9E7E8'>1 GHz 32 位或 64 位处理器</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>内存</td>
+			<td bgcolor='#F2F2F2'>2GB</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>硬盘空间</td>
+			<td bgcolor='#E9E7E8'>每个虚拟操作系统 15GB</td>
+		</tr>
+
+	</table>]]></text> 
+</component>
+
+</textcomponents>

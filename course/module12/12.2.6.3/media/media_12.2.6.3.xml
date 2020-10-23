@@ -1,0 +1,84 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<font color='#FFFFFF'><b>练习 - 确定物理安全设备</b></font>]]></text>
+	</component>
+	
+	<component id='ID_s1_instr_title'>
+		<text><![CDATA[说明]]></text>
+	</component>
+	
+	<component id='ID_s1_instr_body'>
+		<text><![CDATA[请将每个物理安全设备与其描述相匹配。]]></text>
+	</component><!--Drag and Drop--><component id='ID_s1_drag_header'>
+		<text><![CDATA[<font color="#FFFFFF"><b>物理安全设备</b></font>]]></text>
+	</component>
+
+	<component id='ID_s1_drag01'>
+		<text><![CDATA[密钥卡]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[智能卡]]></text>
+	</component>
+	
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[生物识别设备]]></text>
+	</component>
+	
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[检查]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[重置]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[正确]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[您已成功地将每个物理安全设备与其描述相匹配。]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[不正确]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[您尚未成功地将每个物理安全设备与其描述相匹配。 请单击“重置”重试。]]></text>
+	</component>
+
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>物理安全设备</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>设备描述</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[使用用户的生理特征作为主动识别的辅助手段。]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[使用嵌入式集成电路芯片安全地存储数据。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[使用小型无线电系统与计算机通信。]]></text>
+	</component> 
+	
+	
+	
+	
+
+	
+	
+</textcomponents>

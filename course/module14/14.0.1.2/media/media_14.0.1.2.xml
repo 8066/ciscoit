@@ -1,0 +1,49 @@
+﻿<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+    
+    <component id="ID_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+ 
+ 			<tr class="mtable_title">
+				<td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>故障排除步骤</b></font></td>
+			</tr>
+
+            <tr class="mtable_top">
+                <td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#E9E7E8'  width="120">第 1 步</td>
+                <td bgcolor='#E9E7E8'>识别问题。</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>第 2 步</td>
+                <td bgcolor='#F2F2F2'>推测潜在原因。</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#E9E7E8'>第 3 步</td>
+                <td bgcolor='#E9E7E8'>验证您的推测，以确定问题起因。</td>
+            </tr>
+ 
+            <tr>
+                <td bgcolor='#F2F2F2'>第 4 步</td>
+                <td bgcolor='#F2F2F2'>制定行动方案，解决问题并实施解决方案。</td>
+            </tr>
+			
+            <tr>
+                <td bgcolor='#E9E7E8'>第 5 步</td>
+                <td bgcolor='#E9E7E8'>检验完整的系统功能，如果适用，并实施预防措施。</td>
+            </tr>
+
+            <tr>
+                <td bgcolor='#F2F2F2'>第 6 步</td>
+                <td bgcolor='#F2F2F2'>记录调查结果、措施和结果。</td>
+            </tr>
+        </table>]]></text>
+    </component>
+</textcomponents>

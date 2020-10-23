@@ -1,0 +1,51 @@
+<textcomponents>
+<component id="ID_title">
+        <text><![CDATA[<b>权限类型</b>]]></text>
+	</component>
+<component id='ID_table'>
+
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+	        <tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+		<tr>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>权限级别</b></font></td>
+			<td bgcolor='#666263' valign="top"><font color='#FFFFFF'><b>描述</b></font></td>
+		</tr>
+	
+		<tr>
+			<td bgcolor='#E9E7E8' width="150">完全控制</td>
+			<td bgcolor='#E9E7E8'>用户可以查看文件或文件夹的内容，更改和删除现有文件和文件夹，并可以运行文件夹中的程序。</td> 
+		</tr>
+	
+		<tr>
+			<td bgcolor='#F2F2F2'>修改</td>
+			<td bgcolor='#F2F2F2'>用户可以更改和删除现有文件和文件夹，但无法创建新的文件和文件夹。</td> 
+		</tr>
+	
+		<tr>
+			<td bgcolor='#E9E7E8'>读取和执行</td>
+			<td bgcolor='#E9E7E8'>用户可以查看现有文件和文件夹的内容，并可以运行文件夹中的程序。</td> 
+		</tr>
+	
+		<tr>
+			<td bgcolor='#F2F2F2'>读取</td>
+			<td bgcolor='#F2F2F2'>用户可以查看文件夹的内容，并可以打开文件和文件夹。</td> 
+		</tr>
+
+        <tr>
+			<td bgcolor='#E9E7E8'>写入</td>
+			<td bgcolor='#E9E7E8'>用户可以创建新的文件和文件夹，并可对现有文件和文件夹进行更改。</td> 
+		</tr>
+
+	</table>]]></text>
+</component>
+ 
+
+
+</textcomponents>

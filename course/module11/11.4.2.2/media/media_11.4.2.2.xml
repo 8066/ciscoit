@@ -1,0 +1,37 @@
+<textcomponents>
+    <component id="ID_title">
+        <text><![CDATA[<b></b>]]></text> 
+    </component>
+
+
+   <component id="ID_s1_table">
+        <text><![CDATA[
+        <table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+            <tr class="mtable_title">
+                <td colspan="2" bgcolor='#FFFFFF'><font size="16"><b>第 2 步： 推测潜在原因</b></font></td>
+            </tr>
+            <tr class="mtable_top">
+                <td  colspan="2" bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+            </tr>
+            
+
+             <tr>
+                <td bgcolor='#E9E7E8' width='200'>打印机故障的常见原因</td>
+                <td bgcolor='#E9E7E8' ><ul><li>电缆连接松动</li>
+						<li>卡纸</li>
+						<li>设备电源</li>
+						<li>墨水不足警告</li>
+						<li>纸用尽</li>
+						<li>设备显示屏上的错误</li>
+						<li>计算机屏幕上的错误</li></ul></td>
+                
+            </tr>
+            
+           
+
+
+        </table>]]></text>
+    </component>
+    
+
+</textcomponents>

@@ -1,0 +1,102 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>练习：识别 TCP/IP 攻击</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[说明]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[请将每种 TCP/IP 攻击类型与其描述相匹配。 并不是所有攻击类型都会用到。]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[重放]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[SYN 泛洪]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[DDoS]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[域名服务器中毒]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[欺骗]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[中间人]]></text>
+	</component>
+	<component id='ID_s1_drag07'>
+		<text><![CDATA[DoS]]></text>
+	</component>
+	
+	
+	
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[检查]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[重置]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[正确]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[您已成功地将每种 TCP/IP 攻击类型与其描述相匹配。]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[不正确]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[您尚未成功地将每种 TCP/IP 攻击类型与其描述相匹配。 请单击“重置”重试。]]></text>
+	</component>
+
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>TCP/IP 攻击类型</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>TCP/IP 攻击描述</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[攻击者拦截计算机之间的通信，窃取通过网络传输的信息。]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[此类攻击向网络服务器发出异常多的请求，从而使服务器不堪重负。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[计算机使用伪造的 IP 或 MAC 地址伪装成可信的计算机来获取对资源的访问权限。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[攻击者拦截并记录数据传输。 然后将数据传输发送到目的计算机。 目的计算机将这些传输视为可信传输。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[此攻击随机打开 TCP 端口，在攻击来源处生成大量错误的 SYN 请求。 这会导致与其他设备的会话遭到拒绝。]]></text>
+	</component> 
+	
+	
+
+	
+	
+</textcomponents>

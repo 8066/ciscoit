@@ -1,0 +1,14 @@
+<textcomponents>
+	<component id="ID_s1_title">
+        <text><![CDATA[<b>Android 上的密码锁定类型</b>]]></text>
+	</component>
+    
+    <component id="ID_s2_title">
+        <text><![CDATA[<b>Android 上的智能锁定类型</b>]]></text>
+	</component>
+    
+    <component id="ID_s3_title">
+        <text><![CDATA[<b>iPhone 上的密码锁定</b>]]></text>
+	</component>
+
+</textcomponents>

@@ -1,0 +1,51 @@
+﻿<textcomponents>
+
+<component id='ID_title'>
+	<text><![CDATA[<b>打印机制造商的驱动程序下载网页</b>]]></text>
+</component>
+
+<component id='ID_txt01'>
+	<text><![CDATA[<b>选购产品和服务</b>]]></text>
+</component>
+
+<component id='ID_txt02'>
+	<text><![CDATA[<b>浏览并创建</b>]]></text>
+</component>
+
+<component id='ID_txt03'>
+	<text><![CDATA[<b>支持和驱动程序</b>]]></text>
+</component>
+
+<component id='ID_txt04'>
+	<text><![CDATA[<b>支持和驱动程序</b>]]></text>
+</component>
+
+<component id='ID_txt05'>
+	<text><![CDATA[<b>驱动程序和软件下载</b>]]></text>
+</component>
+
+<component id='ID_txt06'>
+	<text><![CDATA[<b>产品支持和故障排除</b>]]></text>
+</component>
+
+<component id='ID_txt07'>
+	<text><![CDATA[<b>支持社区</b>]]></text>
+</component>
+
+<component id='ID_txt08'>
+	<text><![CDATA[<b>输入产品名称或编号。</b>]]></text>
+</component>
+
+<component id='ID_txt09'>
+	<text><![CDATA[<b>搜索</b>]]></text>
+</component>
+
+<component id='ID_txt10'>
+	<text><![CDATA[如何查找我的产品名称或编号？]]></text>
+</component>
+
+<component id='ID_txt11'>
+	<text><![CDATA[ ]]></text>
+</component>
+
+</textcomponents>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.4.1.9 动态寻址</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.4.1.9_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>动态寻址</h1>
+        <div>
+          <p>如果 LAN 中的计算机数量很多，为网络中的每台主机手动配置 IP 地址将会非常耗时，而且容易出错。DHCP 服务器可以自动分配 IP 地址，从而简化了寻址过程。而且自动配置某些 TCP/IP 参数还可以降低分配重复或无效 IP 地址的可能性。</p>
+          <p></p>
+          <p>网络中的计算机可以使用 DHCP 服务之前，该计算机必须能够识别本地网络上的服务器。通过在网卡配置窗口选择<b>“自动获取 IP 地址”</b>选项，可以将计算机配置为从 DHCP 服务器接受 IP 地址，如图 1 所示。将计算机设置为自动获取 IP 地址后，所有其他 IP 寻址配置复选框将不可用。有线和无线网卡的 DHCP 设置配置相同。</p>
+          <p></p>
+          <p>在启动后，计算机会从 DHCP 服务器连续请求 IP 地址，直至收到一个 IP 地址。如果您的计算机无法与 DHCP 服务器通信以获取 IP 地址，Windows 操作系统会自动分配一个自动私有 IP 寻址 (APIPA) 地址。此本地链路地址在 169.254.0.0 至 169.254.255.255 范围内。本地链路意味着您的计算机只能与连接同一 IP 地址范围内同一网络的计算机通信。</p>
+          <p></p>
+          <p>DHCP 服务器可将以下 IP 地址配置信息自动分配给主机： </p>
+          <p>
+            <ul>
+              <li>IP 地址 </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>子网掩码 </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>默认网关 </li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>可选值，比如 DNS 服务器地址</li>
+            </ul>
+          </p>
+          <p>在 Windows 7 中，请使用以下路径：</p>
+          <p></p>
+          <p>
+            <b>“开始”>“控制面板”>“网络和共享中心”>“更改适配器设置”></b>右键单击<b>“本地连接”>“属性”>TCP/IPv4</b> 或 <b>TCP/IPv6>“属性”></b>选择单选按钮<b>“自动获取 IP 地址”>“确定”>“确定”</b></p>
+          <p></p>
+          <p>在 Windows 8.0 和 8.1 中，请使用以下路径：</p>
+          <p></p>
+          <p>
+            <b>“电脑设置”>“控制面板”>“网络和 Internet”>“网络和共享中心”>“更改适配器设置”></b>右键单击<b>“以太网”>“属性”>TCP/IPv4</b> 或 <b>TCP/IPv6>“属性”></b>选择单选按钮<b>“自动获取 IP 地址”>“确定”>“确定”</b></p>
+          <p></p>
+          <p>
+            <b>DNS</b>
+          </p>
+          <p></p>
+          <p>要访问 DNS 服务器，计算机需要使用计算机网卡 DNS 设置中所配置的 IP 地址。DNS 会将主机名和 URL 解析或映射为 IP 地址。</p>
+          <p></p>
+          <p>所有 Windows 计算机都包含一个 DNS 缓存，其中存储了最近解析过的主机名。该缓存是 DNS 客户端查找主机名解析的首个地方。由于它是内存中的一个位置，因此与使用 DNS 服务器相比，缓存可以更快地检索已解析的 IP 地址，而且不会产生网络流量。</p>
+          <p></p>
+          <p>
+            <b>配置备用 IP 设置</b>
+          </p>
+          <p></p>
+          <p>通过在 Windows 中设置备用的 IP 配置，可以方便地在需要使用 DHCP 的网络与使用静态 IP 设置的网络之间切换。如果计算机无法与网络中的 DHCP 服务器通信，Windows 会使用分配给网卡的备用 IP 配置。另外，在无法联系到 DHCP 服务器时，备用 IP 配置会替换由 Windows 分配的 APIPA 地址。</p>
+          <p></p>
+          <p>如图 2 所示，要创建备用 IP 配置，请单击“网卡属性”窗口中的“备用配置”选项卡。只在选中<b>“自动获取　IP　地址”</b>时才会显示“备用配置”选项卡。 </p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

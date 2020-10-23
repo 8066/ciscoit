@@ -1,0 +1,259 @@
+﻿<textcomponents><!--slide 1--><component id='ID_s1_table'>
+	<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>存储设备常见问题和解决方案</b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' width='175'><font color='#F2F2F2'><b>确定问题</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>可能的原因</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>可能的解决方案</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>计算机无法识别存储设备。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>电源线松动。</li><li>数据线松动。</li><li>跳线设置不正确。</li><li>存储设备故障。</li><li>BIOS 中存储设备设置不正确。</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>固定电源线。</li><li>固定数据线。</li><li>重置跳线。</li><li>更换存储设备。</li><li>重置 BIOS 中的存储设备设置。</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>计算机无法识别光盘。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>光盘颠倒插入。</li><li>将多个光盘插入驱动器。</li><li>光盘损坏。</li><li>光盘格式错误。</li><li>光驱出现故障。</li></ul></textformat></td>		
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>正确插入光盘。</li><li>确保驱动器内仅插入一张光盘。</li><li>更换光盘。</li><li>使用正确的光盘类型。</li><li>更换光驱。</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>计算机无法弹出光盘。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>光驱被卡住。</li><li>光驱被软件锁定。</li><li>光驱出现故障。</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>在驱动器弹出按钮旁的小孔中插入一根针，以打开托架。</li><li>重启计算机。</li><li>更换光驱。</li></ul></textformat></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>计算机无法识别可移动外部驱动器。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>可移动外部驱动器未正确就位。</li><li>外部端口在 BIOS 设置中被禁用。</li><li>可移动外部驱动器出现故障。</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>取下并重新插入驱动器。</li><li>在 BIOS 设置中启用端口。</li><li>更换可移动外部驱动器。</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>读卡器无法读取在照相机中正常工作的存储卡。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>读卡器不支持此存储卡类型。</li><li>读卡器没有正确连接。</li><li>读卡器在 BIOS 设置中配置不正确。</li><li>读卡器出现故障。</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>使用不同类型的存储卡。</li><li>确保读卡器在计算机中已正确连接。</li><li>在 BIOS 设置中重新配置读卡器。</li><li>安装一个已知良好的读卡器。</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>USB 闪存驱动器的检索或保存速度很慢。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>主板不支持 USB 3.0。</li><li>在 BIOS 设置中端口设置为全速。</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>更新主板或 USB 闪存驱动器以支持 USB 3.0。</li><li>在 BIOS 设置中将端口速度设置为高速。</li></ul></textformat></td>
+	</tr>
+</table>]]></text>
+</component><!--end slide 1--><!--slide 2--><component id='ID_s2_table'>
+	<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>主板和内部组件的常见问题和解决方案</b></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+	<tr>
+		<td bgcolor='#666263' width="175"><font color='#F2F2F2'><b>确定问题</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>可能的原因</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>可能的解决方案</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>计算机上的时钟无法保持正确的时间，或计算机重启时 BIOS 设置发生了更改。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>CMOS 电池可能松动。</li><li>CMOS 电池可能出现故障。</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>固定电池。</li><li>更换电池。</li></ul></textformat></td>
+	</tr>
+
+	<tr>
+		<td bgcolor='#F2F2F2'>更新 BIOS 固件后，计算机无法启动。</td>
+		<td bgcolor='#F2F2F2'>没有正确安装 BIOS 固件更新。</td>
+		<td bgcolor='#F2F2F2'>请与主板制造商联系，获取新的 BIOS 芯片。 （如果主板有两个 BIOS 芯片，可使用第二个 BIOS 芯片。）</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>计算机启动时显示不正确的 CPU 信息。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>高级 BIOS 设置中的 CPU 设置不正确。</li><li>BIOS 未能正确识别 CPU。</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>正确设置 CPU 的高级 BIOS 设置。</li><li>更新 BIOS。</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>计算机前端的硬盘驱动器 LED 不亮。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'></textformat><ul><li>硬盘驱动器 LED 电缆未连接或已松动。</li><li>硬盘驱动器 LED 电缆连接到前机箱面板的方向不正确。</li></ul></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>重新将硬盘驱动器 LED 电缆连接到主板。</li><li>按正确的方向将硬盘驱动器 LED 电缆重新连接到前机箱面板。</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>计算机上的内置网卡停止正常工作。</td>
+		<td bgcolor='#E9E7E8'>网卡硬件发生故障。</td>
+		<td bgcolor='#E9E7E8'>将新的网卡插入开放扩展槽中。</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>安装新的 PCIe 显卡后计算机不显示任何视频。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>BIOS 设置为使用内置视频。</li><li>电缆仍连接到内置视频。</li><li>新显卡出现故障。</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>在 BIOS 设置中禁用内置视频。</li><li>将电缆连接到新的显卡。</li><li>新显卡需要额外的电源。</li><li>将所有所需的电源接头连接到此显卡。</li><li>安装一个已知良好的显卡。</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>新声卡不起作用。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>扬声器未连接到正确的插孔。</li><li>音频为静音。</li><li>此声卡出现故障。</li><li>BIOS 设置为使用板载声音设备。</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>将扬声器连接到正确的插孔。</li><li>取消静音。</li><li>安装一个已知良好的声卡。</li><li>在 BIOS 设置中禁用板载音频设备。</li></ul></textformat></td>
+	</tr>
+</table>]]></text>
+</component><!--end slide 2--><!--slide 3--><component id='ID_s3_table'>
+	<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>电源常见问题和解决方案</b></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+	<tr>
+		<td bgcolor='#666263' width="175"><font color='#F2F2F2'><b>确定问题</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>可能的原因</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>可能的解决方案</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>计算机无法开机。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'></textformat><ul><li>计算机尚未插入交流插座。</li><li>交流插座出现故障。</li><li>电源线出现故障。</li><li>电源开关没有打开。</li><li>电源交开关置为不正确的电压。</li><li>电源按键未正确连接到前面板接头。</li><li>电源出现故障。</li></ul></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>将计算机插入到已知良好的交流插座。</li><li>使用已知良好的电源线。</li><li>打开电源开关。</li><li>将电源开关设置为正确的电压设置。</li><li>按正确方向将电源按钮重新连接到机箱前面板。</li><li>安装已知良好的电源。</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>计算机重新启动，意外关闭；或有烟雾或产生电子产品烧焦的气味。</td>
+		<td bgcolor='#E9E7E8'>电源开始出现故障。</td>
+		<td bgcolor='#E9E7E8'>更换电源。</td>
+	</tr>
+</table>]]></text>
+</component><!--end slide 3--><!--slide 4--><component id='ID_s4_table'>
+	<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>CPU 和内存常见问题和解决方案</b></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+	<tr>
+		<td bgcolor='#666263' width="175"><font color='#F2F2F2'><b>确定问题</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>可能的原因</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>可能的解决方案</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>计算机不能启动或计算机锁死。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'></textformat><ul><li>CPU 过热。</li><li>CPU 风扇发生故障。</li><li>CPU 发生故障。</li></ul></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>重装 CPU。</li><li>更换 CPU 风扇。</li><li>给机箱添加风扇。</li><li>更换 CPU。</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>CPU 风扇发出异常声音。</td>
+		<td bgcolor='#E9E7E8'>CPU 风扇发生故障。</td>
+		<td bgcolor='#E9E7E8'>更换 CPU 风扇。</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>计算机在无警告的情况下重启、锁死或显示错误消息。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>前端总线设置得太高。</li><li>CPU 倍频设置得太高。</li><li>CPU 电压设置得太高。</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>重置为主板出厂默认设置。</li><li>降低前端总线设置。</li><li>降低倍频设置。</li><li>降低 CPU 电压设置。</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>从单核 CPU 升级到到双核 CPU 后，计算机运行更加缓慢并且在任务管理器中仅显示一个 CPU 图形。</td>
+		<td bgcolor='#E9E7E8'>BIOS 不能识别双核 CPU。</td>
+		<td bgcolor='#E9E7E8'>更新 BIOS 固件可支持双核 CPU。</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>CPU 没有安装在主板上。</td>
+		<td bgcolor='#F2F2F2'>CPU 类型不正确。</td>
+		<td bgcolor='#F2F2F2'>使用与主板插槽类型相符的 CPU 更换此 CPU。</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>计算机无法识别已添加的内存。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>新内存发生故障。</li><li>安装的内存类型不正确。</li><li>已添加的内存与已安装的内存类型不同。</li><li>内存插槽内的新内存松动。</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>更换内存。</li><li>安装正确类型的内存。</li><li>固定内存插槽中的内存。</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>在升级 Windows 后，计算机运行速度极慢。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>计算机没有足够的内存。</li><li>显卡没有足够的内存。</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>安装额外的内存。</li><li>安装拥有更大内存的显卡。</li></ul></textformat></td>
+	</tr>
+</table>]]></text>
+</component><!--end slide 4--><component id='ID_s5_table'>
+	<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#F2F2F2'><font size="16"><b>显示器常见问题和解决方案</b></font></td>
+		</tr>
+
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+
+	<tr>
+		<td bgcolor='#666263' width="175"><font color='#F2F2F2'><b>确定问题</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>可能的原因</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>可能的解决方案</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>显示屏已通电，但屏幕上不显示图像。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'></textformat><ul><li>视频电缆已松动或损坏。</li><li>计算机不向外部显示器发送视频信号。</li></ul></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>重新连接或更换视频电缆。</li><li>使用 Fn 键和多功能键切换到外部显示屏。</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>该显示屏闪烁。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'></textformat><ul><li>屏幕上的图像刷新速度不够快。</li><li>显示屏变换器损坏或出现故障。</li></ul></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>调整屏幕刷新率。</li><li>拆开显示装置并更换变换器。</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>显示屏上的图像看起来很模糊。</td>
+		<td bgcolor='#F2F2F2'>LCD 背光调节不正确。</td>
+		<td bgcolor='#F2F2F2'>查看修复手册中有关校准 LCD 背光的说明。 适当地调节 LCD 背光。</td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>屏幕像素点坏了，或者无法生成颜色。</td>
+		<td bgcolor='#E9E7E8'>像素电源被切断了。</td>
+		<td bgcolor='#E9E7E8'>请联系制造商。</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>屏幕上的图像会显示闪烁的线条或不同颜色和大小的图案（非自然信号）。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>显示屏未正确连接。</li><li>GPU 过热。</li><li>GPU 存在缺陷或出现故障。</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>拆开显示屏检查连接。</li><li>拆开并清洁计算机，检查灰尘和碎屑。</li><li>更换 GPU。</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>屏幕的彩色模式不正确。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>显示屏未正确连接。</li><li>GPU 过热。</li><li>GPU 存在缺陷或出现故障。</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>拆开显示屏检查连接。</li><li>拆开并清洁计算机，检查灰尘和碎屑。</li><li>更换 GPU。</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>显示屏上的图像失真。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>显示屏设置已更改。</li><li>显示屏未正确连接。</li><li>GPU 过热。</li><li>GPU 存在缺陷或出现故障。</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>将显示屏设置恢复到原始出厂设置。</li><li>拆开计算机，直至可以检查显示屏连接。</li><li>拆开并清洁计算机，检查灰尘和碎屑。</li><li>更换 GPU。</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>显示屏出现“鬼”影。</td>
+		<td bgcolor='#E9E7E8'>显示屏老化。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>关闭显示屏并断电数小时。</li><li>如果可用，请使用消磁功能。</li><li>更换显示屏。</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>显示屏中的图像存在几何失真。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>驱动程序已崩溃。</li><li>显示屏设置不正确。</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>在安全模式下更新或重装驱动程序。</li><li>使用显示屏的设置校正几何形状。</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>显示器图像和图标过大。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>驱动程序已崩溃。</li><li>显示屏设置不正确。</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>在安全模式下更新或重装驱动程序。</li><li>使用显示屏的设置校正几何形状。</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>投影仪过热并关闭。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>风扇发生故障。</li><li>通风口被阻塞。</li><li>投影仪在机柜中。</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>更换风扇。</li><li>清洁通风口。</li><li>拆开机柜或确保合适的通风。</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>在多显示器设置中，显示器没有对齐或方向错误。</td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>多个显示器的设置不正确。</li><li>驱动程序已崩溃。</li></ul></textformat></td>
+		<td bgcolor='#E9E7E8'><textformat blockindent='-18'><ul><li>使用显示控制面板识别每个显示器并设置对齐和方向。</li><li>在安全模式下更新或重装驱动程序。</li></ul></textformat></td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>显示屏在 VGA 模式下。</td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>计算机在安全模式下。</li><li>驱动程序已崩溃。</li></ul></textformat></td>
+		<td bgcolor='#F2F2F2'><textformat blockindent='-18'><ul><li>重启计算机。</li><li>在安全模式下更新或重装驱动程序。</li></ul></textformat></td>
+	</tr>
+</table>]]></text>
+</component>
+
+</textcomponents>

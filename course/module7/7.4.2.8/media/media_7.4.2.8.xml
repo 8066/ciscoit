@@ -1,0 +1,123 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>练习 - 协议定义和默认端口</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[说明]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[将默认端口与协议相匹配。]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[443]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[53]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[445]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[22]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[21]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[110]]></text>
+	</component>
+	<component id='ID_s1_drag07'>
+		<text><![CDATA[25]]></text>
+	</component>
+	<component id='ID_s1_drag08'>
+		<text><![CDATA[80]]></text>
+	</component>
+	<component id='ID_s1_drag09'>
+		<text><![CDATA[143]]></text>
+	</component>
+
+	<component id='ID_s1_drag10'>
+		<text><![CDATA[548 或 427]]></text>
+	</component>
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[检查]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[重置]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[正确]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[您已成功地将端口与其协议相匹配。]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[不正确]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[您尚未成功地将端口与其协议相匹配。 请单击“重置”重试。]]></text>
+	</component>
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>默认端口</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>协议</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[超文本传输协议 (HTTP)]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[域名服务 (DNS)]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[文件传输协议 (FTP)]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[Apple 文件协议 (AFP)]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[邮局协议第 3 版 (POP3)]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[安全外壳 (SSH)]]></text>
+	</component> 
+
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[简单邮件传输协议 (SMTP)]]></text>
+	</component> 
+
+	<component id='ID_s1_txt08'>
+		<text><![CDATA[Internet 邮件访问协议 (IMAP)]]></text>
+	</component> 
+
+	<component id='ID_s1_txt09'>
+		<text><![CDATA[安全超文本传输协议 (HTTPS)]]></text>
+	</component> 
+
+	<component id='ID_s1_txt10'>
+		<text><![CDATA[服务器消息块 (SMB)]]></text>
+	</component> 
+
+</textcomponents>

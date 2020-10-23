@@ -1,0 +1,10 @@
+<textcomponents>
+	
+	<component id="ID_type">
+		<text><![CDATA[实验 ]]></text>
+	</component>
+	<component id="ID_title">
+		<text><![CDATA[管理“启动”文件夹]]></text>
+	</component>
+	
+</textcomponents>

@@ -1,0 +1,100 @@
+<textcomponents>
+
+	<component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>练习 - 匹配电子邮件协议</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[说明]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[将各个术语与定义相匹配。]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[SMTP]]></text>
+	</component>
+
+     <component id='ID_s1_drag02'>
+		<text><![CDATA[MIME]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[Exchange]]></text>
+	</component>
+	
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[SSL]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[POP3]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[IMAP]]></text>
+	</component>
+	
+	
+	
+
+	
+
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[检查]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[重置]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[正确]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[您已成功地将每个术语与其定义相匹配。]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[不正确]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[您尚未成功地将每个术语与其定义相匹配。 请单击“重置”重试。]]></text>
+	</component>
+
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>术语</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>描述</b>]]></text>
+	</component> 
+	
+	
+	
+	<component id='ID_s1_txt01'>
+		<text><![CDATA[用于安全地传输文件。 电子邮件客户端和电子邮件服务器之间交换的所有数据均已加密。]]></text>
+	</component> 
+	
+		
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[允许用户组织网络电子邮件服务器上的电子邮件，并下载电子邮件副本。 原始电子邮件保留在网络电子邮件服务器上。 默认端口为 143。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[Microsoft 开发的电子邮件服务器、内容管理器和日程软件。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[通过 TCP/IP 检索远程服务器的电子邮件。 通常不在服务器上保留电子邮件副本。 默认端口为 110。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[一个基于文本的协议，通过 TCP/IP 网络传输电子邮件。 默认端口为 25。]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[扩展电子邮件格式，以包括 ASCII 标准格式和其他格式的文本，例如照片和字处理程序文档。]]></text>
+	</component> 
+
+	
+	
+</textcomponents>

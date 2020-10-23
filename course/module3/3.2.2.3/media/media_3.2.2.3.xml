@@ -1,0 +1,78 @@
+﻿<textcomponents>
+	<component id='ID_s1_title'>
+	<text><![CDATA[<b>BIOS 密码</b>]]></text>
+</component>
+
+<component id='ID_s2_title'>
+	<text><![CDATA[<b>访问权限级别</b>]]></text>
+</component>
+
+	<component id="ID_s2_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263'  valign="top"  width="145"><font color='#FFFFFF' ><b>访问权限级别</b></font></td>
+			<td bgcolor='#666263'  valign="top"  ><font color='#FFFFFF' ><b>级别描述</b></font></td>
+			
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'><b>完全访问</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>可以访问除监护人密码设置以外的所有屏幕和设置。</li></ul></textformat></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>受限访问</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>只能更改某些设置，例如时间和日期。</li></ul></textformat></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>只读访问</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>可访问所有屏幕，但不能更改设置。</li></ul></textformat></td>
+			
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'><b>禁止访问</b></td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>禁止访问 BIOS 设置实用程序。</li></ul></textformat></td>
+			
+		</tr>
+		
+		
+	</table>]]></text> 
+</component>
+
+<component id='ID_s3_title'>
+	<text><![CDATA[<b>LoJack 功能</b>]]></text>
+</component>
+
+<component id='ID_s3_txt01'>
+	<text><![CDATA[<b>查找</b>]]></text>
+</component>
+
+<component id='ID_s3_txt02'>
+	<text><![CDATA[<b>锁定</b>]]></text>
+</component>
+
+<component id='ID_s3_txt03'>
+	<text><![CDATA[<b>删除</b>]]></text>
+</component>
+
+<component id='ID_s3_txt04'>
+	<text><![CDATA[<textformat blockindent="-14"><ul><li>使用 Wi-Fi 或 IP 地理位置查找设备以查看最后位置。</li></ul></textformat>]]></text>
+</component>
+
+<component id='ID_s3_txt05'>
+	<text><![CDATA[<textformat blockindent="-14"><ul><li>远程锁定设备以阻止对您的个人信息的访问。</li><li>它还可以在屏幕上显示自定义消息。</li></ul></textformat>]]></text>
+</component>
+
+<component id='ID_s3_txt06'>
+	<text><![CDATA[<textformat blockindent="-14"><ul><li>删除设备上的所有文件以保护个人信息和防止身份盗窃。</li></ul></textformat>]]></text>
+</component>
+</textcomponents>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>12.2.5.6 防火墙</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_12.2.5.6_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>防火墙</h1>
+        <div>
+          <p>硬件防火墙是一个物理过滤组件，可在来自网络的数据包到达计算机和其他网络设备之前对其进行检查。硬件防火墙是一个独立设备，不使用所保护的计算机上的资源，因此不会影响处理性能。可将防火墙配置为阻止单个端口、一系列端口，甚至特定于应用的流量。大多数无线路由器还包括集成的硬件防火墙。</p>
+          <p></p>
+          <p>硬件防火墙可将两种不同类型的流量传入您的网络：</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>源于您网络内部的、对流量的响应</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>进入您有意保持开放的端口的流量</li>
+            </ul>
+          </p>
+          <p>硬件防火墙配置的几种类型：</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>数据包过滤器</b> - 数据包无法通过防火墙，除非它们符合防火墙中已配置的既定规则集要求。可根据不同的属性过滤流量，例如源 IP 地址、源端口或目的 IP 地址或端口。还可根据目的服务或协议过滤流量，例如 WWW 或 FTP。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>全状态数据包检测 (SPI)</b> - 这种防火墙可跟踪通过防火墙的网络连接的状态。不属于已知连接的数据包将被丢弃。表 1 中的 SPI 防火墙已启用。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>应用层</b> - 拦截所有进入或流出应用的数据包。阻止所有不需要的外部流量到达受保护的设备。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>代理</b> - 这是一种安装在代理服务器上的防火墙，可检测所有流量并根据已配置的规则允许或拒绝数据包。代理服务器是一种服务器，它是 Internet 上客户端和目的服务器之间的中继。</li>
+            </ul>
+          </p>
+          <p>硬件和软件防火墙可以保护网络中的数据免遭未经授权的访问。除了安全软件，还应该使用防火墙。图 2 比较了硬件和软件防火墙。</p>
+          <p></p>
+          <p>
+            <b>隔离区</b>
+          </p>
+          <p></p>
+          <p>DMZ 是一种为不可信网络提供服务的子网。电子邮件、Web 或 FTP 服务器通常位于 DMZ 中，这样使用服务器的流量不会进入本地网络内部。这可保护内部网络免受此流量的攻击，但是却无法保护 DMZ 中的服务器。通常会使用防火墙或代理管理进出 DMZ 的流量。</p>
+          <p></p>
+          <p>在无线路由器上，您可以将来自 Internet 的所有端口的流量转发到特定 IP 地址或 MAC 地址，从而为一台设备创建 DMZ。服务器、游戏机或网络摄像机可以位于 DMZ 中，让设备可供所有人访问。DMZ 中的设备会遭到 Internet 中黑客的攻击。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

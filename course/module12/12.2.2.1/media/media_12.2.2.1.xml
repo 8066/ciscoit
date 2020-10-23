@@ -1,0 +1,27 @@
+﻿<textcomponents>
+
+	<component id="ID_title">
+		<text><![CDATA[<b>Web 浏览器安全功能</b>]]></text>
+	</component>
+	
+	<component id="ID_txt01">
+		<text><![CDATA[ActiveX 过滤]]></text>
+	</component>
+	
+	<component id="ID_txt02">
+		<text><![CDATA[弹出窗口阻止程序]]></text>
+	</component>
+	
+	<component id="ID_txt03">
+		<text><![CDATA[SmartScreen 过滤器]]></text>
+	</component>
+	
+	<component id="ID_txt04">
+		<text><![CDATA[InPrivate 浏览]]></text>
+	</component>
+	
+	<component id="ID_txt05">
+		<text><![CDATA[<b>浏览器安全</b>]]></text>
+	</component>
+
+</textcomponents>

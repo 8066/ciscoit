@@ -1,0 +1,101 @@
+﻿<textcomponents><!-- slide 1 --><component id="ID_s1_title">
+	<text><![CDATA[<b>创建网络安全策略</b>]]></text>
+</component>
+
+<component id="ID_s1_bubble01"> 
+	<text><![CDATA[<font color="#FFFFFF">关于安全策略，我们需要讨论的下一项是网络访问规则。</font>]]></text> 
+</component>
+
+<component id="ID_s1_bubble02"> 
+	<text><![CDATA[<font color="#FFFFFF">我们必须记住，我们有远程工作的员工。 他们与现场员工的访问规则有所不同。</font>]]></text> 
+</component><!-- end slide 1 --><!-- slide 2 --><component id="ID_s2_title">
+	<text><![CDATA[<b>安全策略问题</b>]]></text>
+</component>
+
+<component id='ID_s2_txtTitle01'>
+	<text><![CDATA[安全策略确定以下信息：]]></text>
+</component>
+
+<component id='ID_s2_txtBody01'>
+	<text><![CDATA[<ul><li>哪些资产需要保护？</li><li>可能存在哪些威胁？</li><li>出现安全漏洞该怎么办？</li><li>应该为最终用户提供哪些培训？</li></ul>]]></text>
+</component><!-- end slide 2 --><!-- slide 3 --><component id="ID_s3_title">
+		<text><![CDATA[<b>安全策略</b>]]></text>
+	</component>
+
+	<component id="ID_s3_txt01">
+		<text><![CDATA[<b>安全策略</b>]]></text>
+	</component>
+
+	<component id="ID_s3_txt02">
+		<text><![CDATA[<font size="+2"><b>安全策略</b></font>]]></text>
+	</component>
+
+	<component id="ID_s3_txt03">
+		<text><![CDATA[1. <textformat blockindent='-18'>标识和身份验证策略</textformat>]]></text>
+	</component>
+
+	<component id="ID_s3_txt04">
+		<text><![CDATA[2. <textformat blockindent='-18'>密码策略</textformat>]]></text>
+	</component>
+
+	<component id="ID_s3_txt05">
+		<text><![CDATA[3. <textformat blockindent='-18'>合理使用策略</textformat>]]></text>
+	</component>
+
+	<component id="ID_s3_txt06">
+		<text><![CDATA[4. <textformat blockindent='-18'>远程访问策略</textformat>]]></text>
+	</component>
+
+	<component id="ID_s3_txt07">
+		<text><![CDATA[5. <textformat blockindent='-18'>网络维护策略</textformat>]]></text>
+	</component>
+
+	<component id="ID_s3_txt08">
+		<text><![CDATA[6. <textformat blockindent='-18'>事件处理策略</textformat>]]></text>
+	</component><!-- slide 3 textboxes --><component id="ID_s3_txtTitle01">
+		<text><![CDATA[标识和身份验证策略]]></text>
+	</component>
+
+	<component id="ID_s3_txtBody01">
+		<text><![CDATA[指定可以访问网络资源的授权人员并概述验证过程。]]></text>
+	</component>
+
+	<component id="ID_s3_txtTitle02">
+		<text><![CDATA[密码策略]]></text>
+	</component>
+
+	<component id="ID_s3_txtBody02">
+		<text><![CDATA[确保密码符合最低要求，并且定期更改。]]></text>
+	</component>
+
+	<component id="ID_s3_txtTitle03">
+		<text><![CDATA[合理使用策略]]></text>
+	</component>
+
+	<component id="ID_s3_txtBody03">
+		<text><![CDATA[确定组织可接受的网络资源和用途。 它还可以确定违反此策略的分歧。]]></text>
+	</component>
+
+	<component id="ID_s3_txtTitle04">
+		<text><![CDATA[远程访问策略]]></text>
+	</component>
+
+	<component id="ID_s3_txtBody04">
+		<text><![CDATA[明确远程用户访问网络的方式，以及通过远程连接可以访问的内容。]]></text>
+	</component>
+
+	<component id="ID_s3_txtTitle05">
+		<text><![CDATA[网络维护策略]]></text>
+	</component>
+
+	<component id="ID_s3_txtBody05">
+		<text><![CDATA[指定网络设备操作系统和最终用户应用程序的更新规程。]]></text>
+	</component>
+
+	<component id="ID_s3_txtTitle06">
+		<text><![CDATA[事件处理策略]]></text>
+	</component>
+
+	<component id="ID_s3_txtBody06">
+		<text><![CDATA[介绍如何处理安全事件。]]></text>
+	</component><!-- end slide 3 textboxes --><!-- end slide 3 --></textcomponents>

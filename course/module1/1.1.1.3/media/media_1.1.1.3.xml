@@ -1,0 +1,64 @@
+﻿<textcomponents>
+
+	<component id="ID_s1_title">
+		<text><![CDATA[<b>电学的四个基本单位</b>]]></text>
+	</component>
+	
+	
+	 <component id="ID_table"><text><![CDATA[
+	<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="3" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		
+		<tr class="mtable_top">
+			<td colspan='3' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#666263'  valign="top"  width="100"><font color='#FFFFFF' ><b>电学单位</b></font></td>
+			<td bgcolor='#666263'  valign="top" width="100"><font color='#FFFFFF' ><b>测量方式…</b></font></td>
+			<td bgcolor='#666263'  valign="top" ><font color='#FFFFFF' ><b>描述</b></font></td>
+		</tr>
+		
+		<tr>
+			<td bgcolor='#E9E7E8'>电压 (V)</td>
+			<td bgcolor='#E9E7E8'>伏特 (V)</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>表示电荷从一点移动到另一点所做功的测量单位。</li><li>计算机电源通常会产生几个不同的电压。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>电流 (I)</td>
+			<td bgcolor='#F2F2F2'>安培或安 (A)</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-14'><ul><li>表示每秒通过电路的电量的测量单位。</li><li>计算机电源为每个输出电压提供不同安培数的电流。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>电阻 (R)</td>
+			<td bgcolor='#E9E7E8'>欧姆 (O)</td>
+			<td bgcolor='#E9E7E8'><textformat blockindent='-14'><ul><li>表示对电路中电流的阻碍。</li><li>电阻越低，通过电路的电流越大。</li><li>好的熔断器电阻很低（或者几乎为 0 欧姆）。</li></ul></textformat></td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>功率 (P)</td>
+			<td bgcolor='#F2F2F2'>瓦特 (W)</td>
+			<td bgcolor='#F2F2F2'><textformat blockindent='-14'><ul><li>这个测量单位表示通过电路的电荷所做的功（电压）与每秒通过电路的电量（电流）的乘积。</li><li>计算机功率用瓦特表示。</li></ul></textformat></td>
+		</tr>
+	</table>]]></text> 
+</component>
+	
+
+
+
+<component id="ID_s2_title">
+		<text><![CDATA[<b>双电压电源</b>]]></text>
+	</component>
+	
+<component id="ID_s3_title">
+  <text><![CDATA[<b>电源电容</b>]]></text> 
+  </component>
+  
+<component id="ID_s3_txt01">
+<text><![CDATA[<b>电容</b>]]></text>
+</component>
+
+	
+	
+</textcomponents>

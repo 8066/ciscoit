@@ -1,0 +1,119 @@
+<textcomponents>	
+	
+<component id="ID_s2_title">
+<text><![CDATA[<b>选择计算机机箱</b>]]></text>
+</component>
+
+<component id="ID_s2_header01">
+<text><![CDATA[<b>规格</b>]]></text>
+</component>
+<component id="ID_s2_header02">
+<text><![CDATA[<b>原理阐述</b>]]></text>
+</component>
+
+<component id="ID_s2_btn01">
+<text><![CDATA[型号类型]]></text>
+</component>
+<component id="ID_s2_btn02">
+<text><![CDATA[大小]]></text>
+</component>
+<component id="ID_s2_btn03">
+<text><![CDATA[电源]]></text>
+</component>
+<component id="ID_s2_btn04">
+<text><![CDATA[外观]]></text>
+</component>
+<component id="ID_s2_btn05">
+<text><![CDATA[状态显示]]></text>
+</component>
+<component id="ID_s2_btn06">
+<text><![CDATA[通风口]]></text>
+</component>
+
+<component id="ID_s2_title_txt01">
+<text><![CDATA[型号类型]]></text>
+</component>
+<component id="ID_s2_title_txt02">
+<text><![CDATA[大小]]></text>
+</component>
+<component id="ID_s2_title_txt03">
+<text><![CDATA[电源]]></text>
+</component>
+<component id="ID_s2_title_txt04">
+<text><![CDATA[外观]]></text>
+</component>
+<component id="ID_s2_title_txt05">
+<text><![CDATA[状态显示]]></text>
+</component>
+<component id="ID_s2_title_txt06">
+<text><![CDATA[通风口]]></text>
+</component>
+
+<component id="ID_s2_txt01">
+<text><![CDATA[您选择的主板类型决定了可以使用的机箱类型。 大小和形状必须完全匹配。]]></text>
+</component>
+<component id="ID_s2_txt02">
+<text><![CDATA[如果计算机有许多组件，它需要更多通风空间以保持系统散热良好。]]></text>
+</component>
+<component id="ID_s2_txt03">
+<text><![CDATA[电源的额定功率和连接类型必须与您选择的主板类型相匹配。]]></text>
+</component>
+<component id="ID_s2_txt04">
+<text><![CDATA[对于某些人，机箱外形根本不重要。 对另一些人而言，机箱外形非常重要。 如果需要一个引人注目的机箱，有许多机箱设计可供选择。]]></text>
+</component>
+<component id="ID_s2_txt05">
+<text><![CDATA[机箱内的运行状况非常重要。 安装在机箱外部的 LED 指示灯可以告诉您系统是否通电、硬盘驱动器何时在运转，以及计算机何时处于睡眠或休眠模式。]]></text>
+</component>
+<component id="ID_s2_txt06">
+<text><![CDATA[所有机箱都有一个电源通风口，有些机箱背面还有另一个通风口以帮助系统通风。 有些机箱设计有多个通风口，以便在系统热量过高时用于散热。 当机箱中的许多设备安装得很靠近时就可能出现这种情况。]]></text>
+</component>
+
+
+    
+    <component id="ID_s1_title">
+        <text><![CDATA[<b>选择机箱风扇</b>]]></text>
+	</component>
+    
+    <component id="ID_s1_table"><text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#FFFFFF'><font size="16"><br/> </font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#666263' width="250"><font color='#FFFFFF' ><b>规格</b></font></td>
+			<td bgcolor='#666263' ><font color='#FFFFFF' ><b>需要考虑...</b></font></td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>机箱大小</td>
+			<td bgcolor='#E9E7E8'>更大的机箱通常需要更大的风扇，因为小风扇无法产生足够的气流。</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>风扇速度</td>
+			<td bgcolor='#F2F2F2'>大风扇比小风扇转得慢，可降低噪音。</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>组件数量</td>
+			<td bgcolor='#E9E7E8'>计算机中的多个组件会产生额外的热量，需要更多风扇、更大或更快的风扇。</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>物理环境</td>
+			<td bgcolor='#F2F2F2'>机箱风扇必须能够驱散足够的热量以保持机箱内部散热良好。</td>
+		</tr>
+		<tr>
+			<td bgcolor='#E9E7E8'>可用的安装位置数量</td>
+			<td bgcolor='#E9E7E8'>不同的机箱有不同数量的风扇安装位置。</td>
+		</tr>
+		<tr>
+			<td bgcolor='#F2F2F2'>可用安装位置的定位</td>
+			<td bgcolor='#F2F2F2'>不同的机箱有不同的风扇安装位置。</td>
+		</tr>	
+		<tr>
+			<td bgcolor='#E9E7E8'>电气连接</td>
+			<td bgcolor='#E9E7E8'>有些机箱的风扇直接连接到主板，有些则直接连接到电源。</td>
+		</tr>
+	
+	</table>]]></text> 
+</component>
+</textcomponents>

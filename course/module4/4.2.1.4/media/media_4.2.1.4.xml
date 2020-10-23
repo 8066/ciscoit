@@ -1,0 +1,23 @@
+﻿<textcomponents>
+
+<component id='ID_table'>
+
+<text><![CDATA[<table header='none' bordercolor='#FFFFFF' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4' cellspacing='2' class="mtable">
+        <tr class="mtable_title">
+			<td colspan="1" bgcolor='#FFFFFF'><font size="16"><b>第 2 步： 推测潜在原因</b></font></td>
+		</tr>
+
+        <tr class="mtable_top">
+			<td colspan='1' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+		
+		<tr>  
+			<td bgcolor='#E9E7E8' valign="top"><textformat blockindent='-18'><li>设备已关闭 </li><li>插座的电源开关已关闭 </li><li>浪涌保护器已关闭 </li><li>松动的外部电缆连接</li><li>指定的启动驱动器中有无法启动的磁盘</li><li>BIOS 设置中不正确的启动顺序</li></textformat></td>		 
+		</tr>
+
+	</table>]]></text>
+</component>
+ 
+
+
+</textcomponents>

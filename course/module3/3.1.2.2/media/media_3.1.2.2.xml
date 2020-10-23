@@ -1,0 +1,104 @@
+<textcomponents>
+
+<component id="ID_s1_title">
+	<text><![CDATA[<b>练习 - 安装 CPU</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[<b>说明</b>]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[将步骤序号与其描述相匹配。]]></text>
+</component>
+
+
+<component id='ID_s1_CORRECT_TITLE'>
+	<text><![CDATA[<b>正确</b>]]></text>
+</component>
+
+<component id='ID_s1_CORRECT_BODY'>
+	<text><![CDATA[您已成功地将每个步骤序号与其描述相匹配。]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_TITLE'>
+	<text><![CDATA[<b>不正确</b>]]></text>
+</component>
+
+<component id='ID_s1_INCORRECT_BODY'>
+	<text><![CDATA[您尚未成功地将每个步骤序号与其描述相匹配。 请单击<b>“重置”</b>重试。]]></text>
+</component>
+
+<component id='ID_s1_CHECK'>
+	<text><![CDATA[<b>检查</b>]]></text>
+</component>
+
+<component id='ID_s1_RESET'>
+	<text><![CDATA[<b>重置</b>]]></text>
+</component><!--Drag Items--><component id='ID_s1_drag_header'>
+	<text><![CDATA[<font color="#FFFFFF"><b>步骤</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag01'>
+	<text><![CDATA[<font color="#393536"><b>1</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag02'>
+	<text><![CDATA[<font color="#393536"><b>2</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag03'>
+	<text><![CDATA[<font color="#393536"><b>3</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag04'>
+	<text><![CDATA[<font color="#393536"><b>4</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag05'>
+	<text><![CDATA[<font color="#393536"><b>5</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag06'>
+	<text><![CDATA[<font color="#393536"><b>6</b></font>]]></text>
+</component>
+
+<component id='ID_s1_drag07'>
+	<text><![CDATA[<font color="#393536"><b>7</b></font>]]></text>
+</component><!--Questions--><component id='ID_s1_text_header01'>
+	<text><![CDATA[<b>步骤</b>]]></text>
+</component>
+
+<component id='ID_s1_text_header02'>
+	<text><![CDATA[<b>描述</b>]]></text>
+</component>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[将负载锁杆固定在负载锁杆固定卡舌下。]]></text>
+</component>
+
+<component id="ID_s1_txt02">
+  <text><![CDATA[使用插销板将 CPU 固定在主板上的插槽上。]]></text> 
+</component>
+
+<component id="ID_s1_txt03">
+  <text><![CDATA[将散热器和风扇组件护圈与主板上的孔对齐，并将组件放在 CPU 插槽上。]]></text> 
+</component>
+
+<component id="ID_s1_txt04">
+	<text><![CDATA[将 CPU 与插槽对齐并轻轻地将其插入插槽。]]></text>
+</component>
+
+<component id="ID_s1_txt05">
+  <text><![CDATA[关闭负载锁杆，固定插销板。]]></text> 
+</component>
+
+<component id="ID_s1_txt06">
+  <text><![CDATA[拧紧组件护圈，将组件固定到位。]]></text> 
+</component>
+
+<component id="ID_s1_txt07">
+  <text><![CDATA[在 CPU 上涂抹散热膏。]]></text> 
+</component>
+
+</textcomponents>

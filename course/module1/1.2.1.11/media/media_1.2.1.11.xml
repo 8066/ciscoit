@@ -1,0 +1,14 @@
+<textcomponents>
+	<component id="ID_title">
+        <text><![CDATA[<b>购买新的外部存储解决方案</b>]]></text>
+    </component>
+	
+	<component id='ID_s1_titleTxt'>
+		<text><![CDATA[<b>新的外部存储规格</b>]]></text>
+	</component>
+
+	<component id='ID_s1_bodyTxt'>
+		<text><![CDATA[<ul><textformat blockindent='-18'><li>端口类型</li><li>存储容量</li><li>速度</li><li>便携性</li><li>电源要求</li></textformat></ul>]]></text>
+	</component>
+	
+</textcomponents>

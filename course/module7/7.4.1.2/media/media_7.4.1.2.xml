@@ -1,0 +1,39 @@
+﻿<textcomponents>
+
+<component id="ID_s1_txt01">
+	<text><![CDATA[<b>IPv4 地址格式</b>]]></text>
+</component>
+<component id="ID_s1_txt02">
+	<text><![CDATA[以点分十进制表示的 32 位地址]]></text>
+</component>
+
+<component id="ID_s1_txt03">
+  <text><![CDATA[<b>IPv6 地址格式</b>]]></text> 
+</component>
+<component id="ID_s1_txt04">
+  <text><![CDATA[以十六进制格式表示的 128 位地址]]></text> 
+</component>
+<component id="ID_s1_txt05">
+  <text><![CDATA[以压缩格式表示的 128 位地址]]></text> 
+</component>
+
+
+<component id="ID_s2_txt01">
+	<text><![CDATA[<b>移动前的笔记本电脑地址 <br/>MAC</b>：00-50-56-BE-D7-87<br/><b>IPv4：</b>192.168.200.8<br/><b>IPv6：</b>2001:db8:cafe:200::8]]></text>
+</component>
+<component id="ID_s2_txt02">
+  <text><![CDATA[<b>移动后的笔记本电脑地址 <br/>MAC：</b>00-50-56-BE-D7-87<br/><b>IPv4：</b>192.168.300.8<br/><b>IPv6：</b>2001:db8:cafe:300::8]]></text> 
+</component>
+<component id="ID_s2_txt03">
+  <text><![CDATA[<b>LAN 1</b>]]></text> 
+</component>
+<component id="ID_s2_txt04">
+  <text><![CDATA[<b>LAN 2</b>]]></text> 
+</component>
+<component id="ID_s3_title">
+	<text><![CDATA[<b>笔记本电脑寻址信息</b>]]></text>
+</component>
+<component id="ID_s3_txt01">
+  <text><![CDATA[&lt;省略部分输出&gt;]]></text> 
+</component>
+</textcomponents>

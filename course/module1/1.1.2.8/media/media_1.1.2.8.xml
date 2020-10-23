@@ -1,0 +1,73 @@
+﻿<textcomponents><!--Slide 1--><component id='ID_s1_title'>
+<text><![CDATA[<b>适配器卡</b>]]></text>
+</component>
+
+<component id='ID_s1_txt01'>
+	<text><![CDATA[声卡]]></text>
+</component>
+
+<component id='ID_s1_txt02'>
+	<text><![CDATA[网卡]]></text>
+</component>
+
+<component id='ID_s1_txt03'>
+	<text><![CDATA[RAID 卡]]></text>
+</component>
+
+<component id='ID_s1_txt04'>
+	<text><![CDATA[显卡]]></text>
+</component><!--Slide 2--><component id='ID_s2_table'>
+	<text><![CDATA[<table header='none' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#918F90'><tr><td>测试</td></tr></table>]]></text>
+</component>
+
+<component id='ID_s2_title'>
+	<text><![CDATA[<b>扩展槽</b>]]></text>
+</component>
+
+<component id='ID_s2_btn01'>
+	<text><![CDATA[<b>PCI</b>]]></text>
+</component>
+
+<component id='ID_s2_header01'>
+	<text><![CDATA[<b>PCI</b>]]></text>
+</component>
+<component id='ID_s2_header02'>
+	<text><![CDATA[<b>Mini-PCI</b>]]></text>
+</component>
+<component id='ID_s2_header03'>
+	<text><![CDATA[<b>PCI-X</b>]]></text>
+</component>
+<component id='ID_s2_header04'>
+	<text><![CDATA[<b>PCIe</b>]]></text>
+</component>
+<component id='ID_s2_btn04'>
+	<text><![CDATA[<b>PCIe</b>]]></text>
+</component>
+
+<component id='ID_s2_btn03'>
+	<text><![CDATA[<b>PCI-X</b>]]></text>
+</component>
+
+<component id='ID_s2_btn02'>
+	<text><![CDATA[<b>Mini-PCI</b>]]></text>
+</component>
+
+<component id='ID_s2_txt01'>
+	<text><![CDATA[外围组件互连 (PCI) 是一个 32 位或 64 位扩展槽。 目前在许多计算机中都可找到。 它用于大多数主板中。]]></text>
+</component>
+
+<component id='ID_s2_txt04'>
+	<text><![CDATA[PCI Express 使用具有更高吞吐量的串行总线，在其他旧式扩展槽上进行了许多改进。 PCIe 根据其长度不同从短到长有 x1、x4、x8 和 x16 几种插槽。 此处显示了两个最常见的尺寸，顶部的 x1 和底部的 x16。]]></text>
+</component>
+
+<component id='ID_s2_txt03'>
+	<text><![CDATA[PCI eXtended 是标准 PCI 的更新版本。 它使用比 PCI 总线带宽更高的 32 位总线。PCI-X 运行速度比 PCI 快四倍。]]></text>
+</component>
+
+<component id='ID_s2_txt02'>
+	<text><![CDATA[这是用于笔记本电脑的 PCI 的较小版本。 微型 PCI 有三种不同的外形规格：I 类、II 类和 III 类。]]></text>
+</component>
+
+
+
+</textcomponents>

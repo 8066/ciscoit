@@ -1,0 +1,42 @@
+<textcomponents><!--slide 1--><component id="ID_title">
+<text><![CDATA[<b>ACPI 电源状态</b>]]></text>
+</component>
+    
+<component id='ID_table'>
+	<text><![CDATA[<table header='none' bordercolor='#F2F2F2' borderwidth='3' shadow='false' shadowcolor='#000000' glow='true' glowcolor='#808080' cellpadding='4'>
+		<tr class="mtable_title">
+			<td colspan="2" bgcolor='#F2F2F2'><font size="16"><b></b></font></td>
+		</tr>
+		<tr class="mtable_top">
+			<td colspan='2' bgcolor='#4E4C4D'><font size='1' color='#4E4C4D'>.</font></td>
+		</tr>
+	<tr>
+		<td bgcolor='#666263' width='100'><font color='#F2F2F2'><b>状态</b></font></td>
+		<td bgcolor='#666263'><font color='#F2F2F2'><b>描述</b></font></td>
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>S0</td>
+        <td bgcolor='#E9E7E8'>计算机处于打开状态，并且 CPU 正在运行。</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>S1</td>
+        <td bgcolor='#F2F2F2'>CPU 和 RAM 仍在接收电力，但未使用的设备已断电。</td>		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>S2</td>
+		<td bgcolor='#E9E7E8'>CPU 关闭，但是已刷新 RAM。 系统的耗电量低于 S1 模式。</td>
+	</tr>
+	<tr>
+		<td bgcolor='#F2F2F2'>S3</td>
+		<td bgcolor='#F2F2F2'>CPU 关闭，并且将 RAM 设置为较慢的刷新率。 此模式通常称为“保存到 RAM”。 此状态称为挂起模式。</td>		
+	</tr>
+	<tr>
+		<td bgcolor='#E9E7E8'>S4</td>
+		<td bgcolor='#E9E7E8'>CPU 和 RAM 处于关闭状态。 RAM 的内容已经保存到硬盘上的临时文件中。 此模式也称为“保存到磁盘”。 此状态称为休眠模式。</td>
+	</tr>	
+    <tr>
+		<td bgcolor='#F2F2F2'>S5</td>
+		<td bgcolor='#F2F2F2'>计算机关闭。</td>		
+	</tr>
+</table>]]></text>
+</component><!--end slide 1--></textcomponents>

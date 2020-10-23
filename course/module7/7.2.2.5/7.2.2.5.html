@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>7.2.2.5 无线安全</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_7.2.2.5_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>无线安全</h1>
+        <div>
+          <p>保护无线网络最好的方法是使用身份验证和加密。最初的 802.11 标准中引入了两种类型的身份验证，如图所示：</p>
+          <p></p>
+          <p>
+            <ul>
+              <li>
+                <b>开放系统身份验证</b> - 任何无线设备都可以连接到无线网络。应该只在不必担心安全问题的情况下使用此方法。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>共享密钥身份验证</b> - 在无线客户端和 AP 或无线路由器之间提供身份验证和加密数据的机制。 </li>
+            </ul>
+          </p>
+          <p>WLAN 的三种共享密钥身份验证技术如下：</p>
+          <p>
+            <ul>
+              <li>
+                <b>有线等效保密 (WEP)</b> - 这是用于保护 WLAN 的原始 802.11 规范。但是，在交换数据包时加密密钥从不改变，使其容易遭受攻击。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>Wi-Fi 保护访问 (WPA)</b> - 此标准使用 WEP，但采用更为强大的临时密钥完整性协议 (TKIP) 加密算法来保护数据。TKIP 将更改每个数据包的密钥，使其更难以受到攻击。</li>
+            </ul>
+          </p>
+          <p>
+            <ul>
+              <li>
+                <b>IEEE 802.11i/WPA2 </b>- IEEE 802.11i 现在是保护 WLAN 的行业标准。Wi-Fi 联盟版称为 WPA2。802.11i 和 WPA2 均使用高级加密标准 (AES) 进行加密。AES 目前被视为最强的加密协议。</li>
+            </ul>
+          </p>
+          <p>自 2006 年以来，任何带有 Wi-Fi 认证徽标的设备都是经过 WPA2 认证的。因此，现代 WLAN 应始终采用 802.11i/WPA2 标准。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

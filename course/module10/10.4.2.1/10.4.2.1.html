@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="loading" dir="ltr" lang="zh">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>10.4.2.1 定期任务</title>
+    <!-- Content -->
+    <link rel="stylesheet" type="text/css" href="../../common-ext/styles/page.css"/>
+    <script type="text/javascript" src="../../common-ext/scripts/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/permission.js"></script>
+    <script type="text/javascript" src="../../common-ext/scripts/page.js"></script>
+    <script type="text/javascript" src="media/override.js"></script>
+    <script>
+      var media_transcript_file = "media_10.4.2.1_longdesc.txt";
+    </script>
+  </head>
+  <body>
+    <div id="text-container" role="main">
+      <div id="text">
+        <h1>定期任务</h1>
+        <div>
+          <p>电脑系统需要定期进行预防性维护，确保发挥最佳性能。您应该经常安排和执行维护任务，防止问题出现或早日检测出问题。为了避免因人为错误而错过维护任务，可将电脑系统编程为自动执行这些任务。两项应安排和自动执行的任务是“备份”和“磁盘检查”。</p>
+          <p></p>
+          <p>安排备份任务对于确保重要数据不会由于硬件故障而丢失非常重要。备份越频繁，数据丢失的风险越小。</p>
+          <p></p>
+          <p>为了存储数据，基于磁性的介质能保留电磁电荷，但该能力会随时间的推移而减弱。通过定期检查磁盘的坏扇区，管理员可以发现潜在的故障，以便进行规划和数据迁移。</p>
+          <p></p>
+          <p>备份和磁盘检查通常是非常耗时的任务。定期执行维护任务的另一个优势在于，它允许计算机在没有用户使用系统时执行这些任务。CLI 实用程序 Cron 可以将这些任务安排到非高峰时段来执行。</p>
+          <p></p>
+          <p>
+            <b>如何安排任务 - Cron 服务</b>
+          </p>
+          <p></p>
+          <p>在 Linux 和 OS X 中，<b>Cron</b> 服务负责安排各种任务。作为一项服务，<b>Cron</b> 在后台运行并在特定的日期和时间执行任务。<b>Cron</b> 使用一种称为“Cron 表格”的安排表，<b>crontab</b> 命令可编辑该表格。</p>
+          <p></p>
+          <p>Cron 表格是一个具有 6 列的明文文件，格式如图 1 所示。我们通常通过命令、程序或脚本来表示任务。要安排任务，用户可在 Cron 表格中添加一行。新的行指定由 <b>Cron</b> 服务执行的任务的分钟、小时、日期以及星期。到达指定的日期与时间时，系统就会执行该任务。 </p>
+          <p></p>
+          <p>图 2 解释了 Cron 表格的各个字段。中间列显示了该字段可接受的数据类型。 </p>
+          <p></p>
+          <p>图 3 所示的 Cron 表格中有两个条目。第一个条目告知 <b>Cron</b> 服务在每月的第一天和第五天以及每周一的午夜 (00:00) 执行位于 <b>/myDirectory/</b> 处的 <b>myFirstTask</b> 脚本。第二个条目显示，<b>Cron</b> 服务将在每周三凌晨的 02:37 执行位于 <b>/myDirectory/</b> 处的 <b>mySecondTask</b> 脚本。</p>
+          <p></p>
+          <p>要创建或编辑 Cron 表格，请从终端执行 <b>crontab –e</b> 命令。</p>
+          <p></p>
+          <p>要列出当前的 Cron 表格，请使用 <b>crontab –l</b> 命令。</p>
+          <p></p>
+          <p>要删除当前的 Cron 表格，请使用 <b>crontab –r</b> 命令。</p>
+        </div>
+      </div>
+      <div id="text-handle" title="调整大小" role="button"></div>
+    </div>
+    <div id="media-container" role="complementary">
+      <iframe id="media" title="interactive graphic" aria-label="interactive graphic"></iframe>
+    </div>
+    <div id="login">在访问该课程之前，请登录 <a href="http://netacad.com">netacad.com</a>。</div>
+  </body>
+</html>

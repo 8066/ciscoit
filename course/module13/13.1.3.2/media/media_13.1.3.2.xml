@@ -1,0 +1,27 @@
+
+
+
+<textcomponents>
+
+	<component id="ID_title">
+	    <text><![CDATA[<b></b>]]></text>
+	</component>
+
+	<component id="ID_txt01">
+	<text><![CDATA[服务级别协议]]></text>
+	</component>
+
+	<component id="ID_txt02">
+	<text><![CDATA[<b>4.2.4 服务监控</b>]]></text>
+	</component>
+	<component id="ID_txt03">
+	<text><![CDATA[<b>4.2.5 应急</b>]]></text>
+	</component>
+	<component id="ID_txt04">
+	<text><![CDATA[<b>4.2.6 维护时段</b>]]></text>
+	</component>
+	<component id="ID_txt05">
+	<text><![CDATA[<b>响应时间保证</b>]]></text>
+	</component>
+
+</textcomponents>

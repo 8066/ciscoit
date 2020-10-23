@@ -1,0 +1,184 @@
+﻿<textcomponents><!-- Slide 1--><component id="ID_s1_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>练习 - 第 1 部分：识别激光打印流程</b></font>]]></text>
+</component>
+
+<component id='ID_s1_instr_title'>
+	<text><![CDATA[说明]]></text>
+</component>
+
+<component id='ID_s1_instr_body'>
+	<text><![CDATA[请将每个步骤名称与其描述相匹配。]]></text>
+</component><!--Drag and Drop--><component id='ID_s1_drag01'>
+		<text><![CDATA[转印]]></text>
+	</component>
+
+	<component id='ID_s1_drag02'>
+		<text><![CDATA[曝光]]></text>
+	</component>
+	<component id='ID_s1_drag03'>
+		<text><![CDATA[清洁]]></text>
+	</component>
+	<component id='ID_s1_drag04'>
+		<text><![CDATA[显影]]></text>
+	</component>
+	<component id='ID_s1_drag05'>
+		<text><![CDATA[熔结]]></text>
+	</component>
+	<component id='ID_s1_drag06'>
+		<text><![CDATA[处理]]></text>
+	</component>
+	<component id='ID_s1_drag07'>
+		<text><![CDATA[充电]]></text>
+	</component>
+
+	
+	<component id='ID_drag_header'>
+		<text><![CDATA[<b>步骤</b>]]></text>
+	</component> 
+	<component id='ID_s1_CHECK'>
+		<text><![CDATA[检查]]></text>
+	</component>
+
+	<component id='ID_s1_RESET'>
+		<text><![CDATA[重置]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_TITLE'>
+		<text><![CDATA[正确]]></text>
+	</component>
+
+	<component id='ID_s1_CORRECT_BODY'>
+		<text><![CDATA[您已成功地将每个步骤与其描述相匹配。]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_TITLE'>
+		<text><![CDATA[不正确]]></text>
+	</component>
+
+	<component id='ID_s1_INCORRECT_BODY'>
+		<text><![CDATA[您尚未成功地将每个步骤与其描述相匹配。 请单击“重置”重试。]]></text>
+	</component>
+	
+	<component id='ID_s1_text_header'>
+		<text><![CDATA[<b>描述</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_target_header'>
+		<text><![CDATA[<b>步骤名称</b>]]></text>
+	</component> 
+	
+	<component id='ID_s1_txt01'>
+	<text><![CDATA[为了写入图像，成像鼓要暴露在激光束下。 成像鼓转动时，鼓上会生成一个未显影的潜像。]]></text> <!--Do--></component>
+
+	<component id='ID_s1_txt02'>
+		<text><![CDATA[墨粉施加在成像鼓的潜像上。]]></text> <!--Do Not--></component>
+
+	<component id='ID_s1_txt03'>
+		<text><![CDATA[打印机将通用语言（例如 PS 或 PCL）的数据转换为存储在打印机内存中的位图图像。]]></text> <!--Do--></component>
+
+	<component id='ID_s1_txt04'>
+		<text><![CDATA[将墨粉永久熔结在纸上。 纸张通过轧辊时，松散的墨粉会熔化并与纸纤维熔结在一起。 接着，纸张会移动到输出托盘，即形成打印页。]]></text><!--Do Not--></component>
+
+	<component id='ID_s1_txt05'>
+		<text><![CDATA[将附在潜像上的墨粉转印到纸上。]]></text><!--Do Not--></component>
+
+	<component id='ID_s1_txt06'>
+		<text><![CDATA[在纸张上已成像且成像鼓已经与纸张分离时，必须用刀片或线从成像鼓上清除剩余的墨粉。]]></text><!--Do--></component>
+
+	<component id='ID_s1_txt07'>
+		<text><![CDATA[使用电晕线将之前成像鼓上的潜像删除，然后成像鼓为形成新的潜像做好准备。]]></text><!--Do--></component><!-- Slide 2 --><component id="ID_s2_title">
+	<text><![CDATA[<font color='#FFFFFF'><b>练习 - 第 2 部分：排列激光打印流程顺序</b></font>]]></text>
+	</component>
+
+	<component id='ID_s2_instr_title'>
+	<text><![CDATA[说明]]></text>
+	</component>
+
+	<component id='ID_s2_instr_body'>
+	<text><![CDATA[请将每个编号拖至激光打印过程中的相应位置。]]></text>
+	</component><!--Drag and Drop--><component id='ID_s2_drag_header'>
+		<text><![CDATA[<b>步骤</b>]]></text>
+	</component> 
+	
+	<component id='ID_s2_drag01'>
+		<text><![CDATA[1]]></text>
+	</component>
+
+	<component id='ID_s2_drag02'>
+		<text><![CDATA[2]]></text>
+	</component>
+	<component id='ID_s2_drag03'>
+		<text><![CDATA[3]]></text>
+	</component>
+	<component id='ID_s2_drag04'>
+		<text><![CDATA[4]]></text>
+	</component>
+	<component id='ID_s2_drag05'>
+		<text><![CDATA[5]]></text>
+	</component>
+	<component id='ID_s2_drag06'>
+		<text><![CDATA[6]]></text>
+	</component>
+	<component id='ID_s2_drag07'>
+		<text><![CDATA[7]]></text>
+	</component>
+
+	
+
+
+	<component id='ID_s2_CHECK'>
+		<text><![CDATA[检查]]></text>
+	</component>
+
+	<component id='ID_s2_RESET'>
+		<text><![CDATA[重置]]></text>
+	</component>
+	
+	<component id='ID_s2_CORRECT_TITLE'>
+		<text><![CDATA[正确]]></text>
+	</component>
+
+	<component id='ID_s2_CORRECT_BODY'>
+		<text><![CDATA[您已成功地排列激光打印过程的每个步骤的顺序。]]></text>
+	</component>
+
+	<component id='ID_s2_INCORRECT_TITLE'>
+		<text><![CDATA[不正确]]></text>
+	</component>
+
+	<component id='ID_s2_INCORRECT_BODY'>
+		<text><![CDATA[您尚未成功地排列激光打印过程的每个步骤的顺序。 请单击“重置”重试。]]></text>
+	</component>
+	
+	<component id='ID_s2_text_header'>
+		<text><![CDATA[<b>步骤名称</b>]]></text>
+	</component> 
+	
+	<component id='ID_s2_target_header'>
+		<text><![CDATA[<b>步骤编号</b>]]></text>
+	</component> 
+	
+	<component id='ID_s2_txt01'>
+	<text><![CDATA[充电]]></text>
+	</component>
+	<component id='ID_s2_txt02'>
+	<text><![CDATA[曝光]]></text>
+	</component>
+	<component id='ID_s2_txt03'>
+	<text><![CDATA[清洁]]></text>
+	</component>
+	<component id='ID_s2_txt04'>
+	<text><![CDATA[处理]]></text>
+	</component>
+	<component id='ID_s2_txt05'>
+	<text><![CDATA[转印]]></text>
+	</component>
+	<component id='ID_s2_txt06'>
+	<text><![CDATA[熔结]]></text>
+	</component>
+	<component id='ID_s2_txt07'>
+	<text><![CDATA[显影]]></text>
+	</component>
+
+	
+</textcomponents>
